@@ -132,6 +132,25 @@ in rec {
   });
 
 
+  nvlime = (build-asdf-system rec {
+    name = "nvlime";
+    version = "2cdbcc1d8be09c16674d4b1983fba1a2f15b431a";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "monkoose"; repo = "nvlime";
+      rev = version;
+      sha256 = "sha256-OEcKlhxTxXoORtQFHrOYDNfKuj0A9VbacgZHAMYvmyE=";
+    };
+
+    # The in-repo asd has a depends-on of just 'swank', but this is
+    # incorrect. Actually needs swank-slash-exts.
+    postPatch = ''
+      sed 's|:swank|:swank/exts|' -i lisp/nvlime.asd
+    '';
+
+    cl-deps = with cl; [ swank-slash-exts alexandria yason ];
+  });
+
   vlime = (build-asdf-system rec {
     name = "vlime";
     version = "3205f02306314ab8cfc9034cf72097891c923e9d";
@@ -151,6 +170,20 @@ in rec {
     cl-deps = with cl; [ swank-slash-exts alexandria yason ];
   });
 
+
+  nvlime-usocket = (build-asdf-system rec {
+    name = "nvlime-usocket";
+    version = "2cdbcc1d8be09c16674d4b1983fba1a2f15b431a";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "monkoose"; repo = "nvlime";
+      rev = version;
+      sha256 = "sha256-OEcKlhxTxXoORtQFHrOYDNfKuj0A9VbacgZHAMYvmyE=";
+    };
+
+    cl-deps = with cl; [ nvlime usocket vom ];
+  });
+
   vlime-usocket = (build-asdf-system rec {
     name = "vlime-usocket";
     version = "3205f02306314ab8cfc9034cf72097891c923e9d";
@@ -162,6 +195,19 @@ in rec {
     };
 
     cl-deps = with cl; [ vlime usocket vom ];
+  });
+
+  nvlime-sbcl = (build-asdf-system rec {
+    name = "nvlime-sbcl";
+    version = "2cdbcc1d8be09c16674d4b1983fba1a2f15b431a";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "monkoose"; repo = "nvlime";
+      rev = version;
+      sha256 = "sha256-OEcKlhxTxXoORtQFHrOYDNfKuj0A9VbacgZHAMYvmyE=";
+    };
+
+    cl-deps = with cl; [ nvlime vom ];
   });
 
   vlime-sbcl = (build-asdf-system rec {
