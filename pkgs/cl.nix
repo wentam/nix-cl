@@ -164,6 +164,19 @@ in rec {
     cl-deps = with cl; [ vlime usocket vom ];
   });
 
+  vlime-sbcl = (build-asdf-system rec {
+    name = "vlime-sbcl";
+    version = "3205f02306314ab8cfc9034cf72097891c923e9d";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "vlime"; repo = "vlime";
+      rev = version;
+      sha256 = "sha256-NTP9mwrFrYsZC++fpSTa2IKk/9HHFToOWzc75+7HJkg=";
+    };
+
+    cl-deps = with cl; [ vlime vom ];
+  });
+
   #metabang-bind = (build-asdf-system rec {
   #  name = "metabang-bind";
   #  version = "ee35be8042e2ba7f3f734f70458236b4f0547d62";
