@@ -276,7 +276,6 @@ in rec {
 
         # ASDF 'remembers' where it's source was when built. This is sometimes used to reference
         # files (FXML does this), and is also how SLIME/VLIME finds source files.
-   stage
         #
         # If we build in the normal build directory, the source will be destroyed and those
         # references will be invalid.
