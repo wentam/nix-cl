@@ -85,6 +85,9 @@ in rec {
       sed "s|\*load-path\* '()|*load-path* (list \"$out/contrib/\")|" -i swank.lisp
       sed "30i (defvar *source-directory* \"$out/\")" -i swank-loader.lisp
       sed "30i (defvar *fasl-directory* (uiop:pathname-parent-directory-pathname *load-pathname*))" -i swank-loader.lisp
+
+      # Creates issues with vlime, as vlime does not yet support write-done
+      sed 's|(wait-for-event `(:write-done))||' -i contrib/swank-repl.lisp
     '';
   });
 
@@ -100,7 +103,15 @@ in rec {
 
     no-bundle-clean = true;
 
-    cl-deps = with cl; [ swank ];
+    # cl-deps = with cl; [ swank ];
+    postPatch = ''
+      sed "s|\*load-path\* '()|*load-path* (list \"$out/contrib/\")|" -i swank.lisp
+      sed "30i (defvar *source-directory* \"$out/\")" -i swank-loader.lisp
+      sed "30i (defvar *fasl-directory* (uiop:pathname-parent-directory-pathname *load-pathname*))" -i swank-loader.lisp
+
+      # Creates issues with vlime, as vlime does not yet support write-done
+      sed 's|(wait-for-event `(:write-done))||' -i contrib/swank-repl.lisp
+    '';
   });
 
 
@@ -170,7 +181,6 @@ in rec {
     cl-deps = with cl; [ swank-slash-exts alexandria yason ];
   });
 
-
   nvlime-usocket = (build-asdf-system rec {
     name = "nvlime-usocket";
     version = "2cdbcc1d8be09c16674d4b1983fba1a2f15b431a";
@@ -194,7 +204,7 @@ in rec {
       sha256 = "sha256-NTP9mwrFrYsZC++fpSTa2IKk/9HHFToOWzc75+7HJkg=";
     };
 
-    cl-deps = with cl; [ vlime usocket vom ];
+    cl-deps = with cl; [ usocket vom swank-slash-exts alexandria yason ];
   });
 
   nvlime-sbcl = (build-asdf-system rec {
@@ -221,6 +231,19 @@ in rec {
     };
 
     cl-deps = with cl; [ vlime vom ];
+  });
+
+  usocket = (build-asdf-system rec {
+    name = "usocket";
+    version = "43c0d646332ec1b516019da8ca0fde2a77ca2930";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "usocket"; repo = "usocket";
+      rev = version;
+      sha256 = "sha256-QcOGoSFK6/UqwYxkiclPYmldVe2aN3GytbMxKHSZv/o=";
+    };
+
+    cl-deps = with cl; [ split-sequence iolib ];
   });
 
   #metabang-bind = (build-asdf-system rec {
