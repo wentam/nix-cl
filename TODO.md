@@ -4,3 +4,4 @@
  * withFaslsFor should error on invalid options
  * 'name' should be 'system-name' or 'system' to make it clear it must be exactly the system name.
  * asdf-system/ -> asdf-systems/
+ * Include a symlink to the source in the output? would be handy.

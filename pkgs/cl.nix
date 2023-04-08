@@ -246,6 +246,22 @@ in rec {
     cl-deps = with cl; [ split-sequence iolib ];
   });
 
+  duckdb = (build-asdf-system rec {
+    name = "duckdb";
+    version = "2f0df62f59fbede0addd8d72cf286f4007818a3e";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "ak-coram"; repo = "cl-duckdb";
+      rev = version;
+      sha256 = "sha256-+jeOuXtCFZwMvF0XvlRaqTNHIAAFKMx6y1pz6u8Wxug=";
+    };
+
+    native-deps = [ pkgs.duckdb ];
+
+    cl-deps = with cl; [ bordeaux-threads cffi cffi-libffi cl-ascii-table cl-spark local-time 
+    local-time-duration periods str serapeum uuid ];
+  });
+
   #metabang-bind = (build-asdf-system rec {
   #  name = "metabang-bind";
   #  version = "ee35be8042e2ba7f3f734f70458236b4f0547d62";
