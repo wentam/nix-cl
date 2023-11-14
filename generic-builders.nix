@@ -244,14 +244,19 @@ in rec {
       all-cl-deps = cl-deps ++ extra-cl-deps;
     in args // {
       src = patched-src;
+
+      /*
+
+        ${if (name != "asdf") then ''
+          ${builtins.trace "${name} dependencies: ${builtins.toJSON (builtins.map (dep: dep.name) all-cl-deps)}" "true"}
+          '' else ""}
+        */
+
+
       buildPhase = ''
         runHook preBuild
 
         filename_chop=$(echo ${pkgs.lib.strings.escapeShellArg name} | sed 's|/.*$||')
-
-        ${if (name != "asdf") then ''
-          ${builtins.trace "${name} dependencies: ${builtins.toJSON (builtins.map (dep: dep.name) all-cl-deps)}" "true"}
-        '' else ""}
 
         mkdir -p $out/asdf-system/$filename_chop/system/ $out/asdf-system/$filename_chop/deps/
 
