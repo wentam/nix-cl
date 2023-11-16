@@ -91,143 +91,234 @@ in with cl; {
   });
   cl-3bmd = (bqs {
     name = "3bmd";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ alexandria esrap split-sequence ];
   });
   cl-3bmd-ext-code-blocks = (bqs {
     name = "3bmd-ext-code-blocks";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd alexandria colorize split-sequence ];
+  });
+  cl-3bmd-ext-code-blocks-slash-tests = (bqs {
+    name = "3bmd-ext-code-blocks/tests";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
+    cl-deps = [ cl-3bmd-ext-code-blocks cl-3bmd-tests fiasco ];
   });
   cl-3bmd-ext-definition-lists = (bqs {
     name = "3bmd-ext-definition-lists";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd alexandria colorize ];
+  });
+  cl-3bmd-ext-definition-lists-slash-tests = (bqs {
+    name = "3bmd-ext-definition-lists/tests";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
+    cl-deps = [ cl-3bmd-ext-definition-lists cl-3bmd-tests fiasco ];
   });
   cl-3bmd-ext-math = (bqs {
     name = "3bmd-ext-math";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd esrap ];
   });
   cl-3bmd-ext-tables = (bqs {
     name = "3bmd-ext-tables";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd ];
+  });
+  cl-3bmd-ext-tables-slash-tests = (bqs {
+    name = "3bmd-ext-tables/tests";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
+    cl-deps = [ cl-3bmd-ext-tables cl-3bmd-tests fiasco ];
   });
   cl-3bmd-ext-wiki-links = (bqs {
     name = "3bmd-ext-wiki-links";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd ];
+  });
+  cl-3bmd-ext-wiki-links-slash-tests = (bqs {
+    name = "3bmd-ext-wiki-links/tests";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
+    cl-deps = [ cl-3bmd-ext-wiki-links cl-3bmd-tests fiasco ];
+  });
+  cl-3bmd-tests = (bqs {
+    name = "3bmd-tests";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
+    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks fiasco ];
   });
   cl-3bmd-youtube = (bqs {
     name = "3bmd-youtube";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd esrap ];
   });
   cl-3bmd-youtube-tests = (bqs {
     name = "3bmd-youtube-tests";
-    version = "20220707-git";
-    hash = "md5-98v0mxL6Rw/jzrsdjB7yuQ==";
-    url = "http://beta.quicklisp.org/archive/3bmd/2022-07-07/3bmd-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QKJkDCyP+wQ4igOjfIXQfg==";
+    url = "http://beta.quicklisp.org/archive/3bmd/2023-10-21/3bmd-20231021-git.tgz";
     cl-deps = [ cl-3bmd-youtube fiasco ];
   });
   cl-3bz = (bqs {
     name = "3bz";
-    version = "20201220-git";
-    hash = "md5-pgsqtbODv+3qtMEn0WS4Uw==";
-    url = "http://beta.quicklisp.org/archive/3bz/2020-12-20/3bz-20201220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-3Q+wersTJHD0mLtYbrw3tg==";
+    url = "http://beta.quicklisp.org/archive/3bz/2023-06-18/3bz-20230618-git.tgz";
     cl-deps = [ alexandria babel cffi mmap nibbles trivial-features ];
+  });
+  cl-3d-math = (bqs {
+    name = "3d-math";
+    version = "20231021-git";
+    hash = "md5-lg/zklTNS3ufXOW7797EfA==";
+    url = "http://beta.quicklisp.org/archive/3d-math/2023-10-21/3d-math-20231021-git.tgz";
+    cl-deps = [ documentation-utils type-templates ];
+  });
+  cl-3d-math-test = (bqs {
+    name = "3d-math-test";
+    version = "20231021-git";
+    hash = "md5-lg/zklTNS3ufXOW7797EfA==";
+    url = "http://beta.quicklisp.org/archive/3d-math/2023-10-21/3d-math-20231021-git.tgz";
+    cl-deps = [ cl-3d-math parachute ];
   });
   cl-3d-matrices = (bqs {
     name = "3d-matrices";
-    version = "20220331-git";
-    hash = "md5-9fE7GrM1e+gE6uJqEvrXfA==";
-    url = "http://beta.quicklisp.org/archive/3d-matrices/2022-03-31/3d-matrices-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-NFFswDES2bacHCE3kkxUTA==";
+    url = "http://beta.quicklisp.org/archive/3d-matrices/2023-10-21/3d-matrices-20231021-git.tgz";
     cl-deps = [ cl-3d-vectors documentation-utils ];
   });
   cl-3d-matrices-test = (bqs {
     name = "3d-matrices-test";
-    version = "20220331-git";
-    hash = "md5-9fE7GrM1e+gE6uJqEvrXfA==";
-    url = "http://beta.quicklisp.org/archive/3d-matrices/2022-03-31/3d-matrices-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-NFFswDES2bacHCE3kkxUTA==";
+    url = "http://beta.quicklisp.org/archive/3d-matrices/2023-10-21/3d-matrices-20231021-git.tgz";
     cl-deps = [ cl-3d-matrices parachute ];
   });
   cl-3d-quaternions = (bqs {
     name = "3d-quaternions";
-    version = "20221106-git";
-    hash = "md5-+0ou9FgceIP8Ul3DgI9Mcg==";
-    url = "http://beta.quicklisp.org/archive/3d-quaternions/2022-11-06/3d-quaternions-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dsrH3M2Jkplr3tAWK6oHBA==";
+    url = "http://beta.quicklisp.org/archive/3d-quaternions/2023-10-21/3d-quaternions-20231021-git.tgz";
     cl-deps = [ cl-3d-matrices cl-3d-vectors documentation-utils ];
   });
   cl-3d-quaternions-test = (bqs {
     name = "3d-quaternions-test";
-    version = "20221106-git";
-    hash = "md5-+0ou9FgceIP8Ul3DgI9Mcg==";
-    url = "http://beta.quicklisp.org/archive/3d-quaternions/2022-11-06/3d-quaternions-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dsrH3M2Jkplr3tAWK6oHBA==";
+    url = "http://beta.quicklisp.org/archive/3d-quaternions/2023-10-21/3d-quaternions-20231021-git.tgz";
     cl-deps = [ cl-3d-quaternions parachute ];
+  });
+  cl-3d-spaces = (bqs {
+    name = "3d-spaces";
+    version = "20231021-git";
+    hash = "md5-ulOFJwo4irMM4UhmPcEtUw==";
+    url = "http://beta.quicklisp.org/archive/3d-spaces/2023-10-21/3d-spaces-20231021-git.tgz";
+    cl-deps = [ cl-3d-math documentation-utils for trivial-extensible-sequences ];
+  });
+  cl-3d-spaces-test = (bqs {
+    name = "3d-spaces-test";
+    version = "20231021-git";
+    hash = "md5-ulOFJwo4irMM4UhmPcEtUw==";
+    url = "http://beta.quicklisp.org/archive/3d-spaces/2023-10-21/3d-spaces-20231021-git.tgz";
+    cl-deps = [ cl-3d-spaces parachute ];
   });
   cl-3d-transforms = (bqs {
     name = "3d-transforms";
-    version = "20220331-git";
-    hash = "md5-UaRrUWzYovmhjiOSVMweJA==";
-    url = "http://beta.quicklisp.org/archive/3d-transforms/2022-03-31/3d-transforms-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QS7H6fz8K3G/7CyncG1/tg==";
+    url = "http://beta.quicklisp.org/archive/3d-transforms/2023-10-21/3d-transforms-20231021-git.tgz";
     cl-deps = [ cl-3d-matrices cl-3d-quaternions cl-3d-vectors documentation-utils ];
   });
   cl-3d-transforms-test = (bqs {
     name = "3d-transforms-test";
-    version = "20220331-git";
-    hash = "md5-UaRrUWzYovmhjiOSVMweJA==";
-    url = "http://beta.quicklisp.org/archive/3d-transforms/2022-03-31/3d-transforms-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QS7H6fz8K3G/7CyncG1/tg==";
+    url = "http://beta.quicklisp.org/archive/3d-transforms/2023-10-21/3d-transforms-20231021-git.tgz";
     cl-deps = [ cl-3d-transforms parachute ];
   });
   cl-3d-vectors = (bqs {
     name = "3d-vectors";
-    version = "20221106-git";
-    hash = "md5-mTvCR6qJhFLxzBI1RdXPOw==";
-    url = "http://beta.quicklisp.org/archive/3d-vectors/2022-11-06/3d-vectors-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ODs0wZ06rwGA8E2syKOZGg==";
+    url = "http://beta.quicklisp.org/archive/3d-vectors/2023-10-21/3d-vectors-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   cl-3d-vectors-test = (bqs {
     name = "3d-vectors-test";
-    version = "20221106-git";
-    hash = "md5-mTvCR6qJhFLxzBI1RdXPOw==";
-    url = "http://beta.quicklisp.org/archive/3d-vectors/2022-11-06/3d-vectors-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ODs0wZ06rwGA8E2syKOZGg==";
+    url = "http://beta.quicklisp.org/archive/3d-vectors/2023-10-21/3d-vectors-20231021-git.tgz";
     cl-deps = [ cl-3d-vectors parachute ];
   });
   cl-40ants-asdf-system = (bqs {
     name = "40ants-asdf-system";
-    version = "20230214-git";
-    hash = "md5-80sEGmRUxG8o8CgLi0dqtA==";
-    url = "http://beta.quicklisp.org/archive/40ants-asdf-system/2023-02-14/40ants-asdf-system-20230214-git.tgz";
-    cl-deps = [ uiop ];
+    version = "20231021-git";
+    hash = "md5-3SWIgCGt26+DQpq96SZ8hQ==";
+    url = "http://beta.quicklisp.org/archive/40ants-asdf-system/2023-10-21/40ants-asdf-system-20231021-git.tgz";
+    cl-deps = [  ];
   });
   cl-40ants-asdf-system-tests = (bqs {
     name = "40ants-asdf-system-tests";
-    version = "20230214-git";
-    hash = "md5-80sEGmRUxG8o8CgLi0dqtA==";
-    url = "http://beta.quicklisp.org/archive/40ants-asdf-system/2023-02-14/40ants-asdf-system-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3SWIgCGt26+DQpq96SZ8hQ==";
+    url = "http://beta.quicklisp.org/archive/40ants-asdf-system/2023-10-21/40ants-asdf-system-20231021-git.tgz";
     cl-deps = [ cl-40ants-asdf-system rove ];
   });
   test-40ants-system = (bqs {
     name = "test-40ants-system";
-    version = "20230214-git";
-    hash = "md5-80sEGmRUxG8o8CgLi0dqtA==";
-    url = "http://beta.quicklisp.org/archive/40ants-asdf-system/2023-02-14/40ants-asdf-system-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3SWIgCGt26+DQpq96SZ8hQ==";
+    url = "http://beta.quicklisp.org/archive/40ants-asdf-system/2023-10-21/40ants-asdf-system-20231021-git.tgz";
     cl-deps = [ cl-40ants-asdf-system ];
+  });
+  cl-40ants-slynk = (bqs {
+    name = "40ants-slynk";
+    version = "20231021-git";
+    hash = "md5-MNUyqS1KnnsV1G6rLFuo8Q==";
+    url = "http://beta.quicklisp.org/archive/40ants-slynk/2023-10-21/40ants-slynk-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system cl-40ants-logging global-vars log4cl slynk slynk-macrostep slynk-named-readtables ];
+  });
+  cl-40ants-slynk-ci = (bqs {
+    name = "40ants-slynk-ci";
+    version = "20231021-git";
+    hash = "md5-MNUyqS1KnnsV1G6rLFuo8Q==";
+    url = "http://beta.quicklisp.org/archive/40ants-slynk/2023-10-21/40ants-slynk-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  cl-40ants-slynk-docs = (bqs {
+    name = "40ants-slynk-docs";
+    version = "20231021-git";
+    hash = "md5-MNUyqS1KnnsV1G6rLFuo8Q==";
+    url = "http://beta.quicklisp.org/archive/40ants-slynk/2023-10-21/40ants-slynk-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc cl-40ants-slynk docs-config named-readtables pythonic-string-reader ];
+  });
+  cl-40ants-slynk-tests = (bqs {
+    name = "40ants-slynk-tests";
+    version = "20231021-git";
+    hash = "md5-MNUyqS1KnnsV1G6rLFuo8Q==";
+    url = "http://beta.quicklisp.org/archive/40ants-slynk/2023-10-21/40ants-slynk-20231021-git.tgz";
+    cl-deps = [ rove ];
   });
   a-cl-logger = (bqs {
     name = "a-cl-logger";
@@ -259,10 +350,10 @@ in with cl; {
   });
   abstract-arrays = (bqs {
     name = "abstract-arrays";
-    version = "20230214-git";
-    hash = "md5-1e53LrwLL6t8CzA5Rc6P6A==";
-    url = "http://beta.quicklisp.org/archive/abstract-arrays/2023-02-14/abstract-arrays-20230214-git.tgz";
-    cl-deps = [ alexandria closer-mop introspect-environment polymorphic-functions trivial-types ];
+    version = "20230618-git";
+    hash = "md5-TRJBEGoV0wWgT/TpVwDM1A==";
+    url = "http://beta.quicklisp.org/archive/abstract-arrays/2023-06-18/abstract-arrays-20230618-git.tgz";
+    cl-deps = [ alexandria closer-mop extensible-compound-types introspect-environment polymorphic-functions trivial-types ];
   });
   access = (bqs {
     name = "access";
@@ -280,37 +371,37 @@ in with cl; {
   });
   acclimation = (bqs {
     name = "acclimation";
-    version = "20221106-git";
-    hash = "md5-mI3k/clxKrEp30M8DPJHFQ==";
-    url = "http://beta.quicklisp.org/archive/acclimation/2022-11-06/acclimation-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-rWJLvCZ8qEuc3y6cU1p+AQ==";
+    url = "http://beta.quicklisp.org/archive/acclimation/2023-06-18/acclimation-20230618-git.tgz";
     cl-deps = [  ];
   });
   acclimation-temperature = (bqs {
     name = "acclimation-temperature";
-    version = "20221106-git";
-    hash = "md5-mI3k/clxKrEp30M8DPJHFQ==";
-    url = "http://beta.quicklisp.org/archive/acclimation/2022-11-06/acclimation-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-rWJLvCZ8qEuc3y6cU1p+AQ==";
+    url = "http://beta.quicklisp.org/archive/acclimation/2023-06-18/acclimation-20230618-git.tgz";
     cl-deps = [  ];
   });
   action-list = (bqs {
     name = "action-list";
-    version = "20221106-git";
-    hash = "md5-5FT58x8OJ3tGpNjTrC63Lw==";
-    url = "http://beta.quicklisp.org/archive/action-list/2022-11-06/action-list-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-btz7QzMr6l94okZtakK7JQ==";
+    url = "http://beta.quicklisp.org/archive/action-list/2023-10-21/action-list-20231021-git.tgz";
     cl-deps = [ documentation-utils trivial-extensible-sequences ];
   });
   adhoc = (bqs {
     name = "adhoc";
-    version = "20220331-git";
-    hash = "md5-dYCqXkOjboyk/+DY6NfZ0Q==";
-    url = "http://beta.quicklisp.org/archive/adhoc/2022-03-31/adhoc-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-qSISWOMs3MIcFBECn5ZnCQ==";
+    url = "http://beta.quicklisp.org/archive/adhoc/2023-10-21/adhoc-20231021-git.tgz";
     cl-deps = [ closer-mop ];
   });
   adhoc-tests = (bqs {
     name = "adhoc-tests";
-    version = "20220331-git";
-    hash = "md5-dYCqXkOjboyk/+DY6NfZ0Q==";
-    url = "http://beta.quicklisp.org/archive/adhoc/2022-03-31/adhoc-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-qSISWOMs3MIcFBECn5ZnCQ==";
+    url = "http://beta.quicklisp.org/archive/adhoc/2023-10-21/adhoc-20231021-git.tgz";
     cl-deps = [ adhoc fiveam ];
   });
   adopt = (bqs {
@@ -343,24 +434,10 @@ in with cl; {
   });
   adp = (bqs {
     name = "adp";
-    version = "20230214-git";
-    hash = "md5-3C91SAVIfscXZML3xJ3z8Q==";
-    url = "http://beta.quicklisp.org/archive/adp/2023-02-14/adp-20230214-git.tgz";
-    cl-deps = [ alexandria hyperspec ];
-  });
-  adp-slash-doc = (bqs {
-    name = "adp/doc";
-    version = "20230214-git";
-    hash = "md5-3C91SAVIfscXZML3xJ3z8Q==";
-    url = "http://beta.quicklisp.org/archive/adp/2023-02-14/adp-20230214-git.tgz";
-    cl-deps = [ alexandria hyperspec ];
-  });
-  adp-slash-github-md = (bqs {
-    name = "adp/github-md";
-    version = "20230214-git";
-    hash = "md5-3C91SAVIfscXZML3xJ3z8Q==";
-    url = "http://beta.quicklisp.org/archive/adp/2023-02-14/adp-20230214-git.tgz";
-    cl-deps = [ adp ];
+    version = "20231021-git";
+    hash = "md5-x5DZ9bl8S5ZyNlCwe/UK0Q==";
+    url = "http://beta.quicklisp.org/archive/adp/2023-10-21/adp-20231021-git.tgz";
+    cl-deps = [ alexandria scribble ];
   });
   advanced-readtable = (bqs {
     name = "advanced-readtable";
@@ -434,16 +511,16 @@ in with cl; {
   });
   alexandria = (bqs {
     name = "alexandria";
-    version = "20220707-git";
-    hash = "md5-uZFQvkxmSFfC0p/K7no0IQ==";
-    url = "http://beta.quicklisp.org/archive/alexandria/2022-07-07/alexandria-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cyyMcbz2G59IqYZ8LhdCpQ==";
+    url = "http://beta.quicklisp.org/archive/alexandria/2023-10-21/alexandria-20231021-git.tgz";
     cl-deps = [  ];
   });
   alexandria-slash-tests = (bqs {
     name = "alexandria/tests";
-    version = "20220707-git";
-    hash = "md5-uZFQvkxmSFfC0p/K7no0IQ==";
-    url = "http://beta.quicklisp.org/archive/alexandria/2022-07-07/alexandria-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cyyMcbz2G59IqYZ8LhdCpQ==";
+    url = "http://beta.quicklisp.org/archive/alexandria/2023-10-21/alexandria-20231021-git.tgz";
     cl-deps = [ alexandria ];
   });
   alexandria-plus- = (bqs {
@@ -469,9 +546,9 @@ in with cl; {
   });
   also-alsa = (bqs {
     name = "also-alsa";
-    version = "20220707-git";
-    hash = "md5-AVQaXKmQ3quH2T41TRfcsg==";
-    url = "http://beta.quicklisp.org/archive/also-alsa/2022-07-07/also-alsa-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-OtHohLelA8tjCtPHRwgNxQ==";
+    url = "http://beta.quicklisp.org/archive/also-alsa/2023-10-21/also-alsa-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   amazon-ecs = (bqs {
@@ -530,6 +607,13 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/anatevka/2022-11-06/anatevka-v1.0.0.tgz";
     cl-deps = [ anatevka closer-mop fiasco uiop ];
   });
+  ansi-test-harness = (bqs {
+    name = "ansi-test-harness";
+    version = "20231021-git";
+    hash = "md5-bDgWyBOjuQXtwcYz1WqMCQ==";
+    url = "http://beta.quicklisp.org/archive/ansi-test-harness/2023-10-21/ansi-test-harness-20231021-git.tgz";
+    cl-deps = [ alexandria ];
+  });
   antik = (bqs {
     name = "antik";
     version = "master-df14cb8c-git";
@@ -567,30 +651,30 @@ in with cl; {
   });
   anypool = (bqs {
     name = "anypool";
-    version = "20210531-git";
-    hash = "md5-x1LYDlLMS2TItnHD/FjH/Q==";
-    url = "http://beta.quicklisp.org/archive/anypool/2021-05-31/anypool-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Z5P6SzI7OfM7GY44booA7Q==";
+    url = "http://beta.quicklisp.org/archive/anypool/2023-10-21/anypool-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-speedy-queue ];
   });
   anypool-slash-middleware = (bqs {
     name = "anypool/middleware";
-    version = "20210531-git";
-    hash = "md5-x1LYDlLMS2TItnHD/FjH/Q==";
-    url = "http://beta.quicklisp.org/archive/anypool/2021-05-31/anypool-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Z5P6SzI7OfM7GY44booA7Q==";
+    url = "http://beta.quicklisp.org/archive/anypool/2023-10-21/anypool-20231021-git.tgz";
     cl-deps = [ anypool ];
   });
   anypool-slash-tests = (bqs {
     name = "anypool/tests";
-    version = "20210531-git";
-    hash = "md5-x1LYDlLMS2TItnHD/FjH/Q==";
-    url = "http://beta.quicklisp.org/archive/anypool/2021-05-31/anypool-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Z5P6SzI7OfM7GY44booA7Q==";
+    url = "http://beta.quicklisp.org/archive/anypool/2023-10-21/anypool-20231021-git.tgz";
     cl-deps = [ anypool rove ];
   });
   lack-middleware-anypool = (bqs {
     name = "lack-middleware-anypool";
-    version = "20210531-git";
-    hash = "md5-x1LYDlLMS2TItnHD/FjH/Q==";
-    url = "http://beta.quicklisp.org/archive/anypool/2021-05-31/anypool-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Z5P6SzI7OfM7GY44booA7Q==";
+    url = "http://beta.quicklisp.org/archive/anypool/2023-10-21/anypool-20231021-git.tgz";
     cl-deps = [ anypool ];
   });
   apply-argv = (bqs {
@@ -609,191 +693,191 @@ in with cl; {
   });
   aplesque = (bqs {
     name = "aplesque";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ alexandria array-operations cl-ppcre lparallel parse-number symbol-munger ];
   });
   april = (bqs {
     name = "april";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ alexandria aplesque array-operations cl-ppcre cl-unicode lparallel parse-number prove random-state simple-date-time symbol-munger trivia varray vex ];
   });
   april-demo-dot-cnn = (bqs {
     name = "april-demo.cnn";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april lisp-binary ];
   });
   april-demo-dot-fnn = (bqs {
     name = "april-demo.fnn";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april april-lib-dot-dfns-dot-array lisp-binary ];
   });
   april-demo-dot-ncurses = (bqs {
     name = "april-demo.ncurses";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april croatoan lparallel ];
   });
   april-lib-dot-dfns-dot-array = (bqs {
     name = "april-lib.dfns.array";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april ];
   });
   april-lib-dot-dfns-dot-graph = (bqs {
     name = "april-lib.dfns.graph";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april april-lib-dot-dfns-dot-array ];
   });
   april-lib-dot-dfns-dot-numeric = (bqs {
     name = "april-lib.dfns.numeric";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april april-lib-dot-dfns-dot-graph ];
   });
   april-lib-dot-dfns-dot-power = (bqs {
     name = "april-lib.dfns.power";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april april-lib-dot-dfns-dot-array ];
   });
   april-lib-dot-dfns-dot-string = (bqs {
     name = "april-lib.dfns.string";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april april-lib-dot-dfns-dot-array ];
   });
   april-lib-dot-dfns-dot-tree = (bqs {
     name = "april-lib.dfns.tree";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april april-lib-dot-dfns-dot-array april-lib-dot-dfns-dot-power ];
   });
   april-xt-dot-uzuki = (bqs {
     name = "april-xt.uzuki";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ april ];
   });
   maxpc-apache = (bqs {
     name = "maxpc-apache";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [  ];
   });
   varray = (bqs {
     name = "varray";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ aplesque lparallel random-state serapeum ];
   });
   vex = (bqs {
     name = "vex";
-    version = "20230214-git";
-    hash = "md5-nUei9e191vTPnhspwiMwKw==";
-    url = "http://beta.quicklisp.org/archive/april/2023-02-14/april-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Za1o8quvfPZQjedyrLQoLA==";
+    url = "http://beta.quicklisp.org/archive/april/2023-10-21/april-20231021-git.tgz";
     cl-deps = [ alexandria array-operations cl-ppcre maxpc-apache prove symbol-munger ];
   });
   arc-compat = (bqs {
     name = "arc-compat";
-    version = "20220331-git";
-    hash = "md5-aNRpIvwf3pPqGWtZo/bN+w==";
-    url = "http://beta.quicklisp.org/archive/arc-compat/2022-03-31/arc-compat-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-vzAB2THn1eiTnFTZXtVIcg==";
+    url = "http://beta.quicklisp.org/archive/arc-compat/2023-06-18/arc-compat-20230618-git.tgz";
     cl-deps = [ babel bordeaux-threads cl-fad fiveam ironclad named-readtables ];
   });
   architecture-dot-builder-protocol = (bqs {
     name = "architecture.builder-protocol";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria ];
   });
   architecture-dot-builder-protocol-dot-inspection = (bqs {
     name = "architecture.builder-protocol.inspection";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ architecture-dot-builder-protocol clouseau ];
   });
   architecture-dot-builder-protocol-dot-json = (bqs {
     name = "architecture.builder-protocol.json";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol cl-json ];
   });
   architecture-dot-builder-protocol-dot-json-slash-test = (bqs {
     name = "architecture.builder-protocol.json/test";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol architecture-dot-builder-protocol-dot-json fiveam ];
   });
   architecture-dot-builder-protocol-dot-print-tree = (bqs {
     name = "architecture.builder-protocol.print-tree";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol utilities-dot-print-tree ];
   });
   architecture-dot-builder-protocol-dot-print-tree-slash-test = (bqs {
     name = "architecture.builder-protocol.print-tree/test";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol-dot-print-tree fiveam ];
   });
   architecture-dot-builder-protocol-dot-universal-builder = (bqs {
     name = "architecture.builder-protocol.universal-builder";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol closer-mop ];
   });
   architecture-dot-builder-protocol-dot-universal-builder-slash-test = (bqs {
     name = "architecture.builder-protocol.universal-builder/test";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol architecture-dot-builder-protocol-dot-universal-builder fiveam ];
   });
   architecture-dot-builder-protocol-dot-xpath = (bqs {
     name = "architecture.builder-protocol.xpath";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol xpath ];
   });
   architecture-dot-builder-protocol-dot-xpath-slash-test = (bqs {
     name = "architecture.builder-protocol.xpath/test";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol-dot-xpath fiveam ];
   });
   architecture-dot-builder-protocol-slash-test = (bqs {
     name = "architecture.builder-protocol/test";
-    version = "20221106-git";
-    hash = "md5-NuSx5/7whRzh//SWSljqWQ==";
-    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2022-11-06/architecture.builder-protocol-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fgw+DANxkPFeM+bsgYcPvA==";
+    url = "http://beta.quicklisp.org/archive/architecture.builder-protocol/2023-10-21/architecture.builder-protocol-20231021-git.tgz";
     cl-deps = [ alexandria architecture-dot-builder-protocol fiveam ];
   });
   cl-hooks = (bqs {
@@ -875,30 +959,30 @@ in with cl; {
   });
   array-operations = (bqs {
     name = "array-operations";
-    version = "1.0.0";
-    hash = "md5-fLia3AqX1mrbPCPTUhFhmQ==";
-    url = "http://beta.quicklisp.org/archive/array-operations/2022-07-07/array-operations-1.0.0.tgz";
+    version = "1.2.1";
+    hash = "md5-fHGOyTO8Xlz+ahiYQgrZJA==";
+    url = "http://beta.quicklisp.org/archive/array-operations/2023-10-21/array-operations-1.2.1.tgz";
     cl-deps = [ alexandria let-plus ];
   });
   array-operations-slash-tests = (bqs {
     name = "array-operations/tests";
-    version = "1.0.0";
-    hash = "md5-fLia3AqX1mrbPCPTUhFhmQ==";
-    url = "http://beta.quicklisp.org/archive/array-operations/2022-07-07/array-operations-1.0.0.tgz";
+    version = "1.2.1";
+    hash = "md5-fHGOyTO8Xlz+ahiYQgrZJA==";
+    url = "http://beta.quicklisp.org/archive/array-operations/2023-10-21/array-operations-1.2.1.tgz";
     cl-deps = [ alexandria array-operations clunit2 ];
   });
   array-utils = (bqs {
     name = "array-utils";
-    version = "20221106-git";
-    hash = "md5-d38Z54n+XUSqLZq5HMcWoQ==";
-    url = "http://beta.quicklisp.org/archive/array-utils/2022-11-06/array-utils-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-crHsdnCpbG43X0LVjYnz3A==";
+    url = "http://beta.quicklisp.org/archive/array-utils/2023-10-21/array-utils-20231021-git.tgz";
     cl-deps = [  ];
   });
   array-utils-test = (bqs {
     name = "array-utils-test";
-    version = "20221106-git";
-    hash = "md5-d38Z54n+XUSqLZq5HMcWoQ==";
-    url = "http://beta.quicklisp.org/archive/array-utils/2022-11-06/array-utils-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-crHsdnCpbG43X0LVjYnz3A==";
+    url = "http://beta.quicklisp.org/archive/array-utils/2023-10-21/array-utils-20231021-git.tgz";
     cl-deps = [ array-utils parachute ];
   });
   arrival = (bqs {
@@ -952,9 +1036,9 @@ in with cl; {
   });
   asdf-dependency-graph = (bqs {
     name = "asdf-dependency-graph";
-    version = "20230214-git";
-    hash = "md5-PjTxQFPPs/ZMHLqgitU8Ow==";
-    url = "http://beta.quicklisp.org/archive/asdf-dependency-graph/2023-02-14/asdf-dependency-graph-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-s5WzNwJgeBCj2S5oKBfKLw==";
+    url = "http://beta.quicklisp.org/archive/asdf-dependency-graph/2023-06-18/asdf-dependency-graph-20230618-git.tgz";
     cl-deps = [ optima uiop ];
   });
   asdf-dependency-grovel = (bqs {
@@ -1001,9 +1085,9 @@ in with cl; {
   });
   net-dot-didierverna-dot-asdf-flv = (bqs {
     name = "net.didierverna.asdf-flv";
-    version = "version-2.1";
-    hash = "md5-K3S3IbflM10iMNa5X8a+Vg==";
-    url = "http://beta.quicklisp.org/archive/asdf-flv/2016-04-21/asdf-flv-version-2.1.tgz";
+    version = "version-2.2";
+    hash = "md5-VfM+c0vOhLO+Z8m07QoUYg==";
+    url = "http://beta.quicklisp.org/archive/asdf-flv/2023-10-21/asdf-flv-version-2.2.tgz";
     cl-deps = [  ];
   });
   asdf-linguist = (bqs {
@@ -1050,10 +1134,10 @@ in with cl; {
   });
   zaserve = (bqs {
     name = "zaserve";
-    version = "20211209-git";
-    hash = "md5-e/729MnKI7Me7T+CzAt39w==";
-    url = "http://beta.quicklisp.org/archive/aserve/2021-12-09/aserve-20211209-git.tgz";
-    cl-deps = [ zacl ];
+    version = "20230618-git";
+    hash = "md5-LIx/jlrA8T0ExXebRO5XkA==";
+    url = "http://beta.quicklisp.org/archive/aserve/2023-06-18/aserve-20230618-git.tgz";
+    cl-deps = [ setup-cl-plus-ssl zacl ];
   });
   asn1 = (bqs {
     name = "asn1";
@@ -1134,9 +1218,9 @@ in with cl; {
   });
   async-process = (bqs {
     name = "async-process";
-    version = "20210531-git";
-    hash = "md5-w4KVjYY44YYsgriBWsKaWg==";
-    url = "http://beta.quicklisp.org/archive/async-process/2021-05-31/async-process-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-NlglQ+DOHQpsHKTo9XpLvw==";
+    url = "http://beta.quicklisp.org/archive/async-process/2023-10-21/async-process-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   atdoc = (bqs {
@@ -1155,16 +1239,16 @@ in with cl; {
   });
   atomics = (bqs {
     name = "atomics";
-    version = "20210630-git";
-    hash = "md5-JatR/dTTJexspFADfUy7Pw==";
-    url = "http://beta.quicklisp.org/archive/atomics/2021-06-30/atomics-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZPASI++ytwrWuD4H4rBUaQ==";
+    url = "http://beta.quicklisp.org/archive/atomics/2023-10-21/atomics-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   atomics-test = (bqs {
     name = "atomics-test";
-    version = "20210630-git";
-    hash = "md5-JatR/dTTJexspFADfUy7Pw==";
-    url = "http://beta.quicklisp.org/archive/atomics/2021-06-30/atomics-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZPASI++ytwrWuD4H4rBUaQ==";
+    url = "http://beta.quicklisp.org/archive/atomics/2023-10-21/atomics-20231021-git.tgz";
     cl-deps = [ atomics parachute ];
   });
   audio-tag = (bqs {
@@ -1307,6 +1391,20 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/babel/2023-02-14/babel-20230214-git.tgz";
     cl-deps = [ babel hu-dot-dwim-dot-stefil ];
   });
+  babylon = (bqs {
+    name = "babylon";
+    version = "20231021-git";
+    hash = "md5-wZIUzdxHvq4Ciyhk280aQg==";
+    url = "http://beta.quicklisp.org/archive/babylon/2023-10-21/babylon-20231021-git.tgz";
+    cl-deps = [ fare-quasiquote-extras fmcs ];
+  });
+  babylon-slash-test = (bqs {
+    name = "babylon/test";
+    version = "20231021-git";
+    hash = "md5-wZIUzdxHvq4Ciyhk280aQg==";
+    url = "http://beta.quicklisp.org/archive/babylon/2023-10-21/babylon-20231021-git.tgz";
+    cl-deps = [ babylon ];
+  });
   base-blobs = (bqs {
     name = "base-blobs";
     version = "stable-git";
@@ -1337,30 +1435,30 @@ in with cl; {
   });
   bdef = (bqs {
     name = "bdef";
-    version = "20230214-git";
-    hash = "md5-keMVIdO8Qld0+Z91gn0Ocw==";
-    url = "http://beta.quicklisp.org/archive/bdef/2023-02-14/bdef-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-oFF1YioaK/QKcRlLpbiNLA==";
+    url = "http://beta.quicklisp.org/archive/bdef/2023-10-21/bdef-20231021-git.tgz";
     cl-deps = [ alexandria eager-future2 jsown mutility parse-float ];
   });
   bdef-slash-cl-collider = (bqs {
     name = "bdef/cl-collider";
-    version = "20230214-git";
-    hash = "md5-keMVIdO8Qld0+Z91gn0Ocw==";
-    url = "http://beta.quicklisp.org/archive/bdef/2023-02-14/bdef-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-oFF1YioaK/QKcRlLpbiNLA==";
+    url = "http://beta.quicklisp.org/archive/bdef/2023-10-21/bdef-20231021-git.tgz";
     cl-deps = [ bdef cl-collider ];
   });
   bdef-slash-cl-patterns = (bqs {
     name = "bdef/cl-patterns";
-    version = "20230214-git";
-    hash = "md5-keMVIdO8Qld0+Z91gn0Ocw==";
-    url = "http://beta.quicklisp.org/archive/bdef/2023-02-14/bdef-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-oFF1YioaK/QKcRlLpbiNLA==";
+    url = "http://beta.quicklisp.org/archive/bdef/2023-10-21/bdef-20231021-git.tgz";
     cl-deps = [ bdef cl-patterns ];
   });
   bdef-slash-tests = (bqs {
     name = "bdef/tests";
-    version = "20230214-git";
-    hash = "md5-keMVIdO8Qld0+Z91gn0Ocw==";
-    url = "http://beta.quicklisp.org/archive/bdef/2023-02-14/bdef-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-oFF1YioaK/QKcRlLpbiNLA==";
+    url = "http://beta.quicklisp.org/archive/bdef/2023-10-21/bdef-20231021-git.tgz";
     cl-deps = [ bdef cl-patterns fiveam mutility ];
   });
   beast = (bqs {
@@ -1386,37 +1484,37 @@ in with cl; {
   });
   big-string = (bqs {
     name = "big-string";
-    version = "20190307-hg";
-    hash = "md5-vf/tXQ73fgZZEaugnhvfjA==";
-    url = "http://beta.quicklisp.org/archive/big-string/2019-03-07/big-string-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-knGOQ2MsHXQYw6QibcULog==";
+    url = "http://beta.quicklisp.org/archive/big-string/2023-06-18/big-string-20230618-git.tgz";
     cl-deps = [  ];
   });
   bike = (bqs {
     name = "bike";
-    version = "20220707-git";
-    hash = "md5-F82F81uFbSiqBNI/vHn0SQ==";
-    url = "http://beta.quicklisp.org/archive/bike/2022-07-07/bike-20220707-git.tgz";
-    cl-deps = [ alexandria bike-internals bordeaux-threads cffi cl-ppcre flexi-streams named-readtables split-sequence trivial-features trivial-garbage uiop ];
+    version = "20231021-git";
+    hash = "md5-XY1JKikBhwtjL437ycG3xw==";
+    url = "http://beta.quicklisp.org/archive/bike/2023-10-21/bike-20231021-git.tgz";
+    cl-deps = [ alexandria bike-internals bordeaux-threads cffi cl-ppcre closer-mop flexi-streams global-vars named-readtables split-sequence trivial-features trivial-garbage uiop ];
   });
   bike-examples = (bqs {
     name = "bike-examples";
-    version = "20220707-git";
-    hash = "md5-F82F81uFbSiqBNI/vHn0SQ==";
-    url = "http://beta.quicklisp.org/archive/bike/2022-07-07/bike-20220707-git.tgz";
-    cl-deps = [ bike ];
+    version = "20231021-git";
+    hash = "md5-XY1JKikBhwtjL437ycG3xw==";
+    url = "http://beta.quicklisp.org/archive/bike/2023-10-21/bike-20231021-git.tgz";
+    cl-deps = [ bike float-features trivial-features ];
   });
   bike-internals = (bqs {
     name = "bike-internals";
-    version = "20220707-git";
-    hash = "md5-F82F81uFbSiqBNI/vHn0SQ==";
-    url = "http://beta.quicklisp.org/archive/bike/2022-07-07/bike-20220707-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads cffi cl-ppcre flexi-streams split-sequence trivial-features trivial-garbage uiop ];
+    version = "20231021-git";
+    hash = "md5-XY1JKikBhwtjL437ycG3xw==";
+    url = "http://beta.quicklisp.org/archive/bike/2023-10-21/bike-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-threads cffi cl-ppcre flexi-streams global-vars split-sequence trivial-features trivial-garbage uiop ];
   });
   bike-tests = (bqs {
     name = "bike-tests";
-    version = "20220707-git";
-    hash = "md5-F82F81uFbSiqBNI/vHn0SQ==";
-    url = "http://beta.quicklisp.org/archive/bike/2022-07-07/bike-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-XY1JKikBhwtjL437ycG3xw==";
+    url = "http://beta.quicklisp.org/archive/bike/2023-10-21/bike-20231021-git.tgz";
     cl-deps = [ bike fiveam ];
   });
   binary-io = (bqs {
@@ -1447,6 +1545,13 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/binary-search-tree/2022-07-07/binary-search-tree-20220707-git.tgz";
     cl-deps = [ mfiano-utils ];
   });
+  binary-structures = (bqs {
+    name = "binary-structures";
+    version = "20231021-git";
+    hash = "md5-xfbtusS1hsK7xYFW7ncvVg==";
+    url = "http://beta.quicklisp.org/archive/binary-structures/2023-10-21/binary-structures-20231021-git.tgz";
+    cl-deps = [ babel cffi documentation-utils nibbles trivial-extensible-sequences ];
+  });
   binary-types = (bqs {
     name = "binary-types";
     version = "20130615-git";
@@ -1470,16 +1575,16 @@ in with cl; {
   });
   binding-arrows = (bqs {
     name = "binding-arrows";
-    version = "20210630-git";
-    hash = "md5-OVx0X2nf7Ehzf7Q/yTEHKg==";
-    url = "http://beta.quicklisp.org/archive/binding-arrows/2021-06-30/binding-arrows-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-vZD5n3VtEb18TvU7V1ma2Q==";
+    url = "http://beta.quicklisp.org/archive/binding-arrows/2023-10-21/binding-arrows-20231021-git.tgz";
     cl-deps = [  ];
   });
   binding-arrows-slash-test = (bqs {
     name = "binding-arrows/test";
-    version = "20210630-git";
-    hash = "md5-OVx0X2nf7Ehzf7Q/yTEHKg==";
-    url = "http://beta.quicklisp.org/archive/binding-arrows/2021-06-30/binding-arrows-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-vZD5n3VtEb18TvU7V1ma2Q==";
+    url = "http://beta.quicklisp.org/archive/binding-arrows/2023-10-21/binding-arrows-20231021-git.tgz";
     cl-deps = [ binding-arrows hu-dot-dwim-dot-stefil ];
   });
   binfix = (bqs {
@@ -1932,16 +2037,16 @@ in with cl; {
   });
   bordeaux-threads = (bqs {
     name = "bordeaux-threads";
-    version = "v0.8.8";
-    hash = "md5-KNIBXkJqKbZ67M90aQIcPA==";
-    url = "http://beta.quicklisp.org/archive/bordeaux-threads/2022-07-07/bordeaux-threads-v0.8.8.tgz";
-    cl-deps = [ alexandria ];
+    version = "v0.9.3";
+    hash = "md5-5fnKXQDA2BWLxOxJp5NJFw==";
+    url = "http://beta.quicklisp.org/archive/bordeaux-threads/2023-10-21/bordeaux-threads-v0.9.3.tgz";
+    cl-deps = [ alexandria global-vars trivial-features trivial-garbage ];
   });
   bordeaux-threads-slash-test = (bqs {
     name = "bordeaux-threads/test";
-    version = "v0.8.8";
-    hash = "md5-KNIBXkJqKbZ67M90aQIcPA==";
-    url = "http://beta.quicklisp.org/archive/bordeaux-threads/2022-07-07/bordeaux-threads-v0.8.8.tgz";
+    version = "v0.9.3";
+    hash = "md5-5fnKXQDA2BWLxOxJp5NJFw==";
+    url = "http://beta.quicklisp.org/archive/bordeaux-threads/2023-10-21/bordeaux-threads-v0.9.3.tgz";
     cl-deps = [ bordeaux-threads fiveam ];
   });
   bourbaki = (bqs {
@@ -1953,9 +2058,9 @@ in with cl; {
   });
   bp = (bqs {
     name = "bp";
-    version = "20230214-git";
-    hash = "md5-XQI0I7By4CPkrr1uM9KqbA==";
-    url = "http://beta.quicklisp.org/archive/bp/2023-02-14/bp-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2aKV629iVX5bBodDUVZ5EQ==";
+    url = "http://beta.quicklisp.org/archive/bp/2023-10-21/bp-20231021-git.tgz";
     cl-deps = [ aserve cffi ironclad jsown usocket ];
   });
   bst = (bqs {
@@ -2002,10 +2107,17 @@ in with cl; {
   });
   bubble-operator-upwards = (bqs {
     name = "bubble-operator-upwards";
-    version = "1.0";
-    hash = "md5-OQxvGq0jFU/GE6GUGrDukA==";
-    url = "http://beta.quicklisp.org/archive/bubble-operator-upwards/2012-11-25/bubble-operator-upwards-1.0.tgz";
+    version = "1.1";
+    hash = "md5-D7YzfrspayK9MFyWL50g8A==";
+    url = "http://beta.quicklisp.org/archive/bubble-operator-upwards/2023-10-21/bubble-operator-upwards_1.1.tgz";
     cl-deps = [  ];
+  });
+  bubble-operator-upwards_tests = (bqs {
+    name = "bubble-operator-upwards_tests";
+    version = "1.1";
+    hash = "md5-D7YzfrspayK9MFyWL50g8A==";
+    url = "http://beta.quicklisp.org/archive/bubble-operator-upwards/2023-10-21/bubble-operator-upwards_1.1.tgz";
+    cl-deps = [ bubble-operator-upwards parachute ];
   });
   buildapp = (bqs {
     name = "buildapp";
@@ -2182,6 +2294,13 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/calispel/2017-08-30/calispel-20170830-git.tgz";
     cl-deps = [ calispel eager-future2 ];
   });
+  calm = (bqs {
+    name = "calm";
+    version = "20231021-git";
+    hash = "md5-47nX0MEF78uBNaoaOu+xdg==";
+    url = "http://beta.quicklisp.org/archive/calm/2023-10-21/calm-20231021-git.tgz";
+    cl-deps = [ bt-semaphore cl-cairo2 cl-gobject-introspection sdl2 sdl2-image sdl2-mixer str swank ];
+  });
   cambl = (bqs {
     name = "cambl";
     version = "20181210-git";
@@ -2254,10 +2373,10 @@ in with cl; {
   });
   cari3s = (bqs {
     name = "cari3s";
-    version = "20200325-git";
-    hash = "md5-OT61jy8OWS8yTXGlDAjwBA==";
-    url = "http://beta.quicklisp.org/archive/cari3s/2020-03-25/cari3s-20200325-git.tgz";
-    cl-deps = [ cffi closer-mop documentation-utils drakma pango-markup usocket yason ];
+    version = "20231021-git";
+    hash = "md5-kFT6Bv4etHXkwEbjZjN/kA==";
+    url = "http://beta.quicklisp.org/archive/cari3s/2023-10-21/cari3s-20231021-git.tgz";
+    cl-deps = [ cffi closer-mop com-dot-inuoe-dot-jzon documentation-utils drakma pango-markup usocket ];
   });
   carrier = (bqs {
     name = "carrier";
@@ -2352,16 +2471,23 @@ in with cl; {
   });
   cells = (bqs {
     name = "cells";
-    version = "20230214-git";
-    hash = "md5-53alVs+be2nJDvOJD6pVwQ==";
-    url = "http://beta.quicklisp.org/archive/cells/2023-02-14/cells-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-A5tHXkt8SijVJFP5J8sCqg==";
+    url = "http://beta.quicklisp.org/archive/cells/2023-06-18/cells-20230618-git.tgz";
     cl-deps = [ utils-kt ];
+  });
+  cells-test = (bqs {
+    name = "cells-test";
+    version = "20230618-git";
+    hash = "md5-A5tHXkt8SijVJFP5J8sCqg==";
+    url = "http://beta.quicklisp.org/archive/cells/2023-06-18/cells-20230618-git.tgz";
+    cl-deps = [ cells ];
   });
   cephes = (bqs {
     name = "cephes";
-    version = "20221106-git";
-    hash = "md5-Jx4vqMzhatIxi+i2agdbkw==";
-    url = "http://beta.quicklisp.org/archive/cephes.cl/2022-11-06/cephes.cl-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-FjpjZiKyeoYjXUMWiI/QRQ==";
+    url = "http://beta.quicklisp.org/archive/cephes.cl/2023-10-21/cephes.cl-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   cepl = (bqs {
@@ -2492,72 +2618,72 @@ in with cl; {
   });
   cffi = (bqs {
     name = "cffi";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ alexandria babel trivial-features uiop ];
   });
   cffi-examples = (bqs {
     name = "cffi-examples";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   cffi-grovel = (bqs {
     name = "cffi-grovel";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ alexandria cffi cffi-toolchain ];
   });
   cffi-libffi = (bqs {
     name = "cffi-libffi";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ cffi cffi-grovel trivial-features ];
   });
   cffi-tests = (bqs {
     name = "cffi-tests";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cffi-grovel cffi-libffi rt trivial-features ];
   });
   cffi-tests-slash-example = (bqs {
     name = "cffi-tests/example";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ cffi-grovel ];
   });
   cffi-toolchain = (bqs {
     name = "cffi-toolchain";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   cffi-uffi-compat = (bqs {
     name = "cffi-uffi-compat";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   cffi-slash-c2ffi = (bqs {
     name = "cffi/c2ffi";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ alexandria cffi ];
   });
   cffi-slash-c2ffi-generator = (bqs {
     name = "cffi/c2ffi-generator";
-    version = "20230214-git";
-    hash = "md5-4ROZfU7brtLVvE+nUdAO+Q==";
-    url = "http://beta.quicklisp.org/archive/cffi/2023-02-14/cffi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mO+NG0gGgg4brVe2KIq7xw==";
+    url = "http://beta.quicklisp.org/archive/cffi/2023-10-21/cffi-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-json cl-ppcre ];
   });
   cffi-c-ref = (bqs {
@@ -2573,6 +2699,41 @@ in with cl; {
     hash = "md5-uXeQGWeW1SMfE65LVwWSFA==";
     url = "http://beta.quicklisp.org/archive/cffi-c-ref/2020-10-16/cffi-c-ref-stable-git.tgz";
     cl-deps = [ alexandria bodge-libc-essentials cffi-c-ref fiveam ];
+  });
+  cffi-object = (bqs {
+    name = "cffi-object";
+    version = "20231021-git";
+    hash = "md5-d75J27V0ky7MzckzieQ6mQ==";
+    url = "http://beta.quicklisp.org/archive/cffi-object/2023-10-21/cffi-object-20231021-git.tgz";
+    cl-deps = [ alexandria cffi trivial-garbage uiop ];
+  });
+  cffi-object-dot-ops = (bqs {
+    name = "cffi-object.ops";
+    version = "20231021-git";
+    hash = "md5-d75J27V0ky7MzckzieQ6mQ==";
+    url = "http://beta.quicklisp.org/archive/cffi-object/2023-10-21/cffi-object-20231021-git.tgz";
+    cl-deps = [ cffi-object cffi-ops ];
+  });
+  cffi-object-slash-test = (bqs {
+    name = "cffi-object/test";
+    version = "20231021-git";
+    hash = "md5-d75J27V0ky7MzckzieQ6mQ==";
+    url = "http://beta.quicklisp.org/archive/cffi-object/2023-10-21/cffi-object-20231021-git.tgz";
+    cl-deps = [ cffi-object cffi-object-dot-ops cffi-ops parachute ];
+  });
+  cffi-ops = (bqs {
+    name = "cffi-ops";
+    version = "20231021-git";
+    hash = "md5-kPKjpwk9yY6eHX7P54UO4g==";
+    url = "http://beta.quicklisp.org/archive/cffi-ops/2023-10-21/cffi-ops-20231021-git.tgz";
+    cl-deps = [ alexandria arrow-macros cffi trivial-macroexpand-all ];
+  });
+  cffi-ops-slash-test = (bqs {
+    name = "cffi-ops/test";
+    version = "20231021-git";
+    hash = "md5-kPKjpwk9yY6eHX7P54UO4g==";
+    url = "http://beta.quicklisp.org/archive/cffi-ops/2023-10-21/cffi-ops-20231021-git.tgz";
+    cl-deps = [ cffi-ops parachute ];
   });
   chain = (bqs {
     name = "chain";
@@ -2625,23 +2786,23 @@ in with cl; {
   });
   chanl = (bqs {
     name = "chanl";
-    version = "20210411-git";
-    hash = "md5-76pXBbX+qnGCkNJaleKmhA==";
-    url = "http://beta.quicklisp.org/archive/chanl/2021-04-11/chanl-20210411-git.tgz";
+    version = "20230618-git";
+    hash = "md5-XFTEALP3c7LGhgzkSM6xfQ==";
+    url = "http://beta.quicklisp.org/archive/chanl/2023-06-18/chanl-20230618-git.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   chanl-slash-examples = (bqs {
     name = "chanl/examples";
-    version = "20210411-git";
-    hash = "md5-76pXBbX+qnGCkNJaleKmhA==";
-    url = "http://beta.quicklisp.org/archive/chanl/2021-04-11/chanl-20210411-git.tgz";
+    version = "20230618-git";
+    hash = "md5-XFTEALP3c7LGhgzkSM6xfQ==";
+    url = "http://beta.quicklisp.org/archive/chanl/2023-06-18/chanl-20230618-git.tgz";
     cl-deps = [ chanl ];
   });
   chanl-slash-tests = (bqs {
     name = "chanl/tests";
-    version = "20210411-git";
-    hash = "md5-76pXBbX+qnGCkNJaleKmhA==";
-    url = "http://beta.quicklisp.org/archive/chanl/2021-04-11/chanl-20210411-git.tgz";
+    version = "20230618-git";
+    hash = "md5-XFTEALP3c7LGhgzkSM6xfQ==";
+    url = "http://beta.quicklisp.org/archive/chanl/2023-06-18/chanl-20230618-git.tgz";
     cl-deps = [ chanl fiveam ];
   });
   cheat-js = (bqs {
@@ -2751,51 +2912,51 @@ in with cl; {
   });
   chipz = (bqs {
     name = "chipz";
-    version = "20220220-git";
-    hash = "md5-sU0FpaEsPlz0v1DpjGef1w==";
-    url = "http://beta.quicklisp.org/archive/chipz/2022-02-20/chipz-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-xn4N13fm3ZtGO8Qzoy2QqQ==";
+    url = "http://beta.quicklisp.org/archive/chipz/2023-06-18/chipz-20230618-git.tgz";
     cl-deps = [  ];
   });
   chirp = (bqs {
     name = "chirp";
-    version = "20211020-git";
-    hash = "md5-llqPOR2OmXdJJX6egJJPAw==";
-    url = "http://beta.quicklisp.org/archive/chirp/2021-10-20/chirp-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-DEkNcPpuBC6h+1zEZI2fTQ==";
+    url = "http://beta.quicklisp.org/archive/chirp/2023-10-21/chirp-20231021-git.tgz";
     cl-deps = [ chirp-drakma ];
   });
   chirp-core = (bqs {
     name = "chirp-core";
-    version = "20211020-git";
-    hash = "md5-llqPOR2OmXdJJX6egJJPAw==";
-    url = "http://beta.quicklisp.org/archive/chirp/2021-10-20/chirp-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-DEkNcPpuBC6h+1zEZI2fTQ==";
+    url = "http://beta.quicklisp.org/archive/chirp/2023-10-21/chirp-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-base64 cl-ppcre flexi-streams ironclad local-time split-sequence uuid yason ];
   });
   chirp-dexador = (bqs {
     name = "chirp-dexador";
-    version = "20211020-git";
-    hash = "md5-llqPOR2OmXdJJX6egJJPAw==";
-    url = "http://beta.quicklisp.org/archive/chirp/2021-10-20/chirp-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-DEkNcPpuBC6h+1zEZI2fTQ==";
+    url = "http://beta.quicklisp.org/archive/chirp/2023-10-21/chirp-20231021-git.tgz";
     cl-deps = [ chirp-core dexador ];
   });
   chirp-drakma = (bqs {
     name = "chirp-drakma";
-    version = "20211020-git";
-    hash = "md5-llqPOR2OmXdJJX6egJJPAw==";
-    url = "http://beta.quicklisp.org/archive/chirp/2021-10-20/chirp-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-DEkNcPpuBC6h+1zEZI2fTQ==";
+    url = "http://beta.quicklisp.org/archive/chirp/2023-10-21/chirp-20231021-git.tgz";
     cl-deps = [ chirp-core drakma ];
   });
   chlorophyll = (bqs {
     name = "chlorophyll";
-    version = "20230214-git";
-    hash = "md5-BO3E9IR2Oq5KXJ2rYC4u0Q==";
-    url = "http://beta.quicklisp.org/archive/chlorophyll/2023-02-14/chlorophyll-20230214-git.tgz";
-    cl-deps = [ alexandria ];
+    version = "20231021-git";
+    hash = "md5-JzYzTdop430uAaenJMFCXA==";
+    url = "http://beta.quicklisp.org/archive/chlorophyll/2023-10-21/chlorophyll-20231021-git.tgz";
+    cl-deps = [ alexandria uiop ];
   });
   chlorophyll-test = (bqs {
     name = "chlorophyll-test";
-    version = "20230214-git";
-    hash = "md5-BO3E9IR2Oq5KXJ2rYC4u0Q==";
-    url = "http://beta.quicklisp.org/archive/chlorophyll/2023-02-14/chlorophyll-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JzYzTdop430uAaenJMFCXA==";
+    url = "http://beta.quicklisp.org/archive/chlorophyll/2023-10-21/chlorophyll-20231021-git.tgz";
     cl-deps = [ alexandria chlorophyll fiveam ];
   });
   chrome-native-messaging = (bqs {
@@ -2828,23 +2989,23 @@ in with cl; {
   });
   chunga = (bqs {
     name = "chunga";
-    version = "20221106-git";
-    hash = "md5-yZKsHUzDPDdUa/RzReEbuA==";
-    url = "http://beta.quicklisp.org/archive/chunga/2022-11-06/chunga-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZY74psRWVoWAEbyJpB+fhQ==";
+    url = "http://beta.quicklisp.org/archive/chunga/2023-10-21/chunga-20231021-git.tgz";
     cl-deps = [ trivial-gray-streams ];
   });
   cl-40ants-ci = (bqs {
     name = "40ants-ci";
-    version = "20230214-git";
-    hash = "md5-kc/WKdUUbwJKULPtEeNqRg==";
-    url = "http://beta.quicklisp.org/archive/ci/2023-02-14/ci-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-KNCkENlfEEyZ4cbwO+IZgA==";
+    url = "http://beta.quicklisp.org/archive/ci/2023-10-21/ci-20231021-git.tgz";
     cl-deps = [ cl-40ants-asdf-system cl-40ants-doc alexandria docs-config str yason ];
   });
   cl-40ants-ci-tests = (bqs {
     name = "40ants-ci-tests";
-    version = "20230214-git";
-    hash = "md5-kc/WKdUUbwJKULPtEeNqRg==";
-    url = "http://beta.quicklisp.org/archive/ci/2023-02-14/ci-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-KNCkENlfEEyZ4cbwO+IZgA==";
+    url = "http://beta.quicklisp.org/archive/ci/2023-10-21/ci-20231021-git.tgz";
     cl-deps = [ rove ];
   });
   ci-utils = (bqs {
@@ -2919,30 +3080,30 @@ in with cl; {
   });
   cl-plus-ssl = (bqs {
     name = "cl+ssl";
-    version = "20230214-git";
-    hash = "md5-LYInTI7ZhPPRvkOGny4lug==";
-    url = "http://beta.quicklisp.org/archive/cl+ssl/2023-02-14/cl+ssl-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t5W7mLUre4k8UmicELbZ8w==";
+    url = "http://beta.quicklisp.org/archive/cl+ssl/2023-10-21/cl+ssl-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cffi flexi-streams trivial-features trivial-garbage trivial-gray-streams uiop usocket ];
   });
   cl-plus-ssl-dot-test = (bqs {
     name = "cl+ssl.test";
-    version = "20230214-git";
-    hash = "md5-LYInTI7ZhPPRvkOGny4lug==";
-    url = "http://beta.quicklisp.org/archive/cl+ssl/2023-02-14/cl+ssl-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t5W7mLUre4k8UmicELbZ8w==";
+    url = "http://beta.quicklisp.org/archive/cl+ssl/2023-10-21/cl+ssl-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-plus-ssl cl-coveralls fiveam trivial-sockets usocket ];
   });
   cl-plus-ssl-slash-config = (bqs {
     name = "cl+ssl/config";
-    version = "20230214-git";
-    hash = "md5-LYInTI7ZhPPRvkOGny4lug==";
-    url = "http://beta.quicklisp.org/archive/cl+ssl/2023-02-14/cl+ssl-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t5W7mLUre4k8UmicELbZ8w==";
+    url = "http://beta.quicklisp.org/archive/cl+ssl/2023-10-21/cl+ssl-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   cl-6502 = (bqs {
     name = "cl-6502";
-    version = "20211020-git";
-    hash = "md5-8FAlIvu6JVqN5aBElCZXYg==";
-    url = "http://beta.quicklisp.org/archive/cl-6502/2021-10-20/cl-6502-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-hr/h7aIY7H2mMPyZ7fleLA==";
+    url = "http://beta.quicklisp.org/archive/cl-6502/2023-10-21/cl-6502-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre ];
   });
   abnf = (bqs {
@@ -2996,9 +3157,9 @@ in with cl; {
   });
   cl-all = (bqs {
     name = "cl-all";
-    version = "20221106-git";
-    hash = "md5-bnAzl4vc5LjUkLn2uz6OTg==";
-    url = "http://beta.quicklisp.org/archive/cl-all/2022-11-06/cl-all-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-hmRv63Z/YchYOwnPz3jzcA==";
+    url = "http://beta.quicklisp.org/archive/cl-all/2023-10-21/cl-all-20231021-git.tgz";
     cl-deps = [  ];
   });
   cl-amqp = (bqs {
@@ -3465,10 +3626,17 @@ in with cl; {
   });
   cl-apertium-stream = (bqs {
     name = "cl-apertium-stream";
-    version = "20220331-git";
-    hash = "md5-M6huBCf+N9LEak1W27roHg==";
-    url = "http://beta.quicklisp.org/archive/cl-apertium-stream-parser/2022-03-31/cl-apertium-stream-parser-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1XAVR3G7hQRbxpQunYIOtw==";
+    url = "http://beta.quicklisp.org/archive/cl-apertium-stream-parser/2023-06-18/cl-apertium-stream-parser-20230618-git.tgz";
     cl-deps = [ cl-ppcre esrap ];
+  });
+  cl-apertium-stream-slash-tests = (bqs {
+    name = "cl-apertium-stream/tests";
+    version = "20230618-git";
+    hash = "md5-1XAVR3G7hQRbxpQunYIOtw==";
+    url = "http://beta.quicklisp.org/archive/cl-apertium-stream-parser/2023-06-18/cl-apertium-stream-parser-20230618-git.tgz";
+    cl-deps = [ cl-apertium-stream fiveam ];
   });
   cl-apple-plist = (bqs {
     name = "cl-apple-plist";
@@ -3535,44 +3703,44 @@ in with cl; {
   });
   cl-async = (bqs {
     name = "cl-async";
-    version = "20221106-git";
-    hash = "md5-ydDbCF4bUzsrOkXdVOSuNg==";
-    url = "http://beta.quicklisp.org/archive/cl-async/2022-11-06/cl-async-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TzPuhs5V5wlgZJJEbNmovA==";
+    url = "http://beta.quicklisp.org/archive/cl-async/2023-10-21/cl-async-20231021-git.tgz";
     cl-deps = [ babel cffi cl-async-base cl-async-util cl-libuv cl-ppcre static-vectors trivial-features trivial-gray-streams uiop ];
   });
   cl-async-base = (bqs {
     name = "cl-async-base";
-    version = "20221106-git";
-    hash = "md5-ydDbCF4bUzsrOkXdVOSuNg==";
-    url = "http://beta.quicklisp.org/archive/cl-async/2022-11-06/cl-async-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TzPuhs5V5wlgZJJEbNmovA==";
+    url = "http://beta.quicklisp.org/archive/cl-async/2023-10-21/cl-async-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cffi cl-libuv ];
   });
   cl-async-repl = (bqs {
     name = "cl-async-repl";
-    version = "20221106-git";
-    hash = "md5-ydDbCF4bUzsrOkXdVOSuNg==";
-    url = "http://beta.quicklisp.org/archive/cl-async/2022-11-06/cl-async-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TzPuhs5V5wlgZJJEbNmovA==";
+    url = "http://beta.quicklisp.org/archive/cl-async/2023-10-21/cl-async-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-async ];
   });
   cl-async-ssl = (bqs {
     name = "cl-async-ssl";
-    version = "20221106-git";
-    hash = "md5-ydDbCF4bUzsrOkXdVOSuNg==";
-    url = "http://beta.quicklisp.org/archive/cl-async/2022-11-06/cl-async-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TzPuhs5V5wlgZJJEbNmovA==";
+    url = "http://beta.quicklisp.org/archive/cl-async/2023-10-21/cl-async-20231021-git.tgz";
     cl-deps = [ cffi cl-async vom ];
   });
   cl-async-test = (bqs {
     name = "cl-async-test";
-    version = "20221106-git";
-    hash = "md5-ydDbCF4bUzsrOkXdVOSuNg==";
-    url = "http://beta.quicklisp.org/archive/cl-async/2022-11-06/cl-async-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TzPuhs5V5wlgZJJEbNmovA==";
+    url = "http://beta.quicklisp.org/archive/cl-async/2023-10-21/cl-async-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cffi cl-async cl-async-ssl fiveam flexi-streams ironclad usocket ];
   });
   cl-async-util = (bqs {
     name = "cl-async-util";
-    version = "20221106-git";
-    hash = "md5-ydDbCF4bUzsrOkXdVOSuNg==";
-    url = "http://beta.quicklisp.org/archive/cl-async/2022-11-06/cl-async-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TzPuhs5V5wlgZJJEbNmovA==";
+    url = "http://beta.quicklisp.org/archive/cl-async/2023-10-21/cl-async-20231021-git.tgz";
     cl-deps = [ cffi cl-async-base cl-libuv cl-ppcre fast-io vom ];
   });
   cl-async-await = (bqs {
@@ -3588,6 +3756,27 @@ in with cl; {
     hash = "md5-lh28sLrTUVrHFw+W39Ym7w==";
     url = "http://beta.quicklisp.org/archive/cl-async-future/2015-01-13/cl-async-future-20150113-git.tgz";
     cl-deps = [ blackbird ];
+  });
+  org-dot-melusina-dot-atelier = (bqs {
+    name = "org.melusina.atelier";
+    version = "20231021-git";
+    hash = "md5-zZXVkdhbgnJ7n99DIZw4VQ==";
+    url = "http://beta.quicklisp.org/archive/cl-atelier/2023-10-21/cl-atelier-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre org-dot-melusina-dot-rashell osicat trivia ];
+  });
+  org-dot-melusina-dot-atelier-slash-development = (bqs {
+    name = "org.melusina.atelier/development";
+    version = "20231021-git";
+    hash = "md5-zZXVkdhbgnJ7n99DIZw4VQ==";
+    url = "http://beta.quicklisp.org/archive/cl-atelier/2023-10-21/cl-atelier-20231021-git.tgz";
+    cl-deps = [ org-dot-melusina-dot-atelier ];
+  });
+  org-dot-melusina-dot-atelier-slash-testsuite = (bqs {
+    name = "org.melusina.atelier/testsuite";
+    version = "20231021-git";
+    hash = "md5-zZXVkdhbgnJ7n99DIZw4VQ==";
+    url = "http://beta.quicklisp.org/archive/cl-atelier/2023-10-21/cl-atelier-20231021-git.tgz";
+    cl-deps = [ alexandria org-dot-melusina-dot-atelier org-dot-melusina-dot-confidence ];
   });
   cl-aubio = (bqs {
     name = "cl-aubio";
@@ -3619,30 +3808,30 @@ in with cl; {
   });
   cl-autowrap = (bqs {
     name = "cl-autowrap";
-    version = "20221106-git";
-    hash = "md5-no3T/2nt/RYILvw1PPnyGA==";
-    url = "http://beta.quicklisp.org/archive/cl-autowrap/2022-11-06/cl-autowrap-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cCgNHweEoz0wHIBrdYjI5w==";
+    url = "http://beta.quicklisp.org/archive/cl-autowrap/2023-10-21/cl-autowrap-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-json cl-ppcre defpackage-plus trivial-features uiop ];
   });
   cl-autowrap-test = (bqs {
     name = "cl-autowrap-test";
-    version = "20221106-git";
-    hash = "md5-no3T/2nt/RYILvw1PPnyGA==";
-    url = "http://beta.quicklisp.org/archive/cl-autowrap/2022-11-06/cl-autowrap-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cCgNHweEoz0wHIBrdYjI5w==";
+    url = "http://beta.quicklisp.org/archive/cl-autowrap/2023-10-21/cl-autowrap-20231021-git.tgz";
     cl-deps = [ cl-autowrap ];
   });
   cl-autowrap-slash-libffi = (bqs {
     name = "cl-autowrap/libffi";
-    version = "20221106-git";
-    hash = "md5-no3T/2nt/RYILvw1PPnyGA==";
-    url = "http://beta.quicklisp.org/archive/cl-autowrap/2022-11-06/cl-autowrap-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cCgNHweEoz0wHIBrdYjI5w==";
+    url = "http://beta.quicklisp.org/archive/cl-autowrap/2023-10-21/cl-autowrap-20231021-git.tgz";
     cl-deps = [ cl-autowrap cl-plus-c ];
   });
   cl-plus-c = (bqs {
     name = "cl-plus-c";
-    version = "20221106-git";
-    hash = "md5-no3T/2nt/RYILvw1PPnyGA==";
-    url = "http://beta.quicklisp.org/archive/cl-autowrap/2022-11-06/cl-autowrap-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cCgNHweEoz0wHIBrdYjI5w==";
+    url = "http://beta.quicklisp.org/archive/cl-autowrap/2023-10-21/cl-autowrap-20231021-git.tgz";
     cl-deps = [ cl-autowrap ];
   });
   cl-azure = (bqs {
@@ -3710,16 +3899,16 @@ in with cl; {
   });
   cl-bcrypt = (bqs {
     name = "cl-bcrypt";
-    version = "20230214-git";
-    hash = "md5-UmlATH77mBde50/KyDlmlA==";
-    url = "http://beta.quicklisp.org/archive/cl-bcrypt/2023-02-14/cl-bcrypt-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/1lkyciJx9yfAEX9WIOixQ==";
+    url = "http://beta.quicklisp.org/archive/cl-bcrypt/2023-10-21/cl-bcrypt-20231021-git.tgz";
     cl-deps = [ binascii cl-ppcre ironclad ];
   });
   cl-bcrypt-dot-test = (bqs {
     name = "cl-bcrypt.test";
-    version = "20230214-git";
-    hash = "md5-UmlATH77mBde50/KyDlmlA==";
-    url = "http://beta.quicklisp.org/archive/cl-bcrypt/2023-02-14/cl-bcrypt-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/1lkyciJx9yfAEX9WIOixQ==";
+    url = "http://beta.quicklisp.org/archive/cl-bcrypt/2023-10-21/cl-bcrypt-20231021-git.tgz";
     cl-deps = [ cl-bcrypt rove ];
   });
   cl-beanstalk = (bqs {
@@ -3794,10 +3983,17 @@ in with cl; {
   });
   bmas = (bqs {
     name = "bmas";
-    version = "20221106-git";
-    hash = "md5-VdPrViMbRk88ZhugoOYNZA==";
-    url = "http://beta.quicklisp.org/archive/cl-bmas/2022-11-06/cl-bmas-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1/Q5KEolbWNmogYiylddUA==";
+    url = "http://beta.quicklisp.org/archive/cl-bmas/2023-06-18/cl-bmas-20230618-git.tgz";
     cl-deps = [ cffi cl-autowrap uiop ];
+  });
+  cl-bmp = (bqs {
+    name = "cl-bmp";
+    version = "20231021-git";
+    hash = "md5-IG54h1Ta5PuG/RI1+ndOiQ==";
+    url = "http://beta.quicklisp.org/archive/cl-bmp/2023-10-21/cl-bmp-20231021-git.tgz";
+    cl-deps = [ binary-structures documentation-utils ];
   });
   cl-bnf = (bqs {
     name = "cl-bnf";
@@ -3855,19 +4051,33 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-bplustree/2018-03-28/cl-bplustree-20180328-git.tgz";
     cl-deps = [ cl-bplustree ];
   });
-  cl-bson = (bqs {
-    name = "cl-bson";
-    version = "20170403-git";
-    hash = "md5-yTWb7utn/eRWbKP9zS57pg==";
-    url = "http://beta.quicklisp.org/archive/cl-bson/2017-04-03/cl-bson-20170403-git.tgz";
-    cl-deps = [ arrow-macros babel cl-intbytes fast-io ieee-floats let-over-lambda local-time named-readtables rutils trivial-shell ];
+  cl-brewer-ci = (bqs {
+    name = "cl-brewer-ci";
+    version = "20231021-git";
+    hash = "md5-41+nGnFcJE4OJ+mSKJdrFQ==";
+    url = "http://beta.quicklisp.org/archive/cl-brewer/2023-10-21/cl-brewer-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
   });
-  cl-bson-test = (bqs {
-    name = "cl-bson-test";
-    version = "20170403-git";
-    hash = "md5-yTWb7utn/eRWbKP9zS57pg==";
-    url = "http://beta.quicklisp.org/archive/cl-bson/2017-04-03/cl-bson-20170403-git.tgz";
-    cl-deps = [ cl-bson prove prove-asdf ];
+  cl-brewer-deploy-hooks = (bqs {
+    name = "cl-brewer-deploy-hooks";
+    version = "20231021-git";
+    hash = "md5-41+nGnFcJE4OJ+mSKJdrFQ==";
+    url = "http://beta.quicklisp.org/archive/cl-brewer/2023-10-21/cl-brewer-20231021-git.tgz";
+    cl-deps = [ deploy ];
+  });
+  cl-brewer-tests = (bqs {
+    name = "cl-brewer-tests";
+    version = "20231021-git";
+    hash = "md5-41+nGnFcJE4OJ+mSKJdrFQ==";
+    url = "http://beta.quicklisp.org/archive/cl-brewer/2023-10-21/cl-brewer-20231021-git.tgz";
+    cl-deps = [ rove ];
+  });
+  quicklisp-starter = (bqs {
+    name = "quicklisp-starter";
+    version = "20231021-git";
+    hash = "md5-41+nGnFcJE4OJ+mSKJdrFQ==";
+    url = "http://beta.quicklisp.org/archive/cl-brewer/2023-10-21/cl-brewer-20231021-git.tgz";
+    cl-deps = [  ];
   });
   cl-buchberger = (bqs {
     name = "cl-buchberger";
@@ -4095,37 +4305,44 @@ in with cl; {
   });
   cl-change-case = (bqs {
     name = "cl-change-case";
-    version = "20210411-git";
-    hash = "md5-33Kj1xpsZeFJcEaIrshZuQ==";
-    url = "http://beta.quicklisp.org/archive/cl-change-case/2021-04-11/cl-change-case-20210411-git.tgz";
+    version = "20231021-git";
+    hash = "md5-FCgqUTQ5K8zTbgKw/JraTw==";
+    url = "http://beta.quicklisp.org/archive/cl-change-case/2023-10-21/cl-change-case-20231021-git.tgz";
     cl-deps = [ cl-ppcre cl-ppcre-unicode ];
   });
   cl-change-case-slash-test = (bqs {
     name = "cl-change-case/test";
-    version = "20210411-git";
-    hash = "md5-33Kj1xpsZeFJcEaIrshZuQ==";
-    url = "http://beta.quicklisp.org/archive/cl-change-case/2021-04-11/cl-change-case-20210411-git.tgz";
+    version = "20231021-git";
+    hash = "md5-FCgqUTQ5K8zTbgKw/JraTw==";
+    url = "http://beta.quicklisp.org/archive/cl-change-case/2023-10-21/cl-change-case-20231021-git.tgz";
     cl-deps = [ cl-change-case fiveam ];
   });
   cl-charms = (bqs {
     name = "cl-charms";
-    version = "20221106-git";
-    hash = "md5-nnwukGuTzMMMGCJz6pURGg==";
-    url = "http://beta.quicklisp.org/archive/cl-charms/2022-11-06/cl-charms-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-z08lCdmjSzkkfm2519WNfw==";
+    url = "http://beta.quicklisp.org/archive/cl-charms/2023-06-18/cl-charms-20230618-git.tgz";
     cl-deps = [ alexandria cffi cffi-grovel ];
+  });
+  cl-charms-marquee = (bqs {
+    name = "cl-charms-marquee";
+    version = "20230618-git";
+    hash = "md5-z08lCdmjSzkkfm2519WNfw==";
+    url = "http://beta.quicklisp.org/archive/cl-charms/2023-06-18/cl-charms-20230618-git.tgz";
+    cl-deps = [ cl-charms ];
   });
   cl-charms-paint = (bqs {
     name = "cl-charms-paint";
-    version = "20221106-git";
-    hash = "md5-nnwukGuTzMMMGCJz6pURGg==";
-    url = "http://beta.quicklisp.org/archive/cl-charms/2022-11-06/cl-charms-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-z08lCdmjSzkkfm2519WNfw==";
+    url = "http://beta.quicklisp.org/archive/cl-charms/2023-06-18/cl-charms-20230618-git.tgz";
     cl-deps = [ cl-charms ];
   });
   cl-charms-timer = (bqs {
     name = "cl-charms-timer";
-    version = "20221106-git";
-    hash = "md5-nnwukGuTzMMMGCJz6pURGg==";
-    url = "http://beta.quicklisp.org/archive/cl-charms/2022-11-06/cl-charms-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-z08lCdmjSzkkfm2519WNfw==";
+    url = "http://beta.quicklisp.org/archive/cl-charms/2023-06-18/cl-charms-20230618-git.tgz";
     cl-deps = [ cl-charms ];
   });
   cl-cheshire-cat = (bqs {
@@ -4163,47 +4380,54 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-cli-parser/2015-06-08/cl-cli-parser-20150608-git.tgz";
     cl-deps = [  ];
   });
-  advanced = (bqs {
-    name = "advanced";
-    version = "clon-1.0b25";
-    hash = "md5-/4y44aeYjk0EdaOlHoBPng==";
-    url = "http://beta.quicklisp.org/archive/cl-clon/2021-04-11/clon-1.0b25.tgz";
-    cl-deps = [ net-dot-didierverna-dot-clon ];
-  });
   net-dot-didierverna-dot-clon = (bqs {
     name = "net.didierverna.clon";
-    version = "clon-1.0b25";
-    hash = "md5-/4y44aeYjk0EdaOlHoBPng==";
-    url = "http://beta.quicklisp.org/archive/cl-clon/2021-04-11/clon-1.0b25.tgz";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
     cl-deps = [ net-dot-didierverna-dot-clon-dot-core net-dot-didierverna-dot-clon-dot-setup ];
   });
   net-dot-didierverna-dot-clon-dot-core = (bqs {
     name = "net.didierverna.clon.core";
-    version = "clon-1.0b25";
-    hash = "md5-/4y44aeYjk0EdaOlHoBPng==";
-    url = "http://beta.quicklisp.org/archive/cl-clon/2021-04-11/clon-1.0b25.tgz";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
     cl-deps = [ net-dot-didierverna-dot-clon-dot-setup ];
+  });
+  net-dot-didierverna-dot-clon-dot-demo-dot-advanced = (bqs {
+    name = "net.didierverna.clon.demo.advanced";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
+    cl-deps = [ net-dot-didierverna-dot-clon ];
+  });
+  net-dot-didierverna-dot-clon-dot-demo-dot-simple = (bqs {
+    name = "net.didierverna.clon.demo.simple";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
+    cl-deps = [ net-dot-didierverna-dot-clon ];
   });
   net-dot-didierverna-dot-clon-dot-setup = (bqs {
     name = "net.didierverna.clon.setup";
-    version = "clon-1.0b25";
-    hash = "md5-/4y44aeYjk0EdaOlHoBPng==";
-    url = "http://beta.quicklisp.org/archive/cl-clon/2021-04-11/clon-1.0b25.tgz";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
     cl-deps = [ named-readtables ];
   });
   net-dot-didierverna-dot-clon-dot-setup-slash-termio = (bqs {
     name = "net.didierverna.clon.setup/termio";
-    version = "clon-1.0b25";
-    hash = "md5-/4y44aeYjk0EdaOlHoBPng==";
-    url = "http://beta.quicklisp.org/archive/cl-clon/2021-04-11/clon-1.0b25.tgz";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
     cl-deps = [ net-dot-didierverna-dot-clon-dot-setup ];
   });
-  simple = (bqs {
-    name = "simple";
-    version = "clon-1.0b25";
-    hash = "md5-/4y44aeYjk0EdaOlHoBPng==";
-    url = "http://beta.quicklisp.org/archive/cl-clon/2021-04-11/clon-1.0b25.tgz";
-    cl-deps = [ net-dot-didierverna-dot-clon ];
+  net-dot-didierverna-dot-clon-dot-termio = (bqs {
+    name = "net.didierverna.clon.termio";
+    version = "version-1.0b27";
+    hash = "md5-5miF6do01YiHTgdxZUpvPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-clon/2023-10-21/cl-clon-version-1.0b27.tgz";
+    cl-deps = [ net-dot-didierverna-dot-clon-dot-core net-dot-didierverna-dot-clon-dot-setup ];
   });
   closure-template = (bqs {
     name = "closure-template";
@@ -4270,16 +4494,16 @@ in with cl; {
   });
   cl-collider = (bqs {
     name = "cl-collider";
-    version = "20230214-git";
-    hash = "md5-3/qeeW6j2PcJIHgsnmgjgA==";
-    url = "http://beta.quicklisp.org/archive/cl-collider/2023-02-14/cl-collider-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-vr/OdZlUVL18psXpTY6xTA==";
+    url = "http://beta.quicklisp.org/archive/cl-collider/2023-10-21/cl-collider-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cffi cl-ppcre flexi-streams named-readtables pileup sc-osc simple-inferiors split-sequence ];
   });
   sc-osc = (bqs {
     name = "sc-osc";
-    version = "20230214-git";
-    hash = "md5-3/qeeW6j2PcJIHgsnmgjgA==";
-    url = "http://beta.quicklisp.org/archive/cl-collider/2023-02-14/cl-collider-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-vr/OdZlUVL18psXpTY6xTA==";
+    url = "http://beta.quicklisp.org/archive/cl-collider/2023-10-21/cl-collider-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads ieee-floats osc usocket ];
   });
   cl-colors = (bqs {
@@ -4298,23 +4522,37 @@ in with cl; {
   });
   cl-colors2 = (bqs {
     name = "cl-colors2";
-    version = "20230214-git";
-    hash = "md5-4uupBHhlWKjZNq9RGYS6Dw==";
-    url = "http://beta.quicklisp.org/archive/cl-colors2/2023-02-14/cl-colors2-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-5DMLKFNgvmcw2vaLXdaV+Q==";
+    url = "http://beta.quicklisp.org/archive/cl-colors2/2023-10-21/cl-colors2-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre ];
+  });
+  cl-colors2-slash-tests = (bqs {
+    name = "cl-colors2/tests";
+    version = "20231021-git";
+    hash = "md5-5DMLKFNgvmcw2vaLXdaV+Q==";
+    url = "http://beta.quicklisp.org/archive/cl-colors2/2023-10-21/cl-colors2-20231021-git.tgz";
+    cl-deps = [ cl-colors2 clunit2 ];
   });
   org-dot-melusina-dot-confidence = (bqs {
     name = "org.melusina.confidence";
-    version = "20230214-git";
-    hash = "md5-Wmo62OGMePhLdrEdsJrr+g==";
-    url = "http://beta.quicklisp.org/archive/cl-confidence/2023-02-14/cl-confidence-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cTPBtoQ2yEoW+cJJW2K6Dg==";
+    url = "http://beta.quicklisp.org/archive/cl-confidence/2023-10-21/cl-confidence-20231021-git.tgz";
     cl-deps = [ alexandria ];
+  });
+  org-dot-melusina-dot-confidence-slash-development = (bqs {
+    name = "org.melusina.confidence/development";
+    version = "20231021-git";
+    hash = "md5-cTPBtoQ2yEoW+cJJW2K6Dg==";
+    url = "http://beta.quicklisp.org/archive/cl-confidence/2023-10-21/cl-confidence-20231021-git.tgz";
+    cl-deps = [ org-dot-melusina-dot-atelier ];
   });
   org-dot-melusina-dot-confidence-slash-testsuite = (bqs {
     name = "org.melusina.confidence/testsuite";
-    version = "20230214-git";
-    hash = "md5-Wmo62OGMePhLdrEdsJrr+g==";
-    url = "http://beta.quicklisp.org/archive/cl-confidence/2023-02-14/cl-confidence-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cTPBtoQ2yEoW+cJJW2K6Dg==";
+    url = "http://beta.quicklisp.org/archive/cl-confidence/2023-10-21/cl-confidence-20231021-git.tgz";
     cl-deps = [ alexandria org-dot-melusina-dot-confidence ];
   });
   cl-conllu = (bqs {
@@ -4354,30 +4592,30 @@ in with cl; {
   });
   cl-containers = (bqs {
     name = "cl-containers";
-    version = "20230214-git";
-    hash = "md5-biX7nXIfNSq7QH2gnMiKhA==";
-    url = "http://beta.quicklisp.org/archive/cl-containers/2023-02-14/cl-containers-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EEB/3hYcEYH44KWYwJ3JEQ==";
+    url = "http://beta.quicklisp.org/archive/cl-containers/2023-10-21/cl-containers-20231021-git.tgz";
     cl-deps = [ asdf-system-connections metatilities-base ];
   });
   cl-containers-test = (bqs {
     name = "cl-containers-test";
-    version = "20230214-git";
-    hash = "md5-biX7nXIfNSq7QH2gnMiKhA==";
-    url = "http://beta.quicklisp.org/archive/cl-containers/2023-02-14/cl-containers-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EEB/3hYcEYH44KWYwJ3JEQ==";
+    url = "http://beta.quicklisp.org/archive/cl-containers/2023-10-21/cl-containers-20231021-git.tgz";
     cl-deps = [ cl-containers lift ];
   });
   cl-containers-slash-with-moptilities = (bqs {
     name = "cl-containers/with-moptilities";
-    version = "20230214-git";
-    hash = "md5-biX7nXIfNSq7QH2gnMiKhA==";
-    url = "http://beta.quicklisp.org/archive/cl-containers/2023-02-14/cl-containers-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EEB/3hYcEYH44KWYwJ3JEQ==";
+    url = "http://beta.quicklisp.org/archive/cl-containers/2023-10-21/cl-containers-20231021-git.tgz";
     cl-deps = [ cl-containers moptilities ];
   });
   cl-containers-slash-with-utilities = (bqs {
     name = "cl-containers/with-utilities";
-    version = "20230214-git";
-    hash = "md5-biX7nXIfNSq7QH2gnMiKhA==";
-    url = "http://beta.quicklisp.org/archive/cl-containers/2023-02-14/cl-containers-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EEB/3hYcEYH44KWYwJ3JEQ==";
+    url = "http://beta.quicklisp.org/archive/cl-containers/2023-10-21/cl-containers-20231021-git.tgz";
     cl-deps = [ cl-containers metatilities-base ];
   });
   cl-cookie = (bqs {
@@ -4431,16 +4669,16 @@ in with cl; {
   });
   cl-cpus = (bqs {
     name = "cl-cpus";
-    version = "20180430-git";
-    hash = "md5-gUT9iQ8GDVWNiWwrEFOPAg==";
-    url = "http://beta.quicklisp.org/archive/cl-cpus/2018-04-30/cl-cpus-20180430-git.tgz";
+    version = "20230618-git";
+    hash = "md5-YJwjuZG/D5dGpVpvW4eK5g==";
+    url = "http://beta.quicklisp.org/archive/cl-cpus/2023-06-18/cl-cpus-20230618-git.tgz";
     cl-deps = [ cffi ];
   });
   cl-cram = (bqs {
     name = "cl-cram";
-    version = "20220707-git";
-    hash = "md5-DsCv7aujU/tCauGtXpOrWQ==";
-    url = "http://beta.quicklisp.org/archive/cl-cram/2022-07-07/cl-cram-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-hHLfHhGuXiZnwpVBDW3Grw==";
+    url = "http://beta.quicklisp.org/archive/cl-cram/2023-06-18/cl-cram-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-crc64 = (bqs {
@@ -4473,9 +4711,9 @@ in with cl; {
   });
   cl-cron = (bqs {
     name = "cl-cron";
-    version = "20221106-git";
-    hash = "md5-nhaMdnNduDmx747lgKxBxQ==";
-    url = "http://beta.quicklisp.org/archive/cl-cron/2022-11-06/cl-cron-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-SRkTHaO/x7uiVZqEbuU3nw==";
+    url = "http://beta.quicklisp.org/archive/cl-cron/2023-10-21/cl-cron-20231021-git.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   crypt = (bqs {
@@ -4618,32 +4856,18 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-data-format-validation/2014-07-13/cl-data-format-validation-20140713-git.tgz";
     cl-deps = [ cl-ppcre ];
   });
-  cl-data-frame = (bqs {
-    name = "cl-data-frame";
-    version = "20210531-git";
-    hash = "md5-HR90RHBOawX3yk6VzzzSIg==";
-    url = "http://beta.quicklisp.org/archive/cl-data-frame/2021-05-31/cl-data-frame-20210531-git.tgz";
-    cl-deps = [ alexandria anaphora array-operations cl-num-utils cl-slice let-plus ];
-  });
-  cl-data-frame-tests = (bqs {
-    name = "cl-data-frame-tests";
-    version = "20210531-git";
-    hash = "md5-HR90RHBOawX3yk6VzzzSIg==";
-    url = "http://beta.quicklisp.org/archive/cl-data-frame/2021-05-31/cl-data-frame-20210531-git.tgz";
-    cl-deps = [ cl-data-frame clunit ];
-  });
   cl-data-structures = (bqs {
     name = "cl-data-structures";
-    version = "20230214-git";
-    hash = "md5-HE+XUP9TLjWkRt7FBJg0sw==";
-    url = "http://beta.quicklisp.org/archive/cl-data-structures/2023-02-14/cl-data-structures-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fAuRF0niu1+O7WaW2bTFlw==";
+    url = "http://beta.quicklisp.org/archive/cl-data-structures/2023-10-21/cl-data-structures-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-ppcre closer-mop documentation-utils-extensions flexichain iterate lparallel metabang-bind more-conditions serapeum trivial-garbage uiop ];
   });
   cl-data-structures-tests = (bqs {
     name = "cl-data-structures-tests";
-    version = "20230214-git";
-    hash = "md5-HE+XUP9TLjWkRt7FBJg0sw==";
-    url = "http://beta.quicklisp.org/archive/cl-data-structures/2023-02-14/cl-data-structures-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fAuRF0niu1+O7WaW2bTFlw==";
+    url = "http://beta.quicklisp.org/archive/cl-data-structures/2023-10-21/cl-data-structures-20231021-git.tgz";
     cl-deps = [ cl-data-structures prove prove-asdf ];
   });
   cl-date-time-parser = (bqs {
@@ -4662,51 +4886,51 @@ in with cl; {
   });
   cl-dbi = (bqs {
     name = "cl-dbi";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ dbi ];
   });
   dbd-mysql = (bqs {
     name = "dbd-mysql";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ cl-mysql dbi ];
   });
   dbd-postgres = (bqs {
     name = "dbd-postgres";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ cl-postgres dbi trivial-garbage ];
   });
   dbd-sqlite3 = (bqs {
     name = "dbd-sqlite3";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ dbi sqlite trivial-garbage ];
   });
   dbi = (bqs {
     name = "dbi";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ bordeaux-threads closer-mop split-sequence ];
   });
   dbi-test = (bqs {
     name = "dbi-test";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ alexandria dbi rove trivial-types ];
   });
   dbi-slash-test = (bqs {
     name = "dbi/test";
-    version = "20230214-git";
-    hash = "md5-cWsGL91VfsNZGWtx2KtSBQ==";
-    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-02-14/cl-dbi-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9TzN2BgfZRCLlr4gQrHhsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-dbi/2023-10-21/cl-dbi-20231021-git.tgz";
     cl-deps = [ alexandria closer-mop dbd-mysql dbd-postgres dbd-sqlite3 dbi dbi-test rove trivial-types ];
   });
   dct = (bqs {
@@ -4750,6 +4974,13 @@ in with cl; {
     hash = "md5-1UXQbtzJjAwr1GXqEHhoHw==";
     url = "http://beta.quicklisp.org/archive/cl-decimals/2021-12-09/cl-decimals-20211209-git.tgz";
     cl-deps = [  ];
+  });
+  def-properties = (bqs {
+    name = "def-properties";
+    version = "20230618-git";
+    hash = "md5-0jUFWpg2ai7GVmIf+xZhuQ==";
+    url = "http://beta.quicklisp.org/archive/cl-def-properties/2023-06-18/cl-def-properties-20230618-git.tgz";
+    cl-deps = [ alexandria closer-mop swank ];
   });
   cl-dejavu = (bqs {
     name = "cl-dejavu";
@@ -4802,24 +5033,17 @@ in with cl; {
   });
   cl-digraph = (bqs {
     name = "cl-digraph";
-    version = "20230214-hg";
-    hash = "md5-5u88W9NCm9dbIr1Q4aJYBA==";
-    url = "http://beta.quicklisp.org/archive/cl-digraph/2023-02-14/cl-digraph-20230214-hg.tgz";
+    version = "20231021-hg";
+    hash = "md5-mtDm7v+8rm18GX/FDROKoA==";
+    url = "http://beta.quicklisp.org/archive/cl-digraph/2023-10-21/cl-digraph-20231021-hg.tgz";
     cl-deps = [  ];
   });
   cl-digraph-dot-dot = (bqs {
     name = "cl-digraph.dot";
-    version = "20230214-hg";
-    hash = "md5-5u88W9NCm9dbIr1Q4aJYBA==";
-    url = "http://beta.quicklisp.org/archive/cl-digraph/2023-02-14/cl-digraph-20230214-hg.tgz";
+    version = "20231021-hg";
+    hash = "md5-mtDm7v+8rm18GX/FDROKoA==";
+    url = "http://beta.quicklisp.org/archive/cl-digraph/2023-10-21/cl-digraph-20231021-hg.tgz";
     cl-deps = [ cl-digraph cl-dot ];
-  });
-  cl-digraph-dot-test = (bqs {
-    name = "cl-digraph.test";
-    version = "20230214-hg";
-    hash = "md5-5u88W9NCm9dbIr1Q4aJYBA==";
-    url = "http://beta.quicklisp.org/archive/cl-digraph/2023-02-14/cl-digraph-20230214-hg.tgz";
-    cl-deps = [ cl-1am alexandria cl-digraph ];
   });
   cl-diskspace = (bqs {
     name = "cl-diskspace";
@@ -5171,13 +5395,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-factoring/2022-11-06/cl-factoring-20221106-git.tgz";
     cl-deps = [ cl-primality iterate ];
   });
-  facts = (bqs {
-    name = "facts";
-    version = "20221106-git";
-    hash = "md5-ehF9AgrTxHjU4gz430mhzQ==";
-    url = "http://beta.quicklisp.org/archive/cl-facts/2022-11-06/cl-facts-20221106-git.tgz";
-    cl-deps = [ lessp local-time rollback ];
-  });
   cl-fad = (bqs {
     name = "cl-fad";
     version = "20220220-git";
@@ -5199,12 +5416,19 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-fam/2012-11-25/cl-fam-20121125-git.tgz";
     cl-deps = [ cffi cffi-grovel trivial-garbage ];
   });
-  cl-fastcgi = (bqs {
-    name = "cl-fastcgi";
-    version = "20210124-git";
-    hash = "md5-5DOa+bZufSUDud3TsNLYOw==";
-    url = "http://beta.quicklisp.org/archive/cl-fastcgi/2021-01-24/cl-fastcgi-20210124-git.tgz";
-    cl-deps = [ cffi usocket ];
+  cl-fast-ecs = (bqs {
+    name = "cl-fast-ecs";
+    version = "20231021-git";
+    hash = "md5-Bkw6B1zvcxRX2DhgHZVb5w==";
+    url = "http://beta.quicklisp.org/archive/cl-fast-ecs/2023-10-21/cl-fast-ecs-20231021-git.tgz";
+    cl-deps = [ alexandria trivial-garbage ];
+  });
+  cl-fast-ecs-slash-tests = (bqs {
+    name = "cl-fast-ecs/tests";
+    version = "20231021-git";
+    hash = "md5-Bkw6B1zvcxRX2DhgHZVb5w==";
+    url = "http://beta.quicklisp.org/archive/cl-fast-ecs/2023-10-21/cl-fast-ecs-20231021-git.tgz";
+    cl-deps = [ cl-fast-ecs cl-mock-basic parachute ];
   });
   cl-fbclient = (bqs {
     name = "cl-fbclient";
@@ -5213,25 +5437,32 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-fbclient/2014-01-13/cl-fbclient-20140113-git.tgz";
     cl-deps = [ cffi ];
   });
+  cl-fbx = (bqs {
+    name = "cl-fbx";
+    version = "20231021-git";
+    hash = "md5-4+AWtGWBVIW/uik9AribIQ==";
+    url = "http://beta.quicklisp.org/archive/cl-fbx/2023-10-21/cl-fbx-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils float-features static-vectors trivial-extensible-sequences trivial-features trivial-garbage ];
+  });
   cl-feedparser = (bqs {
     name = "cl-feedparser";
-    version = "20211020-git";
-    hash = "md5-0il7XUhlbuCAdXVijWFdaw==";
-    url = "http://beta.quicklisp.org/archive/cl-feedparser/2021-10-20/cl-feedparser-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-6onbpT1El91wibfWjABebQ==";
+    url = "http://beta.quicklisp.org/archive/cl-feedparser/2023-06-18/cl-feedparser-20230618-git.tgz";
     cl-deps = [ alexandria anaphora asdf-package-system cl-html5-parser cl-ppcre fset fxml local-time net-telent-date plump quri serapeum ];
   });
   cl-feedparser-tests = (bqs {
     name = "cl-feedparser-tests";
-    version = "20211020-git";
-    hash = "md5-0il7XUhlbuCAdXVijWFdaw==";
-    url = "http://beta.quicklisp.org/archive/cl-feedparser/2021-10-20/cl-feedparser-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-6onbpT1El91wibfWjABebQ==";
+    url = "http://beta.quicklisp.org/archive/cl-feedparser/2023-06-18/cl-feedparser-20230618-git.tgz";
     cl-deps = [ cl-feedparser fiveam fxml local-time ];
   });
   cl-feedparser-slash-test = (bqs {
     name = "cl-feedparser/test";
-    version = "20211020-git";
-    hash = "md5-0il7XUhlbuCAdXVijWFdaw==";
-    url = "http://beta.quicklisp.org/archive/cl-feedparser/2021-10-20/cl-feedparser-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-6onbpT1El91wibfWjABebQ==";
+    url = "http://beta.quicklisp.org/archive/cl-feedparser/2023-06-18/cl-feedparser-20230618-git.tgz";
     cl-deps = [ cl-feedparser fiveam fxml local-time ];
   });
   cl-fix = (bqs {
@@ -5271,9 +5502,9 @@ in with cl; {
   });
   cl-flac = (bqs {
     name = "cl-flac";
-    version = "20190710-git";
-    hash = "md5-qYeuWdZ4W3JzWnoQLLyZBw==";
-    url = "http://beta.quicklisp.org/archive/cl-flac/2019-07-10/cl-flac-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uvU3oCcb/Lj8RTBxbGg9Sg==";
+    url = "http://beta.quicklisp.org/archive/cl-flac/2023-10-21/cl-flac-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features trivial-garbage ];
   });
   flat-tree = (bqs {
@@ -5341,65 +5572,58 @@ in with cl; {
   });
   cl-form-types = (bqs {
     name = "cl-form-types";
-    version = "20221106-git";
-    hash = "md5-c6De/Ju5NgN7iZCORM8J+A==";
-    url = "http://beta.quicklisp.org/archive/cl-form-types/2022-11-06/cl-form-types-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-IqeII2n95+fWXUAPDrhueg==";
+    url = "http://beta.quicklisp.org/archive/cl-form-types/2023-06-18/cl-form-types-20230618-git.tgz";
     cl-deps = [ agutil alexandria anaphora arrows cl-environments introspect-environment optima ];
   });
   cl-form-types-slash-test = (bqs {
     name = "cl-form-types/test";
-    version = "20221106-git";
-    hash = "md5-c6De/Ju5NgN7iZCORM8J+A==";
-    url = "http://beta.quicklisp.org/archive/cl-form-types/2022-11-06/cl-form-types-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-IqeII2n95+fWXUAPDrhueg==";
+    url = "http://beta.quicklisp.org/archive/cl-form-types/2023-06-18/cl-form-types-20230618-git.tgz";
     cl-deps = [ cl-form-types fiveam ];
   });
   cl-forms = (bqs {
     name = "cl-forms";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
-    cl-deps = [ alexandria cl-ppcre clavier fmt hunchentoot ironclad uuid ];
-  });
-  cl-forms-dot-demo = (bqs {
-    name = "cl-forms.demo";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
-    cl-deps = [ cl-css cl-forms cl-forms-dot-djula cl-forms-dot-test cl-forms-dot-who cl-forms-dot-who-dot-bootstrap cl-who djula hunchentoot ];
+    version = "20231021-git";
+    hash = "md5-bKiYwI7VxjfZfgj2AO50iw==";
+    url = "http://beta.quicklisp.org/archive/cl-forms/2023-10-21/cl-forms-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre clavier fmt hunchentoot ironclad str uuid ];
   });
   cl-forms-dot-djula = (bqs {
     name = "cl-forms.djula";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bKiYwI7VxjfZfgj2AO50iw==";
+    url = "http://beta.quicklisp.org/archive/cl-forms/2023-10-21/cl-forms-20231021-git.tgz";
     cl-deps = [ cl-forms cl-forms-dot-who djula ];
   });
   cl-forms-dot-peppol = (bqs {
     name = "cl-forms.peppol";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bKiYwI7VxjfZfgj2AO50iw==";
+    url = "http://beta.quicklisp.org/archive/cl-forms/2023-10-21/cl-forms-20231021-git.tgz";
     cl-deps = [ cl-forms peppol ];
   });
   cl-forms-dot-test = (bqs {
     name = "cl-forms.test";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bKiYwI7VxjfZfgj2AO50iw==";
+    url = "http://beta.quicklisp.org/archive/cl-forms/2023-10-21/cl-forms-20231021-git.tgz";
     cl-deps = [ cl-forms fiveam ];
   });
   cl-forms-dot-who = (bqs {
     name = "cl-forms.who";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bKiYwI7VxjfZfgj2AO50iw==";
+    url = "http://beta.quicklisp.org/archive/cl-forms/2023-10-21/cl-forms-20231021-git.tgz";
     cl-deps = [ cl-forms cl-who ];
   });
   cl-forms-dot-who-dot-bootstrap = (bqs {
     name = "cl-forms.who.bootstrap";
-    version = "20221106-git";
-    hash = "md5-oNOnFe35Hti9lL/xWD3KFA==";
-    url = "http://beta.quicklisp.org/archive/cl-forms/2022-11-06/cl-forms-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bKiYwI7VxjfZfgj2AO50iw==";
+    url = "http://beta.quicklisp.org/archive/cl-forms/2023-10-21/cl-forms-20231021-git.tgz";
     cl-deps = [ cl-forms-dot-who ];
   });
   cl-freeimage = (bqs {
@@ -5474,16 +5698,16 @@ in with cl; {
   });
   cl-gamepad = (bqs {
     name = "cl-gamepad";
-    version = "20230214-git";
-    hash = "md5-vQjhcn+Xl9JdTbejPsHPlg==";
-    url = "http://beta.quicklisp.org/archive/cl-gamepad/2023-02-14/cl-gamepad-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Ca4sxuJxcKDgB6Ewy7Z0jg==";
+    url = "http://beta.quicklisp.org/archive/cl-gamepad/2023-10-21/cl-gamepad-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features ];
   });
   cl-gap-buffer = (bqs {
     name = "cl-gap-buffer";
-    version = "20190307-hg";
-    hash = "md5-SN4HwmDWZmWUZHNHQ942Rg==";
-    url = "http://beta.quicklisp.org/archive/cl-gap-buffer/2019-03-07/cl-gap-buffer-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-xZsnjAwH/2lWSERBhkwlEw==";
+    url = "http://beta.quicklisp.org/archive/cl-gap-buffer/2023-06-18/cl-gap-buffer-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-gbm = (bqs {
@@ -5656,30 +5880,30 @@ in with cl; {
   });
   cl-gists = (bqs {
     name = "cl-gists";
-    version = "20180228-git";
-    hash = "md5-rb0i29zNBXdq1Via3QmDuA==";
-    url = "http://beta.quicklisp.org/archive/cl-gists/2018-02-28/cl-gists-20180228-git.tgz";
-    cl-deps = [ alexandria babel cl-syntax cl-syntax-annot dexador jonathan local-time quri trivial-types uiop ];
+    version = "20231021-git";
+    hash = "md5-pTI9epvdvc5dZV39hzqqGg==";
+    url = "http://beta.quicklisp.org/archive/cl-gists/2023-10-21/cl-gists-20231021-git.tgz";
+    cl-deps = [ alexandria alexandria-plus- babel dexador local-time quri yason ];
   });
-  cl-gists-test = (bqs {
-    name = "cl-gists-test";
-    version = "20180228-git";
-    hash = "md5-rb0i29zNBXdq1Via3QmDuA==";
-    url = "http://beta.quicklisp.org/archive/cl-gists/2018-02-28/cl-gists-20180228-git.tgz";
-    cl-deps = [ cl-gists closer-mop prove prove-asdf ];
+  cl-gists-slash-test = (bqs {
+    name = "cl-gists/test";
+    version = "20231021-git";
+    hash = "md5-pTI9epvdvc5dZV39hzqqGg==";
+    url = "http://beta.quicklisp.org/archive/cl-gists/2023-10-21/cl-gists-20231021-git.tgz";
+    cl-deps = [ cl-gists closer-mop clunit2 ];
   });
   cl-git = (bqs {
     name = "cl-git";
-    version = "20230215-git";
-    hash = "md5-NxtKme9i4U+5WeLKzszI/Q==";
-    url = "http://beta.quicklisp.org/archive/cl-git/2023-02-15/cl-git-20230215-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Ec3bbvb0id3URWxsMaGt/A==";
+    url = "http://beta.quicklisp.org/archive/cl-git/2023-06-18/cl-git-20230618-git.tgz";
     cl-deps = [ alexandria anaphora cffi cffi-grovel cl-fad closer-mop flexi-streams local-time trivial-garbage uiop ];
   });
   cl-git-slash-tests = (bqs {
     name = "cl-git/tests";
-    version = "20230215-git";
-    hash = "md5-NxtKme9i4U+5WeLKzszI/Q==";
-    url = "http://beta.quicklisp.org/archive/cl-git/2023-02-15/cl-git-20230215-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Ec3bbvb0id3URWxsMaGt/A==";
+    url = "http://beta.quicklisp.org/archive/cl-git/2023-06-18/cl-git-20230618-git.tgz";
     cl-deps = [ alexandria cl-fad cl-git fiveam flexi-streams inferior-shell local-time unix-options ];
   });
   cl-github-v3 = (bqs {
@@ -8146,67 +8370,67 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-glfw3/2021-05-31/cl-glfw3-20210531-git.tgz";
     cl-deps = [ cl-glfw3 cl-opengl trivial-main-thread ];
   });
-  cl-glib = (bqs {
-    name = "cl-glib";
-    version = "20230214-git";
-    hash = "md5-H4Kt7lrvYALUSqA5LzEulA==";
-    url = "http://beta.quicklisp.org/archive/cl-glib/2023-02-14/cl-glib-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads cl-gobject-introspection-wrapper ];
-  });
-  cl-glib-dot-gio = (bqs {
-    name = "cl-glib.gio";
-    version = "20230214-git";
-    hash = "md5-H4Kt7lrvYALUSqA5LzEulA==";
-    url = "http://beta.quicklisp.org/archive/cl-glib/2023-02-14/cl-glib-20230214-git.tgz";
+  cl-gio = (bqs {
+    name = "cl-gio";
+    version = "20231021-git";
+    hash = "md5-F+GQx7/8G9Y7fwAmanRPKw==";
+    url = "http://beta.quicklisp.org/archive/cl-glib/2023-10-21/cl-glib-20231021-git.tgz";
     cl-deps = [ cl-gobject-introspection-wrapper ];
   });
-  cl-glib-dot-gobject = (bqs {
-    name = "cl-glib.gobject";
-    version = "20230214-git";
-    hash = "md5-H4Kt7lrvYALUSqA5LzEulA==";
-    url = "http://beta.quicklisp.org/archive/cl-glib/2023-02-14/cl-glib-20230214-git.tgz";
+  cl-glib = (bqs {
+    name = "cl-glib";
+    version = "20231021-git";
+    hash = "md5-F+GQx7/8G9Y7fwAmanRPKw==";
+    url = "http://beta.quicklisp.org/archive/cl-glib/2023-10-21/cl-glib-20231021-git.tgz";
+    cl-deps = [ bordeaux-threads cl-gobject-introspection-wrapper ];
+  });
+  cl-gobject = (bqs {
+    name = "cl-gobject";
+    version = "20231021-git";
+    hash = "md5-F+GQx7/8G9Y7fwAmanRPKw==";
+    url = "http://beta.quicklisp.org/archive/cl-glib/2023-10-21/cl-glib-20231021-git.tgz";
     cl-deps = [ cl-gobject-introspection-wrapper ];
   });
   cl-gltf = (bqs {
     name = "cl-gltf";
-    version = "20220331-git";
-    hash = "md5-4yOlXpx5cIZiNyzzFU7XoA==";
-    url = "http://beta.quicklisp.org/archive/cl-gltf/2022-03-31/cl-gltf-20220331-git.tgz";
-    cl-deps = [ cffi documentation-utils mmap nibbles qbase64 shasht static-vectors trivial-extensible-sequences ];
+    version = "20231021-git";
+    hash = "md5-0f2NsK1oH71YKU/0yeW24A==";
+    url = "http://beta.quicklisp.org/archive/cl-gltf/2023-10-21/cl-gltf-20231021-git.tgz";
+    cl-deps = [ cffi com-dot-inuoe-dot-jzon documentation-utils mmap nibbles qbase64 static-vectors trivial-extensible-sequences ];
   });
   cl-gobject-introspection = (bqs {
     name = "cl-gobject-introspection";
-    version = "20230214-git";
-    hash = "md5-66J+Bu+yeIqeczYEx8do3w==";
-    url = "http://beta.quicklisp.org/archive/cl-gobject-introspection/2023-02-14/cl-gobject-introspection-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8KTOEonvG3ll/we/oZ0rkg==";
+    url = "http://beta.quicklisp.org/archive/cl-gobject-introspection/2023-10-21/cl-gobject-introspection-20231021-git.tgz";
     cl-deps = [ alexandria cffi iterate trivial-garbage ];
   });
   cl-gobject-introspection-test = (bqs {
     name = "cl-gobject-introspection-test";
-    version = "20230214-git";
-    hash = "md5-66J+Bu+yeIqeczYEx8do3w==";
-    url = "http://beta.quicklisp.org/archive/cl-gobject-introspection/2023-02-14/cl-gobject-introspection-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8KTOEonvG3ll/we/oZ0rkg==";
+    url = "http://beta.quicklisp.org/archive/cl-gobject-introspection/2023-10-21/cl-gobject-introspection-20231021-git.tgz";
     cl-deps = [ cl-gobject-introspection fiveam iterate ];
   });
   cl-gobject-introspection-wrapper = (bqs {
     name = "cl-gobject-introspection-wrapper";
-    version = "20230214-git";
-    hash = "md5-3qKXzQLEw5pZJr6aRRFVtA==";
-    url = "http://beta.quicklisp.org/archive/cl-gobject-introspection-wrapper/2023-02-14/cl-gobject-introspection-wrapper-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-m7JSbk+DPG/77g0pKWz1HA==";
+    url = "http://beta.quicklisp.org/archive/cl-gobject-introspection-wrapper/2023-10-21/cl-gobject-introspection-wrapper-20231021-git.tgz";
     cl-deps = [ alexandria cl-gobject-introspection cl-ppcre ];
   });
   cl-gopher = (bqs {
     name = "cl-gopher";
-    version = "20220331-git";
-    hash = "md5-izY2UJUk/fmhki77BSxOWQ==";
-    url = "http://beta.quicklisp.org/archive/cl-gopher/2022-03-31/cl-gopher-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gva1tR7cbXfL7+pkB3VqrA==";
+    url = "http://beta.quicklisp.org/archive/cl-gopher/2023-10-21/cl-gopher-20231021-git.tgz";
     cl-deps = [ bordeaux-threads drakma flexi-streams quri usocket ];
   });
   cl-gpio = (bqs {
     name = "cl-gpio";
-    version = "20211209-git";
-    hash = "md5-+Xd8loNrWyEy0HH0agce5Q==";
-    url = "http://beta.quicklisp.org/archive/cl-gpio/2021-12-09/cl-gpio-20211209-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/twPWZe1NZU2dyithewCxw==";
+    url = "http://beta.quicklisp.org/archive/cl-gpio/2023-10-21/cl-gpio-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils ];
   });
   cl-graph = (bqs {
@@ -8302,37 +8526,30 @@ in with cl; {
   });
   sento = (bqs {
     name = "sento";
-    version = "20230214-git";
-    hash = "md5-Jm7CkPMwzN59JqQqZu7Ohw==";
-    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-02-14/cl-gserver-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-AOvoi6vSJg2vAvrT9JzWSA==";
+    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-10-21/cl-gserver-20231021-git.tgz";
     cl-deps = [ alexandria atomics binding-arrows blackbird bordeaux-threads jpl-queues log4cl str timer-wheel ];
   });
-  sento-high-speed-queue = (bqs {
-    name = "sento-high-speed-queue";
-    version = "20230214-git";
-    hash = "md5-Jm7CkPMwzN59JqQqZu7Ohw==";
-    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-02-14/cl-gserver-20230214-git.tgz";
+  sento-slash-high-speed-queue = (bqs {
+    name = "sento/high-speed-queue";
+    version = "20231021-git";
+    hash = "md5-AOvoi6vSJg2vAvrT9JzWSA==";
+    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-10-21/cl-gserver-20231021-git.tgz";
     cl-deps = [ lparallel sento ];
   });
-  sento-high-speed-queue-slash-tests = (bqs {
-    name = "sento-high-speed-queue/tests";
-    version = "20230214-git";
-    hash = "md5-Jm7CkPMwzN59JqQqZu7Ohw==";
-    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-02-14/cl-gserver-20230214-git.tgz";
-    cl-deps = [ cl-mock fiveam sento-high-speed-queue ];
-  });
-  sento-slash-docs = (bqs {
-    name = "sento/docs";
-    version = "20230214-git";
-    hash = "md5-Jm7CkPMwzN59JqQqZu7Ohw==";
-    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-02-14/cl-gserver-20230214-git.tgz";
-    cl-deps = [ mgl-pax sento ];
+  sento-slash-high-speed-queue-tests = (bqs {
+    name = "sento/high-speed-queue-tests";
+    version = "20231021-git";
+    hash = "md5-AOvoi6vSJg2vAvrT9JzWSA==";
+    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-10-21/cl-gserver-20231021-git.tgz";
+    cl-deps = [ cl-mock fiveam lparallel sento ];
   });
   sento-slash-tests = (bqs {
     name = "sento/tests";
-    version = "20230214-git";
-    hash = "md5-Jm7CkPMwzN59JqQqZu7Ohw==";
-    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-02-14/cl-gserver-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-AOvoi6vSJg2vAvrT9JzWSA==";
+    url = "http://beta.quicklisp.org/archive/cl-gserver/2023-10-21/cl-gserver-20231021-git.tgz";
     cl-deps = [ cl-mock fiveam lparallel sento ];
   });
   cl-gss = (bqs {
@@ -8428,16 +8645,16 @@ in with cl; {
   });
   cl-hash-util = (bqs {
     name = "cl-hash-util";
-    version = "20190107-git";
-    hash = "md5-/1BEEyyWhM9J+LhBCWxnog==";
-    url = "http://beta.quicklisp.org/archive/cl-hash-util/2019-01-07/cl-hash-util-20190107-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QU9RVPo7ULQ2gVwDrnrKMw==";
+    url = "http://beta.quicklisp.org/archive/cl-hash-util/2023-10-21/cl-hash-util-20231021-git.tgz";
     cl-deps = [  ];
   });
   cl-hash-util-test = (bqs {
     name = "cl-hash-util-test";
-    version = "20190107-git";
-    hash = "md5-/1BEEyyWhM9J+LhBCWxnog==";
-    url = "http://beta.quicklisp.org/archive/cl-hash-util/2019-01-07/cl-hash-util-20190107-git.tgz";
+    version = "20231021-git";
+    hash = "md5-QU9RVPo7ULQ2gVwDrnrKMw==";
+    url = "http://beta.quicklisp.org/archive/cl-hash-util/2023-10-21/cl-hash-util-20231021-git.tgz";
     cl-deps = [ cl-hash-util fiveam ];
   });
   cl-heap = (bqs {
@@ -8477,9 +8694,9 @@ in with cl; {
   });
   cl-html-parse = (bqs {
     name = "cl-html-parse";
-    version = "20200925-git";
-    hash = "md5-MzPu3wN6SJAMZj/Orj5M/Q==";
-    url = "http://beta.quicklisp.org/archive/cl-html-parse/2020-09-25/cl-html-parse-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-WUqXxGCbhQCxu0qpzY854w==";
+    url = "http://beta.quicklisp.org/archive/cl-html-parse/2023-10-21/cl-html-parse-20231021-git.tgz";
     cl-deps = [  ];
   });
   cl-html-readme = (bqs {
@@ -8547,9 +8764,9 @@ in with cl; {
   });
   cl-i18n = (bqs {
     name = "cl-i18n";
-    version = "20230214-git";
-    hash = "md5-bCU7RpflZtMeeD3egTIiRA==";
-    url = "http://beta.quicklisp.org/archive/cl-i18n/2023-02-14/cl-i18n-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ETuNgWVa7nIeBu+yqoasJg==";
+    url = "http://beta.quicklisp.org/archive/cl-i18n/2023-10-21/cl-i18n-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-ppcre-unicode ];
   });
   iconv = (bqs {
@@ -8558,6 +8775,13 @@ in with cl; {
     hash = "md5-O2vM+fUCJBlNLQkQzVY6ag==";
     url = "http://beta.quicklisp.org/archive/cl-iconv/2017-12-27/cl-iconv-20171227-git.tgz";
     cl-deps = [ cffi cffi-grovel ];
+  });
+  cl-id3 = (bqs {
+    name = "cl-id3";
+    version = "20230618-git";
+    hash = "md5-HTynPq1kCb/vAtDAvJrBwA==";
+    url = "http://beta.quicklisp.org/archive/cl-id3/2023-06-18/cl-id3-20230618-git.tgz";
+    cl-deps = [  ];
   });
   cl-incognia = (bqs {
     name = "cl-incognia";
@@ -8729,10 +8953,17 @@ in with cl; {
   });
   cl-isaac = (bqs {
     name = "cl-isaac";
-    version = "20221106-git";
-    hash = "md5-gEn/d2dtI2LmNV4Rph2I8A==";
-    url = "http://beta.quicklisp.org/archive/cl-isaac/2022-11-06/cl-isaac-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-nJp1uYwdbm2J5PSFpJZtcg==";
+    url = "http://beta.quicklisp.org/archive/cl-isaac/2023-10-21/cl-isaac-20231021-git.tgz";
     cl-deps = [  ];
+  });
+  cl-isaac-slash-test = (bqs {
+    name = "cl-isaac/test";
+    version = "20231021-git";
+    hash = "md5-nJp1uYwdbm2J5PSFpJZtcg==";
+    url = "http://beta.quicklisp.org/archive/cl-isaac/2023-10-21/cl-isaac-20231021-git.tgz";
+    cl-deps = [ cl-isaac parachute trivial-features ];
   });
   isolated = (bqs {
     name = "isolated";
@@ -8778,30 +9009,30 @@ in with cl; {
   });
   jingle = (bqs {
     name = "jingle";
-    version = "20230215-git";
-    hash = "md5-ykh4Hh7l5B5xmtvaeMlY7g==";
-    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-02-15/cl-jingle-20230215-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZgE8SSLxhMCY+0qliJr9Eg==";
+    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-10-21/cl-jingle-20231021-git.tgz";
     cl-deps = [ cl-reexport clack find-port jonathan lack lack-app-directory lack-middleware-mount lack-middleware-static local-time myway ningle quri str ];
   });
   jingle-dot-demo = (bqs {
     name = "jingle.demo";
-    version = "20230215-git";
-    hash = "md5-ykh4Hh7l5B5xmtvaeMlY7g==";
-    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-02-15/cl-jingle-20230215-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZgE8SSLxhMCY+0qliJr9Eg==";
+    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-10-21/cl-jingle-20231021-git.tgz";
     cl-deps = [ babel cl-ascii-table clack-handler-hunchentoot clingon dexador jingle jonathan lack-middleware-accesslog local-time quri ];
   });
   jingle-dot-demo-dot-test = (bqs {
     name = "jingle.demo.test";
-    version = "20230215-git";
-    hash = "md5-ykh4Hh7l5B5xmtvaeMlY7g==";
-    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-02-15/cl-jingle-20230215-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZgE8SSLxhMCY+0qliJr9Eg==";
+    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-10-21/cl-jingle-20231021-git.tgz";
     cl-deps = [ jingle-dot-demo rove ];
   });
   jingle-dot-test = (bqs {
     name = "jingle.test";
-    version = "20230215-git";
-    hash = "md5-ykh4Hh7l5B5xmtvaeMlY7g==";
-    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-02-15/cl-jingle-20230215-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ZgE8SSLxhMCY+0qliJr9Eg==";
+    url = "http://beta.quicklisp.org/archive/cl-jingle/2023-10-21/cl-jingle-20231021-git.tgz";
     cl-deps = [ jingle rove ];
   });
   cl-jpeg = (bqs {
@@ -8817,6 +9048,20 @@ in with cl; {
     hash = "md5-4pS+2s5ylySHPnYzuCZaAA==";
     url = "http://beta.quicklisp.org/archive/cl-jpl-util/2015-10-31/cl-jpl-util-20151031-git.tgz";
     cl-deps = [  ];
+  });
+  cl-jschema = (bqs {
+    name = "cl-jschema";
+    version = "v1.1.1";
+    hash = "md5-pN2ILmf4zpTfrpauouqFrg==";
+    url = "http://beta.quicklisp.org/archive/cl-jschema/2023-06-18/cl-jschema-v1.1.1.tgz";
+    cl-deps = [ alexandria cl-ppcre com-dot-inuoe-dot-jzon puri ];
+  });
+  cl-jschema-slash-tests = (bqs {
+    name = "cl-jschema/tests";
+    version = "v1.1.1";
+    hash = "md5-pN2ILmf4zpTfrpauouqFrg==";
+    url = "http://beta.quicklisp.org/archive/cl-jschema/2023-06-18/cl-jschema-v1.1.1.tgz";
+    cl-deps = [ cl-jschema fiveam ];
   });
   cl-json = (bqs {
     name = "cl-json";
@@ -8881,6 +9126,20 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-json-schema/2021-02-28/cl-json-schema-20210228-git.tgz";
     cl-deps = [ cl-json-schema cl-ppcre fiasco ];
   });
+  cl-jsonl = (bqs {
+    name = "cl-jsonl";
+    version = "20231021-git";
+    hash = "md5-1/T3t6AsLNu2L92k8dt0vg==";
+    url = "http://beta.quicklisp.org/archive/cl-jsonl/2023-10-21/cl-jsonl-20231021-git.tgz";
+    cl-deps = [ gtwiwtg yason ];
+  });
+  cl-jsonl-slash-tests = (bqs {
+    name = "cl-jsonl/tests";
+    version = "20231021-git";
+    hash = "md5-1/T3t6AsLNu2L92k8dt0vg==";
+    url = "http://beta.quicklisp.org/archive/cl-jsonl/2023-10-21/cl-jsonl-20231021-git.tgz";
+    cl-deps = [ access arrows cl-jsonl fiveam ];
+  });
   cl-jsx = (bqs {
     name = "cl-jsx";
     version = "20160208-git";
@@ -8930,25 +9189,39 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-just-getopt-parser/2021-12-09/cl-just-getopt-parser-20211209-git.tgz";
     cl-deps = [  ];
   });
+  cl-jwk = (bqs {
+    name = "cl-jwk";
+    version = "20231021-git";
+    hash = "md5-xWd+i8tH8oIATMQiuaXDog==";
+    url = "http://beta.quicklisp.org/archive/cl-jwk/2023-10-21/cl-jwk-20231021-git.tgz";
+    cl-deps = [ alexandria binascii cl-reexport dexador ironclad jonathan jose ];
+  });
+  cl-jwk-dot-test = (bqs {
+    name = "cl-jwk.test";
+    version = "20231021-git";
+    hash = "md5-xWd+i8tH8oIATMQiuaXDog==";
+    url = "http://beta.quicklisp.org/archive/cl-jwk/2023-10-21/cl-jwk-20231021-git.tgz";
+    cl-deps = [ cl-jwk rove ];
+  });
   cl-k8055 = (bqs {
     name = "cl-k8055";
-    version = "20190710-git";
-    hash = "md5-QDjjjfuJnGBL61BoL8hazg==";
-    url = "http://beta.quicklisp.org/archive/cl-k8055/2019-07-10/cl-k8055-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-x/gSDo2GIn7Haa8qV4kwsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-k8055/2023-10-21/cl-k8055-20231021-git.tgz";
     cl-deps = [ cffi cl-ppcre documentation-utils trivial-features ];
   });
   cl-kanren = (bqs {
     name = "cl-kanren";
-    version = "20191007-git";
-    hash = "md5-xqKbVwrFBH1MWx6wWp87NA==";
-    url = "http://beta.quicklisp.org/archive/cl-kanren/2019-10-07/cl-kanren-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GSXGRM5fDkWxgXARsxAHow==";
+    url = "http://beta.quicklisp.org/archive/cl-kanren/2023-10-21/cl-kanren-20231021-git.tgz";
     cl-deps = [ alexandria ];
   });
   cl-kanren-test = (bqs {
     name = "cl-kanren-test";
-    version = "20191007-git";
-    hash = "md5-xqKbVwrFBH1MWx6wWp87NA==";
-    url = "http://beta.quicklisp.org/archive/cl-kanren/2019-10-07/cl-kanren-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GSXGRM5fDkWxgXARsxAHow==";
+    url = "http://beta.quicklisp.org/archive/cl-kanren/2023-10-21/cl-kanren-20231021-git.tgz";
     cl-deps = [ alexandria cl-kanren clunit ];
   });
   kanren-trs = (bqs {
@@ -9020,6 +9293,13 @@ in with cl; {
     hash = "md5-DWxRyAcRRjsNJ2RV/C1L+Q==";
     url = "http://beta.quicklisp.org/archive/cl-ksuid/2017-08-30/cl-ksuid-20170830-git.tgz";
     cl-deps = [ cl-ksuid prove prove-asdf ];
+  });
+  cl-ktx = (bqs {
+    name = "cl-ktx";
+    version = "20231021-git";
+    hash = "md5-odk5OoIntdJ85wsigFhCmg==";
+    url = "http://beta.quicklisp.org/archive/cl-ktx/2023-10-21/cl-ktx-20231021-git.tgz";
+    cl-deps = [ binary-structures cl-opengl documentation-utils trivial-features ];
   });
   cl-kyoto-cabinet = (bqs {
     name = "cl-kyoto-cabinet";
@@ -9105,13 +9385,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-ledger/2020-02-18/cl-ledger-20200218-git.tgz";
     cl-deps = [ cambl cl-ppcre local-time periods-series ];
   });
-  lessp = (bqs {
-    name = "lessp";
-    version = "20221106-git";
-    hash = "md5-3SHEPM+VdmGFv5pH1f0XaQ==";
-    url = "http://beta.quicklisp.org/archive/cl-lessp/2022-11-06/cl-lessp-20221106-git.tgz";
-    cl-deps = [  ];
-  });
   cl-lex = (bqs {
     name = "cl-lex";
     version = "20160929-git";
@@ -9128,38 +9401,38 @@ in with cl; {
   });
   lib-helper = (bqs {
     name = "lib-helper";
-    version = "20221106-git";
-    hash = "md5-uRaFyqKwQPySzrWq4WvDmQ==";
-    url = "http://beta.quicklisp.org/archive/cl-lib-helper/2022-11-06/cl-lib-helper-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-jrfBSteGftn+5ORiBSBS9w==";
+    url = "http://beta.quicklisp.org/archive/cl-lib-helper/2023-10-21/cl-lib-helper-20231021-git.tgz";
     cl-deps = [ alexandria cl-containers cl-ppcre closer-mop iterate ];
   });
   lib-helper-test-system = (bqs {
     name = "lib-helper-test-system";
-    version = "20221106-git";
-    hash = "md5-uRaFyqKwQPySzrWq4WvDmQ==";
-    url = "http://beta.quicklisp.org/archive/cl-lib-helper/2022-11-06/cl-lib-helper-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-jrfBSteGftn+5ORiBSBS9w==";
+    url = "http://beta.quicklisp.org/archive/cl-lib-helper/2023-10-21/cl-lib-helper-20231021-git.tgz";
     cl-deps = [  ];
   });
   lib-helper-slash-test = (bqs {
     name = "lib-helper/test";
-    version = "20221106-git";
-    hash = "md5-uRaFyqKwQPySzrWq4WvDmQ==";
-    url = "http://beta.quicklisp.org/archive/cl-lib-helper/2022-11-06/cl-lib-helper-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-jrfBSteGftn+5ORiBSBS9w==";
+    url = "http://beta.quicklisp.org/archive/cl-lib-helper/2023-10-21/cl-lib-helper-20231021-git.tgz";
     cl-deps = [ fiveam lib-helper ];
   });
   cl-liballegro = (bqs {
     name = "cl-liballegro";
-    version = "20221106-git";
-    hash = "md5-sevOXmnzHGQfru8rhCHh/w==";
-    url = "http://beta.quicklisp.org/archive/cl-liballegro/2022-11-06/cl-liballegro-20221106-git.tgz";
-    cl-deps = [ cffi cffi-libffi float-features trivial-garbage trivial-main-thread ];
+    version = "20231021-git";
+    hash = "md5-WTDDflhpBUsUoCGcvsiffQ==";
+    url = "http://beta.quicklisp.org/archive/cl-liballegro/2023-10-21/cl-liballegro-20231021-git.tgz";
+    cl-deps = [ cffi cffi-libffi float-features trivial-garbage trivial-gray-streams trivial-main-thread ];
   });
   cl-liballegro-nuklear = (bqs {
     name = "cl-liballegro-nuklear";
-    version = "20221106-git";
-    hash = "md5-0aWm09jsPeRV40QPbI2AAw==";
-    url = "http://beta.quicklisp.org/archive/cl-liballegro-nuklear/2022-11-06/cl-liballegro-nuklear-20221106-git.tgz";
-    cl-deps = [ cffi cffi-libffi trivial-features ];
+    version = "20231021-git";
+    hash = "md5-BAgFLUlnXE6zCT1g5ylY9w==";
+    url = "http://beta.quicklisp.org/archive/cl-liballegro-nuklear/2023-10-21/cl-liballegro-nuklear-20231021-git.tgz";
+    cl-deps = [ cffi cffi-libffi cl-liballegro trivial-features ];
   });
   cl-libevent2 = (bqs {
     name = "cl-libevent2";
@@ -9174,20 +9447,6 @@ in with cl; {
     hash = "md5-5s+PCl6tEYQEMQeuBVBTCQ==";
     url = "http://beta.quicklisp.org/archive/cl-libevent2/2019-01-07/cl-libevent2-20190107-git.tgz";
     cl-deps = [ cffi cl-libevent2 ];
-  });
-  cl-libfarmhash = (bqs {
-    name = "cl-libfarmhash";
-    version = "20161031-git";
-    hash = "md5-GPHVVX6MsYqFCNWuoWHCmw==";
-    url = "http://beta.quicklisp.org/archive/cl-libfarmhash/2016-10-31/cl-libfarmhash-20161031-git.tgz";
-    cl-deps = [ cffi cffi-libffi ];
-  });
-  cl-libhoedown = (bqs {
-    name = "cl-libhoedown";
-    version = "20161031-git";
-    hash = "md5-4+AqAQjdANfT1H63y4kzug==";
-    url = "http://beta.quicklisp.org/archive/cl-libhoedown/2016-10-31/cl-libhoedown-20161031-git.tgz";
-    cl-deps = [ cffi ];
   });
   cl-libiio = (bqs {
     name = "cl-libiio";
@@ -9275,16 +9534,16 @@ in with cl; {
   });
   cl-libuv = (bqs {
     name = "cl-libuv";
-    version = "20221106-git";
-    hash = "md5-2L8kOjAul2KRl5FLG/IzCw==";
-    url = "http://beta.quicklisp.org/archive/cl-libuv/2022-11-06/cl-libuv-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ECFNaFPHWV8XIqe0rW6xug==";
+    url = "http://beta.quicklisp.org/archive/cl-libuv/2023-06-18/cl-libuv-20230618-git.tgz";
     cl-deps = [ alexandria cffi cffi-grovel ];
   });
   cl-libuv-config = (bqs {
     name = "cl-libuv-config";
-    version = "20221106-git";
-    hash = "md5-2L8kOjAul2KRl5FLG/IzCw==";
-    url = "http://beta.quicklisp.org/archive/cl-libuv/2022-11-06/cl-libuv-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ECFNaFPHWV8XIqe0rW6xug==";
+    url = "http://beta.quicklisp.org/archive/cl-libuv/2023-06-18/cl-libuv-20230618-git.tgz";
     cl-deps = [ cffi-grovel ];
   });
   cl-libxml2 = (bqs {
@@ -9359,9 +9618,9 @@ in with cl; {
   });
   cl-locatives = (bqs {
     name = "cl-locatives";
-    version = "20190307-hg";
-    hash = "md5-99wNSdzPeHvCfIWe3nRTfg==";
-    url = "http://beta.quicklisp.org/archive/cl-locatives/2019-03-07/cl-locatives-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-KolYTEW40PIuVeQi1tDkoA==";
+    url = "http://beta.quicklisp.org/archive/cl-locatives/2023-06-18/cl-locatives-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-log = (bqs {
@@ -9408,16 +9667,16 @@ in with cl; {
   });
   lzlib = (bqs {
     name = "lzlib";
-    version = "20221106-git";
-    hash = "md5-iagUBjwAZ1FB4Ica4saKcg==";
-    url = "http://beta.quicklisp.org/archive/cl-lzlib/2022-11-06/cl-lzlib-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-5tIg6Ps+0mrqum1D31iYwA==";
+    url = "http://beta.quicklisp.org/archive/cl-lzlib/2023-06-18/cl-lzlib-20230618-git.tgz";
     cl-deps = [ cffi cl-octet-streams lparallel trivial-gray-streams ];
   });
   lzlib-tests = (bqs {
     name = "lzlib-tests";
-    version = "20221106-git";
-    hash = "md5-iagUBjwAZ1FB4Ica4saKcg==";
-    url = "http://beta.quicklisp.org/archive/cl-lzlib/2022-11-06/cl-lzlib-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-5tIg6Ps+0mrqum1D31iYwA==";
+    url = "http://beta.quicklisp.org/archive/cl-lzlib/2023-06-18/cl-lzlib-20230618-git.tgz";
     cl-deps = [ cl-octet-streams fiveam lzlib uiop ];
   });
   cl-lzma = (bqs {
@@ -9471,44 +9730,51 @@ in with cl; {
   });
   cl-markless = (bqs {
     name = "cl-markless";
-    version = "20220707-git";
-    hash = "md5-YlrLCtWN80dqIaysh4zOsA==";
-    url = "http://beta.quicklisp.org/archive/cl-markless/2022-07-07/cl-markless-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
     cl-deps = [ documentation-utils trivial-indent ];
   });
   cl-markless-epub = (bqs {
     name = "cl-markless-epub";
-    version = "20220707-git";
-    hash = "md5-YlrLCtWN80dqIaysh4zOsA==";
-    url = "http://beta.quicklisp.org/archive/cl-markless/2022-07-07/cl-markless-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
     cl-deps = [ babel cl-markless-plump trivial-gray-streams trivial-indent trivial-mimes uiop zip ];
+  });
+  cl-markless-latex = (bqs {
+    name = "cl-markless-latex";
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
+    cl-deps = [ cl-markless ];
   });
   cl-markless-markdown = (bqs {
     name = "cl-markless-markdown";
-    version = "20220707-git";
-    hash = "md5-YlrLCtWN80dqIaysh4zOsA==";
-    url = "http://beta.quicklisp.org/archive/cl-markless/2022-07-07/cl-markless-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
     cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks cl-markless ];
   });
   cl-markless-plump = (bqs {
     name = "cl-markless-plump";
-    version = "20220707-git";
-    hash = "md5-YlrLCtWN80dqIaysh4zOsA==";
-    url = "http://beta.quicklisp.org/archive/cl-markless/2022-07-07/cl-markless-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
     cl-deps = [ cl-markless plump-dom ];
   });
   cl-markless-standalone = (bqs {
     name = "cl-markless-standalone";
-    version = "20220707-git";
-    hash = "md5-YlrLCtWN80dqIaysh4zOsA==";
-    url = "http://beta.quicklisp.org/archive/cl-markless/2022-07-07/cl-markless-20220707-git.tgz";
-    cl-deps = [ cl-markless cl-markless-epub cl-markless-markdown cl-markless-plump command-line-arguments ];
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
+    cl-deps = [ cl-markless cl-markless-epub cl-markless-latex cl-markless-markdown cl-markless-plump command-line-arguments ];
   });
   cl-markless-test = (bqs {
     name = "cl-markless-test";
-    version = "20220707-git";
-    hash = "md5-YlrLCtWN80dqIaysh4zOsA==";
-    url = "http://beta.quicklisp.org/archive/cl-markless/2022-07-07/cl-markless-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1xFawEdTRI2tNTF1eCJNKA==";
+    url = "http://beta.quicklisp.org/archive/cl-markless/2023-10-21/cl-markless-20231021-git.tgz";
     cl-deps = [ cl-markless parachute ];
   });
   cl-marklogic = (bqs {
@@ -9555,16 +9821,16 @@ in with cl; {
   });
   marshal = (bqs {
     name = "marshal";
-    version = "20221106-git";
-    hash = "md5-VnEE5txukSEarZd+8LDiiw==";
-    url = "http://beta.quicklisp.org/archive/cl-marshal/2022-11-06/cl-marshal-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0llJC2Y56uIz/wkDR2dMhA==";
+    url = "http://beta.quicklisp.org/archive/cl-marshal/2023-10-21/cl-marshal-20231021-git.tgz";
     cl-deps = [  ];
   });
   marshal-tests = (bqs {
     name = "marshal-tests";
-    version = "20221106-git";
-    hash = "md5-VnEE5txukSEarZd+8LDiiw==";
-    url = "http://beta.quicklisp.org/archive/cl-marshal/2022-11-06/cl-marshal-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0llJC2Y56uIz/wkDR2dMhA==";
+    url = "http://beta.quicklisp.org/archive/cl-marshal/2023-10-21/cl-marshal-20231021-git.tgz";
     cl-deps = [ marshal xlunit ];
   });
   cl-match = (bqs {
@@ -9695,16 +9961,16 @@ in with cl; {
   });
   cl-messagepack = (bqs {
     name = "cl-messagepack";
-    version = "20201016-git";
-    hash = "md5-zVa3VgEqcQg4OKwuiEbqmA==";
-    url = "http://beta.quicklisp.org/archive/cl-messagepack/2020-10-16/cl-messagepack-20201016-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+/PW/GolR72ekFCBsiM1Eg==";
+    url = "http://beta.quicklisp.org/archive/cl-messagepack/2023-10-21/cl-messagepack-20231021-git.tgz";
     cl-deps = [ babel closer-mop flexi-streams ];
   });
   cl-messagepack-tests = (bqs {
     name = "cl-messagepack-tests";
-    version = "20201016-git";
-    hash = "md5-zVa3VgEqcQg4OKwuiEbqmA==";
-    url = "http://beta.quicklisp.org/archive/cl-messagepack/2020-10-16/cl-messagepack-20201016-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+/PW/GolR72ekFCBsiM1Eg==";
+    url = "http://beta.quicklisp.org/archive/cl-messagepack/2023-10-21/cl-messagepack-20231021-git.tgz";
     cl-deps = [ cl-json cl-messagepack fiveam ];
   });
   cl-messagepack-rpc = (bqs {
@@ -9730,52 +9996,59 @@ in with cl; {
   });
   cl-migratum = (bqs {
     name = "cl-migratum";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
     cl-deps = [ cl-ascii-table cl-reexport local-time log4cl ];
   });
   cl-migratum-dot-cli = (bqs {
     name = "cl-migratum.cli";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
     cl-deps = [ cl-migratum cl-migratum-dot-driver-dot-dbi cl-migratum-dot-driver-dot-rdbms-postgresql cl-migratum-dot-provider-dot-local-path clingon ];
   });
   cl-migratum-dot-driver-dot-dbi = (bqs {
     name = "cl-migratum.driver.dbi";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
     cl-deps = [ cl-dbi cl-migratum cl-migratum-dot-driver-dot-mixins cl-ppcre log4cl ];
   });
   cl-migratum-dot-driver-dot-mixins = (bqs {
     name = "cl-migratum.driver.mixins";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
     cl-deps = [ cl-migratum ];
+  });
+  cl-migratum-dot-driver-dot-postmodern-postgresql = (bqs {
+    name = "cl-migratum.driver.postmodern-postgresql";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
+    cl-deps = [ cl-migratum cl-migratum-dot-driver-dot-mixins hu-dot-dwim-dot-logger log4cl postmodern str ];
   });
   cl-migratum-dot-driver-dot-rdbms-postgresql = (bqs {
     name = "cl-migratum.driver.rdbms-postgresql";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
     cl-deps = [ cl-migratum cl-migratum-dot-driver-dot-mixins cl-ppcre hu-dot-dwim-dot-logger hu-dot-dwim-dot-rdbms-dot-postgresql log4cl ];
   });
   cl-migratum-dot-provider-dot-local-path = (bqs {
     name = "cl-migratum.provider.local-path";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
     cl-deps = [ cl-migratum cl-ppcre log4cl ];
   });
   cl-migratum-dot-test = (bqs {
     name = "cl-migratum.test";
-    version = "20230214-git";
-    hash = "md5-d3TIrJyRm/bqFgN3DZzwwg==";
-    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-02-14/cl-migratum-20230214-git.tgz";
-    cl-deps = [ cl-migratum cl-migratum-dot-driver-dot-dbi cl-migratum-dot-driver-dot-rdbms-postgresql cl-migratum-dot-provider-dot-local-path dbd-sqlite3 rove tmpdir ];
+    version = "20231021-git";
+    hash = "md5-uJ+Z/z4F6eBWjqphUshJFA==";
+    url = "http://beta.quicklisp.org/archive/cl-migratum/2023-10-21/cl-migratum-20231021-git.tgz";
+    cl-deps = [ cl-migratum cl-migratum-dot-driver-dot-dbi cl-migratum-dot-driver-dot-postmodern-postgresql cl-migratum-dot-driver-dot-rdbms-postgresql cl-migratum-dot-provider-dot-local-path dbd-sqlite3 rove tmpdir ];
   });
   cl-mime = (bqs {
     name = "cl-mime";
@@ -9828,136 +10101,157 @@ in with cl; {
   });
   cl-mixed = (bqs {
     name = "cl-mixed";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ alexandria cffi documentation-utils static-vectors trivial-features ];
+  });
+  cl-mixed-aaudio = (bqs {
+    name = "cl-mixed-aaudio";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
+    cl-deps = [ cffi cl-mixed ];
   });
   cl-mixed-alsa = (bqs {
     name = "cl-mixed-alsa";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed ];
   });
   cl-mixed-coreaudio = (bqs {
     name = "cl-mixed-coreaudio";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cffi cl-mixed float-features ];
   });
   cl-mixed-examples = (bqs {
     name = "cl-mixed-examples";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
-    cl-deps = [ cl-mixed cl-mixed-mpg123 cl-mixed-out123 ];
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
+    cl-deps = [ cl-mixed cl-mixed-mpg123 cl-mixed-out123 cl-mixed-pulse cl-mixed-wav ];
   });
   cl-mixed-flac = (bqs {
     name = "cl-mixed-flac";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-flac cl-mixed ];
   });
   cl-mixed-jack = (bqs {
     name = "cl-mixed-jack";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed ];
   });
   cl-mixed-mpg123 = (bqs {
     name = "cl-mixed-mpg123";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-mixed cl-mpg123 ];
   });
   cl-mixed-mpt = (bqs {
     name = "cl-mixed-mpt";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-mixed static-vectors ];
+  });
+  cl-mixed-nxau = (bqs {
+    name = "cl-mixed-nxau";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
+    cl-deps = [ cffi cl-mixed ];
+  });
+  cl-mixed-opus = (bqs {
+    name = "cl-mixed-opus";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
+    cl-deps = [ cl-mixed cl-opus ];
   });
   cl-mixed-oss = (bqs {
     name = "cl-mixed-oss";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed ];
   });
   cl-mixed-out123 = (bqs {
     name = "cl-mixed-out123";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-mixed cl-out123 ];
   });
   cl-mixed-pulse = (bqs {
     name = "cl-mixed-pulse";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed ];
   });
   cl-mixed-sdl2 = (bqs {
     name = "cl-mixed-sdl2";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-mixed sdl2 ];
   });
   cl-mixed-vorbis = (bqs {
     name = "cl-mixed-vorbis";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-mixed cl-vorbis ];
   });
   cl-mixed-wasapi = (bqs {
     name = "cl-mixed-wasapi";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed com-on ];
   });
   cl-mixed-wav = (bqs {
     name = "cl-mixed-wav";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cl-mixed ];
   });
   cl-mixed-winmm = (bqs {
     name = "cl-mixed-winmm";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed ];
   });
   cl-mixed-xaudio2 = (bqs {
     name = "cl-mixed-xaudio2";
-    version = "20230214-git";
-    hash = "md5-R5ZWy5ZJDpbn2xXVfAJqhg==";
-    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-02-14/cl-mixed-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-K0/N1dWjr9UpaQCSG0Rm7w==";
+    url = "http://beta.quicklisp.org/archive/cl-mixed/2023-10-21/cl-mixed-20231021-git.tgz";
     cl-deps = [ cffi cl-mixed com-on ];
   });
   mlep = (bqs {
     name = "mlep";
-    version = "20180430-git";
-    hash = "md5-N4VJvhjCazWiqSi0jyDnxg==";
-    url = "http://beta.quicklisp.org/archive/cl-mlep/2018-04-30/cl-mlep-20180430-git.tgz";
+    version = "20231021-git";
+    hash = "md5-N3hLdNgCeS4RK2xtfVcklA==";
+    url = "http://beta.quicklisp.org/archive/cl-mlep/2023-10-21/cl-mlep-20231021-git.tgz";
     cl-deps = [  ];
   });
   mlep-add = (bqs {
     name = "mlep-add";
-    version = "20180430-git";
-    hash = "md5-N4VJvhjCazWiqSi0jyDnxg==";
-    url = "http://beta.quicklisp.org/archive/cl-mlep/2018-04-30/cl-mlep-20180430-git.tgz";
-    cl-deps = [ cffi cl-num-utils lla mlep ];
+    version = "20231021-git";
+    hash = "md5-N3hLdNgCeS4RK2xtfVcklA==";
+    url = "http://beta.quicklisp.org/archive/cl-mlep/2023-10-21/cl-mlep-20231021-git.tgz";
+    cl-deps = [ cffi lla mlep num-utils ];
   });
   cl-mock = (bqs {
     name = "cl-mock";
@@ -9989,10 +10283,10 @@ in with cl; {
   });
   cl-modio = (bqs {
     name = "cl-modio";
-    version = "20230215-git";
-    hash = "md5-iVwnzKPqj2yIgoiOmi+jVQ==";
-    url = "http://beta.quicklisp.org/archive/cl-modio/2023-02-15/cl-modio-20230215-git.tgz";
-    cl-deps = [ alexandria cl-ppcre documentation-utils drakma language-codes uiop yason zippy ];
+    version = "20231021-git";
+    hash = "md5-H84CfnvCkaTkKHKzshV6KA==";
+    url = "http://beta.quicklisp.org/archive/cl-modio/2023-10-21/cl-modio-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre com-dot-inuoe-dot-jzon documentation-utils drakma language-codes uiop zippy ];
   });
   modlisp = (bqs {
     name = "modlisp";
@@ -10010,17 +10304,17 @@ in with cl; {
   });
   cl-moneris = (bqs {
     name = "cl-moneris";
-    version = "20110418-git";
-    hash = "md5-rSUn6n5thhh1eQfdIZMiSg==";
-    url = "http://beta.quicklisp.org/archive/cl-moneris/2011-04-18/cl-moneris-20110418-git.tgz";
+    version = "20231021-git";
+    hash = "md5-X1f5mH4v7fJjzzYwMqEIdg==";
+    url = "http://beta.quicklisp.org/archive/cl-moneris/2023-10-21/cl-moneris-20231021-git.tgz";
     cl-deps = [ drakma s-xml ];
   });
   cl-moneris-test = (bqs {
     name = "cl-moneris-test";
-    version = "20110418-git";
-    hash = "md5-rSUn6n5thhh1eQfdIZMiSg==";
-    url = "http://beta.quicklisp.org/archive/cl-moneris/2011-04-18/cl-moneris-20110418-git.tgz";
-    cl-deps = [ cl-moneris eos ];
+    version = "20231021-git";
+    hash = "md5-X1f5mH4v7fJjzzYwMqEIdg==";
+    url = "http://beta.quicklisp.org/archive/cl-moneris/2023-10-21/cl-moneris-20231021-git.tgz";
+    cl-deps = [ cl-moneris fiveam ];
   });
   cl-mongo = (bqs {
     name = "cl-mongo";
@@ -10038,9 +10332,9 @@ in with cl; {
   });
   cl-monitors = (bqs {
     name = "cl-monitors";
-    version = "20190710-git";
-    hash = "md5-HGx/AJFbAwGkT5nrXbKC/g==";
-    url = "http://beta.quicklisp.org/archive/cl-monitors/2019-07-10/cl-monitors-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-CQ2GQFuucpQmK5Uvl/TyMg==";
+    url = "http://beta.quicklisp.org/archive/cl-monitors/2023-10-21/cl-monitors-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features trivial-garbage ];
   });
   cl-mop = (bqs {
@@ -10073,23 +10367,23 @@ in with cl; {
   });
   cl-mount-info = (bqs {
     name = "cl-mount-info";
-    version = "20200218-git";
-    hash = "md5-woDelE+rY5vyp1U0oSY15Q==";
-    url = "http://beta.quicklisp.org/archive/cl-mount-info/2020-02-18/cl-mount-info-20200218-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uVyBsXsefu1sj+7k1iw1zg==";
+    url = "http://beta.quicklisp.org/archive/cl-mount-info/2023-10-21/cl-mount-info-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-ppcre ];
   });
   cl-mpg123 = (bqs {
     name = "cl-mpg123";
-    version = "20211209-git";
-    hash = "md5-NBPOzaMCwEOuo3qpyk97SQ==";
-    url = "http://beta.quicklisp.org/archive/cl-mpg123/2021-12-09/cl-mpg123-20211209-git.tgz";
+    version = "20231021-git";
+    hash = "md5-pUVaDDVnpwLC6Iwu5AxHRg==";
+    url = "http://beta.quicklisp.org/archive/cl-mpg123/2023-10-21/cl-mpg123-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features trivial-garbage ];
   });
   cl-mpg123-example = (bqs {
     name = "cl-mpg123-example";
-    version = "20211209-git";
-    hash = "md5-NBPOzaMCwEOuo3qpyk97SQ==";
-    url = "http://beta.quicklisp.org/archive/cl-mpg123/2021-12-09/cl-mpg123-20211209-git.tgz";
+    version = "20231021-git";
+    hash = "md5-pUVaDDVnpwLC6Iwu5AxHRg==";
+    url = "http://beta.quicklisp.org/archive/cl-mpg123/2023-10-21/cl-mpg123-20231021-git.tgz";
     cl-deps = [ cl-mpg123 cl-out123 verbose ];
   });
   cl-mpi = (bqs {
@@ -10269,58 +10563,58 @@ in with cl; {
   });
   cl-naive-store = (bqs {
     name = "cl-naive-store";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
-    cl-deps = [ cl-naive-store-dot-document-type-defs cl-naive-store-dot-document-types cl-naive-store-dot-naive-core cl-naive-store-dot-naive-documents cl-naive-store-dot-naive-indexed cl-naive-store-dot-naive-merkle ];
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
+    cl-deps = [ cl-naive-store-dot-definitions cl-naive-store-dot-document-types cl-naive-store-dot-naive-core cl-naive-store-dot-naive-documents cl-naive-store-dot-naive-indexed cl-naive-store-dot-naive-merkle ];
   });
-  cl-naive-store-dot-document-type-defs = (bqs {
-    name = "cl-naive-store.document-type-defs";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
+  cl-naive-store-dot-definitions = (bqs {
+    name = "cl-naive-store.definitions";
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
     cl-deps = [ cl-naive-store-dot-document-types cl-naive-store-dot-naive-core ];
   });
   cl-naive-store-dot-document-types = (bqs {
     name = "cl-naive-store.document-types";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
     cl-deps = [ cl-naive-store-dot-naive-core ];
   });
   cl-naive-store-dot-naive-core = (bqs {
     name = "cl-naive-store.naive-core";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-cpus cl-fad cl-getx cl-murmurhash ironclad local-time lparallel split-sequence uuid ];
   });
   cl-naive-store-dot-naive-documents = (bqs {
     name = "cl-naive-store.naive-documents";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
-    cl-deps = [ cl-naive-store-dot-document-type-defs cl-naive-store-dot-document-types cl-naive-store-dot-naive-core cl-naive-store-dot-naive-indexed ];
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
+    cl-deps = [ cl-naive-store-dot-document-types cl-naive-store-dot-naive-core cl-naive-store-dot-naive-indexed ];
   });
   cl-naive-store-dot-naive-indexed = (bqs {
     name = "cl-naive-store.naive-indexed";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
     cl-deps = [ cl-naive-store-dot-naive-core ];
   });
   cl-naive-store-dot-naive-merkle = (bqs {
     name = "cl-naive-store.naive-merkle";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
     cl-deps = [ cl-naive-store-dot-naive-documents ];
   });
   cl-naive-store-dot-test = (bqs {
     name = "cl-naive-store.test";
-    version = "20230214-git";
-    hash = "md5-b5DlOQAaRGi/9cwDonI7qA==";
-    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-02-14/cl-naive-store-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+lBqQnE3ycHIFf112MUGhA==";
+    url = "http://beta.quicklisp.org/archive/cl-naive-store/2023-10-21/cl-naive-store-20231021-git.tgz";
     cl-deps = [ alexandria cl-naive-store ];
   });
   cl-ncurses = (bqs {
@@ -10483,20 +10777,6 @@ in with cl; {
     hash = "md5-EYr9jAplqtjoPpLxnjERew==";
     url = "http://beta.quicklisp.org/archive/cl-ntriples/2019-03-07/cl-ntriples-20190307-hg.tgz";
     cl-deps = [ alexandria ];
-  });
-  cl-num-utils = (bqs {
-    name = "cl-num-utils";
-    version = "20210531-git";
-    hash = "md5-GXclG/VSuoIAXeDcLzfRMA==";
-    url = "http://beta.quicklisp.org/archive/cl-num-utils/2021-05-31/cl-num-utils-20210531-git.tgz";
-    cl-deps = [ alexandria anaphora array-operations cl-slice let-plus ];
-  });
-  cl-num-utils-tests = (bqs {
-    name = "cl-num-utils-tests";
-    version = "20210531-git";
-    hash = "md5-GXclG/VSuoIAXeDcLzfRMA==";
-    url = "http://beta.quicklisp.org/archive/cl-num-utils/2021-05-31/cl-num-utils-20210531-git.tgz";
-    cl-deps = [ cl-num-utils clunit ];
   });
   nxt = (bqs {
     name = "nxt";
@@ -10661,16 +10941,16 @@ in with cl; {
   });
   openapi-parser = (bqs {
     name = "openapi-parser";
-    version = "20210630-git";
-    hash = "md5-1LnAM3c1wBQViOJsqD5+zg==";
-    url = "http://beta.quicklisp.org/archive/cl-openapi-parser/2021-06-30/cl-openapi-parser-20210630-git.tgz";
+    version = "20230618-git";
+    hash = "md5-3vn89jRe8qg9yJBjbzbliQ==";
+    url = "http://beta.quicklisp.org/archive/cl-openapi-parser/2023-06-18/cl-openapi-parser-20230618-git.tgz";
     cl-deps = [ alexandria cl-change-case cl-package-locks cl-yaml closer-mop esrap str trivia trivial-types ];
   });
   openapi-parser-tests = (bqs {
     name = "openapi-parser-tests";
-    version = "20210630-git";
-    hash = "md5-1LnAM3c1wBQViOJsqD5+zg==";
-    url = "http://beta.quicklisp.org/archive/cl-openapi-parser/2021-06-30/cl-openapi-parser-20210630-git.tgz";
+    version = "20230618-git";
+    hash = "md5-3vn89jRe8qg9yJBjbzbliQ==";
+    url = "http://beta.quicklisp.org/archive/cl-openapi-parser/2023-06-18/cl-openapi-parser-20230618-git.tgz";
     cl-deps = [ openapi-parser rove ];
   });
   cl-opencl = (bqs {
@@ -10721,6 +11001,13 @@ in with cl; {
     hash = "md5-xTh/BRlg6RebLtMvr7Z+cg==";
     url = "http://beta.quicklisp.org/archive/cl-opengl/2019-11-30/cl-opengl-20191130-git.tgz";
     cl-deps = [ alexandria cffi float-features ];
+  });
+  cl-opensearch-query-builder = (bqs {
+    name = "cl-opensearch-query-builder";
+    version = "20230618-git";
+    hash = "md5-TR2sp7xXGgdQFmmQtIM6NQ==";
+    url = "http://beta.quicklisp.org/archive/cl-opensearch-query-builder/2023-06-18/cl-opensearch-query-builder-20230618-git.tgz";
+    cl-deps = [ com-dot-inuoe-dot-jzon ];
   });
   cl-openstack-client = (bqs {
     name = "cl-openstack-client";
@@ -10778,6 +11065,13 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-opsresearch/2017-04-03/cl-opsresearch-20170403-git.tgz";
     cl-deps = [ cl-opsresearch fiveam or-fann or-glpk or-gsl ];
   });
+  cl-opus = (bqs {
+    name = "cl-opus";
+    version = "20231021-git";
+    hash = "md5-6R3VQBx+D4cGAT2SK4/ovA==";
+    url = "http://beta.quicklisp.org/archive/cl-opus/2023-10-21/cl-opus-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils static-vectors trivial-features trivial-garbage ];
+  });
   cl-org-mode = (bqs {
     name = "cl-org-mode";
     version = "20101207-git";
@@ -10787,9 +11081,9 @@ in with cl; {
   });
   cl-out123 = (bqs {
     name = "cl-out123";
-    version = "20190710-git";
-    hash = "md5-/kl8wCjAc8Gyg5DHBKmOVg==";
-    url = "http://beta.quicklisp.org/archive/cl-out123/2019-07-10/cl-out123-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Sgxv+8tCPDA2VzB8qf528A==";
+    url = "http://beta.quicklisp.org/archive/cl-out123/2023-10-21/cl-out123-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cffi documentation-utils trivial-features trivial-garbage ];
   });
   cl-pack = (bqs {
@@ -10885,52 +11179,45 @@ in with cl; {
   });
   cl-patterns = (bqs {
     name = "cl-patterns";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-lPefD3qMVK3Q2WWB+1H6lg==";
+    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-10-21/cl-patterns-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads closer-mop dissect local-time mutility named-readtables ];
   });
   cl-patterns-slash-debug = (bqs {
     name = "cl-patterns/debug";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-lPefD3qMVK3Q2WWB+1H6lg==";
+    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-10-21/cl-patterns-20231021-git.tgz";
     cl-deps = [ cl-patterns ];
   });
   cl-patterns-slash-generic-cl = (bqs {
     name = "cl-patterns/generic-cl";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-lPefD3qMVK3Q2WWB+1H6lg==";
+    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-10-21/cl-patterns-20231021-git.tgz";
     cl-deps = [ cl-patterns generic-cl ];
   });
   cl-patterns-slash-midifile = (bqs {
     name = "cl-patterns/midifile";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-lPefD3qMVK3Q2WWB+1H6lg==";
+    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-10-21/cl-patterns-20231021-git.tgz";
     cl-deps = [ cl-patterns midi ];
-  });
-  cl-patterns-slash-sugar = (bqs {
-    name = "cl-patterns/sugar";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
-    cl-deps = [ cl-patterns ];
   });
   cl-patterns-slash-supercollider = (bqs {
     name = "cl-patterns/supercollider";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-lPefD3qMVK3Q2WWB+1H6lg==";
+    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-10-21/cl-patterns-20231021-git.tgz";
     cl-deps = [ cl-collider cl-patterns ];
   });
   cl-patterns-slash-tests = (bqs {
     name = "cl-patterns/tests";
-    version = "20230214-git";
-    hash = "md5-EX8glXYWAp2WEHsGwYgXHQ==";
-    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-02-14/cl-patterns-20230214-git.tgz";
-    cl-deps = [ cl-org-mode cl-patterns cl-ppcre fiveam mutility ];
+    version = "20231021-git";
+    hash = "md5-lPefD3qMVK3Q2WWB+1H6lg==";
+    url = "http://beta.quicklisp.org/archive/cl-patterns/2023-10-21/cl-patterns-20231021-git.tgz";
+    cl-deps = [ cl-patterns cl-ppcre fiveam mutility ];
   });
   cl-paymill = (bqs {
     name = "cl-paymill";
@@ -10962,16 +11249,16 @@ in with cl; {
   });
   cl-pdf = (bqs {
     name = "cl-pdf";
-    version = "20230214-git";
-    hash = "md5-bqn+NeSQpYLEEE2aHADD9g==";
-    url = "http://beta.quicklisp.org/archive/cl-pdf/2023-02-14/cl-pdf-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Qb+ooGI8copZYHiY8ddvsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-pdf/2023-10-21/cl-pdf-20231021-git.tgz";
     cl-deps = [ iterate uiop zpb-ttf ];
   });
   cl-pdf-parser = (bqs {
     name = "cl-pdf-parser";
-    version = "20230214-git";
-    hash = "md5-bqn+NeSQpYLEEE2aHADD9g==";
-    url = "http://beta.quicklisp.org/archive/cl-pdf/2023-02-14/cl-pdf-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Qb+ooGI8copZYHiY8ddvsQ==";
+    url = "http://beta.quicklisp.org/archive/cl-pdf/2023-10-21/cl-pdf-20231021-git.tgz";
     cl-deps = [ cl-pdf ];
   });
   peppol = (bqs {
@@ -10997,23 +11284,23 @@ in with cl; {
   });
   cl-permutation = (bqs {
     name = "cl-permutation";
-    version = "20211209-git";
-    hash = "md5-OoRItlsG0iMuhJKTBMPHLg==";
-    url = "http://beta.quicklisp.org/archive/cl-permutation/2021-12-09/cl-permutation-20211209-git.tgz";
-    cl-deps = [ alexandria bordeaux-fft cl-algebraic-data-type closer-mop iterate uiop ];
+    version = "20231021-git";
+    hash = "md5-qxoDPLc7YBkQVZ5sWpxeCA==";
+    url = "http://beta.quicklisp.org/archive/cl-permutation/2023-10-21/cl-permutation-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-fft cl-algebraic-data-type cl-cont closer-mop iterate priority-queue uiop ];
   });
   cl-permutation-examples = (bqs {
     name = "cl-permutation-examples";
-    version = "20211209-git";
-    hash = "md5-OoRItlsG0iMuhJKTBMPHLg==";
-    url = "http://beta.quicklisp.org/archive/cl-permutation/2021-12-09/cl-permutation-20211209-git.tgz";
+    version = "20231021-git";
+    hash = "md5-qxoDPLc7YBkQVZ5sWpxeCA==";
+    url = "http://beta.quicklisp.org/archive/cl-permutation/2023-10-21/cl-permutation-20231021-git.tgz";
     cl-deps = [ alexandria cl-permutation ];
   });
   cl-permutation-tests = (bqs {
     name = "cl-permutation-tests";
-    version = "20211209-git";
-    hash = "md5-OoRItlsG0iMuhJKTBMPHLg==";
-    url = "http://beta.quicklisp.org/archive/cl-permutation/2021-12-09/cl-permutation-20211209-git.tgz";
+    version = "20231021-git";
+    hash = "md5-qxoDPLc7YBkQVZ5sWpxeCA==";
+    url = "http://beta.quicklisp.org/archive/cl-permutation/2023-10-21/cl-permutation-20231021-git.tgz";
     cl-deps = [ cl-permutation cl-permutation-examples fiasco ];
   });
   cl-photo = (bqs {
@@ -11064,6 +11351,34 @@ in with cl; {
     hash = "md5-g1GIsYea6a0yO6+5zKNsDw==";
     url = "http://beta.quicklisp.org/archive/cl-plumbing/2018-10-18/cl-plumbing-20181018-git.tgz";
     cl-deps = [ cl-plumbing iterate stefil ];
+  });
+  cl-plus-ssl-osx-fix = (bqs {
+    name = "cl-plus-ssl-osx-fix";
+    version = "20231021-git";
+    hash = "md5-9cfGzQGoShAJRIbvzlNv/g==";
+    url = "http://beta.quicklisp.org/archive/cl-plus-ssl-osx-fix/2023-10-21/cl-plus-ssl-osx-fix-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system cl-plus-ssl ];
+  });
+  cl-plus-ssl-osx-fix-ci = (bqs {
+    name = "cl-plus-ssl-osx-fix-ci";
+    version = "20231021-git";
+    hash = "md5-9cfGzQGoShAJRIbvzlNv/g==";
+    url = "http://beta.quicklisp.org/archive/cl-plus-ssl-osx-fix/2023-10-21/cl-plus-ssl-osx-fix-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  cl-plus-ssl-osx-fix-docs = (bqs {
+    name = "cl-plus-ssl-osx-fix-docs";
+    version = "20231021-git";
+    hash = "md5-9cfGzQGoShAJRIbvzlNv/g==";
+    url = "http://beta.quicklisp.org/archive/cl-plus-ssl-osx-fix/2023-10-21/cl-plus-ssl-osx-fix-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc cl-plus-ssl-osx-fix docs-config named-readtables pythonic-string-reader ];
+  });
+  cl-plus-ssl-osx-fix-tests = (bqs {
+    name = "cl-plus-ssl-osx-fix-tests";
+    version = "20231021-git";
+    hash = "md5-9cfGzQGoShAJRIbvzlNv/g==";
+    url = "http://beta.quicklisp.org/archive/cl-plus-ssl-osx-fix/2023-10-21/cl-plus-ssl-osx-fix-20231021-git.tgz";
+    cl-deps = [ rove ];
   });
   cl-ply = (bqs {
     name = "cl-ply";
@@ -11179,30 +11494,30 @@ in with cl; {
   });
   cl-ppcre = (bqs {
     name = "cl-ppcre";
-    version = "20220220-git";
-    hash = "md5-38CPqIh9RG+w1/JDwbTnVw==";
-    url = "http://beta.quicklisp.org/archive/cl-ppcre/2022-02-20/cl-ppcre-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-pbd4qYoiLgLGFWI9rAQAFA==";
+    url = "http://beta.quicklisp.org/archive/cl-ppcre/2023-06-18/cl-ppcre-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-ppcre-unicode = (bqs {
     name = "cl-ppcre-unicode";
-    version = "20220220-git";
-    hash = "md5-38CPqIh9RG+w1/JDwbTnVw==";
-    url = "http://beta.quicklisp.org/archive/cl-ppcre/2022-02-20/cl-ppcre-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-pbd4qYoiLgLGFWI9rAQAFA==";
+    url = "http://beta.quicklisp.org/archive/cl-ppcre/2023-06-18/cl-ppcre-20230618-git.tgz";
     cl-deps = [ cl-ppcre cl-unicode ];
   });
   cl-ppcre-unicode-slash-test = (bqs {
     name = "cl-ppcre-unicode/test";
-    version = "20220220-git";
-    hash = "md5-38CPqIh9RG+w1/JDwbTnVw==";
-    url = "http://beta.quicklisp.org/archive/cl-ppcre/2022-02-20/cl-ppcre-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-pbd4qYoiLgLGFWI9rAQAFA==";
+    url = "http://beta.quicklisp.org/archive/cl-ppcre/2023-06-18/cl-ppcre-20230618-git.tgz";
     cl-deps = [ cl-ppcre cl-ppcre-unicode flexi-streams ];
   });
   cl-ppcre-slash-test = (bqs {
     name = "cl-ppcre/test";
-    version = "20220220-git";
-    hash = "md5-38CPqIh9RG+w1/JDwbTnVw==";
-    url = "http://beta.quicklisp.org/archive/cl-ppcre/2022-02-20/cl-ppcre-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-pbd4qYoiLgLGFWI9rAQAFA==";
+    url = "http://beta.quicklisp.org/archive/cl-ppcre/2023-06-18/cl-ppcre-20230618-git.tgz";
     cl-deps = [ cl-ppcre flexi-streams ];
   });
   cl-prevalence = (bqs {
@@ -11249,16 +11564,16 @@ in with cl; {
   });
   cl-project = (bqs {
     name = "cl-project";
-    version = "20200715-git";
-    hash = "md5-ErQ2BQrQEGzyknB6452Fcg==";
-    url = "http://beta.quicklisp.org/archive/cl-project/2020-07-15/cl-project-20200715-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MFLn/k1rfODTFtRD/o3gVg==";
+    url = "http://beta.quicklisp.org/archive/cl-project/2023-10-21/cl-project-20231021-git.tgz";
     cl-deps = [ cl-emb cl-ppcre local-time prove uiop ];
   });
   cl-project-test = (bqs {
     name = "cl-project-test";
-    version = "20200715-git";
-    hash = "md5-ErQ2BQrQEGzyknB6452Fcg==";
-    url = "http://beta.quicklisp.org/archive/cl-project/2020-07-15/cl-project-20200715-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MFLn/k1rfODTFtRD/o3gVg==";
+    url = "http://beta.quicklisp.org/archive/cl-project/2023-10-21/cl-project-20231021-git.tgz";
     cl-deps = [ caveman2 cl-project prove prove-asdf uiop ];
   });
   cl-prolog2 = (bqs {
@@ -11347,23 +11662,23 @@ in with cl; {
   });
   cl-protobufs-dot-asdf = (bqs {
     name = "cl-protobufs.asdf";
-    version = "20230214-git";
-    hash = "md5-Ilg5UXCopIuQ3kMtdcJ7/g==";
-    url = "http://beta.quicklisp.org/archive/cl-protobufs/2023-02-14/cl-protobufs-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-v+sTeXwrcA+AFO1SiXoAUA==";
+    url = "http://beta.quicklisp.org/archive/cl-protobufs/2023-10-21/cl-protobufs-20231021-git.tgz";
     cl-deps = [  ];
   });
   cl-pslib = (bqs {
     name = "cl-pslib";
-    version = "20201016-git";
-    hash = "md5-fmclA1nZuGJ3E7hYfSWq5A==";
-    url = "http://beta.quicklisp.org/archive/cl-pslib/2020-10-16/cl-pslib-20201016-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bSNBix3gLbrsNl1o5YDCrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-pslib/2023-10-21/cl-pslib-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-colors2 cl-ppcre-unicode ];
   });
   cl-pslib-barcode = (bqs {
     name = "cl-pslib-barcode";
-    version = "20200218-git";
-    hash = "md5-UqL/umKorroAH0p6EeaxOg==";
-    url = "http://beta.quicklisp.org/archive/cl-pslib-barcode/2020-02-18/cl-pslib-barcode-20200218-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8AF89dAZigKGnXBUJRi0rQ==";
+    url = "http://beta.quicklisp.org/archive/cl-pslib-barcode/2023-10-21/cl-pslib-barcode-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-colors2 cl-ppcre-unicode cl-pslib ];
   });
   cl-punch = (bqs {
@@ -11499,20 +11814,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-randist/2022-11-06/cl-randist-20221106-git.tgz";
     cl-deps = [  ];
   });
-  cl-random = (bqs {
-    name = "cl-random";
-    version = "20180328-git";
-    hash = "md5-DzAuoM93xRIOhc2pA6ECbg==";
-    url = "http://beta.quicklisp.org/archive/cl-random/2018-03-28/cl-random-20180328-git.tgz";
-    cl-deps = [ alexandria anaphora array-operations cl-num-utils cl-rmath cl-slice gsll let-plus lla ];
-  });
-  cl-random-tests = (bqs {
-    name = "cl-random-tests";
-    version = "20180328-git";
-    hash = "md5-DzAuoM93xRIOhc2pA6ECbg==";
-    url = "http://beta.quicklisp.org/archive/cl-random/2018-03-28/cl-random-20180328-git.tgz";
-    cl-deps = [ cl-random clunit ];
-  });
   cl-random-forest = (bqs {
     name = "cl-random-forest";
     version = "20221106-git";
@@ -11529,16 +11830,23 @@ in with cl; {
   });
   org-dot-melusina-dot-rashell = (bqs {
     name = "org.melusina.rashell";
-    version = "20230214-git";
-    hash = "md5-8gX+T9XpUkKuMh2UKufzXQ==";
-    url = "http://beta.quicklisp.org/archive/cl-rashell/2023-02-14/cl-rashell-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/1ZRL1PSPRMdQmusTosF7g==";
+    url = "http://beta.quicklisp.org/archive/cl-rashell/2023-10-21/cl-rashell-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre parse-float ];
+  });
+  org-dot-melusina-dot-rashell-slash-development = (bqs {
+    name = "org.melusina.rashell/development";
+    version = "20231021-git";
+    hash = "md5-/1ZRL1PSPRMdQmusTosF7g==";
+    url = "http://beta.quicklisp.org/archive/cl-rashell/2023-10-21/cl-rashell-20231021-git.tgz";
+    cl-deps = [ org-dot-melusina-dot-atelier ];
   });
   org-dot-melusina-dot-rashell-slash-testsuite = (bqs {
     name = "org.melusina.rashell/testsuite";
-    version = "20230214-git";
-    hash = "md5-8gX+T9XpUkKuMh2UKufzXQ==";
-    url = "http://beta.quicklisp.org/archive/cl-rashell/2023-02-14/cl-rashell-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/1ZRL1PSPRMdQmusTosF7g==";
+    url = "http://beta.quicklisp.org/archive/cl-rashell/2023-10-21/cl-rashell-20231021-git.tgz";
     cl-deps = [ org-dot-melusina-dot-confidence org-dot-melusina-dot-rashell ];
   });
   com-dot-dvlsoft-dot-rcfiles = (bqs {
@@ -11571,9 +11879,9 @@ in with cl; {
   });
   cl-readline = (bqs {
     name = "cl-readline";
-    version = "20220707-git";
-    hash = "md5-K50+ZxojlusmkRK0T1dI8w==";
-    url = "http://beta.quicklisp.org/archive/cl-readline/2022-07-07/cl-readline-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gRShpuj9WqvcO8pYxdpgIQ==";
+    url = "http://beta.quicklisp.org/archive/cl-readline/2023-10-21/cl-readline-20231021-git.tgz";
     cl-deps = [ alexandria cffi ];
   });
   cl-recaptcha = (bqs {
@@ -11620,16 +11928,16 @@ in with cl; {
   });
   cl-replica = (bqs {
     name = "cl-replica";
-    version = "20221106-git";
-    hash = "md5-DH5LBzjbbNUUGgoshxsS8w==";
-    url = "http://beta.quicklisp.org/archive/cl-replica/2022-11-06/cl-replica-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-YLQtt3sqMrC9pVub/AA7cA==";
+    url = "http://beta.quicklisp.org/archive/cl-replica/2023-06-18/cl-replica-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-replica-slash-test = (bqs {
     name = "cl-replica/test";
-    version = "20221106-git";
-    hash = "md5-DH5LBzjbbNUUGgoshxsS8w==";
-    url = "http://beta.quicklisp.org/archive/cl-replica/2022-11-06/cl-replica-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-YLQtt3sqMrC9pVub/AA7cA==";
+    url = "http://beta.quicklisp.org/archive/cl-replica/2023-06-18/cl-replica-20230618-git.tgz";
     cl-deps = [ cl-replica ];
   });
   cl-rethinkdb = (bqs {
@@ -11662,16 +11970,16 @@ in with cl; {
   });
   cl-rfc4251 = (bqs {
     name = "cl-rfc4251";
-    version = "20230214-git";
-    hash = "md5-ZicH/mdmDB/bKU3tbTNRGQ==";
-    url = "http://beta.quicklisp.org/archive/cl-rfc4251/2023-02-14/cl-rfc4251-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fVcepQ518hOCpYhcKMtLPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-rfc4251/2023-10-21/cl-rfc4251-20231021-git.tgz";
     cl-deps = [ trivial-gray-streams uiop ];
   });
   cl-rfc4251-dot-test = (bqs {
     name = "cl-rfc4251.test";
-    version = "20230214-git";
-    hash = "md5-ZicH/mdmDB/bKU3tbTNRGQ==";
-    url = "http://beta.quicklisp.org/archive/cl-rfc4251/2023-02-14/cl-rfc4251-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fVcepQ518hOCpYhcKMtLPQ==";
+    url = "http://beta.quicklisp.org/archive/cl-rfc4251/2023-10-21/cl-rfc4251-20231021-git.tgz";
     cl-deps = [ cl-rfc4251 rove ];
   });
   cl-riff = (bqs {
@@ -11694,13 +12002,6 @@ in with cl; {
     hash = "md5-Cn6ZlhjpOBtFj+qXA3dPRQ==";
     url = "http://beta.quicklisp.org/archive/cl-rmath/2018-03-28/cl-rmath-20180328-git.tgz";
     cl-deps = [ cffi ];
-  });
-  rollback = (bqs {
-    name = "rollback";
-    version = "20221106-git";
-    hash = "md5-+lqDA427yPpdwp/HFtz+/A==";
-    url = "http://beta.quicklisp.org/archive/cl-rollback/2022-11-06/cl-rollback-20221106-git.tgz";
-    cl-deps = [  ];
   });
   routes = (bqs {
     name = "routes";
@@ -11949,23 +12250,23 @@ in with cl; {
   });
   sdl2 = (bqs {
     name = "sdl2";
-    version = "20220707-git";
-    hash = "md5-0p6TkhcLJbIi4RoKRqGlBw==";
-    url = "http://beta.quicklisp.org/archive/cl-sdl2/2022-07-07/cl-sdl2-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/Z5YKnzchQVgr6QFiMk4FA==";
+    url = "http://beta.quicklisp.org/archive/cl-sdl2/2023-10-21/cl-sdl2-20231021-git.tgz";
     cl-deps = [ alexandria cl-autowrap cl-plus-c cl-ppcre trivial-channels trivial-features ];
   });
   sdl2-slash-examples = (bqs {
     name = "sdl2/examples";
-    version = "20220707-git";
-    hash = "md5-0p6TkhcLJbIi4RoKRqGlBw==";
-    url = "http://beta.quicklisp.org/archive/cl-sdl2/2022-07-07/cl-sdl2-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/Z5YKnzchQVgr6QFiMk4FA==";
+    url = "http://beta.quicklisp.org/archive/cl-sdl2/2023-10-21/cl-sdl2-20231021-git.tgz";
     cl-deps = [ cl-opengl sdl2 ];
   });
   sdl2-image = (bqs {
     name = "sdl2-image";
-    version = "20190202-git";
-    hash = "md5-0HcUCVBrN7D1bQJYOW0x/Q==";
-    url = "http://beta.quicklisp.org/archive/cl-sdl2-image/2019-02-02/cl-sdl2-image-20190202-git.tgz";
+    version = "20231021-git";
+    hash = "md5-tptpGSTZRb8++a78dniEtg==";
+    url = "http://beta.quicklisp.org/archive/cl-sdl2-image/2023-10-21/cl-sdl2-image-20231021-git.tgz";
     cl-deps = [ alexandria cl-autowrap defpackage-plus sdl2 ];
   });
   sdl2-mixer = (bqs {
@@ -12026,23 +12327,23 @@ in with cl; {
   });
   cl-semver = (bqs {
     name = "cl-semver";
-    version = "20221106-git";
-    hash = "md5-z3IjbBTDjiHRpYzD+6vlxw==";
-    url = "http://beta.quicklisp.org/archive/cl-semver/2022-11-06/cl-semver-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-EbWWrEnupNifTL8Sc5YmwA==";
+    url = "http://beta.quicklisp.org/archive/cl-semver/2023-06-18/cl-semver-20230618-git.tgz";
     cl-deps = [ alexandria esrap named-readtables ];
   });
   cl-semver-test = (bqs {
     name = "cl-semver-test";
-    version = "20221106-git";
-    hash = "md5-z3IjbBTDjiHRpYzD+6vlxw==";
-    url = "http://beta.quicklisp.org/archive/cl-semver/2022-11-06/cl-semver-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-EbWWrEnupNifTL8Sc5YmwA==";
+    url = "http://beta.quicklisp.org/archive/cl-semver/2023-06-18/cl-semver-20230618-git.tgz";
     cl-deps = [ cl-semver stefil ];
   });
   sendgrid = (bqs {
     name = "sendgrid";
-    version = "20221106-git";
-    hash = "md5-hHTi1bCkd5poKs77LwLLmQ==";
-    url = "http://beta.quicklisp.org/archive/cl-sendgrid/2022-11-06/cl-sendgrid-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Y+//Ll5d4S4qzNtjbdH8EQ==";
+    url = "http://beta.quicklisp.org/archive/cl-sendgrid/2023-10-21/cl-sendgrid-20231021-git.tgz";
     cl-deps = [ dexador jonathan ];
   });
   cl-sentiment = (bqs {
@@ -12054,24 +12355,31 @@ in with cl; {
   });
   sentry-client = (bqs {
     name = "sentry-client";
-    version = "20221106-git";
-    hash = "md5-B7t6Hzk3nRNFJPNj5FE+nQ==";
-    url = "http://beta.quicklisp.org/archive/cl-sentry-client/2022-11-06/cl-sentry-client-20221106-git.tgz";
-    cl-deps = [ cl-json cl-ppcre drakma local-time trivial-backtrace uuid ];
+    version = "20230618-git";
+    hash = "md5-RXyntCdMYDwN76FWmNNVRw==";
+    url = "http://beta.quicklisp.org/archive/cl-sentry-client/2023-06-18/cl-sentry-client-20230618-git.tgz";
+    cl-deps = [ babel cl-json cl-ppcre dexador local-time salza2 swank trivial-backtrace uuid ];
   });
   sentry-client-dot-async = (bqs {
     name = "sentry-client.async";
-    version = "20221106-git";
-    hash = "md5-B7t6Hzk3nRNFJPNj5FE+nQ==";
-    url = "http://beta.quicklisp.org/archive/cl-sentry-client/2022-11-06/cl-sentry-client-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-RXyntCdMYDwN76FWmNNVRw==";
+    url = "http://beta.quicklisp.org/archive/cl-sentry-client/2023-06-18/cl-sentry-client-20230618-git.tgz";
     cl-deps = [ sentry-client simple-tasks ];
   });
   sentry-client-dot-hunchentoot = (bqs {
     name = "sentry-client.hunchentoot";
-    version = "20221106-git";
-    hash = "md5-B7t6Hzk3nRNFJPNj5FE+nQ==";
-    url = "http://beta.quicklisp.org/archive/cl-sentry-client/2022-11-06/cl-sentry-client-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-RXyntCdMYDwN76FWmNNVRw==";
+    url = "http://beta.quicklisp.org/archive/cl-sentry-client/2023-06-18/cl-sentry-client-20230618-git.tgz";
     cl-deps = [ hunchentoot sentry-client ];
+  });
+  cl-server-manager = (bqs {
+    name = "cl-server-manager";
+    version = "20231021-git";
+    hash = "md5-a00xfdPq0jF5DxD/YDfvbQ==";
+    url = "http://beta.quicklisp.org/archive/cl-server-manager/2023-10-21/cl-server-manager-20231021-git.tgz";
+    cl-deps = [ alexandria hunchentoot prepl swank ];
   });
   cl-ses4 = (bqs {
     name = "cl-ses4";
@@ -12180,51 +12488,51 @@ in with cl; {
   });
   cl-skkserv = (bqs {
     name = "cl-skkserv";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-ppcre drakma esrap flexi-streams jp-numeral named-readtables papyrus yason ];
   });
   cl-skkserv-slash-cli = (bqs {
     name = "cl-skkserv/cli";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ alexandria cl-skkserv daemon unix-opts usocket usocket-server ];
   });
   cl-skkserv-slash-core = (bqs {
     name = "cl-skkserv/core";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ alexandria babel esrap named-readtables papyrus ];
   });
   cl-skkserv-slash-google-ime = (bqs {
     name = "cl-skkserv/google-ime";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ alexandria babel drakma esrap flexi-streams named-readtables papyrus yason ];
   });
   cl-skkserv-slash-mixed = (bqs {
     name = "cl-skkserv/mixed";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ alexandria babel esrap named-readtables papyrus ];
   });
   cl-skkserv-slash-skk = (bqs {
     name = "cl-skkserv/skk";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-ppcre esrap jp-numeral named-readtables papyrus ];
   });
   cl-skkserv-slash-tests = (bqs {
     name = "cl-skkserv/tests";
-    version = "20201220-git";
-    hash = "md5-Qs6/DGoHGa2OGCJPiaOcTA==";
-    url = "http://beta.quicklisp.org/archive/cl-skkserv/2020-12-20/cl-skkserv-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EGtOOZaYgywMEqGzcRLS/w==";
+    url = "http://beta.quicklisp.org/archive/cl-skkserv/2023-10-21/cl-skkserv-20231021-git.tgz";
     cl-deps = [ cl-1am cl-skkserv flexi-streams ];
   });
   cl-android = (bqs {
@@ -12269,6 +12577,20 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-slug/2018-02-28/cl-slug-20180228-git.tgz";
     cl-deps = [ cl-slug prove prove-asdf ];
   });
+  cl-slugify = (bqs {
+    name = "cl-slugify";
+    version = "20230618-git";
+    hash = "md5-ZQVDc0B4OrX2ArONB7DHCQ==";
+    url = "http://beta.quicklisp.org/archive/cl-slugify/2023-06-18/cl-slugify-20230618-git.tgz";
+    cl-deps = [ cl-unac ];
+  });
+  cl-slugify-dot-tests = (bqs {
+    name = "cl-slugify.tests";
+    version = "20230618-git";
+    hash = "md5-ZQVDc0B4OrX2ArONB7DHCQ==";
+    url = "http://beta.quicklisp.org/archive/cl-slugify/2023-06-18/cl-slugify-20230618-git.tgz";
+    cl-deps = [ cl-slugify fiveam ];
+  });
   cl-smt-lib = (bqs {
     name = "cl-smt-lib";
     version = "20220331-git";
@@ -12292,9 +12614,9 @@ in with cl; {
   });
   cl-soloud = (bqs {
     name = "cl-soloud";
-    version = "20190710-git";
-    hash = "md5-WbCUrfg4Y9v0kQAeydwOMw==";
-    url = "http://beta.quicklisp.org/archive/cl-soloud/2019-07-10/cl-soloud-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1Bht3h/7qzlSdlCp606miA==";
+    url = "http://beta.quicklisp.org/archive/cl-soloud/2023-10-21/cl-soloud-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-mpg123 documentation-utils trivial-features trivial-garbage trivial-indent ];
   });
   cl-sophia = (bqs {
@@ -12355,9 +12677,9 @@ in with cl; {
   });
   cl-spidev = (bqs {
     name = "cl-spidev";
-    version = "20190710-git";
-    hash = "md5-WabTNBdT2h/tmwWGTeqrxA==";
-    url = "http://beta.quicklisp.org/archive/cl-spidev/2019-07-10/cl-spidev-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Id6evEUHjJMJv2EYxDcxUA==";
+    url = "http://beta.quicklisp.org/archive/cl-spidev/2023-10-21/cl-spidev-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-garbage ];
   });
   sqlite = (bqs {
@@ -12418,16 +12740,16 @@ in with cl; {
   });
   cl-ssh-keys = (bqs {
     name = "cl-ssh-keys";
-    version = "20230214-git";
-    hash = "md5-X0D4dAhOhNvlOF5SNadsBw==";
-    url = "http://beta.quicklisp.org/archive/cl-ssh-keys/2023-02-14/cl-ssh-keys-20230214-git.tgz";
-    cl-deps = [ alexandria binascii cl-rfc4251 ironclad uiop ];
+    version = "20231021-git";
+    hash = "md5-919J+bUHDGR7GRTf2oesVQ==";
+    url = "http://beta.quicklisp.org/archive/cl-ssh-keys/2023-10-21/cl-ssh-keys-20231021-git.tgz";
+    cl-deps = [ alexandria cl-base64 cl-rfc4251 ironclad uiop ];
   });
   cl-ssh-keys-dot-test = (bqs {
     name = "cl-ssh-keys.test";
-    version = "20230214-git";
-    hash = "md5-X0D4dAhOhNvlOF5SNadsBw==";
-    url = "http://beta.quicklisp.org/archive/cl-ssh-keys/2023-02-14/cl-ssh-keys-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-919J+bUHDGR7GRTf2oesVQ==";
+    url = "http://beta.quicklisp.org/archive/cl-ssh-keys/2023-10-21/cl-ssh-keys-20231021-git.tgz";
     cl-deps = [ alexandria cl-ssh-keys rove ];
   });
   cl-statsd = (bqs {
@@ -12453,16 +12775,16 @@ in with cl; {
   });
   cl-steamworks = (bqs {
     name = "cl-steamworks";
-    version = "20230214-git";
-    hash = "md5-6m/NoFaKvJomJ4q9dJmB4w==";
-    url = "http://beta.quicklisp.org/archive/cl-steamworks/2023-02-14/cl-steamworks-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y+flRbzV5ikRm26uk9KZ8w==";
+    url = "http://beta.quicklisp.org/archive/cl-steamworks/2023-10-21/cl-steamworks-20231021-git.tgz";
     cl-deps = [ alexandria babel cffi documentation-utils float-features trivial-features trivial-garbage trivial-gray-streams ];
   });
   cl-steamworks-generator = (bqs {
     name = "cl-steamworks-generator";
-    version = "20230214-git";
-    hash = "md5-6m/NoFaKvJomJ4q9dJmB4w==";
-    url = "http://beta.quicklisp.org/archive/cl-steamworks/2023-02-14/cl-steamworks-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y+flRbzV5ikRm26uk9KZ8w==";
+    url = "http://beta.quicklisp.org/archive/cl-steamworks/2023-10-21/cl-steamworks-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-ppcre parse-number pathname-utils yason ];
   });
   cl-stomp = (bqs {
@@ -12474,9 +12796,9 @@ in with cl; {
   });
   cl-stopwatch = (bqs {
     name = "cl-stopwatch";
-    version = "20190307-hg";
-    hash = "md5-+KyoqsHcqj/4GOVY37hHGw==";
-    url = "http://beta.quicklisp.org/archive/cl-stopwatch/2019-03-07/cl-stopwatch-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-7Sxj97l/o8VUvCephMbn3A==";
+    url = "http://beta.quicklisp.org/archive/cl-stopwatch/2023-06-18/cl-stopwatch-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-store = (bqs {
@@ -12495,17 +12817,17 @@ in with cl; {
   });
   str = (bqs {
     name = "str";
-    version = "20230214-git";
-    hash = "md5-RcpWIDgEyZbR6Ku297g3Qg==";
-    url = "http://beta.quicklisp.org/archive/cl-str/2023-02-14/cl-str-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-XjxFEObVcIRrODh/io0m5w==";
+    url = "http://beta.quicklisp.org/archive/cl-str/2023-10-21/cl-str-20231021-git.tgz";
     cl-deps = [ cl-change-case cl-ppcre cl-ppcre-unicode ];
   });
   str-dot-test = (bqs {
     name = "str.test";
-    version = "20230214-git";
-    hash = "md5-RcpWIDgEyZbR6Ku297g3Qg==";
-    url = "http://beta.quicklisp.org/archive/cl-str/2023-02-14/cl-str-20230214-git.tgz";
-    cl-deps = [ prove prove-asdf str ];
+    version = "20231021-git";
+    hash = "md5-XjxFEObVcIRrODh/io0m5w==";
+    url = "http://beta.quicklisp.org/archive/cl-str/2023-10-21/cl-str-20231021-git.tgz";
+    cl-deps = [ fiveam str ];
   });
   cl-stream = (bqs {
     name = "cl-stream";
@@ -12530,9 +12852,9 @@ in with cl; {
   });
   cl-string-complete = (bqs {
     name = "cl-string-complete";
-    version = "20190307-hg";
-    hash = "md5-6Cis4mgQWtArWO0mSYrSjw==";
-    url = "http://beta.quicklisp.org/archive/cl-string-complete/2019-03-07/cl-string-complete-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-CXApl+J4G28ALVyIGnQ3ug==";
+    url = "http://beta.quicklisp.org/archive/cl-string-complete/2023-06-18/cl-string-complete-20230618-git.tgz";
     cl-deps = [  ];
   });
   cl-string-generator = (bqs {
@@ -12698,72 +13020,65 @@ in with cl; {
   });
   tar = (bqs {
     name = "tar";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ cl-40ants-doc alexandria babel local-time split-sequence tar-file uiop ];
   });
   tar-slash-common-extract = (bqs {
     name = "tar/common-extract";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ split-sequence tar uiop ];
   });
   tar-slash-create = (bqs {
     name = "tar/create";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ local-time osicat tar uiop ];
   });
   tar-slash-create-test = (bqs {
     name = "tar/create-test";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ local-time osicat parachute tar uiop ];
-  });
-  tar-slash-docs = (bqs {
-    name = "tar/docs";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
-    cl-deps = [ cl-40ants-doc alexandria local-time osicat split-sequence tar uiop ];
   });
   tar-slash-extract = (bqs {
     name = "tar/extract";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ alexandria local-time osicat split-sequence tar uiop ];
   });
   tar-slash-extract-test = (bqs {
     name = "tar/extract-test";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ alexandria local-time osicat parachute split-sequence tar uiop ];
   });
   tar-slash-simple-extract = (bqs {
     name = "tar/simple-extract";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ local-time split-sequence tar uiop ];
   });
   tar-slash-simple-extract-test = (bqs {
     name = "tar/simple-extract-test";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ local-time osicat parachute split-sequence tar uiop ];
   });
   tar-slash-test = (bqs {
     name = "tar/test";
-    version = "20220220-git";
-    hash = "md5-mvHrsGeU7HdPJgRblHIipw==";
-    url = "http://beta.quicklisp.org/archive/cl-tar/2022-02-20/cl-tar-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2gQt/Qs8I2xpC9I2SweedQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tar/2023-06-18/cl-tar-20230618-git.tgz";
     cl-deps = [ parachute tar ];
   });
   tar-file = (bqs {
@@ -12796,16 +13111,16 @@ in with cl; {
   });
   parse-rgb = (bqs {
     name = "parse-rgb";
-    version = "20201220-git";
-    hash = "md5-CGA+iWIiaWxLPtO+YMfChA==";
-    url = "http://beta.quicklisp.org/archive/cl-tcod/2020-12-20/cl-tcod-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ydxWazohFlUay23zv+E+g==";
+    url = "http://beta.quicklisp.org/archive/cl-tcod/2023-10-21/cl-tcod-20231021-git.tgz";
     cl-deps = [ cl-ppcre tcod ];
   });
   tcod = (bqs {
     name = "tcod";
-    version = "20201220-git";
-    hash = "md5-CGA+iWIiaWxLPtO+YMfChA==";
-    url = "http://beta.quicklisp.org/archive/cl-tcod/2020-12-20/cl-tcod-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ydxWazohFlUay23zv+E+g==";
+    url = "http://beta.quicklisp.org/archive/cl-tcod/2023-10-21/cl-tcod-20231021-git.tgz";
     cl-deps = [ cffi cffi-libffi defstar ];
   });
   cl-telebot = (bqs {
@@ -12817,10 +13132,31 @@ in with cl; {
   });
   cl-telegram-bot = (bqs {
     name = "cl-telegram-bot";
-    version = "20230214-git";
-    hash = "md5-YV8Tq8gegj/p9Qm8OnAE2w==";
-    url = "http://beta.quicklisp.org/archive/cl-telegram-bot/2023-02-14/cl-telegram-bot-20230214-git.tgz";
-    cl-deps = [ alexandria arrows bordeaux-threads cl-ppcre cl-strings closer-mop dexador jonathan kebab log4cl serapeum trivial-backtrace ];
+    version = "20230618-git";
+    hash = "md5-Mo3MH8As0CSt/ItPKjHtBA==";
+    url = "http://beta.quicklisp.org/archive/cl-telegram-bot/2023-06-18/cl-telegram-bot-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system alexandria arrows bordeaux-threads cl-ppcre cl-strings closer-mop dexador jonathan kebab log4cl serapeum trivial-backtrace ];
+  });
+  cl-telegram-bot-ci = (bqs {
+    name = "cl-telegram-bot-ci";
+    version = "20230618-git";
+    hash = "md5-Mo3MH8As0CSt/ItPKjHtBA==";
+    url = "http://beta.quicklisp.org/archive/cl-telegram-bot/2023-06-18/cl-telegram-bot-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  cl-telegram-bot-docs = (bqs {
+    name = "cl-telegram-bot-docs";
+    version = "20230618-git";
+    hash = "md5-Mo3MH8As0CSt/ItPKjHtBA==";
+    url = "http://beta.quicklisp.org/archive/cl-telegram-bot/2023-06-18/cl-telegram-bot-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc cl-telegram-bot docs-config named-readtables pythonic-string-reader ];
+  });
+  cl-telegram-bot-tests = (bqs {
+    name = "cl-telegram-bot-tests";
+    version = "20230618-git";
+    hash = "md5-Mo3MH8As0CSt/ItPKjHtBA==";
+    url = "http://beta.quicklisp.org/archive/cl-telegram-bot/2023-06-18/cl-telegram-bot-20230618-git.tgz";
+    cl-deps = [ rove ];
   });
   cl-template = (bqs {
     name = "cl-template";
@@ -12880,24 +13216,17 @@ in with cl; {
   });
   cl-threadpool = (bqs {
     name = "cl-threadpool";
-    version = "quickload-current-release-86ef8a6b-git";
-    hash = "md5-HJZjxLLkFJaM6Caip7croQ==";
-    url = "http://beta.quicklisp.org/archive/cl-threadpool/2021-02-28/cl-threadpool-quickload-current-release-86ef8a6b-git.tgz";
+    version = "quickload-current-release-6f50a83e-git";
+    hash = "md5-b+BGBUmyqgJGViKfHplVKw==";
+    url = "http://beta.quicklisp.org/archive/cl-threadpool/2023-06-18/cl-threadpool-quickload-current-release-6f50a83e-git.tgz";
     cl-deps = [ bordeaux-threads queues-dot-simple-cqueue ];
   });
   cl-threadpool-slash-doc = (bqs {
     name = "cl-threadpool/doc";
-    version = "quickload-current-release-86ef8a6b-git";
-    hash = "md5-HJZjxLLkFJaM6Caip7croQ==";
-    url = "http://beta.quicklisp.org/archive/cl-threadpool/2021-02-28/cl-threadpool-quickload-current-release-86ef8a6b-git.tgz";
+    version = "quickload-current-release-6f50a83e-git";
+    hash = "md5-b+BGBUmyqgJGViKfHplVKw==";
+    url = "http://beta.quicklisp.org/archive/cl-threadpool/2023-06-18/cl-threadpool-quickload-current-release-6f50a83e-git.tgz";
     cl-deps = [ cl-html-readme cl-threadpool docparser ];
-  });
-  cl-threadpool-slash-test = (bqs {
-    name = "cl-threadpool/test";
-    version = "quickload-current-release-86ef8a6b-git";
-    hash = "md5-HJZjxLLkFJaM6Caip7croQ==";
-    url = "http://beta.quicklisp.org/archive/cl-threadpool/2021-02-28/cl-threadpool-quickload-current-release-86ef8a6b-git.tgz";
-    cl-deps = [ cl-threadpool lisp-unit verbose ];
   });
   cl-tidy = (bqs {
     name = "cl-tidy";
@@ -12908,9 +13237,9 @@ in with cl; {
   });
   cl-tiled = (bqs {
     name = "cl-tiled";
-    version = "20210531-git";
-    hash = "md5-PhWE7TAGl8nkMJNSj7HzdA==";
-    url = "http://beta.quicklisp.org/archive/cl-tiled/2021-05-31/cl-tiled-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Wb03IM7BoPMCcd2a/KcOAg==";
+    url = "http://beta.quicklisp.org/archive/cl-tiled/2023-10-21/cl-tiled-20231021-git.tgz";
     cl-deps = [ alexandria chipz cl-base64 cl-json nibbles parse-float split-sequence uiop xmls ];
   });
   cl-tk = (bqs {
@@ -12929,9 +13258,9 @@ in with cl; {
   });
   cl-tls = (bqs {
     name = "cl-tls";
-    version = "20221106-git";
-    hash = "md5-dpFzV0VtOWKx9Zc9GqUeKQ==";
-    url = "http://beta.quicklisp.org/archive/cl-tls/2022-11-06/cl-tls-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-okP18EQ+4Bj81JQnGOgNQA==";
+    url = "http://beta.quicklisp.org/archive/cl-tls/2023-10-21/cl-tls-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-base64 fast-io ironclad ];
   });
   cl-tokyo-cabinet = (bqs {
@@ -12982,6 +13311,48 @@ in with cl; {
     hash = "md5-9uGnkihPjkD3qy3E1iKIvw==";
     url = "http://beta.quicklisp.org/archive/cl-torrents/2022-11-06/cl-torrents-20221106-git.tgz";
     cl-deps = [ nodgui torrents ];
+  });
+  cl-tqdm = (bqs {
+    name = "cl-tqdm";
+    version = "20230618-git";
+    hash = "md5-myXoVJdF3IN0jXGRoRmHcQ==";
+    url = "http://beta.quicklisp.org/archive/cl-tqdm/2023-06-18/cl-tqdm-20230618-git.tgz";
+    cl-deps = [  ];
+  });
+  transducers = (bqs {
+    name = "transducers";
+    version = "20231021-git";
+    hash = "md5-31lgy4fdUcYy9wz1H/T1rA==";
+    url = "http://beta.quicklisp.org/archive/cl-transducers/2023-10-21/cl-transducers-20231021-git.tgz";
+    cl-deps = [ sycamore ];
+  });
+  transducers-jzon = (bqs {
+    name = "transducers-jzon";
+    version = "20231021-git";
+    hash = "md5-31lgy4fdUcYy9wz1H/T1rA==";
+    url = "http://beta.quicklisp.org/archive/cl-transducers/2023-10-21/cl-transducers-20231021-git.tgz";
+    cl-deps = [ com-dot-inuoe-dot-jzon transducers trivia ];
+  });
+  transducers-slash-tests = (bqs {
+    name = "transducers/tests";
+    version = "20231021-git";
+    hash = "md5-31lgy4fdUcYy9wz1H/T1rA==";
+    url = "http://beta.quicklisp.org/archive/cl-transducers/2023-10-21/cl-transducers-20231021-git.tgz";
+    cl-deps = [ parachute transducers transducers-jzon ];
+  });
+  cl-transit = (bqs {
+    name = "cl-transit";
+    version = "20231021-git";
+    hash = "md5-G2zrJrUObPZuL8df3p87pQ==";
+    url = "http://beta.quicklisp.org/archive/cl-transit/2023-10-21/cl-transit-20231021-git.tgz";
+    cl-deps = [ alexandria bit-smasher cl-messagepack com-dot-inuoe-dot-jzon flexi-streams fset local-time parse-float quri serapeum uuid ];
+  });
+  cl-transit-tests = (bqs {
+    name = "cl-transit-tests";
+    version = "20231021-git";
+    hash = "md5-G2zrJrUObPZuL8df3p87pQ==";
+    url = "http://beta.quicklisp.org/archive/cl-transit/2023-10-21/cl-transit-20231021-git.tgz";
+    cl-deps = [ cl-transit dexador fiveam marshal ];
   });
   cl-transmission = (bqs {
     name = "cl-transmission";
@@ -13088,6 +13459,27 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/cl-uglify-js/2015-07-09/cl-uglify-js-20150709-git.tgz";
     cl-deps = [ cl-ppcre cl-ppcre-unicode iterate parse-js parse-number ];
   });
+  cl-unac = (bqs {
+    name = "cl-unac";
+    version = "20230618-git";
+    hash = "md5-9+uVGl+SmOBsP+vKUZnTKQ==";
+    url = "http://beta.quicklisp.org/archive/cl-unac/2023-06-18/cl-unac-20230618-git.tgz";
+    cl-deps = [ cffi cl-unac-dot-config ];
+  });
+  cl-unac-dot-config = (bqs {
+    name = "cl-unac.config";
+    version = "20230618-git";
+    hash = "md5-9+uVGl+SmOBsP+vKUZnTKQ==";
+    url = "http://beta.quicklisp.org/archive/cl-unac/2023-06-18/cl-unac-20230618-git.tgz";
+    cl-deps = [ cffi ];
+  });
+  cl-unac-dot-tests = (bqs {
+    name = "cl-unac.tests";
+    version = "20230618-git";
+    hash = "md5-9+uVGl+SmOBsP+vKUZnTKQ==";
+    url = "http://beta.quicklisp.org/archive/cl-unac/2023-06-18/cl-unac-20230618-git.tgz";
+    cl-deps = [ cl-unac fiveam ];
+  });
   cl-unicode = (bqs {
     name = "cl-unicode";
     version = "20210228-git";
@@ -13153,16 +13545,16 @@ in with cl; {
   });
   unix-sockets = (bqs {
     name = "unix-sockets";
-    version = "20221106-git";
-    hash = "md5-5HX7JAOJe4LorRiGedUUFA==";
-    url = "http://beta.quicklisp.org/archive/cl-unix-sockets/2022-11-06/cl-unix-sockets-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-zunNgBLpuTs8sLBCm6mIZA==";
+    url = "http://beta.quicklisp.org/archive/cl-unix-sockets/2023-06-18/cl-unix-sockets-20230618-git.tgz";
     cl-deps = [ cffi flexi-streams log4cl trivial-garbage trivial-gray-streams uffi ];
   });
   unix-sockets-dot-tests = (bqs {
     name = "unix-sockets.tests";
-    version = "20221106-git";
-    hash = "md5-5HX7JAOJe4LorRiGedUUFA==";
-    url = "http://beta.quicklisp.org/archive/cl-unix-sockets/2022-11-06/cl-unix-sockets-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-zunNgBLpuTs8sLBCm6mIZA==";
+    url = "http://beta.quicklisp.org/archive/cl-unix-sockets/2023-06-18/cl-unix-sockets-20230618-git.tgz";
     cl-deps = [ cl-fad fiveam tmpdir trivial-timeout unix-sockets ];
   });
   cl-utilities = (bqs {
@@ -13174,9 +13566,9 @@ in with cl; {
   });
   gt = (bqs {
     name = "gt";
-    version = "20230214-git";
-    hash = "md5-4Lzd4iKGVmffAJFvO0LSsg==";
-    url = "http://beta.quicklisp.org/archive/cl-utils/2023-02-14/cl-utils-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GlkYhoV8y9hzKNQrG05EzQ==";
+    url = "http://beta.quicklisp.org/archive/cl-utils/2023-10-21/cl-utils-20231021-git.tgz";
     cl-deps = [ alexandria asdf-package-system bordeaux-threads cl-ppcre closer-mop curry-compose-reader-macros fset functional-trees iterate misc-extensions named-readtables serapeum split-sequence trivia trivia-dot-ppcre ];
   });
   cl-variates = (bqs {
@@ -13223,17 +13615,17 @@ in with cl; {
   });
   veq = (bqs {
     name = "veq";
-    version = "20220707-git";
-    hash = "md5-cZ+Y19n9jDBlnVyUGL3r3g==";
-    url = "http://beta.quicklisp.org/archive/cl-veq/2022-07-07/cl-veq-20220707-git.tgz";
-    cl-deps = [ alexandria prove str ];
+    version = "v4.5.5";
+    hash = "md5-nVEMd2yNOckxjdHqlQkuig==";
+    url = "http://beta.quicklisp.org/archive/cl-veq/2023-10-21/cl-veq-v4.5.5.tgz";
+    cl-deps = [  ];
   });
   veq-slash-tests = (bqs {
     name = "veq/tests";
-    version = "20220707-git";
-    hash = "md5-cZ+Y19n9jDBlnVyUGL3r3g==";
-    url = "http://beta.quicklisp.org/archive/cl-veq/2022-07-07/cl-veq-20220707-git.tgz";
-    cl-deps = [ prove veq ];
+    version = "v4.5.5";
+    hash = "md5-nVEMd2yNOckxjdHqlQkuig==";
+    url = "http://beta.quicklisp.org/archive/cl-veq/2023-10-21/cl-veq-v4.5.5.tgz";
+    cl-deps = [ prove uiop veq ];
   });
   cl-vhdl = (bqs {
     name = "cl-vhdl";
@@ -13293,16 +13685,16 @@ in with cl; {
   });
   voipms = (bqs {
     name = "voipms";
-    version = "20220707-git";
-    hash = "md5-vgs2XsdyVe4G/YRf+2NNDg==";
-    url = "http://beta.quicklisp.org/archive/cl-voipms/2022-07-07/cl-voipms-20220707-git.tgz";
-    cl-deps = [ erjoalgo-webutil local-time ];
+    version = "20231021-git";
+    hash = "md5-SouOA2AzhYsvLDboNaEBlw==";
+    url = "http://beta.quicklisp.org/archive/cl-voipms/2023-10-21/cl-voipms-20231021-git.tgz";
+    cl-deps = [ cl-date-time-parser erjoalgo-webutil local-time ];
   });
   cl-vorbis = (bqs {
     name = "cl-vorbis";
-    version = "20230214-git";
-    hash = "md5-jHh32VBoVXIqXc+jgXLIPQ==";
-    url = "http://beta.quicklisp.org/archive/cl-vorbis/2023-02-14/cl-vorbis-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kxR3apKvkLSoeqvU0n2q3w==";
+    url = "http://beta.quicklisp.org/archive/cl-vorbis/2023-10-21/cl-vorbis-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils static-vectors trivial-features trivial-garbage ];
   });
   cl-voxelize = (bqs {
@@ -13360,6 +13752,13 @@ in with cl; {
     hash = "md5-8iSSSCW3tDA5T5DlP6Vlvg==";
     url = "http://beta.quicklisp.org/archive/cl-wave-file-writer/2021-10-20/cl-wave-file-writer-quickload-current-release-42cde6cf-git.tgz";
     cl-deps = [ cl-html-readme cl-wave-file-writer docparser ];
+  });
+  cl-wavefront = (bqs {
+    name = "cl-wavefront";
+    version = "20231021-git";
+    hash = "md5-aVYkzfz1g03LfgUitStS0w==";
+    url = "http://beta.quicklisp.org/archive/cl-wavefront/2023-10-21/cl-wavefront-20231021-git.tgz";
+    cl-deps = [ cl-ppcre documentation-utils parse-float ];
   });
   cl-wavelets = (bqs {
     name = "cl-wavelets";
@@ -13426,17 +13825,66 @@ in with cl; {
   });
   cl-webkit2 = (bqs {
     name = "cl-webkit2";
-    version = "20230214-git";
-    hash = "md5-q9KpnuKMG8NDRNEKUomxZw==";
-    url = "http://beta.quicklisp.org/archive/cl-webkit/2023-02-14/cl-webkit-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-G8pv1gIEiIrcGyI5Cd7dnA==";
+    url = "http://beta.quicklisp.org/archive/cl-webkit/2023-10-21/cl-webkit-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-cffi-gtk ];
   });
   cl-webkit2-slash-test = (bqs {
     name = "cl-webkit2/test";
-    version = "20230214-git";
-    hash = "md5-q9KpnuKMG8NDRNEKUomxZw==";
-    url = "http://beta.quicklisp.org/archive/cl-webkit/2023-02-14/cl-webkit-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-G8pv1gIEiIrcGyI5Cd7dnA==";
+    url = "http://beta.quicklisp.org/archive/cl-webkit/2023-10-21/cl-webkit-20231021-git.tgz";
     cl-deps = [ calispel cl-webkit2 fiveam float-features ];
+  });
+  org-dot-melusina-dot-webmachine = (bqs {
+    name = "org.melusina.webmachine";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre hunchentoot parse-number trivia ];
+  });
+  org-dot-melusina-dot-webmachine-slash-asset = (bqs {
+    name = "org.melusina.webmachine/asset";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ org-dot-melusina-dot-webmachine ];
+  });
+  org-dot-melusina-dot-webmachine-slash-development = (bqs {
+    name = "org.melusina.webmachine/development";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ alexandria cl-css cl-ppcre cl-who drakma hunchentoot ironclad org-dot-melusina-dot-atelier org-dot-melusina-dot-confidence org-dot-melusina-dot-webmachine parenscript shasht swank unix-opts ];
+  });
+  org-dot-melusina-dot-webmachine-slash-example = (bqs {
+    name = "org.melusina.webmachine/example";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ cl-css cl-who hunchentoot org-dot-melusina-dot-webmachine parenscript shasht swank unix-opts ];
+  });
+  org-dot-melusina-dot-webmachine-slash-server = (bqs {
+    name = "org.melusina.webmachine/server";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ cl-css cl-who hunchentoot org-dot-melusina-dot-webmachine parenscript swank ];
+  });
+  org-dot-melusina-dot-webmachine-slash-signature = (bqs {
+    name = "org.melusina.webmachine/signature";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ cl-css cl-who hunchentoot ironclad org-dot-melusina-dot-webmachine parenscript shasht swank unix-opts ];
+  });
+  org-dot-melusina-dot-webmachine-slash-testsuite = (bqs {
+    name = "org.melusina.webmachine/testsuite";
+    version = "20231021-git";
+    hash = "md5-rCdDFpWjcgrCCjeCMcqsrQ==";
+    url = "http://beta.quicklisp.org/archive/cl-webmachine/2023-10-21/cl-webmachine-20231021-git.tgz";
+    cl-deps = [ alexandria cl-css cl-ppcre cl-who drakma hunchentoot ironclad org-dot-melusina-dot-confidence org-dot-melusina-dot-webmachine parenscript shasht swank unix-opts ];
   });
   cl-who = (bqs {
     name = "cl-who";
@@ -13475,23 +13923,23 @@ in with cl; {
   });
   cl-wol-dot-cli = (bqs {
     name = "cl-wol.cli";
-    version = "20230214-git";
-    hash = "md5-q1zYejK61RyWLLSrTjqBEg==";
-    url = "http://beta.quicklisp.org/archive/cl-wol/2023-02-14/cl-wol-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-SgRF20uB/vyWjCzwFgzfqQ==";
+    url = "http://beta.quicklisp.org/archive/cl-wol/2023-10-21/cl-wol-20231021-git.tgz";
     cl-deps = [ cl-ascii-table cl-migratum cl-migratum-dot-driver-dot-dbi cl-migratum-dot-provider-dot-local-path cl-wol-dot-core clingon ];
   });
   cl-wol-dot-core = (bqs {
     name = "cl-wol.core";
-    version = "20230214-git";
-    hash = "md5-q1zYejK61RyWLLSrTjqBEg==";
-    url = "http://beta.quicklisp.org/archive/cl-wol/2023-02-14/cl-wol-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-SgRF20uB/vyWjCzwFgzfqQ==";
+    url = "http://beta.quicklisp.org/archive/cl-wol/2023-10-21/cl-wol-20231021-git.tgz";
     cl-deps = [ cl-ppcre usocket ];
   });
   cl-wol-dot-test = (bqs {
     name = "cl-wol.test";
-    version = "20230214-git";
-    hash = "md5-q1zYejK61RyWLLSrTjqBEg==";
-    url = "http://beta.quicklisp.org/archive/cl-wol/2023-02-14/cl-wol-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-SgRF20uB/vyWjCzwFgzfqQ==";
+    url = "http://beta.quicklisp.org/archive/cl-wol/2023-10-21/cl-wol-20231021-git.tgz";
     cl-deps = [ cl-wol-dot-core rove ];
   });
   cl-wordcut = (bqs {
@@ -13629,9 +14077,9 @@ in with cl; {
   });
   yxorp = (bqs {
     name = "yxorp";
-    version = "20221106-git";
-    hash = "md5-oKDisfoFfsSkkeOIKZeQ7Q==";
-    url = "http://beta.quicklisp.org/archive/cl-yxorp/2022-11-06/cl-yxorp-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BUk32GUhA2HtSujSWmvQIQ==";
+    url = "http://beta.quicklisp.org/archive/cl-yxorp/2023-10-21/cl-yxorp-20231021-git.tgz";
     cl-deps = [ binding-arrows chipz chunga cl-plus-ssl flexi-streams rutils salza2 smart-buffer str trivial-garbage usocket usocket-server ];
   });
   cl-zipper = (bqs {
@@ -13664,16 +14112,16 @@ in with cl; {
   });
   zstd = (bqs {
     name = "zstd";
-    version = "20221106-git";
-    hash = "md5-vT5uMaXbyJ6JYDsq/raARw==";
-    url = "http://beta.quicklisp.org/archive/cl-zstd/2022-11-06/cl-zstd-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-jUu48b+NbJc4m5A9UgpOLA==";
+    url = "http://beta.quicklisp.org/archive/cl-zstd/2023-06-18/cl-zstd-20230618-git.tgz";
     cl-deps = [ cffi cl-octet-streams trivial-gray-streams ];
   });
   zstd-tests = (bqs {
     name = "zstd-tests";
-    version = "20221106-git";
-    hash = "md5-vT5uMaXbyJ6JYDsq/raARw==";
-    url = "http://beta.quicklisp.org/archive/cl-zstd/2022-11-06/cl-zstd-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-jUu48b+NbJc4m5A9UgpOLA==";
+    url = "http://beta.quicklisp.org/archive/cl-zstd/2023-06-18/cl-zstd-20230618-git.tgz";
     cl-deps = [ cl-octet-streams fiveam uiop zstd ];
   });
   zyre = (bqs {
@@ -13734,79 +14182,72 @@ in with cl; {
   });
   clack = (bqs {
     name = "clack";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads lack lack-middleware-backtrace lack-util swank uiop usocket ];
-  });
-  clack-handler-fcgi = (bqs {
-    name = "clack-handler-fcgi";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
-    cl-deps = [ alexandria cl-fastcgi flexi-streams quri usocket ];
   });
   clack-handler-hunchentoot = (bqs {
     name = "clack-handler-hunchentoot";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads clack-socket flexi-streams hunchentoot split-sequence ];
   });
   clack-handler-toot = (bqs {
     name = "clack-handler-toot";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-ppcre flexi-streams split-sequence toot ];
   });
   clack-handler-wookie = (bqs {
     name = "clack-handler-wookie";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-async clack-socket fast-http fast-io flexi-streams quri split-sequence wookie ];
   });
   clack-socket = (bqs {
     name = "clack-socket";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [  ];
   });
   clack-test = (bqs {
     name = "clack-test";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ bordeaux-threads clack clack-handler-hunchentoot dexador flexi-streams http-body ironclad rove usocket ];
   });
   t-clack-handler-fcgi = (bqs {
     name = "t-clack-handler-fcgi";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ clack-test ];
   });
   t-clack-handler-hunchentoot = (bqs {
     name = "t-clack-handler-hunchentoot";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ clack-handler-hunchentoot clack-test ];
   });
   t-clack-handler-toot = (bqs {
     name = "t-clack-handler-toot";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ clack-handler-toot clack-test ];
   });
   t-clack-handler-wookie = (bqs {
     name = "t-clack-handler-wookie";
-    version = "20230214-git";
-    hash = "md5-PnevxZDBJmkoLlcZaiSI0g==";
-    url = "http://beta.quicklisp.org/archive/clack/2023-02-14/clack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-bmjXURjm24jo+0xVYOTxYw==";
+    url = "http://beta.quicklisp.org/archive/clack/2023-10-21/clack-20231021-git.tgz";
     cl-deps = [ clack-test ];
   });
   clack-errors = (bqs {
@@ -13867,9 +14308,9 @@ in with cl; {
   });
   clad = (bqs {
     name = "clad";
-    version = "20230214-git";
-    hash = "md5-5sRrLC7Eg3pW0uGCQ7XO6w==";
-    url = "http://beta.quicklisp.org/archive/clad/2023-02-14/clad-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ZRSJoPTVzp5v6iw1EukYsA==";
+    url = "http://beta.quicklisp.org/archive/clad/2023-06-18/clad-20230618-git.tgz";
     cl-deps = [  ];
   });
   class-options = (bqs {
@@ -13888,30 +14329,30 @@ in with cl; {
   });
   classimp = (bqs {
     name = "classimp";
-    version = "20200325-git";
-    hash = "md5-VlUb8GPxofz2yb41Hslgng==";
-    url = "http://beta.quicklisp.org/archive/classimp/2020-03-25/classimp-20200325-git.tgz";
+    version = "20230618-git";
+    hash = "md5-AWzZ6+iHoiv8OIHQ0J/E8A==";
+    url = "http://beta.quicklisp.org/archive/classimp/2023-06-18/classimp-20230618-git.tgz";
     cl-deps = [ cffi split-sequence ];
   });
   classimp-samples = (bqs {
     name = "classimp-samples";
-    version = "20200325-git";
-    hash = "md5-VlUb8GPxofz2yb41Hslgng==";
-    url = "http://beta.quicklisp.org/archive/classimp/2020-03-25/classimp-20200325-git.tgz";
+    version = "20230618-git";
+    hash = "md5-AWzZ6+iHoiv8OIHQ0J/E8A==";
+    url = "http://beta.quicklisp.org/archive/classimp/2023-06-18/classimp-20230618-git.tgz";
     cl-deps = [ cl-fad cl-glu cl-glut cl-ilut classimp ];
   });
   classowary = (bqs {
     name = "classowary";
-    version = "20191007-git";
-    hash = "md5-olh5hngKQCUbAydoa4F8xg==";
-    url = "http://beta.quicklisp.org/archive/classowary/2019-10-07/classowary-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-u36NisbpVtu64/DV4OTyRA==";
+    url = "http://beta.quicklisp.org/archive/classowary/2023-10-21/classowary-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   classowary-test = (bqs {
     name = "classowary-test";
-    version = "20191007-git";
-    hash = "md5-olh5hngKQCUbAydoa4F8xg==";
-    url = "http://beta.quicklisp.org/archive/classowary/2019-10-07/classowary-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-u36NisbpVtu64/DV4OTyRA==";
+    url = "http://beta.quicklisp.org/archive/classowary/2023-10-21/classowary-20231021-git.tgz";
     cl-deps = [ classowary parachute ];
   });
   clast = (bqs {
@@ -14245,37 +14686,37 @@ in with cl; {
   });
   clingon = (bqs {
     name = "clingon";
-    version = "20230214-git";
-    hash = "md5-ZHCrGQJECncXjOXcRBrYnQ==";
-    url = "http://beta.quicklisp.org/archive/clingon/2023-02-14/clingon-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t9ms8PK2KE3jz39Ya26Oew==";
+    url = "http://beta.quicklisp.org/archive/clingon/2023-10-21/clingon-20231021-git.tgz";
     cl-deps = [ bobbin cl-reexport split-sequence uiop with-user-abort ];
   });
   clingon-dot-demo = (bqs {
     name = "clingon.demo";
-    version = "20230214-git";
-    hash = "md5-ZHCrGQJECncXjOXcRBrYnQ==";
-    url = "http://beta.quicklisp.org/archive/clingon/2023-02-14/clingon-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t9ms8PK2KE3jz39Ya26Oew==";
+    url = "http://beta.quicklisp.org/archive/clingon/2023-10-21/clingon-20231021-git.tgz";
     cl-deps = [ clingon ];
   });
   clingon-dot-intro = (bqs {
     name = "clingon.intro";
-    version = "20230214-git";
-    hash = "md5-ZHCrGQJECncXjOXcRBrYnQ==";
-    url = "http://beta.quicklisp.org/archive/clingon/2023-02-14/clingon-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t9ms8PK2KE3jz39Ya26Oew==";
+    url = "http://beta.quicklisp.org/archive/clingon/2023-10-21/clingon-20231021-git.tgz";
     cl-deps = [ clingon ];
   });
   clingon-dot-test = (bqs {
     name = "clingon.test";
-    version = "20230214-git";
-    hash = "md5-ZHCrGQJECncXjOXcRBrYnQ==";
-    url = "http://beta.quicklisp.org/archive/clingon/2023-02-14/clingon-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t9ms8PK2KE3jz39Ya26Oew==";
+    url = "http://beta.quicklisp.org/archive/clingon/2023-10-21/clingon-20231021-git.tgz";
     cl-deps = [ clingon rove ];
   });
   clip = (bqs {
     name = "clip";
-    version = "20230214-git";
-    hash = "md5-cKFn2Es6D0oc86apfVO+yw==";
-    url = "http://beta.quicklisp.org/archive/clip/2023-02-14/clip-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RLQ2q53VVoDLWSarIvdwvA==";
+    url = "http://beta.quicklisp.org/archive/clip/2023-10-21/clip-20231021-git.tgz";
     cl-deps = [ array-utils lquery ];
   });
   clipper = (bqs {
@@ -14409,7 +14850,7 @@ in with cl; {
     version = "20220220-git";
     hash = "md5-zDP0WekY1pNnZLXFgk/wXQ==";
     url = "http://beta.quicklisp.org/archive/clml/2022-02-20/clml-20220220-git.tgz";
-    cl-deps = [ cl-ppcre clml-dot-data-dot-r-datasets clml-dot-hjs clml-dot-utility drakma ];
+    cl-deps = [ cl-ppcre clml-dot-data-dot-r-datasets-package clml-dot-hjs clml-dot-utility drakma ];
   });
   clml-dot-decision-tree = (bqs {
     name = "clml.decision-tree";
@@ -14609,44 +15050,44 @@ in with cl; {
   });
   clog = (bqs {
     name = "clog";
-    version = "20230214-git";
-    hash = "md5-M48/MvgUYuVLxyT5LhMXeQ==";
-    url = "http://beta.quicklisp.org/archive/clog/2023-02-14/clog-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Uk3cm3jgmt+UByKopfGiug==";
+    url = "http://beta.quicklisp.org/archive/clog/2023-10-21/clog-20231021-git.tgz";
     cl-deps = [ alexandria atomics bordeaux-threads cl-dbi cl-isaac cl-pass cl-ppcre cl-template clack closer-mop hunchentoot lack-middleware-static lack-request lack-util-writer-stream mgl-pax parse-float quri sqlite trivial-open-browser websocket-driver ];
   });
   clog-slash-docs = (bqs {
     name = "clog/docs";
-    version = "20230214-git";
-    hash = "md5-M48/MvgUYuVLxyT5LhMXeQ==";
-    url = "http://beta.quicklisp.org/archive/clog/2023-02-14/clog-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Uk3cm3jgmt+UByKopfGiug==";
+    url = "http://beta.quicklisp.org/archive/clog/2023-10-21/clog-20231021-git.tgz";
     cl-deps = [ cl-3bmd clog colorize ];
   });
   clog-slash-tools = (bqs {
     name = "clog/tools";
-    version = "20230214-git";
-    hash = "md5-M48/MvgUYuVLxyT5LhMXeQ==";
-    url = "http://beta.quicklisp.org/archive/clog/2023-02-14/clog-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Uk3cm3jgmt+UByKopfGiug==";
+    url = "http://beta.quicklisp.org/archive/clog/2023-10-21/clog-20231021-git.tgz";
     cl-deps = [ clog clog-ace clog-terminal definitions s-base64 swank ];
   });
   hello-builder = (bqs {
     name = "hello-builder";
-    version = "20230214-git";
-    hash = "md5-M48/MvgUYuVLxyT5LhMXeQ==";
-    url = "http://beta.quicklisp.org/archive/clog/2023-02-14/clog-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Uk3cm3jgmt+UByKopfGiug==";
+    url = "http://beta.quicklisp.org/archive/clog/2023-10-21/clog-20231021-git.tgz";
     cl-deps = [ clog ];
   });
   hello-builder-slash-tools = (bqs {
     name = "hello-builder/tools";
-    version = "20230214-git";
-    hash = "md5-M48/MvgUYuVLxyT5LhMXeQ==";
-    url = "http://beta.quicklisp.org/archive/clog/2023-02-14/clog-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Uk3cm3jgmt+UByKopfGiug==";
+    url = "http://beta.quicklisp.org/archive/clog/2023-10-21/clog-20231021-git.tgz";
     cl-deps = [ clog clog-ace clog-terminal definitions hello-builder s-base64 swank ];
   });
   hello-clog = (bqs {
     name = "hello-clog";
-    version = "20230214-git";
-    hash = "md5-M48/MvgUYuVLxyT5LhMXeQ==";
-    url = "http://beta.quicklisp.org/archive/clog/2023-02-14/clog-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Uk3cm3jgmt+UByKopfGiug==";
+    url = "http://beta.quicklisp.org/archive/clog/2023-10-21/clog-20231021-git.tgz";
     cl-deps = [ clog ];
   });
   clog-ace = (bqs {
@@ -14662,6 +15103,13 @@ in with cl; {
     hash = "md5-w8np+1fc287N5mCPOnmnPg==";
     url = "http://beta.quicklisp.org/archive/clog-ace/2022-11-06/clog-ace-20221106-git.tgz";
     cl-deps = [ clog clog-ace ];
+  });
+  clog-collection = (bqs {
+    name = "clog-collection";
+    version = "20231021-git";
+    hash = "md5-Gwew8H4LQydfmI1vHEHqEg==";
+    url = "http://beta.quicklisp.org/archive/clog-collection/2023-10-21/clog-collection-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre clog iterate literate-lisp yason ];
   });
   clog-plotly = (bqs {
     name = "clog-plotly";
@@ -14690,6 +15138,13 @@ in with cl; {
     hash = "md5-9Pu6hkvBMj6u7YggiW9NaQ==";
     url = "http://beta.quicklisp.org/archive/clog-terminal/2022-11-06/clog-terminal-20221106-git.tgz";
     cl-deps = [ clog clog-terminal ];
+  });
+  clohost = (bqs {
+    name = "clohost";
+    version = "20231021-git";
+    hash = "md5-ikGSgE6i9WHkwhQHbi38zw==";
+    url = "http://beta.quicklisp.org/archive/clohost/2023-10-21/clohost-20231021-git.tgz";
+    cl-deps = [ com-dot-inuoe-dot-jzon crypto-shortcuts documentation-utils drakma trivial-mimes ];
   });
   clonsigna = (bqs {
     name = "clonsigna";
@@ -14735,9 +15190,9 @@ in with cl; {
   });
   closer-mop = (bqs {
     name = "closer-mop";
-    version = "20230214-git";
-    hash = "md5-lxLGBWjLSDHOaxSydzNW1g==";
-    url = "http://beta.quicklisp.org/archive/closer-mop/2023-02-14/closer-mop-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Dcjqna25Ou3tfcxKRHzqnw==";
+    url = "http://beta.quicklisp.org/archive/closer-mop/2023-10-21/closer-mop-20231021-git.tgz";
     cl-deps = [  ];
   });
   closure-common = (bqs {
@@ -14903,9 +15358,9 @@ in with cl; {
   });
   clss = (bqs {
     name = "clss";
-    version = "20221106-git";
-    hash = "md5-PpQitwQB9gKdQgJ6lJOHYQ==";
-    url = "http://beta.quicklisp.org/archive/clss/2022-11-06/clss-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3+Ee6CdEjowSQp0hPqMF+g==";
+    url = "http://beta.quicklisp.org/archive/clss/2023-10-21/clss-20231021-git.tgz";
     cl-deps = [ array-utils plump ];
   });
   cltcl = (bqs {
@@ -14917,51 +15372,51 @@ in with cl; {
   });
   cluffer = (bqs {
     name = "cluffer";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ cluffer-base cluffer-simple-buffer cluffer-simple-line cluffer-standard-buffer cluffer-standard-line ];
   });
   cluffer-base = (bqs {
     name = "cluffer-base";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ acclimation ];
   });
   cluffer-simple-buffer = (bqs {
     name = "cluffer-simple-buffer";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ cluffer-base ];
   });
   cluffer-simple-line = (bqs {
     name = "cluffer-simple-line";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ cluffer-base ];
   });
   cluffer-standard-buffer = (bqs {
     name = "cluffer-standard-buffer";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ cluffer-base clump ];
   });
   cluffer-standard-line = (bqs {
     name = "cluffer-standard-line";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ cluffer-base ];
   });
   cluffer-test = (bqs {
     name = "cluffer-test";
-    version = "20230214-git";
-    hash = "md5-U03/yAExbTVe3LcgNzYqBA==";
-    url = "http://beta.quicklisp.org/archive/cluffer/2023-02-14/cluffer-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-w6O9VYvg1nX2GltHO17MSA==";
+    url = "http://beta.quicklisp.org/archive/cluffer/2023-06-18/cluffer-20230618-git.tgz";
     cl-deps = [ cluffer ];
   });
   clump = (bqs {
@@ -15001,9 +15456,9 @@ in with cl; {
   });
   clunit2 = (bqs {
     name = "clunit2";
-    version = "20221106-git";
-    hash = "md5-K48zrE1IXi6a3jZRpkPNew==";
-    url = "http://beta.quicklisp.org/archive/clunit2/2022-11-06/clunit2-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-LBMYFwum/d/pyf63fDoGuA==";
+    url = "http://beta.quicklisp.org/archive/clunit2/2023-10-21/clunit2-20231021-git.tgz";
     cl-deps = [  ];
   });
   clustered-intset = (bqs {
@@ -15071,16 +15526,16 @@ in with cl; {
   });
   clx = (bqs {
     name = "clx";
-    version = "20230214-git";
-    hash = "md5-tTqYRrm/epahXoIWBe1vZA==";
-    url = "http://beta.quicklisp.org/archive/clx/2023-02-14/clx-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-G9Ptg8GcfE+/WXMOB5t8GA==";
+    url = "http://beta.quicklisp.org/archive/clx/2023-06-18/clx-20230618-git.tgz";
     cl-deps = [  ];
   });
   clx-slash-test = (bqs {
     name = "clx/test";
-    version = "20230214-git";
-    hash = "md5-tTqYRrm/epahXoIWBe1vZA==";
-    url = "http://beta.quicklisp.org/archive/clx/2023-02-14/clx-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-G9Ptg8GcfE+/WXMOB5t8GA==";
+    url = "http://beta.quicklisp.org/archive/clx/2023-06-18/clx-20230618-git.tgz";
     cl-deps = [ clx fiasco ];
   });
   xembed = (bqs {
@@ -15113,9 +15568,9 @@ in with cl; {
   });
   cmd = (bqs {
     name = "cmd";
-    version = "20230214-git";
-    hash = "md5-t26VFMdKADuek4rYbRAZ5A==";
-    url = "http://beta.quicklisp.org/archive/cmd/2023-02-14/cmd-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-qm9+yh+J7MaT4G1yVfpqLQ==";
+    url = "http://beta.quicklisp.org/archive/cmd/2023-06-18/cmd-20230618-git.tgz";
     cl-deps = [ alexandria serapeum shlex trivia trivial-garbage ];
   });
   cmu-infix = (bqs {
@@ -15141,37 +15596,37 @@ in with cl; {
   });
   codex = (bqs {
     name = "codex";
-    version = "20181210-git";
-    hash = "md5-fDPQNh0uUNloqt5xRhRD9A==";
-    url = "http://beta.quicklisp.org/archive/codex/2018-12-10/codex-20181210-git.tgz";
+    version = "20231021-git";
+    hash = "md5-G68cmlSPUm5yL44WIbq/kQ==";
+    url = "http://beta.quicklisp.org/archive/codex/2023-10-21/codex-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre cl-slug codex-templates common-doc common-doc-contrib docparser pandocl ];
   });
   codex-templates = (bqs {
     name = "codex-templates";
-    version = "20181210-git";
-    hash = "md5-fDPQNh0uUNloqt5xRhRD9A==";
-    url = "http://beta.quicklisp.org/archive/codex/2018-12-10/codex-20181210-git.tgz";
-    cl-deps = [ common-html djula trivial-types ];
+    version = "20231021-git";
+    hash = "md5-G68cmlSPUm5yL44WIbq/kQ==";
+    url = "http://beta.quicklisp.org/archive/codex/2023-10-21/codex-20231021-git.tgz";
+    cl-deps = [ cl-fad common-html djula trivial-types ];
   });
   coleslaw = (bqs {
     name = "coleslaw";
-    version = "20221106-git";
-    hash = "md5-BwPlEJHmyTLQwx4FVupI5Q==";
-    url = "http://beta.quicklisp.org/archive/coleslaw/2022-11-06/coleslaw-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MWJSNyWEeN2x5LkdcbsB+g==";
+    url = "http://beta.quicklisp.org/archive/coleslaw/2023-10-21/coleslaw-20231021-git.tgz";
     cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria cl-fad cl-ppcre cl-unicode closer-mop closure-template inferior-shell local-time uiop ];
   });
   coleslaw-cli = (bqs {
     name = "coleslaw-cli";
-    version = "20221106-git";
-    hash = "md5-BwPlEJHmyTLQwx4FVupI5Q==";
-    url = "http://beta.quicklisp.org/archive/coleslaw/2022-11-06/coleslaw-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MWJSNyWEeN2x5LkdcbsB+g==";
+    url = "http://beta.quicklisp.org/archive/coleslaw/2023-10-21/coleslaw-20231021-git.tgz";
     cl-deps = [ clack coleslaw trivia uiop ];
   });
   coleslaw-test = (bqs {
     name = "coleslaw-test";
-    version = "20221106-git";
-    hash = "md5-BwPlEJHmyTLQwx4FVupI5Q==";
-    url = "http://beta.quicklisp.org/archive/coleslaw/2022-11-06/coleslaw-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MWJSNyWEeN2x5LkdcbsB+g==";
+    url = "http://beta.quicklisp.org/archive/coleslaw/2023-10-21/coleslaw-20231021-git.tgz";
     cl-deps = [ coleslaw coleslaw-cli prove prove-asdf ];
   });
   collectors = (bqs {
@@ -15187,13 +15642,6 @@ in with cl; {
     hash = "md5-QpulDdCkXlpuCToTstI9Dg==";
     url = "http://beta.quicklisp.org/archive/collectors/2022-02-20/collectors-20220220-git.tgz";
     cl-deps = [ collectors lisp-unit2 ];
-  });
-  colleen = (bqs {
-    name = "colleen";
-    version = "20181018-git";
-    hash = "md5-sg7BP2qWEuD0lq9+zLJPVA==";
-    url = "http://beta.quicklisp.org/archive/colleen/2018-10-18/colleen-20181018-git.tgz";
-    cl-deps = [ bordeaux-threads cl-ppcre flexi-streams trivial-arguments universal-config usocket uuid verbose ];
   });
   colliflower = (bqs {
     name = "colliflower";
@@ -15239,16 +15687,16 @@ in with cl; {
   });
   colored = (bqs {
     name = "colored";
-    version = "20211020-git";
-    hash = "md5-yuzM3pv89iliKaFczJ3yIQ==";
-    url = "http://beta.quicklisp.org/archive/colored/2021-10-20/colored-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-tnh6J1rG7ts01UEr6FmrSw==";
+    url = "http://beta.quicklisp.org/archive/colored/2023-10-21/colored-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   colored-test = (bqs {
     name = "colored-test";
-    version = "20211020-git";
-    hash = "md5-yuzM3pv89iliKaFczJ3yIQ==";
-    url = "http://beta.quicklisp.org/archive/colored/2021-10-20/colored-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-tnh6J1rG7ts01UEr6FmrSw==";
+    url = "http://beta.quicklisp.org/archive/colored/2023-10-21/colored-20231021-git.tgz";
     cl-deps = [ colored parachute ];
   });
   colorize = (bqs {
@@ -15260,16 +15708,16 @@ in with cl; {
   });
   com-on = (bqs {
     name = "com-on";
-    version = "20220331-git";
-    hash = "md5-kkEBRFPjS3pKf0vfYkyzaw==";
-    url = "http://beta.quicklisp.org/archive/com-on/2022-03-31/com-on-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-htZhDEsJkg7xuUNb9fNe9A==";
+    url = "http://beta.quicklisp.org/archive/com-on/2023-10-21/com-on-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils ];
   });
   com-on-test = (bqs {
     name = "com-on-test";
-    version = "20220331-git";
-    hash = "md5-kkEBRFPjS3pKf0vfYkyzaw==";
-    url = "http://beta.quicklisp.org/archive/com-on/2022-03-31/com-on-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-htZhDEsJkg7xuUNb9fNe9A==";
+    url = "http://beta.quicklisp.org/archive/com-on/2023-10-21/com-on-20231021-git.tgz";
     cl-deps = [ com-on parachute ];
   });
   com-dot-clearly-useful-dot-generic-collection-interface = (bqs {
@@ -15435,30 +15883,37 @@ in with cl; {
   });
   common-lisp-jupyter = (bqs {
     name = "common-lisp-jupyter";
-    version = "20221106-git";
-    hash = "md5-Tx00I9NSLqcaiFsgKJt2Rg==";
-    url = "http://beta.quicklisp.org/archive/common-lisp-jupyter/2022-11-06/common-lisp-jupyter-20221106-git.tgz";
-    cl-deps = [ alexandria babel bordeaux-threads cl-base64 cl-indentify closer-mop dissect eclector ironclad multilang-documentation puri pzmq shasht static-vectors trivial-do trivial-features trivial-garbage trivial-gray-streams trivial-mimes ];
+    version = "20231021-git";
+    hash = "md5-zOCLddYyPC0nCzCdLSjHEg==";
+    url = "http://beta.quicklisp.org/archive/common-lisp-jupyter/2023-10-21/common-lisp-jupyter-20231021-git.tgz";
+    cl-deps = [ alexandria babel bordeaux-threads cl-base64 cl-indentify closer-mop dissect eclector ironclad jupyter-lab-extension multilang-documentation puri pzmq shasht static-vectors trivial-do trivial-features trivial-garbage trivial-gray-streams trivial-mimes ];
+  });
+  jupyter-lab-extension = (bqs {
+    name = "jupyter-lab-extension";
+    version = "20231021-git";
+    hash = "md5-zOCLddYyPC0nCzCdLSjHEg==";
+    url = "http://beta.quicklisp.org/archive/common-lisp-jupyter/2023-10-21/common-lisp-jupyter-20231021-git.tgz";
+    cl-deps = [  ];
   });
   commondoc-markdown = (bqs {
     name = "commondoc-markdown";
-    version = "20221106-git";
-    hash = "md5-BFie5df4/z7ia/aiJ3tYCw==";
-    url = "http://beta.quicklisp.org/archive/commondoc-markdown/2022-11-06/commondoc-markdown-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-btrwB3WY4G6yANnKkAH7jw==";
+    url = "http://beta.quicklisp.org/archive/commondoc-markdown/2023-06-18/commondoc-markdown-20230618-git.tgz";
     cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria babel common-doc common-html esrap ironclad quri str uiop ];
   });
   commondoc-markdown-docs = (bqs {
     name = "commondoc-markdown-docs";
-    version = "20221106-git";
-    hash = "md5-BFie5df4/z7ia/aiJ3tYCw==";
-    url = "http://beta.quicklisp.org/archive/commondoc-markdown/2022-11-06/commondoc-markdown-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-btrwB3WY4G6yANnKkAH7jw==";
+    url = "http://beta.quicklisp.org/archive/commondoc-markdown/2023-06-18/commondoc-markdown-20230618-git.tgz";
     cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader ];
   });
   commondoc-markdown-test = (bqs {
     name = "commondoc-markdown-test";
-    version = "20221106-git";
-    hash = "md5-BFie5df4/z7ia/aiJ3tYCw==";
-    url = "http://beta.quicklisp.org/archive/commondoc-markdown/2022-11-06/commondoc-markdown-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-btrwB3WY4G6yANnKkAH7jw==";
+    url = "http://beta.quicklisp.org/archive/commondoc-markdown/2023-06-18/commondoc-markdown-20230618-git.tgz";
     cl-deps = [ common-doc commondoc-markdown hamcrest rove ];
   });
   qt-plus-libs = (bqs {
@@ -15491,66 +15946,73 @@ in with cl; {
   });
   computable-reals = (bqs {
     name = "computable-reals";
-    version = "20210411-git";
-    hash = "md5-qE2o+7oVfz8AFm0mQVdHGw==";
-    url = "http://beta.quicklisp.org/archive/computable-reals/2021-04-11/computable-reals-20210411-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2kXm7TXgCB0ZziuYqq3Rhw==";
+    url = "http://beta.quicklisp.org/archive/computable-reals/2023-10-21/computable-reals-20231021-git.tgz";
     cl-deps = [  ];
   });
   concrete-syntax-tree = (bqs {
     name = "concrete-syntax-tree";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [ concrete-syntax-tree-base concrete-syntax-tree-lambda-list ];
   });
   concrete-syntax-tree-base = (bqs {
     name = "concrete-syntax-tree-base";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [ acclimation ];
   });
   concrete-syntax-tree-destructuring = (bqs {
     name = "concrete-syntax-tree-destructuring";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [ concrete-syntax-tree-lambda-list ];
   });
   concrete-syntax-tree-lambda-list = (bqs {
     name = "concrete-syntax-tree-lambda-list";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [ concrete-syntax-tree-base ];
   });
   concrete-syntax-tree-lambda-list-test = (bqs {
     name = "concrete-syntax-tree-lambda-list-test";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [ concrete-syntax-tree-lambda-list ];
   });
   concrete-syntax-tree-source-info = (bqs {
     name = "concrete-syntax-tree-source-info";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [  ];
   });
   concrete-syntax-tree-slash-test = (bqs {
     name = "concrete-syntax-tree/test";
-    version = "20211020-git";
-    hash = "md5-xZxaYwXfvkhRFBaXTMe9NQ==";
-    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2021-10-20/concrete-syntax-tree-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-P1j0Ia//SHMQcnM4C3NOhQ==";
+    url = "http://beta.quicklisp.org/archive/concrete-syntax-tree/2023-06-18/concrete-syntax-tree-20230618-git.tgz";
     cl-deps = [ concrete-syntax-tree ];
   });
   org-dot-tfeb-dot-conduit-packages = (bqs {
     name = "org.tfeb.conduit-packages";
-    version = "20221106-git";
-    hash = "md5-KyLlwyfWEHPkmrcrL81Dkg==";
-    url = "http://beta.quicklisp.org/archive/conduit-packages/2022-11-06/conduit-packages-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EfkK0D9xnvzHFv2+w25wiw==";
+    url = "http://beta.quicklisp.org/archive/conduit-packages/2023-10-21/conduit-packages-20231021-git.tgz";
     cl-deps = [  ];
+  });
+  org-dot-tfeb-dot-conduit-packages-slash-define-package = (bqs {
+    name = "org.tfeb.conduit-packages/define-package";
+    version = "20231021-git";
+    hash = "md5-EfkK0D9xnvzHFv2+w25wiw==";
+    url = "http://beta.quicklisp.org/archive/conduit-packages/2023-10-21/conduit-packages-20231021-git.tgz";
+    cl-deps = [ org-dot-tfeb-dot-conduit-packages ];
   });
   conf = (bqs {
     name = "conf";
@@ -15673,16 +16135,16 @@ in with cl; {
   });
   consfigurator = (bqs {
     name = "consfigurator";
-    version = "v1.2.0";
-    hash = "md5-qcmPMSmGLUzUS1qnusea1w==";
-    url = "http://beta.quicklisp.org/archive/consfigurator/2023-02-14/consfigurator-v1.2.0.tgz";
-    cl-deps = [ agnostic-lizard alexandria anaphora babel babel-streams bordeaux-threads cffi cffi-grovel cl-heredoc cl-interpol cl-ppcre closer-mop named-readtables osicat trivial-backtrace ];
+    version = "v1.3.1";
+    hash = "md5-xH9a0Ge2nNb9baWKTSCvMw==";
+    url = "http://beta.quicklisp.org/archive/consfigurator/2023-06-18/consfigurator-v1.3.1.tgz";
+    cl-deps = [ agnostic-lizard alexandria anaphora babel babel-streams bordeaux-threads cffi cffi-grovel cl-heredoc cl-interpol cl-ppcre closer-mop named-readtables osicat parse-number trivial-backtrace ];
   });
   consfigurator-slash-tests = (bqs {
     name = "consfigurator/tests";
-    version = "v1.2.0";
-    hash = "md5-qcmPMSmGLUzUS1qnusea1w==";
-    url = "http://beta.quicklisp.org/archive/consfigurator/2023-02-14/consfigurator-v1.2.0.tgz";
+    version = "v1.3.1";
+    hash = "md5-xH9a0Ge2nNb9baWKTSCvMw==";
+    url = "http://beta.quicklisp.org/archive/consfigurator/2023-06-18/consfigurator-v1.3.1.tgz";
     cl-deps = [ consfigurator ];
   });
   consix = (bqs {
@@ -15778,16 +16240,16 @@ in with cl; {
   });
   cover = (bqs {
     name = "cover";
-    version = "20210228-git";
-    hash = "md5-hyDgdcuBljFD8CNFtMiXPA==";
-    url = "http://beta.quicklisp.org/archive/cover/2021-02-28/cover-20210228-git.tgz";
+    version = "20230618-git";
+    hash = "md5-GmLgYM7MYnuQ//nhN1LTTA==";
+    url = "http://beta.quicklisp.org/archive/cover/2023-06-18/cover-20230618-git.tgz";
     cl-deps = [  ];
   });
   cover-slash-tests = (bqs {
     name = "cover/tests";
-    version = "20210228-git";
-    hash = "md5-hyDgdcuBljFD8CNFtMiXPA==";
-    url = "http://beta.quicklisp.org/archive/cover/2021-02-28/cover-20210228-git.tgz";
+    version = "20230618-git";
+    hash = "md5-GmLgYM7MYnuQ//nhN1LTTA==";
+    url = "http://beta.quicklisp.org/archive/cover/2023-06-18/cover-20230618-git.tgz";
     cl-deps = [ cover uiop ];
   });
   cqlcl = (bqs {
@@ -15834,45 +16296,45 @@ in with cl; {
   });
   ansi-escape = (bqs {
     name = "ansi-escape";
-    version = "20230214-git";
-    hash = "md5-RQS5q6VY/M6y/v4DdwgWFA==";
-    url = "http://beta.quicklisp.org/archive/croatoan/2023-02-14/croatoan-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-VN4MS02PHCv+S9wxB+M6CA==";
+    url = "http://beta.quicklisp.org/archive/croatoan/2023-10-21/croatoan-20231021-git.tgz";
     cl-deps = [  ];
   });
   ansi-escape-test = (bqs {
     name = "ansi-escape-test";
-    version = "20230214-git";
-    hash = "md5-RQS5q6VY/M6y/v4DdwgWFA==";
-    url = "http://beta.quicklisp.org/archive/croatoan/2023-02-14/croatoan-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-VN4MS02PHCv+S9wxB+M6CA==";
+    url = "http://beta.quicklisp.org/archive/croatoan/2023-10-21/croatoan-20231021-git.tgz";
     cl-deps = [ ansi-escape ];
   });
   croatoan = (bqs {
     name = "croatoan";
-    version = "20230214-git";
-    hash = "md5-RQS5q6VY/M6y/v4DdwgWFA==";
-    url = "http://beta.quicklisp.org/archive/croatoan/2023-02-14/croatoan-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-VN4MS02PHCv+S9wxB+M6CA==";
+    url = "http://beta.quicklisp.org/archive/croatoan/2023-10-21/croatoan-20231021-git.tgz";
     cl-deps = [ bordeaux-threads croatoan-ncurses trivial-gray-streams ];
   });
   croatoan-ncurses = (bqs {
     name = "croatoan-ncurses";
-    version = "20230214-git";
-    hash = "md5-RQS5q6VY/M6y/v4DdwgWFA==";
-    url = "http://beta.quicklisp.org/archive/croatoan/2023-02-14/croatoan-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-VN4MS02PHCv+S9wxB+M6CA==";
+    url = "http://beta.quicklisp.org/archive/croatoan/2023-10-21/croatoan-20231021-git.tgz";
     cl-deps = [ cffi ];
   });
   croatoan-test = (bqs {
     name = "croatoan-test";
-    version = "20230214-git";
-    hash = "md5-RQS5q6VY/M6y/v4DdwgWFA==";
-    url = "http://beta.quicklisp.org/archive/croatoan/2023-02-14/croatoan-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-VN4MS02PHCv+S9wxB+M6CA==";
+    url = "http://beta.quicklisp.org/archive/croatoan/2023-10-21/croatoan-20231021-git.tgz";
     cl-deps = [ croatoan ];
   });
   crypto-shortcuts = (bqs {
     name = "crypto-shortcuts";
-    version = "20201016-git";
-    hash = "md5-FB+EhkqUx3X/AqPzMGh+qQ==";
-    url = "http://beta.quicklisp.org/archive/crypto-shortcuts/2020-10-16/crypto-shortcuts-20201016-git.tgz";
-    cl-deps = [ cl-base64 flexi-streams ironclad ];
+    version = "20231021-git";
+    hash = "md5-ZRZ9tb5mhPn2NnBtfxkTUw==";
+    url = "http://beta.quicklisp.org/archive/crypto-shortcuts/2023-10-21/crypto-shortcuts-20231021-git.tgz";
+    cl-deps = [ cl-base32 cl-base64 flexi-streams ironclad ];
   });
   cserial-port = (bqs {
     name = "cserial-port";
@@ -15883,16 +16345,16 @@ in with cl; {
   });
   css-lite = (bqs {
     name = "css-lite";
-    version = "20221106-git";
-    hash = "md5-KDNqG+M4PIBOqOUEYutF/w==";
-    url = "http://beta.quicklisp.org/archive/css-lite/2022-11-06/css-lite-20221106-git.tgz";
-    cl-deps = [  ];
+    version = "20230618-git";
+    hash = "md5-sVGbzphI1qn0hgABEZXb4Q==";
+    url = "http://beta.quicklisp.org/archive/css-lite/2023-06-18/css-lite-20230618-git.tgz";
+    cl-deps = [ parenscript ];
   });
   css-lite-slash-test = (bqs {
     name = "css-lite/test";
-    version = "20221106-git";
-    hash = "md5-KDNqG+M4PIBOqOUEYutF/w==";
-    url = "http://beta.quicklisp.org/archive/css-lite/2022-11-06/css-lite-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-sVGbzphI1qn0hgABEZXb4Q==";
+    url = "http://beta.quicklisp.org/archive/css-lite/2023-06-18/css-lite-20230618-git.tgz";
     cl-deps = [ css-lite fiveam ];
   });
   css-selectors = (bqs {
@@ -15939,30 +16401,37 @@ in with cl; {
   });
   csv-validator = (bqs {
     name = "csv-validator";
-    version = "20230215-git";
-    hash = "md5-9H+iKlEaICZmPJgYKGY19Q==";
-    url = "http://beta.quicklisp.org/archive/csv-validator/2023-02-15/csv-validator-20230215-git.tgz";
+    version = "20230618-git";
+    hash = "md5-nf0rwOr2v02Ztof0yh1iHw==";
+    url = "http://beta.quicklisp.org/archive/csv-validator/2023-06-18/csv-validator-20230618-git.tgz";
     cl-deps = [ local-time lparallel parse-float ];
   });
   csv-validator-tests = (bqs {
     name = "csv-validator-tests";
-    version = "20230215-git";
-    hash = "md5-9H+iKlEaICZmPJgYKGY19Q==";
-    url = "http://beta.quicklisp.org/archive/csv-validator/2023-02-15/csv-validator-20230215-git.tgz";
+    version = "20230618-git";
+    hash = "md5-nf0rwOr2v02Ztof0yh1iHw==";
+    url = "http://beta.quicklisp.org/archive/csv-validator/2023-06-18/csv-validator-20230618-git.tgz";
     cl-deps = [ csv-validator fiveam ];
   });
   ctype = (bqs {
     name = "ctype";
-    version = "20230214-git";
-    hash = "md5-hbpYr1NH/wOiVDe7kjEOaA==";
-    url = "http://beta.quicklisp.org/archive/ctype/2023-02-14/ctype-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-6+F3ExnkLTUvPzl1ho81zQ==";
+    url = "http://beta.quicklisp.org/archive/ctype/2023-10-21/ctype-20231021-git.tgz";
     cl-deps = [  ];
   });
-  ctype-tfun = (bqs {
-    name = "ctype-tfun";
-    version = "20230214-git";
-    hash = "md5-hbpYr1NH/wOiVDe7kjEOaA==";
-    url = "http://beta.quicklisp.org/archive/ctype/2023-02-14/ctype-20230214-git.tgz";
+  ctype-slash-ext = (bqs {
+    name = "ctype/ext";
+    version = "20231021-git";
+    hash = "md5-6+F3ExnkLTUvPzl1ho81zQ==";
+    url = "http://beta.quicklisp.org/archive/ctype/2023-10-21/ctype-20231021-git.tgz";
+    cl-deps = [ alexandria ctype ];
+  });
+  ctype-slash-tfun = (bqs {
+    name = "ctype/tfun";
+    version = "20231021-git";
+    hash = "md5-6+F3ExnkLTUvPzl1ho81zQ==";
+    url = "http://beta.quicklisp.org/archive/ctype/2023-10-21/ctype-20231021-git.tgz";
     cl-deps = [ alexandria ctype ];
   });
   cubic-bezier = (bqs {
@@ -16100,10 +16569,10 @@ in with cl; {
   });
   cytoscape-clj = (bqs {
     name = "cytoscape-clj";
-    version = "20221106-git";
-    hash = "md5-S52U8+Na3a5q35yswkIFdg==";
-    url = "http://beta.quicklisp.org/archive/cytoscape-clj/2022-11-06/cytoscape-clj-20221106-git.tgz";
-    cl-deps = [ common-lisp-jupyter ];
+    version = "20231021-git";
+    hash = "md5-DwlZUB1SdQM9LkttWCiwkA==";
+    url = "http://beta.quicklisp.org/archive/cytoscape-clj/2023-10-21/cytoscape-clj-20231021-git.tgz";
+    cl-deps = [ common-lisp-jupyter jupyter-lab-extension ];
   });
   daemon = (bqs {
     name = "daemon";
@@ -16163,23 +16632,23 @@ in with cl; {
   });
   darts-dot-lib-dot-hashtree-test = (bqs {
     name = "darts.lib.hashtree-test";
-    version = "20211230-git";
-    hash = "md5-yF3wL72OqWCXH3qBJRp73Q==";
-    url = "http://beta.quicklisp.org/archive/dartsclhashtree/2021-12-30/dartsclhashtree-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-D6lL4BLryAj5Vqrv6vKvsw==";
+    url = "http://beta.quicklisp.org/archive/dartsclhashtree/2023-10-21/dartsclhashtree-20231021-git.tgz";
     cl-deps = [ darts-dot-lib-dot-hashtrie darts-dot-lib-dot-wbtree stefil ];
   });
   darts-dot-lib-dot-hashtrie = (bqs {
     name = "darts.lib.hashtrie";
-    version = "20211230-git";
-    hash = "md5-yF3wL72OqWCXH3qBJRp73Q==";
-    url = "http://beta.quicklisp.org/archive/dartsclhashtree/2021-12-30/dartsclhashtree-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-D6lL4BLryAj5Vqrv6vKvsw==";
+    url = "http://beta.quicklisp.org/archive/dartsclhashtree/2023-10-21/dartsclhashtree-20231021-git.tgz";
     cl-deps = [  ];
   });
   darts-dot-lib-dot-wbtree = (bqs {
     name = "darts.lib.wbtree";
-    version = "20211230-git";
-    hash = "md5-yF3wL72OqWCXH3qBJRp73Q==";
-    url = "http://beta.quicklisp.org/archive/dartsclhashtree/2021-12-30/dartsclhashtree-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-D6lL4BLryAj5Vqrv6vKvsw==";
+    url = "http://beta.quicklisp.org/archive/dartsclhashtree/2023-10-21/dartsclhashtree-20231021-git.tgz";
     cl-deps = [  ];
   });
   darts-dot-lib-dot-message-pack = (bqs {
@@ -16233,44 +16702,51 @@ in with cl; {
   });
   data-frame = (bqs {
     name = "data-frame";
-    version = "20221106-git";
-    hash = "md5-QalmtekaXDxXUPS/Ad+z4g==";
-    url = "http://beta.quicklisp.org/archive/data-frame/2022-11-06/data-frame-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ihjlzENb6xBGTuj8EPylPg==";
+    url = "http://beta.quicklisp.org/archive/data-frame/2023-10-21/data-frame-20231021-git.tgz";
     cl-deps = [ alexandria alexandria-plus- anaphora array-operations duologue let-plus num-utils select statistics ];
   });
   data-frame-slash-tests = (bqs {
     name = "data-frame/tests";
-    version = "20221106-git";
-    hash = "md5-QalmtekaXDxXUPS/Ad+z4g==";
-    url = "http://beta.quicklisp.org/archive/data-frame/2022-11-06/data-frame-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ihjlzENb6xBGTuj8EPylPg==";
+    url = "http://beta.quicklisp.org/archive/data-frame/2023-10-21/data-frame-20231021-git.tgz";
     cl-deps = [ clunit2 data-frame ];
   });
   data-lens = (bqs {
     name = "data-lens";
-    version = "20221106-git";
-    hash = "md5-yT4A/AVEVU52ENWDgS1ImA==";
-    url = "http://beta.quicklisp.org/archive/data-lens/2022-11-06/data-lens-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RY9PU/j5pevdJWHFKcfvmQ==";
+    url = "http://beta.quicklisp.org/archive/data-lens/2023-10-21/data-lens-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre ];
   });
   data-lens-slash-beta-slash-transducers = (bqs {
     name = "data-lens/beta/transducers";
-    version = "20221106-git";
-    hash = "md5-yT4A/AVEVU52ENWDgS1ImA==";
-    url = "http://beta.quicklisp.org/archive/data-lens/2022-11-06/data-lens-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RY9PU/j5pevdJWHFKcfvmQ==";
+    url = "http://beta.quicklisp.org/archive/data-lens/2023-10-21/data-lens-20231021-git.tgz";
     cl-deps = [ alexandria data-lens serapeum ];
   });
   data-lens-slash-test = (bqs {
     name = "data-lens/test";
-    version = "20221106-git";
-    hash = "md5-yT4A/AVEVU52ENWDgS1ImA==";
-    url = "http://beta.quicklisp.org/archive/data-lens/2022-11-06/data-lens-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RY9PU/j5pevdJWHFKcfvmQ==";
+    url = "http://beta.quicklisp.org/archive/data-lens/2023-10-21/data-lens-20231021-git.tgz";
     cl-deps = [ data-lens fiveam serapeum string-case ];
+  });
+  data-lens-slash-transducers = (bqs {
+    name = "data-lens/transducers";
+    version = "20231021-git";
+    hash = "md5-RY9PU/j5pevdJWHFKcfvmQ==";
+    url = "http://beta.quicklisp.org/archive/data-lens/2023-10-21/data-lens-20231021-git.tgz";
+    cl-deps = [ alexandria data-lens serapeum ];
   });
   data-lens-slash-transducers-slash-test = (bqs {
     name = "data-lens/transducers/test";
-    version = "20221106-git";
-    hash = "md5-yT4A/AVEVU52ENWDgS1ImA==";
-    url = "http://beta.quicklisp.org/archive/data-lens/2022-11-06/data-lens-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RY9PU/j5pevdJWHFKcfvmQ==";
+    url = "http://beta.quicklisp.org/archive/data-lens/2023-10-21/data-lens-20231021-git.tgz";
     cl-deps = [ alexandria data-lens fiveam serapeum ];
   });
   data-sift = (bqs {
@@ -16289,23 +16765,23 @@ in with cl; {
   });
   data-table = (bqs {
     name = "data-table";
-    version = "20221106-git";
-    hash = "md5-KAYrkmxBHXoob2izCKuSbQ==";
-    url = "http://beta.quicklisp.org/archive/data-table/2022-11-06/data-table-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GKGbJD+9ZWJqDXzowLQ5Pg==";
+    url = "http://beta.quicklisp.org/archive/data-table/2023-10-21/data-table-20231021-git.tgz";
     cl-deps = [ alexandria cl-interpol iterate symbol-munger ];
   });
   data-table-clsql = (bqs {
     name = "data-table-clsql";
-    version = "20221106-git";
-    hash = "md5-KAYrkmxBHXoob2izCKuSbQ==";
-    url = "http://beta.quicklisp.org/archive/data-table/2022-11-06/data-table-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GKGbJD+9ZWJqDXzowLQ5Pg==";
+    url = "http://beta.quicklisp.org/archive/data-table/2023-10-21/data-table-20231021-git.tgz";
     cl-deps = [ clsql clsql-helper collectors data-table iterate ];
   });
   data-table-test = (bqs {
     name = "data-table-test";
-    version = "20221106-git";
-    hash = "md5-KAYrkmxBHXoob2izCKuSbQ==";
-    url = "http://beta.quicklisp.org/archive/data-table/2022-11-06/data-table-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GKGbJD+9ZWJqDXzowLQ5Pg==";
+    url = "http://beta.quicklisp.org/archive/data-table/2023-10-21/data-table-20231021-git.tgz";
     cl-deps = [ data-table lisp-unit2 ];
   });
   database-migrations = (bqs {
@@ -16317,16 +16793,16 @@ in with cl; {
   });
   datafly = (bqs {
     name = "datafly";
-    version = "20200325-git";
-    hash = "md5-31D+2OMqDFUFdgudjvUfsA==";
-    url = "http://beta.quicklisp.org/archive/datafly/2020-03-25/datafly-20200325-git.tgz";
-    cl-deps = [ alexandria babel cl-syntax-annot closer-mop dbi function-cache iterate jonathan kebab local-time log4cl optima sxql trivial-types ];
+    version = "20231021-git";
+    hash = "md5-o4y0EoEy6+NDDlABrYijXQ==";
+    url = "http://beta.quicklisp.org/archive/datafly/2023-10-21/datafly-20231021-git.tgz";
+    cl-deps = [ alexandria babel closer-mop dbi function-cache iterate jonathan kebab local-time log4cl named-readtables optima sxql trivial-types ];
   });
   datafly-test = (bqs {
     name = "datafly-test";
-    version = "20200325-git";
-    hash = "md5-31D+2OMqDFUFdgudjvUfsA==";
-    url = "http://beta.quicklisp.org/archive/datafly/2020-03-25/datafly-20200325-git.tgz";
+    version = "20231021-git";
+    hash = "md5-o4y0EoEy6+NDDlABrYijXQ==";
+    url = "http://beta.quicklisp.org/archive/datafly/2023-10-21/datafly-20231021-git.tgz";
     cl-deps = [ datafly prove prove-asdf sxql ];
   });
   dataloader = (bqs {
@@ -16345,9 +16821,9 @@ in with cl; {
   });
   datamuse = (bqs {
     name = "datamuse";
-    version = "20221106-git";
-    hash = "md5-kFUr/kl6+r7IvSY2P0YILg==";
-    url = "http://beta.quicklisp.org/archive/datamuse/2022-11-06/datamuse-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7tJjMyidilKEVpxCBXPlzQ==";
+    url = "http://beta.quicklisp.org/archive/datamuse/2023-10-21/datamuse-20231021-git.tgz";
     cl-deps = [ alexandria drakma yason ];
   });
   date-calc = (bqs {
@@ -16427,11 +16903,18 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/declt/2022-07-07/declt-4.0b2.tgz";
     cl-deps = [ named-readtables ];
   });
+  semz-dot-decompress = (bqs {
+    name = "semz.decompress";
+    version = "20231021-git";
+    hash = "md5-bvoVSwJ0Nt6UF4QEIqGp/A==";
+    url = "http://beta.quicklisp.org/archive/decompress/2023-10-21/decompress-20231021-git.tgz";
+    cl-deps = [ alexandria trivial-gray-streams ];
+  });
   deeds = (bqs {
     name = "deeds";
-    version = "20200715-git";
-    hash = "md5-S//jqqtnxgdYJlfaVL8hsQ==";
-    url = "http://beta.quicklisp.org/archive/deeds/2020-07-15/deeds-20200715-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Xjw8H/RglUMVs5ghONGfbQ==";
+    url = "http://beta.quicklisp.org/archive/deeds/2023-10-21/deeds-20231021-git.tgz";
     cl-deps = [ bordeaux-threads closer-mop form-fiddle lambda-fiddle ];
   });
   defclass-std = (bqs {
@@ -16471,9 +16954,9 @@ in with cl; {
   });
   deferred = (bqs {
     name = "deferred";
-    version = "20190710-git";
-    hash = "md5-CDBJGy1ruc+8KpUDa5pzMg==";
-    url = "http://beta.quicklisp.org/archive/deferred/2019-07-10/deferred-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-yQlXVv4mnLYf15f/ngKpLw==";
+    url = "http://beta.quicklisp.org/archive/deferred/2023-10-21/deferred-20231021-git.tgz";
     cl-deps = [ named-readtables ];
   });
   define-json-expander = (bqs {
@@ -16492,30 +16975,30 @@ in with cl; {
   });
   definitions = (bqs {
     name = "definitions";
-    version = "20210531-git";
-    hash = "md5-y5ZcX/RVG0kcT4S2osVa3A==";
-    url = "http://beta.quicklisp.org/archive/definitions/2021-05-31/definitions-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HloW2yS+WOCmphmJEHSaOA==";
+    url = "http://beta.quicklisp.org/archive/definitions/2023-10-21/definitions-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   definitions-systems = (bqs {
     name = "definitions-systems";
-    version = "2.0.1";
-    hash = "md5-+QfgBgTC3gIVkcWJUfD6vw==";
-    url = "http://beta.quicklisp.org/archive/definitions-systems/2021-04-11/definitions-systems_2.0.1.tgz";
-    cl-deps = [ canonicalized-initargs enhanced-defclass enhanced-find-class shared-preferences ];
+    version = "3.0";
+    hash = "md5-QDeosOW6QT6QXhE4a/LfMw==";
+    url = "http://beta.quicklisp.org/archive/definitions-systems/2023-06-18/definitions-systems_3.0.tgz";
+    cl-deps = [ canonicalized-initargs closer-mop enhanced-defclass enhanced-find-class shared-preferences ];
   });
   definitions-systems_tests = (bqs {
     name = "definitions-systems_tests";
-    version = "2.0.1";
-    hash = "md5-+QfgBgTC3gIVkcWJUfD6vw==";
-    url = "http://beta.quicklisp.org/archive/definitions-systems/2021-04-11/definitions-systems_2.0.1.tgz";
+    version = "3.0";
+    hash = "md5-QDeosOW6QT6QXhE4a/LfMw==";
+    url = "http://beta.quicklisp.org/archive/definitions-systems/2023-06-18/definitions-systems_3.0.tgz";
     cl-deps = [ definitions-systems parachute ];
   });
   deflate = (bqs {
     name = "deflate";
-    version = "20200218-git";
-    hash = "md5-yC0o7tW0ic7WVMcgICXmmQ==";
-    url = "http://beta.quicklisp.org/archive/deflate/2020-02-18/deflate-20200218-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ve8S4CwIAKYP3wcKCbIMbA==";
+    url = "http://beta.quicklisp.org/archive/deflate/2023-06-18/deflate-20230618-git.tgz";
     cl-deps = [  ];
   });
   defmain = (bqs {
@@ -16555,9 +17038,9 @@ in with cl; {
   });
   defrec = (bqs {
     name = "defrec";
-    version = "20190307-hg";
-    hash = "md5-KLF2LG+0WiRIe+M019XbFA==";
-    url = "http://beta.quicklisp.org/archive/defrec/2019-03-07/defrec-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-OftHNWQ2RZxCOyk1MxcAqQ==";
+    url = "http://beta.quicklisp.org/archive/defrec/2023-06-18/defrec-20230618-git.tgz";
     cl-deps = [ alexandria ];
   });
   defrest = (bqs {
@@ -16660,45 +17143,45 @@ in with cl; {
   });
   dense-arrays = (bqs {
     name = "dense-arrays";
-    version = "20230214-git";
-    hash = "md5-mfX4dK7TOm1XblqkTVRcqQ==";
-    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-02-14/dense-arrays-20230214-git.tgz";
-    cl-deps = [ abstract-arrays alexandria cl-form-types closer-mop compiler-macro-notes extensible-compound-types fiveam iterate polymorphic-functions trivial-garbage trivial-types uiop ];
+    version = "20230618-git";
+    hash = "md5-7J3vdnNY23bPoaFEq96Z+w==";
+    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-06-18/dense-arrays-20230618-git.tgz";
+    cl-deps = [ abstract-arrays alexandria asdf-system-connections cl-form-types closer-mop compiler-macro-notes extensible-compound-types fiveam iterate polymorphic-functions trivial-garbage trivial-types uiop ];
   });
   dense-arrays-plus-cuda = (bqs {
     name = "dense-arrays+cuda";
-    version = "20230214-git";
-    hash = "md5-mfX4dK7TOm1XblqkTVRcqQ==";
-    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-02-14/dense-arrays-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-7J3vdnNY23bPoaFEq96Z+w==";
+    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-06-18/dense-arrays-20230618-git.tgz";
     cl-deps = [ cl-cuda dense-arrays ];
-  });
-  dense-arrays-plus-magicl = (bqs {
-    name = "dense-arrays+magicl";
-    version = "20230214-git";
-    hash = "md5-mfX4dK7TOm1XblqkTVRcqQ==";
-    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-02-14/dense-arrays-20230214-git.tgz";
-    cl-deps = [ dense-arrays magicl ];
-  });
-  dense-arrays-plus-static-vectors = (bqs {
-    name = "dense-arrays+static-vectors";
-    version = "20230214-git";
-    hash = "md5-mfX4dK7TOm1XblqkTVRcqQ==";
-    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-02-14/dense-arrays-20230214-git.tgz";
-    cl-deps = [ dense-arrays static-vectors ];
   });
   dense-arrays-plus = (bqs {
     name = "dense-arrays-plus";
-    version = "20230214-git";
-    hash = "md5-mfX4dK7TOm1XblqkTVRcqQ==";
-    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-02-14/dense-arrays-20230214-git.tgz";
-    cl-deps = [ dense-arrays-plus-static-vectors dense-arrays-plus-lite fiveam generic-cl py4cl2 reader ];
+    version = "20230618-git";
+    hash = "md5-7J3vdnNY23bPoaFEq96Z+w==";
+    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-06-18/dense-arrays-20230618-git.tgz";
+    cl-deps = [ dense-arrays-plus-lite fiveam generic-cl py4cl2 reader static-vectors ];
   });
   dense-arrays-plus-lite = (bqs {
     name = "dense-arrays-plus-lite";
-    version = "20230214-git";
-    hash = "md5-mfX4dK7TOm1XblqkTVRcqQ==";
-    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-02-14/dense-arrays-20230214-git.tgz";
-    cl-deps = [ dense-arrays trivial-coerce uiop ];
+    version = "20230618-git";
+    hash = "md5-7J3vdnNY23bPoaFEq96Z+w==";
+    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-06-18/dense-arrays-20230618-git.tgz";
+    cl-deps = [ dense-arrays extensible-compound-types-interfaces extensible-optimizing-coerce trivial-package-local-nicknames uiop ];
+  });
+  dense-arrays-slash-magicl = (bqs {
+    name = "dense-arrays/magicl";
+    version = "20230618-git";
+    hash = "md5-7J3vdnNY23bPoaFEq96Z+w==";
+    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-06-18/dense-arrays-20230618-git.tgz";
+    cl-deps = [ dense-arrays magicl ];
+  });
+  dense-arrays-slash-static-vectors = (bqs {
+    name = "dense-arrays/static-vectors";
+    version = "20230618-git";
+    hash = "md5-7J3vdnNY23bPoaFEq96Z+w==";
+    url = "http://beta.quicklisp.org/archive/dense-arrays/2023-06-18/dense-arrays-20230618-git.tgz";
+    cl-deps = [ dense-arrays static-vectors ];
   });
   deoxybyte-gzip = (bqs {
     name = "deoxybyte-gzip";
@@ -16765,52 +17248,59 @@ in with cl; {
   });
   deploy = (bqs {
     name = "deploy";
-    version = "20230214-git";
-    hash = "md5-GA3yXRFwznU2nRHK6FjBjg==";
-    url = "http://beta.quicklisp.org/archive/deploy/2023-02-14/deploy-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-r7oyiY/iz3rzBii39IQ6hQ==";
+    url = "http://beta.quicklisp.org/archive/deploy/2023-10-21/deploy-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features ];
   });
   deploy-test = (bqs {
     name = "deploy-test";
-    version = "20230214-git";
-    hash = "md5-GA3yXRFwznU2nRHK6FjBjg==";
-    url = "http://beta.quicklisp.org/archive/deploy/2023-02-14/deploy-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-r7oyiY/iz3rzBii39IQ6hQ==";
+    url = "http://beta.quicklisp.org/archive/deploy/2023-10-21/deploy-20231021-git.tgz";
     cl-deps = [ cl-mpg123 cl-out123 deploy ];
   });
   depot = (bqs {
     name = "depot";
-    version = "20230214-git";
-    hash = "md5-179xx+vPiSmiFnuQJHNkHQ==";
-    url = "http://beta.quicklisp.org/archive/depot/2023-02-14/depot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PSNgQLzifm/nBGqowHzFJA==";
+    url = "http://beta.quicklisp.org/archive/depot/2023-10-21/depot-20231021-git.tgz";
     cl-deps = [ documentation-utils trivial-features trivial-gray-streams ];
   });
   depot-in-memory = (bqs {
     name = "depot-in-memory";
-    version = "20230214-git";
-    hash = "md5-179xx+vPiSmiFnuQJHNkHQ==";
-    url = "http://beta.quicklisp.org/archive/depot/2023-02-14/depot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PSNgQLzifm/nBGqowHzFJA==";
+    url = "http://beta.quicklisp.org/archive/depot/2023-10-21/depot-20231021-git.tgz";
     cl-deps = [ atomics depot ];
   });
   depot-test = (bqs {
     name = "depot-test";
-    version = "20230214-git";
-    hash = "md5-179xx+vPiSmiFnuQJHNkHQ==";
-    url = "http://beta.quicklisp.org/archive/depot/2023-02-14/depot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PSNgQLzifm/nBGqowHzFJA==";
+    url = "http://beta.quicklisp.org/archive/depot/2023-10-21/depot-20231021-git.tgz";
     cl-deps = [ depot depot-in-memory depot-zip parachute ];
   });
   depot-virtual = (bqs {
     name = "depot-virtual";
-    version = "20230214-git";
-    hash = "md5-179xx+vPiSmiFnuQJHNkHQ==";
-    url = "http://beta.quicklisp.org/archive/depot/2023-02-14/depot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PSNgQLzifm/nBGqowHzFJA==";
+    url = "http://beta.quicklisp.org/archive/depot/2023-10-21/depot-20231021-git.tgz";
     cl-deps = [ depot ];
   });
   depot-zip = (bqs {
     name = "depot-zip";
-    version = "20230214-git";
-    hash = "md5-179xx+vPiSmiFnuQJHNkHQ==";
-    url = "http://beta.quicklisp.org/archive/depot/2023-02-14/depot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PSNgQLzifm/nBGqowHzFJA==";
+    url = "http://beta.quicklisp.org/archive/depot/2023-10-21/depot-20231021-git.tgz";
     cl-deps = [ babel depot zippy ];
+  });
+  deptree = (bqs {
+    name = "deptree";
+    version = "20231021-git";
+    hash = "md5-HIgPr4VWpkf4UPZMgDRfsA==";
+    url = "http://beta.quicklisp.org/archive/deptree/2023-10-21/deptree-20231021-git.tgz";
+    cl-deps = [ tar ];
   });
   descriptions = (bqs {
     name = "descriptions";
@@ -16856,16 +17346,16 @@ in with cl; {
   });
   dexador = (bqs {
     name = "dexador";
-    version = "20230214-git";
-    hash = "md5-o0vhJjvcfuTK4VIArRBYaA==";
-    url = "http://beta.quicklisp.org/archive/dexador/2023-02-14/dexador-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-A5nXgENtGGz1zPtaL0306w==";
+    url = "http://beta.quicklisp.org/archive/dexador/2023-10-21/dexador-20231021-git.tgz";
     cl-deps = [ alexandria babel bordeaux-threads chipz chunga cl-plus-ssl cl-base64 cl-cookie cl-ppcre fast-http fast-io quri trivial-features trivial-garbage trivial-gray-streams trivial-mimes uiop usocket ];
   });
   dexador-test = (bqs {
     name = "dexador-test";
-    version = "20230214-git";
-    hash = "md5-o0vhJjvcfuTK4VIArRBYaA==";
-    url = "http://beta.quicklisp.org/archive/dexador/2023-02-14/dexador-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-A5nXgENtGGz1zPtaL0306w==";
+    url = "http://beta.quicklisp.org/archive/dexador/2023-10-21/dexador-20231021-git.tgz";
     cl-deps = [ babel cl-cookie clack-test dexador lack-request rove ];
   });
   dfio = (bqs {
@@ -16919,9 +17409,9 @@ in with cl; {
   });
   dissect = (bqs {
     name = "dissect";
-    version = "20221106-git";
-    hash = "md5-XyO0gA01W0pp8D1FnLy0TQ==";
-    url = "http://beta.quicklisp.org/archive/dissect/2022-11-06/dissect-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-LHAgzE+QxHGjJuNk4HWf0A==";
+    url = "http://beta.quicklisp.org/archive/dissect/2023-10-21/dissect-20231021-git.tgz";
     cl-deps = [  ];
   });
   distributions = (bqs {
@@ -16933,24 +17423,45 @@ in with cl; {
   });
   djula = (bqs {
     name = "djula";
-    version = "20230214-git";
-    hash = "md5-JU2IEDoWzvfcve8qlUSkSQ==";
-    url = "http://beta.quicklisp.org/archive/djula/2023-02-14/djula-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1KZvlJRLPGYG63gDrFRJTw==";
+    url = "http://beta.quicklisp.org/archive/djula/2023-10-21/djula-20231021-git.tgz";
     cl-deps = [ access alexandria babel cl-locale cl-ppcre cl-slice closer-mop gettext iterate local-time parser-combinators split-sequence trivial-backtrace ];
   });
   djula-demo = (bqs {
     name = "djula-demo";
-    version = "20230214-git";
-    hash = "md5-JU2IEDoWzvfcve8qlUSkSQ==";
-    url = "http://beta.quicklisp.org/archive/djula/2023-02-14/djula-20230214-git.tgz";
-    cl-deps = [ djula hunchentoot ];
+    version = "20231021-git";
+    hash = "md5-1KZvlJRLPGYG63gDrFRJTw==";
+    url = "http://beta.quicklisp.org/archive/djula/2023-10-21/djula-20231021-git.tgz";
+    cl-deps = [ djula hunchentoot trivial-open-browser ];
+  });
+  djula-gettext = (bqs {
+    name = "djula-gettext";
+    version = "20231021-git";
+    hash = "md5-1KZvlJRLPGYG63gDrFRJTw==";
+    url = "http://beta.quicklisp.org/archive/djula/2023-10-21/djula-20231021-git.tgz";
+    cl-deps = [ djula gettext ];
+  });
+  djula-locale = (bqs {
+    name = "djula-locale";
+    version = "20231021-git";
+    hash = "md5-1KZvlJRLPGYG63gDrFRJTw==";
+    url = "http://beta.quicklisp.org/archive/djula/2023-10-21/djula-20231021-git.tgz";
+    cl-deps = [ cl-locale djula ];
   });
   djula-test = (bqs {
     name = "djula-test";
-    version = "20230214-git";
-    hash = "md5-JU2IEDoWzvfcve8qlUSkSQ==";
-    url = "http://beta.quicklisp.org/archive/djula/2023-02-14/djula-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1KZvlJRLPGYG63gDrFRJTw==";
+    url = "http://beta.quicklisp.org/archive/djula/2023-10-21/djula-20231021-git.tgz";
     cl-deps = [ djula fiveam ];
+  });
+  djula-translate = (bqs {
+    name = "djula-translate";
+    version = "20231021-git";
+    hash = "md5-1KZvlJRLPGYG63gDrFRJTw==";
+    url = "http://beta.quicklisp.org/archive/djula/2023-10-21/djula-20231021-git.tgz";
+    cl-deps = [ djula translate ];
   });
   dlist = (bqs {
     name = "dlist";
@@ -16968,17 +17479,17 @@ in with cl; {
   });
   dml = (bqs {
     name = "dml";
-    version = "20181018-git";
-    hash = "md5-dCOSH4jQoV8S/LqFn/UY2Q==";
-    url = "http://beta.quicklisp.org/archive/dml/2018-10-18/dml-20181018-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gUqoHHVnvuU97rI54X65Bg==";
+    url = "http://beta.quicklisp.org/archive/dml/2023-10-21/dml-20231021-git.tgz";
     cl-deps = [ alexandria cl-cairo2 cl-ppcre donuts ];
   });
   dns-client = (bqs {
     name = "dns-client";
-    version = "20211020-git";
-    hash = "md5-mWGaZy+TVj03MiQxVAL3RQ==";
-    url = "http://beta.quicklisp.org/archive/dns-client/2021-10-20/dns-client-20211020-git.tgz";
-    cl-deps = [ documentation-utils usocket ];
+    version = "20231021-git";
+    hash = "md5-eb6Ck3AN8HbL6n7aV8XzcQ==";
+    url = "http://beta.quicklisp.org/archive/dns-client/2023-10-21/dns-client-20231021-git.tgz";
+    cl-deps = [ documentation-utils punycode usocket ];
   });
   do-urlencode = (bqs {
     name = "do-urlencode";
@@ -16989,23 +17500,23 @@ in with cl; {
   });
   cl-40ants-doc = (bqs {
     name = "40ants-doc";
-    version = "20230214-git";
-    hash = "md5-XU2a70TKOtc78L3QtfnypA==";
-    url = "http://beta.quicklisp.org/archive/doc/2023-02-14/doc-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3xUa45n8APv2hsGnFZsRKA==";
+    url = "http://beta.quicklisp.org/archive/doc/2023-10-21/doc-20231021-git.tgz";
     cl-deps = [ named-readtables pythonic-string-reader uiop ];
   });
   cl-40ants-doc-full = (bqs {
     name = "40ants-doc-full";
-    version = "20230214-git";
-    hash = "md5-XU2a70TKOtc78L3QtfnypA==";
-    url = "http://beta.quicklisp.org/archive/doc/2023-02-14/doc-20230214-git.tgz";
-    cl-deps = [ cl-40ants-doc alexandria babel cl-cookie cl-fad cl-ppcre closer-mop common-doc common-html commondoc-markdown dexador docs-config fare-utils jonathan lass local-time log4cl named-readtables pythonic-string-reader slynk spinneret stem str swank tmpdir trivial-extract xml-emitter ];
+    version = "20231021-git";
+    hash = "md5-3xUa45n8APv2hsGnFZsRKA==";
+    url = "http://beta.quicklisp.org/archive/doc/2023-10-21/doc-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc alexandria babel cl-fad cl-ppcre closer-mop common-doc common-html commondoc-markdown dexador docs-config fare-utils jonathan lass local-time log4cl named-readtables pythonic-string-reader slynk spinneret stem str swank tmpdir which xml-emitter ];
   });
   cl-40ants-doc-test = (bqs {
     name = "40ants-doc-test";
-    version = "20230214-git";
-    hash = "md5-XU2a70TKOtc78L3QtfnypA==";
-    url = "http://beta.quicklisp.org/archive/doc/2023-02-14/doc-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3xUa45n8APv2hsGnFZsRKA==";
+    url = "http://beta.quicklisp.org/archive/doc/2023-10-21/doc-20231021-git.tgz";
     cl-deps = [ cl-40ants-doc alexandria common-doc common-html commondoc-markdown rove ];
   });
   docbrowser = (bqs {
@@ -17038,16 +17549,16 @@ in with cl; {
   });
   docs-builder = (bqs {
     name = "docs-builder";
-    version = "20230214-git";
-    hash = "md5-YXA83zuPhqNAkuOGMTVu8g==";
-    url = "http://beta.quicklisp.org/archive/docs-builder/2023-02-14/docs-builder-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-d0HJvFZO6BHAfF4w4Q7Xrw==";
+    url = "http://beta.quicklisp.org/archive/docs-builder/2023-06-18/docs-builder-20230618-git.tgz";
     cl-deps = [ cl-40ants-doc alexandria docs-config log4cl uiop ];
   });
   docs-config = (bqs {
     name = "docs-config";
-    version = "20230214-git";
-    hash = "md5-YXA83zuPhqNAkuOGMTVu8g==";
-    url = "http://beta.quicklisp.org/archive/docs-builder/2023-02-14/docs-builder-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-d0HJvFZO6BHAfF4w4Q7Xrw==";
+    url = "http://beta.quicklisp.org/archive/docs-builder/2023-06-18/docs-builder-20230618-git.tgz";
     cl-deps = [  ];
   });
   documentation-template = (bqs {
@@ -17059,16 +17570,16 @@ in with cl; {
   });
   documentation-utils = (bqs {
     name = "documentation-utils";
-    version = "20190710-git";
-    hash = "md5-T0X1EaxVAIuLiqBPf+qi1A==";
-    url = "http://beta.quicklisp.org/archive/documentation-utils/2019-07-10/documentation-utils-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/IInS4gj5MFV2LHLVRyLrw==";
+    url = "http://beta.quicklisp.org/archive/documentation-utils/2023-10-21/documentation-utils-20231021-git.tgz";
     cl-deps = [ trivial-indent ];
   });
   multilang-documentation-utils = (bqs {
     name = "multilang-documentation-utils";
-    version = "20190710-git";
-    hash = "md5-T0X1EaxVAIuLiqBPf+qi1A==";
-    url = "http://beta.quicklisp.org/archive/documentation-utils/2019-07-10/documentation-utils-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/IInS4gj5MFV2LHLVRyLrw==";
+    url = "http://beta.quicklisp.org/archive/documentation-utils/2023-10-21/documentation-utils-20231021-git.tgz";
     cl-deps = [ documentation-utils multilang-documentation ];
   });
   documentation-utils-extensions = (bqs {
@@ -17122,17 +17633,17 @@ in with cl; {
   });
   drakma = (bqs {
     name = "drakma";
-    version = "v2.0.9";
-    hash = "md5-UOC47W8BhIUaxoMRSIYeBg==";
-    url = "http://beta.quicklisp.org/archive/drakma/2022-07-07/drakma-v2.0.9.tgz";
+    version = "v2.0.10";
+    hash = "md5-MyThZuCnxbDI1Hyw97RWAQ==";
+    url = "http://beta.quicklisp.org/archive/drakma/2023-10-21/drakma-v2.0.10.tgz";
     cl-deps = [ chipz chunga cl-plus-ssl cl-base64 cl-ppcre flexi-streams puri usocket ];
   });
   drakma-test = (bqs {
     name = "drakma-test";
-    version = "v2.0.9";
-    hash = "md5-UOC47W8BhIUaxoMRSIYeBg==";
-    url = "http://beta.quicklisp.org/archive/drakma/2022-07-07/drakma-v2.0.9.tgz";
-    cl-deps = [ drakma fiveam ];
+    version = "v2.0.10";
+    hash = "md5-MyThZuCnxbDI1Hyw97RWAQ==";
+    url = "http://beta.quicklisp.org/archive/drakma/2023-10-21/drakma-v2.0.10.tgz";
+    cl-deps = [ drakma easy-routes fiveam hunchentoot ];
   });
   drakma-async = (bqs {
     name = "drakma-async";
@@ -17143,10 +17654,17 @@ in with cl; {
   });
   draw-cons-tree = (bqs {
     name = "draw-cons-tree";
-    version = "20131003-git";
-    hash = "md5-znIOLd85UkaSfldl9RFghA==";
-    url = "http://beta.quicklisp.org/archive/draw-cons-tree/2013-10-03/draw-cons-tree-20131003-git.tgz";
-    cl-deps = [  ];
+    version = "20230618-git";
+    hash = "md5-5ybjSIwuJ04yESfyaZNQ4w==";
+    url = "http://beta.quicklisp.org/archive/draw-cons-tree/2023-06-18/draw-cons-tree-20230618-git.tgz";
+    cl-deps = [ alexandria ];
+  });
+  draw-cons-tree-slash-test = (bqs {
+    name = "draw-cons-tree/test";
+    version = "20230618-git";
+    hash = "md5-5ybjSIwuJ04yESfyaZNQ4w==";
+    url = "http://beta.quicklisp.org/archive/draw-cons-tree/2023-06-18/draw-cons-tree-20230618-git.tgz";
+    cl-deps = [ draw-cons-tree fiveam split-sequence ];
   });
   org-dot-tfeb-dot-dsm = (bqs {
     name = "org.tfeb.dsm";
@@ -17283,23 +17801,23 @@ in with cl; {
   });
   dynamic-classes = (bqs {
     name = "dynamic-classes";
-    version = "20130128-git";
-    hash = "md5-pu0BxPId8rahQjKLJKx7ow==";
-    url = "http://beta.quicklisp.org/archive/dynamic-classes/2013-01-28/dynamic-classes-20130128-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RlvkuQc4SlDF9Zhg+Y0W4g==";
+    url = "http://beta.quicklisp.org/archive/dynamic-classes/2023-10-21/dynamic-classes-20231021-git.tgz";
     cl-deps = [ metatilities-base ];
   });
   dynamic-classes-test = (bqs {
     name = "dynamic-classes-test";
-    version = "20130128-git";
-    hash = "md5-pu0BxPId8rahQjKLJKx7ow==";
-    url = "http://beta.quicklisp.org/archive/dynamic-classes/2013-01-28/dynamic-classes-20130128-git.tgz";
+    version = "20231021-git";
+    hash = "md5-RlvkuQc4SlDF9Zhg+Y0W4g==";
+    url = "http://beta.quicklisp.org/archive/dynamic-classes/2023-10-21/dynamic-classes-20231021-git.tgz";
     cl-deps = [ dynamic-classes lift ];
   });
   dynamic-collect = (bqs {
     name = "dynamic-collect";
-    version = "20190307-hg";
-    hash = "md5-wYLGDMtBjJ+Zby/khHjPvw==";
-    url = "http://beta.quicklisp.org/archive/dynamic-collect/2019-03-07/dynamic-collect-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-/zLZFORc1cv85q1WJtxIlQ==";
+    url = "http://beta.quicklisp.org/archive/dynamic-collect/2023-06-18/dynamic-collect-20230618-git.tgz";
     cl-deps = [  ];
   });
   dynamic-mixins = (bqs {
@@ -17360,16 +17878,16 @@ in with cl; {
   });
   easter-gauss = (bqs {
     name = "easter-gauss";
-    version = "20220707-git";
-    hash = "md5-zvEI4Vxdy7LMCn73mOU5iw==";
-    url = "http://beta.quicklisp.org/archive/easter-gauss/2022-07-07/easter-gauss-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-FTz11h6rJ9prBlE5Ht4saw==";
+    url = "http://beta.quicklisp.org/archive/easter-gauss/2023-10-21/easter-gauss-20231021-git.tgz";
     cl-deps = [ local-time ];
   });
   easter-gauss-slash-tests = (bqs {
     name = "easter-gauss/tests";
-    version = "20220707-git";
-    hash = "md5-zvEI4Vxdy7LMCn73mOU5iw==";
-    url = "http://beta.quicklisp.org/archive/easter-gauss/2022-07-07/easter-gauss-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-FTz11h6rJ9prBlE5Ht4saw==";
+    url = "http://beta.quicklisp.org/archive/easter-gauss/2023-10-21/easter-gauss-20231021-git.tgz";
     cl-deps = [ clunit2 easter-gauss ];
   });
   easy-audio = (bqs {
@@ -17465,23 +17983,23 @@ in with cl; {
   });
   easy-routes = (bqs {
     name = "easy-routes";
-    version = "20220707-git";
-    hash = "md5-0dnErUFGcJ8Cr05H2nDNxg==";
-    url = "http://beta.quicklisp.org/archive/easy-routes/2022-07-07/easy-routes-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-T4InGHtEmWknFmDMv+exSQ==";
+    url = "http://beta.quicklisp.org/archive/easy-routes/2023-10-21/easy-routes-20231021-git.tgz";
     cl-deps = [ hunchentoot routes ];
   });
   easy-routes-plus-djula = (bqs {
     name = "easy-routes+djula";
-    version = "20220707-git";
-    hash = "md5-0dnErUFGcJ8Cr05H2nDNxg==";
-    url = "http://beta.quicklisp.org/archive/easy-routes/2022-07-07/easy-routes-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-T4InGHtEmWknFmDMv+exSQ==";
+    url = "http://beta.quicklisp.org/archive/easy-routes/2023-10-21/easy-routes-20231021-git.tgz";
     cl-deps = [ djula easy-routes ];
   });
   easy-routes-plus-errors = (bqs {
     name = "easy-routes+errors";
-    version = "20220707-git";
-    hash = "md5-0dnErUFGcJ8Cr05H2nDNxg==";
-    url = "http://beta.quicklisp.org/archive/easy-routes/2022-07-07/easy-routes-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-T4InGHtEmWknFmDMv+exSQ==";
+    url = "http://beta.quicklisp.org/archive/easy-routes/2023-10-21/easy-routes-20231021-git.tgz";
     cl-deps = [ easy-routes hunchentoot-errors ];
   });
   eazy-documentation = (bqs {
@@ -17556,37 +18074,37 @@ in with cl; {
   });
   ecclesia = (bqs {
     name = "ecclesia";
-    version = "20201220-git";
-    hash = "md5-+/LXWwoHYaenw7nA1GRIzA==";
-    url = "http://beta.quicklisp.org/archive/ecclesia/2020-12-20/ecclesia-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e3ba/HKQm4yd3jaGkw68PA==";
+    url = "http://beta.quicklisp.org/archive/ecclesia/2023-10-21/ecclesia-20231021-git.tgz";
     cl-deps = [ acclimation ];
   });
   eclector = (bqs {
     name = "eclector";
-    version = "20230214-git";
-    hash = "md5-YgMdZCZxfct8a4kvpieiVA==";
-    url = "http://beta.quicklisp.org/archive/eclector/2023-02-14/eclector-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-5i/lRUKsg6BX/CL2eryHTg==";
+    url = "http://beta.quicklisp.org/archive/eclector/2023-10-21/eclector-20231021-git.tgz";
     cl-deps = [ acclimation alexandria closer-mop ];
   });
   eclector-concrete-syntax-tree = (bqs {
     name = "eclector-concrete-syntax-tree";
-    version = "20230214-git";
-    hash = "md5-YgMdZCZxfct8a4kvpieiVA==";
-    url = "http://beta.quicklisp.org/archive/eclector/2023-02-14/eclector-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-5i/lRUKsg6BX/CL2eryHTg==";
+    url = "http://beta.quicklisp.org/archive/eclector/2023-10-21/eclector-20231021-git.tgz";
     cl-deps = [ alexandria concrete-syntax-tree eclector ];
   });
   eclector-concrete-syntax-tree-slash-test = (bqs {
     name = "eclector-concrete-syntax-tree/test";
-    version = "20230214-git";
-    hash = "md5-YgMdZCZxfct8a4kvpieiVA==";
-    url = "http://beta.quicklisp.org/archive/eclector/2023-02-14/eclector-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-5i/lRUKsg6BX/CL2eryHTg==";
+    url = "http://beta.quicklisp.org/archive/eclector/2023-10-21/eclector-20231021-git.tgz";
     cl-deps = [ alexandria eclector eclector-concrete-syntax-tree fiveam ];
   });
   eclector-slash-test = (bqs {
     name = "eclector/test";
-    version = "20230214-git";
-    hash = "md5-YgMdZCZxfct8a4kvpieiVA==";
-    url = "http://beta.quicklisp.org/archive/eclector/2023-02-14/eclector-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-5i/lRUKsg6BX/CL2eryHTg==";
+    url = "http://beta.quicklisp.org/archive/eclector/2023-10-21/eclector-20231021-git.tgz";
     cl-deps = [ alexandria eclector fiveam ];
   });
   eco = (bqs {
@@ -17675,10 +18193,17 @@ in with cl; {
   });
   enhanced-eval-when = (bqs {
     name = "enhanced-eval-when";
-    version = "1.0";
-    hash = "md5-TPWdY1OfQbewxBL22eif9Q==";
-    url = "http://beta.quicklisp.org/archive/enhanced-eval-when/2012-11-25/enhanced-eval-when-1.0.tgz";
+    version = "2.0";
+    hash = "md5-XYNAtAku0dAnFQ3WmLa/9A==";
+    url = "http://beta.quicklisp.org/archive/enhanced-eval-when/2023-10-21/enhanced-eval-when_2.0.tgz";
     cl-deps = [  ];
+  });
+  enhanced-eval-when_tests = (bqs {
+    name = "enhanced-eval-when_tests";
+    version = "2.0";
+    hash = "md5-XYNAtAku0dAnFQ3WmLa/9A==";
+    url = "http://beta.quicklisp.org/archive/enhanced-eval-when/2023-10-21/enhanced-eval-when_2.0.tgz";
+    cl-deps = [ enhanced-eval-when parachute ];
   });
   enhanced-find-class = (bqs {
     name = "enhanced-find-class";
@@ -17696,10 +18221,17 @@ in with cl; {
   });
   enhanced-multiple-value-bind = (bqs {
     name = "enhanced-multiple-value-bind";
-    version = "1.0.1";
-    hash = "md5-oP2zJ2K3v2qM1LBPB7sFoQ==";
-    url = "http://beta.quicklisp.org/archive/enhanced-multiple-value-bind/2012-11-25/enhanced-multiple-value-bind-1.0.1.tgz";
+    version = "2.0";
+    hash = "md5-/dVC38etZtRIRd5aWe3P5g==";
+    url = "http://beta.quicklisp.org/archive/enhanced-multiple-value-bind/2023-10-21/enhanced-multiple-value-bind_2.0.tgz";
     cl-deps = [  ];
+  });
+  enhanced-multiple-value-bind_tests = (bqs {
+    name = "enhanced-multiple-value-bind_tests";
+    version = "2.0";
+    hash = "md5-/dVC38etZtRIRd5aWe3P5g==";
+    url = "http://beta.quicklisp.org/archive/enhanced-multiple-value-bind/2023-10-21/enhanced-multiple-value-bind_2.0.tgz";
+    cl-deps = [ enhanced-eval-when enhanced-multiple-value-bind parachute ];
   });
   enhanced-typep = (bqs {
     name = "enhanced-typep";
@@ -17714,6 +18246,20 @@ in with cl; {
     hash = "md5-O3b/PCqSK4B+FMb/fv9hDg==";
     url = "http://beta.quicklisp.org/archive/enhanced-typep/2020-10-16/enhanced-typep_1.0.tgz";
     cl-deps = [ enhanced-boolean enhanced-typep parachute ];
+  });
+  enhanced-unwind-protect = (bqs {
+    name = "enhanced-unwind-protect";
+    version = "1.0";
+    hash = "md5-EEu+E6nCLAlrRHdv7qwzSQ==";
+    url = "http://beta.quicklisp.org/archive/enhanced-unwind-protect/2023-10-21/enhanced-unwind-protect_1.0.tgz";
+    cl-deps = [  ];
+  });
+  enhanced-unwind-protect_tests = (bqs {
+    name = "enhanced-unwind-protect_tests";
+    version = "1.0";
+    hash = "md5-EEu+E6nCLAlrRHdv7qwzSQ==";
+    url = "http://beta.quicklisp.org/archive/enhanced-unwind-protect/2023-10-21/enhanced-unwind-protect_1.0.tgz";
+    cl-deps = [ enhanced-unwind-protect parachute ];
   });
   envy = (bqs {
     name = "envy";
@@ -17766,9 +18312,9 @@ in with cl; {
   });
   erjoalgo-webutil = (bqs {
     name = "erjoalgo-webutil";
-    version = "20220707-git";
-    hash = "md5-BteF2A9VUwa722/uo8vq/g==";
-    url = "http://beta.quicklisp.org/archive/erjoalgo-webutil/2022-07-07/erjoalgo-webutil-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-A8cAyfIjWxzcrUeTu/2LwQ==";
+    url = "http://beta.quicklisp.org/archive/erjoalgo-webutil/2023-10-21/erjoalgo-webutil-20231021-git.tgz";
     cl-deps = [ cl-json cl-ppcre drakma fiasco gzip-stream hunchentoot vom ];
   });
   ernestine = (bqs {
@@ -17815,16 +18361,16 @@ in with cl; {
   });
   esrap = (bqs {
     name = "esrap";
-    version = "20220331-git";
-    hash = "md5-xDzRcSZtCGwlsN7Rs357qQ==";
-    url = "http://beta.quicklisp.org/archive/esrap/2022-03-31/esrap-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ZmzJZ858RjOHfIREqYJeww==";
+    url = "http://beta.quicklisp.org/archive/esrap/2023-06-18/esrap-20230618-git.tgz";
     cl-deps = [ alexandria trivial-with-current-source-form ];
   });
   esrap-slash-tests = (bqs {
     name = "esrap/tests";
-    version = "20220331-git";
-    hash = "md5-xDzRcSZtCGwlsN7Rs357qQ==";
-    url = "http://beta.quicklisp.org/archive/esrap/2022-03-31/esrap-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ZmzJZ858RjOHfIREqYJeww==";
+    url = "http://beta.quicklisp.org/archive/esrap/2023-06-18/esrap-20230618-git.tgz";
     cl-deps = [ esrap fiveam ];
   });
   esrap-liquid = (bqs {
@@ -17976,38 +18522,59 @@ in with cl; {
   });
   extensible-compound-types = (bqs {
     name = "extensible-compound-types";
-    version = "20230214-git";
-    hash = "md5-2PGG+PXNlo6jPYEfm2QSUw==";
-    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-02-14/extensible-compound-types-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ClIxbeFXmafA3ln17OzjKw==";
+    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-10-21/extensible-compound-types-20231021-git.tgz";
     cl-deps = [ alexandria cl-environments cl-form-types compiler-macro-notes fiveam in-nomine introspect-environment optima swank trivial-types ];
   });
   extensible-compound-types-cl = (bqs {
     name = "extensible-compound-types-cl";
-    version = "20230214-git";
-    hash = "md5-2PGG+PXNlo6jPYEfm2QSUw==";
-    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-02-14/extensible-compound-types-20230214-git.tgz";
-    cl-deps = [ alexandria cl-form-types extensible-compound-types fiveam ];
+    version = "20231021-git";
+    hash = "md5-ClIxbeFXmafA3ln17OzjKw==";
+    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-10-21/extensible-compound-types-20231021-git.tgz";
+    cl-deps = [ alexandria asdf-system-connections cl-form-types extensible-compound-types fiveam ];
   });
-  extensible-compound-types-cl-slash-specializable-structs = (bqs {
-    name = "extensible-compound-types-cl/specializable-structs";
-    version = "20230214-git";
-    hash = "md5-2PGG+PXNlo6jPYEfm2QSUw==";
-    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-02-14/extensible-compound-types-20230214-git.tgz";
-    cl-deps = [ cl-form-types cl-ppcre extensible-compound-types-cl fiveam polymorphic-functions ];
+  extensible-compound-types-cl-slash-magicl = (bqs {
+    name = "extensible-compound-types-cl/magicl";
+    version = "20231021-git";
+    hash = "md5-ClIxbeFXmafA3ln17OzjKw==";
+    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-10-21/extensible-compound-types-20231021-git.tgz";
+    cl-deps = [ extensible-compound-types-cl magicl ];
+  });
+  extensible-compound-types-interfaces = (bqs {
+    name = "extensible-compound-types-interfaces";
+    version = "20231021-git";
+    hash = "md5-ClIxbeFXmafA3ln17OzjKw==";
+    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-10-21/extensible-compound-types-20231021-git.tgz";
+    cl-deps = [ extensible-compound-types-cl polymorphic-functions ];
   });
   extensible-compound-types-slash-class-specializers = (bqs {
     name = "extensible-compound-types/class-specializers";
-    version = "20230214-git";
-    hash = "md5-2PGG+PXNlo6jPYEfm2QSUw==";
-    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-02-14/extensible-compound-types-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ClIxbeFXmafA3ln17OzjKw==";
+    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-10-21/extensible-compound-types-20231021-git.tgz";
     cl-deps = [ alexandria cl-environments cl-form-types compiler-macro-notes fiveam in-nomine introspect-environment optima swank trivial-types ];
   });
   extensible-compound-types-slash-core = (bqs {
     name = "extensible-compound-types/core";
-    version = "20230214-git";
-    hash = "md5-2PGG+PXNlo6jPYEfm2QSUw==";
-    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-02-14/extensible-compound-types-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ClIxbeFXmafA3ln17OzjKw==";
+    url = "http://beta.quicklisp.org/archive/extensible-compound-types/2023-10-21/extensible-compound-types-20231021-git.tgz";
     cl-deps = [ alexandria cl-environments compiler-macro-notes fiveam in-nomine introspect-environment optima swank trivial-types ];
+  });
+  extensible-optimizing-coerce = (bqs {
+    name = "extensible-optimizing-coerce";
+    version = "20230618-git";
+    hash = "md5-fA/h23tWFGZpQ4V8/S/hkg==";
+    url = "http://beta.quicklisp.org/archive/extensible-optimizing-coerce/2023-06-18/extensible-optimizing-coerce-20230618-git.tgz";
+    cl-deps = [ closer-mop extensible-compound-types extensible-compound-types-interfaces optima trivial-types ];
+  });
+  extensible-optimizing-coerce-slash-tests = (bqs {
+    name = "extensible-optimizing-coerce/tests";
+    version = "20230618-git";
+    hash = "md5-fA/h23tWFGZpQ4V8/S/hkg==";
+    url = "http://beta.quicklisp.org/archive/extensible-optimizing-coerce/2023-06-18/extensible-optimizing-coerce-20230618-git.tgz";
+    cl-deps = [ extensible-optimizing-coerce fiveam ];
   });
   external-program = (bqs {
     name = "external-program";
@@ -18039,415 +18606,415 @@ in with cl; {
   });
   blas = (bqs {
     name = "blas";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-complex blas-package blas-real ];
   });
   blas-complex = (bqs {
     name = "blas-complex";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-real f2cl ];
   });
   blas-hompack = (bqs {
     name = "blas-hompack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-package f2cl ];
   });
   blas-package = (bqs {
     name = "blas-package";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   blas-real = (bqs {
     name = "blas-real";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-hompack f2cl ];
   });
   colnew = (bqs {
     name = "colnew";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   colnew-slash-test-1 = (bqs {
     name = "colnew/test-1";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ colnew ];
   });
   colnew-slash-test-2 = (bqs {
     name = "colnew/test-2";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ colnew ];
   });
   colnew-slash-test-3 = (bqs {
     name = "colnew/test-3";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ colnew ];
   });
   f2cl = (bqs {
     name = "f2cl";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl-asdf ];
   });
   f2cl-asdf = (bqs {
     name = "f2cl-asdf";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   fftpack5 = (bqs {
     name = "fftpack5";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   fftpack5-double = (bqs {
     name = "fftpack5-double";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   fishpack = (bqs {
     name = "fishpack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   fishpack-slash-test-hstcrt = (bqs {
     name = "fishpack/test-hstcrt";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hstcsp = (bqs {
     name = "fishpack/test-hstcsp";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hstcyl = (bqs {
     name = "fishpack/test-hstcyl";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hstplr = (bqs {
     name = "fishpack/test-hstplr";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hstssp = (bqs {
     name = "fishpack/test-hstssp";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hwscrt = (bqs {
     name = "fishpack/test-hwscrt";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hwscsp = (bqs {
     name = "fishpack/test-hwscsp";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hwscyl = (bqs {
     name = "fishpack/test-hwscyl";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hwsplr = (bqs {
     name = "fishpack/test-hwsplr";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-hwsssp = (bqs {
     name = "fishpack/test-hwsssp";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   fishpack-slash-test-sepx4 = (bqs {
     name = "fishpack/test-sepx4";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ fishpack ];
   });
   hompack = (bqs {
     name = "hompack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-hompack f2cl ];
   });
   hompack-slash-test-mainf = (bqs {
     name = "hompack/test-mainf";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ hompack ];
   });
   hompack-slash-test-mainp = (bqs {
     name = "hompack/test-mainp";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ hompack ];
   });
   hompack-slash-test-mains = (bqs {
     name = "hompack/test-mains";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ hompack ];
   });
   lapack = (bqs {
     name = "lapack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-complex blas-package blas-real f2cl ];
   });
   lapack-slash-complex = (bqs {
     name = "lapack/complex";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-complex blas-package blas-real ];
   });
   lapack-slash-package = (bqs {
     name = "lapack/package";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-package ];
   });
   lapack-slash-real = (bqs {
     name = "lapack/real";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ blas-package blas-real ];
   });
   lapack-slash-tests = (bqs {
     name = "lapack/tests";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ lapack rt ];
   });
   minpack = (bqs {
     name = "minpack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   minpack-slash-test-hybrd = (bqs {
     name = "minpack/test-hybrd";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ minpack ];
   });
   minpack-slash-test-lmdif = (bqs {
     name = "minpack/test-lmdif";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ minpack ];
   });
   odepack = (bqs {
     name = "odepack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   odepack-slash-blas-util = (bqs {
     name = "odepack/blas-util";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsoda = (bqs {
     name = "odepack/lsoda";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsoda-demo = (bqs {
     name = "odepack/lsoda-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsodar = (bqs {
     name = "odepack/lsodar";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsodar-demo = (bqs {
     name = "odepack/lsodar-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsode = (bqs {
     name = "odepack/lsode";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsode-demo = (bqs {
     name = "odepack/lsode-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   odepack-slash-lsodi-demo = (bqs {
     name = "odepack/lsodi-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ odepack ];
   });
   odepack-slash-lsodkr-demo = (bqs {
     name = "odepack/lsodkr-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ odepack ];
   });
   odepack-slash-lsodpk-demo = (bqs {
     name = "odepack/lsodpk-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ odepack ];
   });
   odepack-slash-lsoibt-demo = (bqs {
     name = "odepack/lsoibt-demo";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ odepack ];
   });
   odepack-slash-package = (bqs {
     name = "odepack/package";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   quadpack = (bqs {
     name = "quadpack";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   quadpack-slash-mach-par = (bqs {
     name = "quadpack/mach-par";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [  ];
   });
   quadpack-slash-tests = (bqs {
     name = "quadpack/tests";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ quadpack rt ];
   });
   toms419 = (bqs {
     name = "toms419";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   toms419-slash-test = (bqs {
     name = "toms419/test";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ toms419 ];
   });
   toms715 = (bqs {
     name = "toms715";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   toms715-slash-tests = (bqs {
     name = "toms715/tests";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ toms715 ];
   });
   toms717 = (bqs {
     name = "toms717";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ f2cl ];
   });
   toms717-slash-tests = (bqs {
     name = "toms717/tests";
-    version = "20200925-git";
-    hash = "md5-GrE/xsBIhR+Hsasb9ufvpA==";
-    url = "http://beta.quicklisp.org/archive/f2cl/2020-09-25/f2cl-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9Anbcr8lHZcLO7BAWhgttg==";
+    url = "http://beta.quicklisp.org/archive/f2cl/2023-10-21/f2cl-20231021-git.tgz";
     cl-deps = [ toms717 ];
   });
   fact-base = (bqs {
@@ -18459,23 +19026,23 @@ in with cl; {
   });
   factory-alien = (bqs {
     name = "factory-alien";
-    version = "20220707-git";
-    hash = "md5-W6PJLda4EgiHNIwvCkBPbA==";
-    url = "http://beta.quicklisp.org/archive/factory-alien/2022-07-07/factory-alien-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Llr1KtBRii1XgKIQapurpg==";
+    url = "http://beta.quicklisp.org/archive/factory-alien/2023-06-18/factory-alien-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop ];
   });
   factory-alien-slash-postmodern = (bqs {
     name = "factory-alien/postmodern";
-    version = "20220707-git";
-    hash = "md5-W6PJLda4EgiHNIwvCkBPbA==";
-    url = "http://beta.quicklisp.org/archive/factory-alien/2022-07-07/factory-alien-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Llr1KtBRii1XgKIQapurpg==";
+    url = "http://beta.quicklisp.org/archive/factory-alien/2023-06-18/factory-alien-20230618-git.tgz";
     cl-deps = [ factory-alien postmodern ];
   });
   factory-alien-slash-test = (bqs {
     name = "factory-alien/test";
-    version = "20220707-git";
-    hash = "md5-W6PJLda4EgiHNIwvCkBPbA==";
-    url = "http://beta.quicklisp.org/archive/factory-alien/2022-07-07/factory-alien-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Llr1KtBRii1XgKIQapurpg==";
+    url = "http://beta.quicklisp.org/archive/factory-alien/2023-06-18/factory-alien-20230618-git.tgz";
     cl-deps = [ factory-alien parachute ];
   });
   fakenil = (bqs {
@@ -18550,9 +19117,9 @@ in with cl; {
   });
   fare-scripts = (bqs {
     name = "fare-scripts";
-    version = "20211230-git";
-    hash = "md5-YxjrP99NXnGhPLE7z86C3g==";
-    url = "http://beta.quicklisp.org/archive/fare-scripts/2021-12-30/fare-scripts-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-NeTFZsW7denmx91sA8lY7A==";
+    url = "http://beta.quicklisp.org/archive/fare-scripts/2023-10-21/fare-scripts-20231021-git.tgz";
     cl-deps = [ babel binascii cl-launch cl-mime cl-ppcre cl-scripting cl-unicode command-line-arguments fare-utils inferior-shell optima optima-dot-ppcre swank ];
   });
   fare-utils = (bqs {
@@ -18578,16 +19145,16 @@ in with cl; {
   });
   fast-http = (bqs {
     name = "fast-http";
-    version = "20191007-git";
-    hash = "md5-/UO+Tdcv2b2lo+zOhxBMlw==";
-    url = "http://beta.quicklisp.org/archive/fast-http/2019-10-07/fast-http-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-XsREDOPfKJzvZ74DTaLCnQ==";
+    url = "http://beta.quicklisp.org/archive/fast-http/2023-10-21/fast-http-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-utilities proc-parse smart-buffer xsubseq ];
   });
   fast-http-test = (bqs {
     name = "fast-http-test";
-    version = "20191007-git";
-    hash = "md5-/UO+Tdcv2b2lo+zOhxBMlw==";
-    url = "http://beta.quicklisp.org/archive/fast-http/2019-10-07/fast-http-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-XsREDOPfKJzvZ74DTaLCnQ==";
+    url = "http://beta.quicklisp.org/archive/fast-http/2023-10-21/fast-http-20231021-git.tgz";
     cl-deps = [ babel cl-syntax-interpol fast-http prove prove-asdf xsubseq ];
   });
   fast-io = (bqs {
@@ -18620,9 +19187,9 @@ in with cl; {
   });
   feeder = (bqs {
     name = "feeder";
-    version = "20210228-git";
-    hash = "md5-pPAhcStraRv3BgVub6hgXg==";
-    url = "http://beta.quicklisp.org/archive/feeder/2021-02-28/feeder-20210228-git.tgz";
+    version = "20231021-git";
+    hash = "md5-6ZYI/v+v4Np15/Qkv6L0BQ==";
+    url = "http://beta.quicklisp.org/archive/feeder/2023-10-21/feeder-20231021-git.tgz";
     cl-deps = [ documentation-utils local-time plump ];
   });
   cl-cpu-affinity = (bqs {
@@ -18739,9 +19306,9 @@ in with cl; {
   });
   file-attributes = (bqs {
     name = "file-attributes";
-    version = "20230214-git";
-    hash = "md5-tVgdRAXfRO9NT/3j0aykeA==";
-    url = "http://beta.quicklisp.org/archive/file-attributes/2023-02-14/file-attributes-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-V11Cj5awI+0zhz0d5Y6Mqw==";
+    url = "http://beta.quicklisp.org/archive/file-attributes/2023-10-21/file-attributes-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features ];
   });
   file-local-variable = (bqs {
@@ -18758,18 +19325,32 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/file-local-variable/2016-03-18/file-local-variable-20160318-git.tgz";
     cl-deps = [ file-local-variable fiveam ];
   });
+  file-lock = (bqs {
+    name = "file-lock";
+    version = "20231021-git";
+    hash = "md5-ztB1YgsS1vcoaEOZBPxtoQ==";
+    url = "http://beta.quicklisp.org/archive/file-lock/2023-10-21/file-lock-20231021-git.tgz";
+    cl-deps = [ cffi easy-macros log4cl ];
+  });
+  file-lock-slash-tests = (bqs {
+    name = "file-lock/tests";
+    version = "20231021-git";
+    hash = "md5-ztB1YgsS1vcoaEOZBPxtoQ==";
+    url = "http://beta.quicklisp.org/archive/file-lock/2023-10-21/file-lock-20231021-git.tgz";
+    cl-deps = [ file-lock fiveam tmpdir ];
+  });
   file-notify = (bqs {
     name = "file-notify";
-    version = "20220707-git";
-    hash = "md5-ViiwPoPqHtXKrFq/EZPn0Q==";
-    url = "http://beta.quicklisp.org/archive/file-notify/2022-07-07/file-notify-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8swYNwRjqJP7nCWfeoRGUw==";
+    url = "http://beta.quicklisp.org/archive/file-notify/2023-10-21/file-notify-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features ];
   });
   file-select = (bqs {
     name = "file-select";
-    version = "20230214-git";
-    hash = "md5-KiI1tAtiPL19rd+yeWbVTQ==";
-    url = "http://beta.quicklisp.org/archive/file-select/2023-02-14/file-select-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-LfEbWcY0o4olvVKAnAXfWA==";
+    url = "http://beta.quicklisp.org/archive/file-select/2023-10-21/file-select-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils float-features trivial-features ];
   });
   file-types = (bqs {
@@ -18781,16 +19362,16 @@ in with cl; {
   });
   filesystem-utils = (bqs {
     name = "filesystem-utils";
-    version = "20230214-git";
-    hash = "md5-frg3mMCzVTLmHtfU+3v3Tg==";
-    url = "http://beta.quicklisp.org/archive/filesystem-utils/2023-02-14/filesystem-utils-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1eFCMdQ5hKQI3z6dyEgU3g==";
+    url = "http://beta.quicklisp.org/archive/filesystem-utils/2023-10-21/filesystem-utils-20231021-git.tgz";
     cl-deps = [ documentation-utils pathname-utils trivial-features ];
   });
   filesystem-utils-test = (bqs {
     name = "filesystem-utils-test";
-    version = "20230214-git";
-    hash = "md5-frg3mMCzVTLmHtfU+3v3Tg==";
-    url = "http://beta.quicklisp.org/archive/filesystem-utils/2023-02-14/filesystem-utils-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1eFCMdQ5hKQI3z6dyEgU3g==";
+    url = "http://beta.quicklisp.org/archive/filesystem-utils/2023-10-21/filesystem-utils-20231021-git.tgz";
     cl-deps = [ filesystem-utils parachute ];
   });
   filter-maker = (bqs {
@@ -18851,16 +19432,16 @@ in with cl; {
   });
   fiveam = (bqs {
     name = "fiveam";
-    version = "20220331-git";
-    hash = "md5-0mSfJjachmHGtKpriFL3qg==";
-    url = "http://beta.quicklisp.org/archive/fiveam/2022-03-31/fiveam-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mFs4di5CFwNdRCUivApxNw==";
+    url = "http://beta.quicklisp.org/archive/fiveam/2023-10-21/fiveam-20231021-git.tgz";
     cl-deps = [ alexandria net-dot-didierverna-dot-asdf-flv trivial-backtrace ];
   });
   fiveam-slash-test = (bqs {
     name = "fiveam/test";
-    version = "20220331-git";
-    hash = "md5-0mSfJjachmHGtKpriFL3qg==";
-    url = "http://beta.quicklisp.org/archive/fiveam/2022-03-31/fiveam-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mFs4di5CFwNdRCUivApxNw==";
+    url = "http://beta.quicklisp.org/archive/fiveam/2023-10-21/fiveam-20231021-git.tgz";
     cl-deps = [ fiveam ];
   });
   fiveam-asdf = (bqs {
@@ -18872,16 +19453,16 @@ in with cl; {
   });
   fiveam-matchers = (bqs {
     name = "fiveam-matchers";
-    version = "20230214-git";
-    hash = "md5-3+ZdKB/u5Sel/acy7rk8Xw==";
-    url = "http://beta.quicklisp.org/archive/fiveam-matchers/2023-02-14/fiveam-matchers-20230214-git.tgz";
-    cl-deps = [ fiveam str ];
+    version = "20231021-git";
+    hash = "md5-mlMOtZa1T+GpNztS4cYPfA==";
+    url = "http://beta.quicklisp.org/archive/fiveam-matchers/2023-10-21/fiveam-matchers-20231021-git.tgz";
+    cl-deps = [ cl-ppcre fiveam str ];
   });
   fiveam-matchers-slash-tests = (bqs {
     name = "fiveam-matchers/tests";
-    version = "20230214-git";
-    hash = "md5-3+ZdKB/u5Sel/acy7rk8Xw==";
-    url = "http://beta.quicklisp.org/archive/fiveam-matchers/2023-02-14/fiveam-matchers-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mlMOtZa1T+GpNztS4cYPfA==";
+    url = "http://beta.quicklisp.org/archive/fiveam-matchers/2023-10-21/fiveam-matchers-20231021-git.tgz";
     cl-deps = [ fiveam-matchers ];
   });
   fixed = (bqs {
@@ -18914,16 +19495,16 @@ in with cl; {
   });
   flare = (bqs {
     name = "flare";
-    version = "20221106-git";
-    hash = "md5-N/AqD+7MdqVgr1tk5DFjcA==";
-    url = "http://beta.quicklisp.org/archive/flare/2022-11-06/flare-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-a+Xv3oTTEtGpVNijtADzXw==";
+    url = "http://beta.quicklisp.org/archive/flare/2023-10-21/flare-20231021-git.tgz";
     cl-deps = [ cl-3d-vectors array-utils documentation-utils for lambda-fiddle trivial-garbage ];
   });
   flare-viewer = (bqs {
     name = "flare-viewer";
-    version = "20221106-git";
-    hash = "md5-N/AqD+7MdqVgr1tk5DFjcA==";
-    url = "http://beta.quicklisp.org/archive/flare/2022-11-06/flare-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-a+Xv3oTTEtGpVNijtADzXw==";
+    url = "http://beta.quicklisp.org/archive/flare/2023-10-21/flare-20231021-git.tgz";
     cl-deps = [ cl-opengl flare qtcore qtgui qtools qtopengl verbose ];
   });
   flexi-streams = (bqs {
@@ -18956,16 +19537,16 @@ in with cl; {
   });
   float-features = (bqs {
     name = "float-features";
-    version = "20230214-git";
-    hash = "md5-P77s88eixuPQ0NPLKTZ69g==";
-    url = "http://beta.quicklisp.org/archive/float-features/2023-02-14/float-features-20230214-git.tgz";
-    cl-deps = [ documentation-utils ];
+    version = "20231021-git";
+    hash = "md5-B56/ty4a8IGu2Ni8xlBWwQ==";
+    url = "http://beta.quicklisp.org/archive/float-features/2023-10-21/float-features-20231021-git.tgz";
+    cl-deps = [ documentation-utils trivial-features ];
   });
   float-features-tests = (bqs {
     name = "float-features-tests";
-    version = "20230214-git";
-    hash = "md5-P77s88eixuPQ0NPLKTZ69g==";
-    url = "http://beta.quicklisp.org/archive/float-features/2023-02-14/float-features-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-B56/ty4a8IGu2Ni8xlBWwQ==";
+    url = "http://beta.quicklisp.org/archive/float-features/2023-10-21/float-features-20231021-git.tgz";
     cl-deps = [ float-features parachute ];
   });
   floating-point = (bqs {
@@ -18991,16 +19572,16 @@ in with cl; {
   });
   flow = (bqs {
     name = "flow";
-    version = "20200610-git";
-    hash = "md5-8HZ0Z9Xpv9pv5Xd6JnGYEQ==";
-    url = "http://beta.quicklisp.org/archive/flow/2020-06-10/flow-20200610-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/L/k21rQzwB/W9MGbey/AA==";
+    url = "http://beta.quicklisp.org/archive/flow/2023-10-21/flow-20231021-git.tgz";
     cl-deps = [ closer-mop documentation-utils ];
   });
   flow-visualizer = (bqs {
     name = "flow-visualizer";
-    version = "20200610-git";
-    hash = "md5-8HZ0Z9Xpv9pv5Xd6JnGYEQ==";
-    url = "http://beta.quicklisp.org/archive/flow/2020-06-10/flow-20200610-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/L/k21rQzwB/W9MGbey/AA==";
+    url = "http://beta.quicklisp.org/archive/flow/2023-10-21/flow-20231021-git.tgz";
     cl-deps = [ flow qtcore qtgui qtools ];
   });
   flute = (bqs {
@@ -19016,6 +19597,20 @@ in with cl; {
     hash = "md5-jDErDhjBDn8DuB/BlYe3hg==";
     url = "http://beta.quicklisp.org/archive/flute/2018-08-31/flute-20180831-git.tgz";
     cl-deps = [ fiveam flute ];
+  });
+  fmcs = (bqs {
+    name = "fmcs";
+    version = "20231021-git";
+    hash = "md5-kE30SiPus9HEQIy+Qg7AMg==";
+    url = "http://beta.quicklisp.org/archive/fmcs/2023-10-21/fmcs-20231021-git.tgz";
+    cl-deps = [ fare-quasiquote-extras ];
+  });
+  fmcs-slash-test = (bqs {
+    name = "fmcs/test";
+    version = "20231021-git";
+    hash = "md5-kE30SiPus9HEQIy+Qg7AMg==";
+    url = "http://beta.quicklisp.org/archive/fmcs/2023-10-21/fmcs-20231021-git.tgz";
+    cl-deps = [ fmcs ];
   });
   fmt = (bqs {
     name = "fmt";
@@ -19306,23 +19901,23 @@ in with cl; {
   });
   font-discovery = (bqs {
     name = "font-discovery";
-    version = "20221106-git";
-    hash = "md5-oU6z6zaXgmlVLtPyszd1zg==";
-    url = "http://beta.quicklisp.org/archive/font-discovery/2022-11-06/font-discovery-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-4gtM423h/p9w6H2X+ljpHQ==";
+    url = "http://beta.quicklisp.org/archive/font-discovery/2023-10-21/font-discovery-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features trivial-indent ];
   });
   for = (bqs {
     name = "for";
-    version = "20230214-git";
-    hash = "md5-1mQKXXJJ5eS5oxehQ2bmKQ==";
-    url = "http://beta.quicklisp.org/archive/for/2023-02-14/for-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3qLgrlSYkuFri9TBL5VxlA==";
+    url = "http://beta.quicklisp.org/archive/for/2023-10-21/for-20231021-git.tgz";
     cl-deps = [ documentation-utils form-fiddle lambda-fiddle ];
   });
   form-fiddle = (bqs {
     name = "form-fiddle";
-    version = "20190710-git";
-    hash = "md5-JXYGXeHjyVdRKF+xVfW89g==";
-    url = "http://beta.quicklisp.org/archive/form-fiddle/2019-07-10/form-fiddle-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aaswapw7oq7gkTFs8LQCPA==";
+    url = "http://beta.quicklisp.org/archive/form-fiddle/2023-10-21/form-fiddle-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   format-string-builder = (bqs {
@@ -19383,16 +19978,16 @@ in with cl; {
   });
   fresnel = (bqs {
     name = "fresnel";
-    version = "20220707-git";
-    hash = "md5-xY6SZL2d20fsuzNIunPMMg==";
-    url = "http://beta.quicklisp.org/archive/fresnel/2022-07-07/fresnel-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-DfC2y5QXLm3OkC4VQebVHQ==";
+    url = "http://beta.quicklisp.org/archive/fresnel/2023-06-18/fresnel-20230618-git.tgz";
     cl-deps = [ fare-quasiquote-extras gt trivial-package-local-nicknames ];
   });
   fresnel-slash-readtable = (bqs {
     name = "fresnel/readtable";
-    version = "20220707-git";
-    hash = "md5-xY6SZL2d20fsuzNIunPMMg==";
-    url = "http://beta.quicklisp.org/archive/fresnel/2022-07-07/fresnel-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-DfC2y5QXLm3OkC4VQebVHQ==";
+    url = "http://beta.quicklisp.org/archive/fresnel/2023-06-18/fresnel-20230618-git.tgz";
     cl-deps = [ cl-interpol fare-quasiquote-extras gt ];
   });
   froute = (bqs {
@@ -19495,30 +20090,30 @@ in with cl; {
   });
   function-cache = (bqs {
     name = "function-cache";
-    version = "20181210-git";
-    hash = "md5-ye192PEDJzvZ2qBrWnIJRA==";
-    url = "http://beta.quicklisp.org/archive/function-cache/2018-12-10/function-cache-20181210-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TIDDNT0m9sC3IqfdgCu2Ag==";
+    url = "http://beta.quicklisp.org/archive/function-cache/2023-10-21/function-cache-20231021-git.tgz";
     cl-deps = [ alexandria cl-interpol closer-mop iterate symbol-munger ];
   });
   function-cache-clsql = (bqs {
     name = "function-cache-clsql";
-    version = "20181210-git";
-    hash = "md5-ye192PEDJzvZ2qBrWnIJRA==";
-    url = "http://beta.quicklisp.org/archive/function-cache/2018-12-10/function-cache-20181210-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TIDDNT0m9sC3IqfdgCu2Ag==";
+    url = "http://beta.quicklisp.org/archive/function-cache/2023-10-21/function-cache-20231021-git.tgz";
     cl-deps = [ clsql clsql-helper function-cache ];
   });
   function-cache-slash-test = (bqs {
     name = "function-cache/test";
-    version = "20181210-git";
-    hash = "md5-ye192PEDJzvZ2qBrWnIJRA==";
-    url = "http://beta.quicklisp.org/archive/function-cache/2018-12-10/function-cache-20181210-git.tgz";
+    version = "20231021-git";
+    hash = "md5-TIDDNT0m9sC3IqfdgCu2Ag==";
+    url = "http://beta.quicklisp.org/archive/function-cache/2023-10-21/function-cache-20231021-git.tgz";
     cl-deps = [ function-cache lisp-unit2 ];
   });
   functional-trees = (bqs {
     name = "functional-trees";
-    version = "20230214-git";
-    hash = "md5-Q6/+1mOTnlSrjPxqEauFMA==";
-    url = "http://beta.quicklisp.org/archive/functional-trees/2023-02-14/functional-trees-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GcR+qcuQngk44Ah4HzQEVA==";
+    url = "http://beta.quicklisp.org/archive/functional-trees/2023-10-21/functional-trees-20231021-git.tgz";
     cl-deps = [ alexandria asdf-package-system cl-store closer-mop fset iterate serapeum ];
   });
   funds = (bqs {
@@ -19527,6 +20122,20 @@ in with cl; {
     hash = "md5-U+A+BBtaCIb9jMhybEWZDw==";
     url = "http://beta.quicklisp.org/archive/funds/2021-10-20/funds-20211020-git.tgz";
     cl-deps = [  ];
+  });
+  fuzzy-dates = (bqs {
+    name = "fuzzy-dates";
+    version = "20231021-git";
+    hash = "md5-u7Ao8Q9rPtxzgD/F+Ugp0w==";
+    url = "http://beta.quicklisp.org/archive/fuzzy-dates/2023-10-21/fuzzy-dates-20231021-git.tgz";
+    cl-deps = [ cl-ppcre documentation-utils ];
+  });
+  fuzzy-dates-slash-test = (bqs {
+    name = "fuzzy-dates/test";
+    version = "20231021-git";
+    hash = "md5-u7Ao8Q9rPtxzgD/F+Ugp0w==";
+    url = "http://beta.quicklisp.org/archive/fuzzy-dates/2023-10-21/fuzzy-dates-20231021-git.tgz";
+    cl-deps = [ fuzzy-dates parachute ];
   });
   fuzzy-match = (bqs {
     name = "fuzzy-match";
@@ -19670,163 +20279,149 @@ in with cl; {
   });
   base = (bqs {
     name = "base";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [  ];
   });
   bus = (bqs {
     name = "bus";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics ];
   });
   cl-lite = (bqs {
     name = "cl-lite";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ glisp ];
   });
   dom = (bqs {
     name = "dom";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ cl-who yadd ];
   });
   gendl = (bqs {
     name = "gendl";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ cl-lite geysr gwl-graphics robot yadd ];
   });
   gendl-asdf = (bqs {
     name = "gendl-asdf";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [  ];
   });
   geom-base = (bqs {
     name = "geom-base";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ base cl-pdf cl-typesetting cl-who ];
   });
   geysr = (bqs {
     name = "geysr";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gendl-asdf gwl-graphics ];
   });
   glisp = (bqs {
     name = "glisp";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ babel base bordeaux-threads cl-base64 cl-ppcre uiop ];
   });
   graphs = (bqs {
     name = "graphs";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics ];
   });
   gwl = (bqs {
     name = "gwl";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ cl-html-parse cl-markdown cl-who glisp yason zaserve ];
   });
   gwl-graphics = (bqs {
     name = "gwl-graphics";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ geom-base gwl ];
   });
   ledger = (bqs {
     name = "ledger";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl ];
-  });
-  regression = (bqs {
-    name = "regression";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
-    cl-deps = [ lift surf tasty ];
   });
   robot = (bqs {
     name = "robot";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics ];
-  });
-  setup-cffi = (bqs {
-    name = "setup-cffi";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
-    cl-deps = [ cffi ];
   });
   surf = (bqs {
     name = "surf";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ geom-base ];
   });
   ta2 = (bqs {
     name = "ta2";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics ];
   });
   tasty = (bqs {
     name = "tasty";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics tree ];
   });
   translators = (bqs {
     name = "translators";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl ];
   });
   tree = (bqs {
     name = "tree";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics ];
   });
   wire-world = (bqs {
     name = "wire-world";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ gwl-graphics ];
   });
   yadd = (bqs {
     name = "yadd";
-    version = "master-1a957fb2-git";
-    hash = "md5-hFEjZZlohK5illPPxV6rEg==";
-    url = "http://beta.quicklisp.org/archive/gendl/2022-07-07/gendl-master-1a957fb2-git.tgz";
+    version = "master-fe503896-git";
+    hash = "md5-UCDUT5jggzGxEj3Ss/oYtg==";
+    url = "http://beta.quicklisp.org/archive/gendl/2023-10-21/gendl-master-fe503896-git.tgz";
     cl-deps = [ cl-html-parse gwl-graphics ];
   });
   generalized-reference = (bqs {
@@ -20069,16 +20664,16 @@ in with cl; {
   });
   geodesic = (bqs {
     name = "geodesic";
-    version = "20220331-git";
-    hash = "md5-uuQQH26D/ttylAGmnv45Bg==";
-    url = "http://beta.quicklisp.org/archive/geodesic/2022-03-31/geodesic-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-qFTJu7dUBuaasty1gyPNyA==";
+    url = "http://beta.quicklisp.org/archive/geodesic/2023-06-18/geodesic-20230618-git.tgz";
     cl-deps = [  ];
   });
   geodesic-slash-test = (bqs {
     name = "geodesic/test";
-    version = "20220331-git";
-    hash = "md5-uuQQH26D/ttylAGmnv45Bg==";
-    url = "http://beta.quicklisp.org/archive/geodesic/2022-03-31/geodesic-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-qFTJu7dUBuaasty1gyPNyA==";
+    url = "http://beta.quicklisp.org/archive/geodesic/2023-06-18/geodesic-20230618-git.tgz";
     cl-deps = [ cl-1am geodesic parse-number split-sequence ];
   });
   geowkt = (bqs {
@@ -20130,20 +20725,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/gettext/2017-11-30/gettext-20171130-git.tgz";
     cl-deps = [ gettext stefil ];
   });
-  gfxmath = (bqs {
-    name = "gfxmath";
-    version = "20220707-git";
-    hash = "md5-AYP1OkmY6VG8T/2n02bKHA==";
-    url = "http://beta.quicklisp.org/archive/gfxmath/2022-07-07/gfxmath-20220707-git.tgz";
-    cl-deps = [ mfiano-utils str ];
-  });
-  gfxmath-dot-test = (bqs {
-    name = "gfxmath.test";
-    version = "20220707-git";
-    hash = "md5-AYP1OkmY6VG8T/2n02bKHA==";
-    url = "http://beta.quicklisp.org/archive/gfxmath/2022-07-07/gfxmath-20220707-git.tgz";
-    cl-deps = [ gfxmath mfiano-utils prove prove-asdf ];
-  });
   git-file-history = (bqs {
     name = "git-file-history";
     version = "20160825-git";
@@ -20160,23 +20741,23 @@ in with cl; {
   });
   github-api-cl = (bqs {
     name = "github-api-cl";
-    version = "20221106-git";
-    hash = "md5-0TxXr1G0mXuATEtUa3GSiA==";
-    url = "http://beta.quicklisp.org/archive/github-api-cl/2022-11-06/github-api-cl-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+fp0pQyJO2o9MtRssLkikQ==";
+    url = "http://beta.quicklisp.org/archive/github-api-cl/2023-10-21/github-api-cl-20231021-git.tgz";
     cl-deps = [ alexandria cffi-grovel cl-base64 clack dexador str trivial-features woo yason ];
   });
   github-api-cl-slash-tests = (bqs {
     name = "github-api-cl/tests";
-    version = "20221106-git";
-    hash = "md5-0TxXr1G0mXuATEtUa3GSiA==";
-    url = "http://beta.quicklisp.org/archive/github-api-cl/2022-11-06/github-api-cl-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+fp0pQyJO2o9MtRssLkikQ==";
+    url = "http://beta.quicklisp.org/archive/github-api-cl/2023-10-21/github-api-cl-20231021-git.tgz";
     cl-deps = [ github-api-cl lisp-unit ];
   });
   github-gist-api-cl = (bqs {
     name = "github-gist-api-cl";
-    version = "20221106-git";
-    hash = "md5-0TxXr1G0mXuATEtUa3GSiA==";
-    url = "http://beta.quicklisp.org/archive/github-api-cl/2022-11-06/github-api-cl-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+fp0pQyJO2o9MtRssLkikQ==";
+    url = "http://beta.quicklisp.org/archive/github-api-cl/2023-10-21/github-api-cl-20231021-git.tgz";
     cl-deps = [ alexandria cffi-grovel cl-base64 clack dexador github-api-cl str trivial-features woo yason ];
   });
   glacier = (bqs {
@@ -20227,6 +20808,13 @@ in with cl; {
     hash = "md5-qjQf3BhN4KS+IWVK9rldWg==";
     url = "http://beta.quicklisp.org/archive/glaw/2018-02-28/glaw-20180228-git.tgz";
     cl-deps = [ glaw lispbuilder-sdl lispbuilder-sdl-image ];
+  });
+  glfw = (bqs {
+    name = "glfw";
+    version = "20231021-git";
+    hash = "md5-JM95hwrsX0xExBlRMbkT7A==";
+    url = "http://beta.quicklisp.org/archive/glfw/2023-10-21/glfw-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils float-features ];
   });
   glfw-blob = (bqs {
     name = "glfw-blob";
@@ -20291,13 +20879,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/glop/2017-10-19/glop-20171019-git.tgz";
     cl-deps = [ cl-glu cl-opengl glop ];
   });
-  glsl-metadata = (bqs {
-    name = "glsl-metadata";
-    version = "20220707-git";
-    hash = "md5-0oev6k8GayAcQ+koS7P1yg==";
-    url = "http://beta.quicklisp.org/archive/glsl-metadata/2022-07-07/glsl-metadata-20220707-git.tgz";
-    cl-deps = [  ];
-  });
   glsl-packing = (bqs {
     name = "glsl-packing";
     version = "20180131-git";
@@ -20328,9 +20909,9 @@ in with cl; {
   });
   glsl-toolkit = (bqs {
     name = "glsl-toolkit";
-    version = "20220707-git";
-    hash = "md5-+qRpXC9u7Jc/cEaoV40XNQ==";
-    url = "http://beta.quicklisp.org/archive/glsl-toolkit/2022-07-07/glsl-toolkit-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-jQ0Ehhc5tXAwdkRykTvLaw==";
+    url = "http://beta.quicklisp.org/archive/glsl-toolkit/2023-10-21/glsl-toolkit-20231021-git.tgz";
     cl-deps = [ cl-ppcre documentation-utils parse-float trivial-indent ];
   });
   glu-tessellate = (bqs {
@@ -20468,16 +21049,16 @@ in with cl; {
   });
   gtirb-capstone = (bqs {
     name = "gtirb-capstone";
-    version = "20230214-git";
-    hash = "md5-Xuo1JYAG7+4/HlFRSu9VvQ==";
-    url = "http://beta.quicklisp.org/archive/gtirb-capstone/2023-02-14/gtirb-capstone-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-XyAiqgcwb2Txej6rv2O/zQ==";
+    url = "http://beta.quicklisp.org/archive/gtirb-capstone/2023-10-21/gtirb-capstone-20231021-git.tgz";
     cl-deps = [ asdf-package-system capstone graph gt gtirb keystone stefil ];
   });
   gtirb-functions = (bqs {
     name = "gtirb-functions";
-    version = "20230214-git";
-    hash = "md5-zX1nAR6ov9zz2vkr70p+Lw==";
-    url = "http://beta.quicklisp.org/archive/gtirb-functions/2023-02-14/gtirb-functions-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-lbuwibA5KskOv99HJHM3aw==";
+    url = "http://beta.quicklisp.org/archive/gtirb-functions/2023-06-18/gtirb-functions-20230618-git.tgz";
     cl-deps = [ asdf-package-system graph gt gtirb stefil ];
   });
   gtk-tagged-streams = (bqs {
@@ -20489,17 +21070,10 @@ in with cl; {
   });
   gtwiwtg = (bqs {
     name = "gtwiwtg";
-    version = "20221106-git";
-    hash = "md5-qziC8jFsMRPpYo2UxOAaSQ==";
-    url = "http://beta.quicklisp.org/archive/gtwiwtg/2022-11-06/gtwiwtg-20221106-git.tgz";
-    cl-deps = [ testiere ];
-  });
-  gtwiwtg-test = (bqs {
-    name = "gtwiwtg-test";
-    version = "20221106-git";
-    hash = "md5-qziC8jFsMRPpYo2UxOAaSQ==";
-    url = "http://beta.quicklisp.org/archive/gtwiwtg/2022-11-06/gtwiwtg-20221106-git.tgz";
-    cl-deps = [ gtwiwtg ];
+    version = "20231021-git";
+    hash = "md5-/OqayihGcNGhMuMDajEVrg==";
+    url = "http://beta.quicklisp.org/archive/gtwiwtg/2023-10-21/gtwiwtg-20231021-git.tgz";
+    cl-deps = [  ];
   });
   gtype = (bqs {
     name = "gtype";
@@ -20536,18 +21110,11 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/gzip-stream/2010-10-06/gzip-stream_0.2.8.tgz";
     cl-deps = [ flexi-streams salza2 trivial-gray-streams ];
   });
-  halftone = (bqs {
-    name = "halftone";
-    version = "20190710-git";
-    hash = "md5-iw6KRBG9c6ysKX0STdTWcg==";
-    url = "http://beta.quicklisp.org/archive/halftone/2019-07-10/halftone-20190710-git.tgz";
-    cl-deps = [ bordeaux-threads qtcore qtgui qtools qtopengl simple-tasks uiop verbose ];
-  });
   harmony = (bqs {
     name = "harmony";
-    version = "20230214-git";
-    hash = "md5-zbnpfamRqBB8zsm4DcZwzg==";
-    url = "http://beta.quicklisp.org/archive/harmony/2023-02-14/harmony-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BI0rPKzlt3vbZ38Dm028Rg==";
+    url = "http://beta.quicklisp.org/archive/harmony/2023-10-21/harmony-20231021-git.tgz";
     cl-deps = [ atomics bordeaux-threads cl-mixed cl-mixed-alsa cl-mixed-pulse stealth-mixin trivial-features ];
   });
   hash-set = (bqs {
@@ -20622,10 +21189,31 @@ in with cl; {
   });
   helambdap = (bqs {
     name = "helambdap";
-    version = "20230214-git";
-    hash = "md5-FUA/AZXttzjmavGwtZbMaQ==";
-    url = "http://beta.quicklisp.org/archive/helambdap/2023-02-14/helambdap-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ehQYpCITM50fI3sx3naX+Q==";
+    url = "http://beta.quicklisp.org/archive/helambdap/2023-10-21/helambdap-20231021-git.tgz";
     cl-deps = [ cl-fad clad split-sequence xhtmlambda ];
+  });
+  hemlock-dot-base = (bqs {
+    name = "hemlock.base";
+    version = "20231021-git";
+    hash = "md5-uL25RpUwmJtEFAgtoFPsmw==";
+    url = "http://beta.quicklisp.org/archive/hemlock/2023-10-21/hemlock-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-threads cl-ppcre command-line-arguments conium iolib iterate osicat prepl trivial-gray-streams ];
+  });
+  hemlock-dot-clx = (bqs {
+    name = "hemlock.clx";
+    version = "20231021-git";
+    hash = "md5-uL25RpUwmJtEFAgtoFPsmw==";
+    url = "http://beta.quicklisp.org/archive/hemlock/2023-10-21/hemlock-20231021-git.tgz";
+    cl-deps = [ clx hemlock-dot-base ];
+  });
+  hemlock-dot-tty = (bqs {
+    name = "hemlock.tty";
+    version = "20231021-git";
+    hash = "md5-uL25RpUwmJtEFAgtoFPsmw==";
+    url = "http://beta.quicklisp.org/archive/hemlock/2023-10-21/hemlock-20231021-git.tgz";
+    cl-deps = [ hemlock-dot-base ];
   });
   hermetic = (bqs {
     name = "hermetic";
@@ -20682,34 +21270,6 @@ in with cl; {
     hash = "md5-8YCA+lNlTayNd+XtXZlT/w==";
     url = "http://beta.quicklisp.org/archive/hh-web/2014-11-06/hh-web-20141106-git.tgz";
     cl-deps = [ bordeaux-threads cl-base64 cl-fad cl-ppcre drakma hunchentoot ironclad local-time log5 parenscript trivial-backtrace uuid vecto ];
-  });
-  history-tree = (bqs {
-    name = "history-tree";
-    version = "20230214-git";
-    hash = "md5-jmzxeGaqDVfzcXoqreTEew==";
-    url = "http://beta.quicklisp.org/archive/history-tree/2023-02-14/history-tree-20230214-git.tgz";
-    cl-deps = [ alexandria cl-custom-hash-table local-time nasdf nclasses trivial-package-local-nicknames ];
-  });
-  history-tree-slash-submodules = (bqs {
-    name = "history-tree/submodules";
-    version = "20230214-git";
-    hash = "md5-jmzxeGaqDVfzcXoqreTEew==";
-    url = "http://beta.quicklisp.org/archive/history-tree/2023-02-14/history-tree-20230214-git.tgz";
-    cl-deps = [ nasdf ];
-  });
-  history-tree-slash-tests = (bqs {
-    name = "history-tree/tests";
-    version = "20230214-git";
-    hash = "md5-jmzxeGaqDVfzcXoqreTEew==";
-    url = "http://beta.quicklisp.org/archive/history-tree/2023-02-14/history-tree-20230214-git.tgz";
-    cl-deps = [ history-tree nasdf ];
-  });
-  history-tree-slash-tests-slash-compilation = (bqs {
-    name = "history-tree/tests/compilation";
-    version = "20230214-git";
-    hash = "md5-jmzxeGaqDVfzcXoqreTEew==";
-    url = "http://beta.quicklisp.org/archive/history-tree/2023-02-14/history-tree-20230214-git.tgz";
-    cl-deps = [ history-tree nasdf ];
   });
   hl7-client = (bqs {
     name = "hl7-client";
@@ -20832,51 +21392,51 @@ in with cl; {
   });
   http2 = (bqs {
     name = "http2";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ alexandria anaphora flexi-streams gzip-stream trivial-gray-streams ];
   });
   http2-slash-all = (bqs {
     name = "http2/all";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ bordeaux-threads cl-plus-ssl cl-who fiasco http2 parenscript puri trivial-gray-streams ];
   });
   http2-slash-client = (bqs {
     name = "http2/client";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ cl-plus-ssl http2 puri ];
   });
   http2-slash-server = (bqs {
     name = "http2/server";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ bordeaux-threads cl-plus-ssl http2 puri ];
   });
   http2-slash-server-slash-example = (bqs {
     name = "http2/server/example";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ bordeaux-threads cl-plus-ssl cl-who http2 parenscript puri ];
   });
   http2-slash-test = (bqs {
     name = "http2/test";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ bordeaux-threads cl-plus-ssl cl-who fiasco http2 parenscript puri trivial-gray-streams ];
   });
   http2-slash-tls = (bqs {
     name = "http2/tls";
-    version = "20230214-git";
-    hash = "md5-VsygDRkQBugoOqhU88arBQ==";
-    url = "http://beta.quicklisp.org/archive/http2/2023-02-14/http2-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-QU/bpMN57ZRMykA0xXB1bA==";
+    url = "http://beta.quicklisp.org/archive/http2/2023-06-18/http2-20230618-git.tgz";
     cl-deps = [ bordeaux-threads cl-plus-ssl http2 ];
   });
   hu-dot-dwim-dot-asdf = (bqs {
@@ -21861,9 +22421,9 @@ in with cl; {
   });
   humbler = (bqs {
     name = "humbler";
-    version = "20190710-git";
-    hash = "md5-okoJaCknJKu1lNChFOYecw==";
-    url = "http://beta.quicklisp.org/archive/humbler/2019-07-10/humbler-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-OVmZ1yRQ6OxB4LwrK6z5bw==";
+    url = "http://beta.quicklisp.org/archive/humbler/2023-10-21/humbler-20231021-git.tgz";
     cl-deps = [ cl-ppcre closer-mop local-time north-core trivial-mimes yason ];
   });
   issr = (bqs {
@@ -21931,9 +22491,9 @@ in with cl; {
   });
   hunchentoot-errors = (bqs {
     name = "hunchentoot-errors";
-    version = "20221106-git";
-    hash = "md5-yQiYcc6/KjGTNP0dWW5qBA==";
-    url = "http://beta.quicklisp.org/archive/hunchentoot-errors/2022-11-06/hunchentoot-errors-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9QkvIk9nkTnYHKp2Y5JZCQ==";
+    url = "http://beta.quicklisp.org/archive/hunchentoot-errors/2023-10-21/hunchentoot-errors-20231021-git.tgz";
     cl-deps = [ cl-mimeparse hunchentoot parse-number string-case ];
   });
   hunchentoot-multi-acceptor = (bqs {
@@ -21949,6 +22509,20 @@ in with cl; {
     hash = "md5-UrakQ458YyCfZ06tujUWjA==";
     url = "http://beta.quicklisp.org/archive/hunchentoot-single-signon/2013-11-11/hunchentoot-single-signon-20131111-git.tgz";
     cl-deps = [ cl-base64 cl-gss hunchentoot split-sequence ];
+  });
+  hyperlattices = (bqs {
+    name = "hyperlattices";
+    version = "20231021-git";
+    hash = "md5-HZS+GVDuxxFwxtQw5I4ojQ==";
+    url = "http://beta.quicklisp.org/archive/hyperlattices/2023-10-21/hyperlattices-20231021-git.tgz";
+    cl-deps = [ alexandria closer-mop serapeum trivial-types ];
+  });
+  hyperlattices-slash-test = (bqs {
+    name = "hyperlattices/test";
+    version = "20231021-git";
+    hash = "md5-HZS+GVDuxxFwxtQw5I4ojQ==";
+    url = "http://beta.quicklisp.org/archive/hyperlattices/2023-10-21/hyperlattices-20231021-git.tgz";
+    cl-deps = [ hyperlattices parachute ];
   });
   hyperluminal-mem = (bqs {
     name = "hyperluminal-mem";
@@ -22001,9 +22575,9 @@ in with cl; {
   });
   iclendar = (bqs {
     name = "iclendar";
-    version = "20190710-git";
-    hash = "md5-TOV8E1lkjkl/slli7CwFlA==";
-    url = "http://beta.quicklisp.org/archive/iclendar/2019-07-10/iclendar-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fiUn+qzC+az60Roj/M4XqA==";
+    url = "http://beta.quicklisp.org/archive/iclendar/2023-10-21/iclendar-20231021-git.tgz";
     cl-deps = [ cl-base64 closer-mop documentation-utils trivial-gray-streams ];
   });
   id3v2 = (bqs {
@@ -22078,44 +22652,51 @@ in with cl; {
   });
   imago = (bqs {
     name = "imago";
-    version = "20221106-git";
-    hash = "md5-Z5zUKyj4ZBcS2QKuPlAqTw==";
-    url = "http://beta.quicklisp.org/archive/imago/2022-11-06/imago-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
     cl-deps = [ alexandria array-operations cl-jpeg flexi-streams serapeum trivial-gray-streams zlib ];
   });
   imago-slash-bit-io = (bqs {
     name = "imago/bit-io";
-    version = "20221106-git";
-    hash = "md5-Z5zUKyj4ZBcS2QKuPlAqTw==";
-    url = "http://beta.quicklisp.org/archive/imago/2022-11-06/imago-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
     cl-deps = [ alexandria serapeum trivial-gray-streams ];
   });
   imago-slash-jpeg-turbo = (bqs {
     name = "imago/jpeg-turbo";
-    version = "20221106-git";
-    hash = "md5-Z5zUKyj4ZBcS2QKuPlAqTw==";
-    url = "http://beta.quicklisp.org/archive/imago/2022-11-06/imago-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
     cl-deps = [ imago jpeg-turbo ];
   });
   imago-slash-jupyter = (bqs {
     name = "imago/jupyter";
-    version = "20221106-git";
-    hash = "md5-Z5zUKyj4ZBcS2QKuPlAqTw==";
-    url = "http://beta.quicklisp.org/archive/imago/2022-11-06/imago-20221106-git.tgz";
-    cl-deps = [ cl-base64 common-lisp-jupyter imago jpeg-turbo ];
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
+    cl-deps = [ cl-base64 common-lisp-jupyter flexi-streams imago pngload zpng ];
+  });
+  imago-slash-pngio = (bqs {
+    name = "imago/pngio";
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
+    cl-deps = [ imago pngload zpng ];
   });
   imago-slash-pngload = (bqs {
     name = "imago/pngload";
-    version = "20221106-git";
-    hash = "md5-Z5zUKyj4ZBcS2QKuPlAqTw==";
-    url = "http://beta.quicklisp.org/archive/imago/2022-11-06/imago-20221106-git.tgz";
-    cl-deps = [ imago pngload ];
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
+    cl-deps = [ imago pngload zpng ];
   });
   imago-slash-tests = (bqs {
     name = "imago/tests";
-    version = "20221106-git";
-    hash = "md5-Z5zUKyj4ZBcS2QKuPlAqTw==";
-    url = "http://beta.quicklisp.org/archive/imago/2022-11-06/imago-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fYv02/X7/S+Roxk/Fmxbbw==";
+    url = "http://beta.quicklisp.org/archive/imago/2023-10-21/imago-20231021-git.tgz";
     cl-deps = [ fiveam imago ];
   });
   immutable-struct = (bqs {
@@ -22127,16 +22708,16 @@ in with cl; {
   });
   in-nomine = (bqs {
     name = "in-nomine";
-    version = "20230214-git";
-    hash = "md5-7kzypY2ICIIbevK50fQW/g==";
-    url = "http://beta.quicklisp.org/archive/in-nomine/2023-02-14/in-nomine-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Z+AeAXr84DCyHv/aGcNO6w==";
+    url = "http://beta.quicklisp.org/archive/in-nomine/2023-06-18/in-nomine-20230618-git.tgz";
     cl-deps = [ alexandria ];
   });
   in-nomine-slash-test = (bqs {
     name = "in-nomine/test";
-    version = "20230214-git";
-    hash = "md5-7kzypY2ICIIbevK50fQW/g==";
-    url = "http://beta.quicklisp.org/archive/in-nomine/2023-02-14/in-nomine-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Z+AeAXr84DCyHv/aGcNO6w==";
+    url = "http://beta.quicklisp.org/archive/in-nomine/2023-06-18/in-nomine-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop fiveam in-nomine introspect-environment lisp-namespace uiop ];
   });
   incf-cl = (bqs {
@@ -22239,9 +22820,9 @@ in with cl; {
   });
   inkwell = (bqs {
     name = "inkwell";
-    version = "20190710-git";
-    hash = "md5-gJZdS9bjdxRvaEyfVdzbUA==";
-    url = "http://beta.quicklisp.org/archive/inkwell/2019-07-10/inkwell-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ixq54HgKQ9O3Nec67DSERg==";
+    url = "http://beta.quicklisp.org/archive/inkwell/2023-10-21/inkwell-20231021-git.tgz";
     cl-deps = [ alexandria documentation-utils drakma local-time yason ];
   });
   inlined-generic-function = (bqs {
@@ -22386,9 +22967,9 @@ in with cl; {
   });
   interface = (bqs {
     name = "interface";
-    version = "20190307-hg";
-    hash = "md5-IXHxEn8Tt5yCxWMCtinBiw==";
-    url = "http://beta.quicklisp.org/archive/interface/2019-03-07/interface-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-j4ITWeB/XCn9Sye6jfnv1w==";
+    url = "http://beta.quicklisp.org/archive/interface/2023-06-18/interface-20230618-git.tgz";
     cl-deps = [ alexandria global-vars ];
   });
   introspect-environment = (bqs {
@@ -22533,646 +23114,646 @@ in with cl; {
   });
   ironclad = (bqs {
     name = "ironclad";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-text = (bqs {
     name = "ironclad-text";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ flexi-streams ironclad ];
   });
   ironclad-slash-aead-slash-eax = (bqs {
     name = "ironclad/aead/eax";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-aead-slash-etm = (bqs {
     name = "ironclad/aead/etm";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-aead-slash-gcm = (bqs {
     name = "ironclad/aead/gcm";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-aeads = (bqs {
     name = "ironclad/aeads";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-aes = (bqs {
     name = "ironclad/cipher/aes";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-arcfour = (bqs {
     name = "ironclad/cipher/arcfour";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-aria = (bqs {
     name = "ironclad/cipher/aria";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-blowfish = (bqs {
     name = "ironclad/cipher/blowfish";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-camellia = (bqs {
     name = "ironclad/cipher/camellia";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-cast5 = (bqs {
     name = "ironclad/cipher/cast5";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-chacha = (bqs {
     name = "ironclad/cipher/chacha";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-des = (bqs {
     name = "ironclad/cipher/des";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-idea = (bqs {
     name = "ironclad/cipher/idea";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-kalyna = (bqs {
     name = "ironclad/cipher/kalyna";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-keystream = (bqs {
     name = "ironclad/cipher/keystream";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-kuznyechik = (bqs {
     name = "ironclad/cipher/kuznyechik";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-misty1 = (bqs {
     name = "ironclad/cipher/misty1";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-rc2 = (bqs {
     name = "ironclad/cipher/rc2";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-rc5 = (bqs {
     name = "ironclad/cipher/rc5";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-rc6 = (bqs {
     name = "ironclad/cipher/rc6";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-salsa20 = (bqs {
     name = "ironclad/cipher/salsa20";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-seed = (bqs {
     name = "ironclad/cipher/seed";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-serpent = (bqs {
     name = "ironclad/cipher/serpent";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-sm4 = (bqs {
     name = "ironclad/cipher/sm4";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-sosemanuk = (bqs {
     name = "ironclad/cipher/sosemanuk";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-square = (bqs {
     name = "ironclad/cipher/square";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-tea = (bqs {
     name = "ironclad/cipher/tea";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-threefish = (bqs {
     name = "ironclad/cipher/threefish";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-twofish = (bqs {
     name = "ironclad/cipher/twofish";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-xchacha = (bqs {
     name = "ironclad/cipher/xchacha";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-xor = (bqs {
     name = "ironclad/cipher/xor";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-xsalsa20 = (bqs {
     name = "ironclad/cipher/xsalsa20";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-cipher-slash-xtea = (bqs {
     name = "ironclad/cipher/xtea";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-ciphers = (bqs {
     name = "ironclad/ciphers";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-core = (bqs {
     name = "ironclad/core";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-adler32 = (bqs {
     name = "ironclad/digest/adler32";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-blake2 = (bqs {
     name = "ironclad/digest/blake2";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-blake2s = (bqs {
     name = "ironclad/digest/blake2s";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-crc24 = (bqs {
     name = "ironclad/digest/crc24";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-crc32 = (bqs {
     name = "ironclad/digest/crc32";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-groestl = (bqs {
     name = "ironclad/digest/groestl";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-jh = (bqs {
     name = "ironclad/digest/jh";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-kupyna = (bqs {
     name = "ironclad/digest/kupyna";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-md2 = (bqs {
     name = "ironclad/digest/md2";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-md4 = (bqs {
     name = "ironclad/digest/md4";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-md5 = (bqs {
     name = "ironclad/digest/md5";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-ripemd-128 = (bqs {
     name = "ironclad/digest/ripemd-128";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-ripemd-160 = (bqs {
     name = "ironclad/digest/ripemd-160";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-sha1 = (bqs {
     name = "ironclad/digest/sha1";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-sha256 = (bqs {
     name = "ironclad/digest/sha256";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-sha3 = (bqs {
     name = "ironclad/digest/sha3";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-sha512 = (bqs {
     name = "ironclad/digest/sha512";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-skein = (bqs {
     name = "ironclad/digest/skein";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-sm3 = (bqs {
     name = "ironclad/digest/sm3";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-streebog = (bqs {
     name = "ironclad/digest/streebog";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-tiger = (bqs {
     name = "ironclad/digest/tiger";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-tree-hash = (bqs {
     name = "ironclad/digest/tree-hash";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digest-slash-whirlpool = (bqs {
     name = "ironclad/digest/whirlpool";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-digests = (bqs {
     name = "ironclad/digests";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdf-slash-argon2 = (bqs {
     name = "ironclad/kdf/argon2";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdf-slash-bcrypt = (bqs {
     name = "ironclad/kdf/bcrypt";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdf-slash-hmac = (bqs {
     name = "ironclad/kdf/hmac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdf-slash-password-hash = (bqs {
     name = "ironclad/kdf/password-hash";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdf-slash-pkcs5 = (bqs {
     name = "ironclad/kdf/pkcs5";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdf-slash-scrypt = (bqs {
     name = "ironclad/kdf/scrypt";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-kdfs = (bqs {
     name = "ironclad/kdfs";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-blake2-mac = (bqs {
     name = "ironclad/mac/blake2-mac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-blake2s-mac = (bqs {
     name = "ironclad/mac/blake2s-mac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-cmac = (bqs {
     name = "ironclad/mac/cmac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-gmac = (bqs {
     name = "ironclad/mac/gmac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-hmac = (bqs {
     name = "ironclad/mac/hmac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-poly1305 = (bqs {
     name = "ironclad/mac/poly1305";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-siphash = (bqs {
     name = "ironclad/mac/siphash";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-mac-slash-skein-mac = (bqs {
     name = "ironclad/mac/skein-mac";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-macs = (bqs {
     name = "ironclad/macs";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-prng-slash-fortuna = (bqs {
     name = "ironclad/prng/fortuna";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-prngs = (bqs {
     name = "ironclad/prngs";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-curve25519 = (bqs {
     name = "ironclad/public-key/curve25519";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-curve448 = (bqs {
     name = "ironclad/public-key/curve448";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-dsa = (bqs {
     name = "ironclad/public-key/dsa";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-ed25519 = (bqs {
     name = "ironclad/public-key/ed25519";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-ed448 = (bqs {
     name = "ironclad/public-key/ed448";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-elgamal = (bqs {
     name = "ironclad/public-key/elgamal";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-rsa = (bqs {
     name = "ironclad/public-key/rsa";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-secp256k1 = (bqs {
     name = "ironclad/public-key/secp256k1";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-secp256r1 = (bqs {
     name = "ironclad/public-key/secp256r1";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-secp384r1 = (bqs {
     name = "ironclad/public-key/secp384r1";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-key-slash-secp521r1 = (bqs {
     name = "ironclad/public-key/secp521r1";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-public-keys = (bqs {
     name = "ironclad/public-keys";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   ironclad-slash-tests = (bqs {
     name = "ironclad/tests";
-    version = "v0.58";
-    hash = "md5-nQpUEUQ7GzrWgp7wQPuv0A==";
-    url = "http://beta.quicklisp.org/archive/ironclad/2022-11-06/ironclad-v0.58.tgz";
+    version = "v0.59";
+    hash = "md5-p/2BH4tvKj6MdeSM33gfsw==";
+    url = "http://beta.quicklisp.org/archive/ironclad/2023-10-21/ironclad-v0.59.tgz";
     cl-deps = [ ironclad rt ];
   });
   eclecticse-dot-iso-8601-date = (bqs {
@@ -23345,16 +23926,16 @@ in with cl; {
   });
   journal = (bqs {
     name = "journal";
-    version = "20230214-git";
-    hash = "md5-sQFGNLgIZgTNwByuQIFVoA==";
-    url = "http://beta.quicklisp.org/archive/journal/2023-02-14/journal-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-haD9q1vzy26RWR7I9hQSzg==";
+    url = "http://beta.quicklisp.org/archive/journal/2023-10-21/journal-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads local-time mgl-pax trivial-features trivial-garbage ];
   });
   journal-slash-test = (bqs {
     name = "journal/test";
-    version = "20230214-git";
-    hash = "md5-sQFGNLgIZgTNwByuQIFVoA==";
-    url = "http://beta.quicklisp.org/archive/journal/2023-02-14/journal-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-haD9q1vzy26RWR7I9hQSzg==";
+    url = "http://beta.quicklisp.org/archive/journal/2023-10-21/journal-20231021-git.tgz";
     cl-deps = [ alexandria journal try ];
   });
   jp-numeral = (bqs {
@@ -23415,23 +23996,23 @@ in with cl; {
   });
   json-lib = (bqs {
     name = "json-lib";
-    version = "20221106-git";
-    hash = "md5-M3PmzI//YvYoeah9JYqrnQ==";
-    url = "http://beta.quicklisp.org/archive/json-lib/2022-11-06/json-lib-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-APAU5DTRCw238z3+j2RONA==";
+    url = "http://beta.quicklisp.org/archive/json-lib/2023-06-18/json-lib-20230618-git.tgz";
     cl-deps = [ alexandria babel cl-fad parse-float str ];
   });
   json-mop = (bqs {
     name = "json-mop";
-    version = "20210411-git";
-    hash = "md5-r1fx29KrWWu7wCgaGaF95w==";
-    url = "http://beta.quicklisp.org/archive/json-mop/2021-04-11/json-mop-20210411-git.tgz";
+    version = "20231021-git";
+    hash = "md5-k8Zxgj+4VCVTP+2VnPny1A==";
+    url = "http://beta.quicklisp.org/archive/json-mop/2023-10-21/json-mop-20231021-git.tgz";
     cl-deps = [ anaphora closer-mop yason ];
   });
   json-mop-tests = (bqs {
     name = "json-mop-tests";
-    version = "20210411-git";
-    hash = "md5-r1fx29KrWWu7wCgaGaF95w==";
-    url = "http://beta.quicklisp.org/archive/json-mop/2021-04-11/json-mop-20210411-git.tgz";
+    version = "20231021-git";
+    hash = "md5-k8Zxgj+4VCVTP+2VnPny1A==";
+    url = "http://beta.quicklisp.org/archive/json-mop/2023-10-21/json-mop-20231021-git.tgz";
     cl-deps = [ fiveam json-mop ];
   });
   json-responses = (bqs {
@@ -23492,9 +24073,9 @@ in with cl; {
   });
   jsonrpc = (bqs {
     name = "jsonrpc";
-    version = "20230215-git";
-    hash = "md5-+0k8S08fsZLwH3trm7TsJw==";
-    url = "http://beta.quicklisp.org/archive/jsonrpc/2023-02-15/jsonrpc-20230215-git.tgz";
+    version = "20231021-git";
+    hash = "md5-H7C5G+YYD3YlC/jqaV8efA==";
+    url = "http://beta.quicklisp.org/archive/jsonrpc/2023-10-21/jsonrpc-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads chanl dissect event-emitter usocket vom yason ];
   });
   jsown = (bqs {
@@ -23534,17 +24115,52 @@ in with cl; {
   });
   com-dot-inuoe-dot-jzon = (bqs {
     name = "com.inuoe.jzon";
-    version = "20230215-git";
-    hash = "md5-Rv9H1LQ3gOskwzS0VQ7Qfg==";
-    url = "http://beta.quicklisp.org/archive/jzon/2023-02-15/jzon-20230215-git.tgz";
+    version = "v1.1.2";
+    hash = "md5-mFIJ0hkayKTCYlvuRXDcRg==";
+    url = "http://beta.quicklisp.org/archive/jzon/2023-10-21/jzon-v1.1.2.tgz";
     cl-deps = [ closer-mop flexi-streams float-features trivial-gray-streams uiop ];
   });
   com-dot-inuoe-dot-jzon-tests = (bqs {
     name = "com.inuoe.jzon-tests";
-    version = "20230215-git";
-    hash = "md5-Rv9H1LQ3gOskwzS0VQ7Qfg==";
-    url = "http://beta.quicklisp.org/archive/jzon/2023-02-15/jzon-20230215-git.tgz";
+    version = "v1.1.2";
+    hash = "md5-mFIJ0hkayKTCYlvuRXDcRg==";
+    url = "http://beta.quicklisp.org/archive/jzon/2023-10-21/jzon-v1.1.2.tgz";
     cl-deps = [ alexandria com-dot-inuoe-dot-jzon fiveam flexi-streams float-features uiop ];
+  });
+  kdl = (bqs {
+    name = "kdl";
+    version = "20230618-git";
+    hash = "md5-zAFiD7CVZpxnOFE9VXdPmg==";
+    url = "http://beta.quicklisp.org/archive/kdlcl/2023-06-18/kdlcl-20230618-git.tgz";
+    cl-deps = [ esrap parse-number uiop ];
+  });
+  kdl-slash-t = (bqs {
+    name = "kdl/t";
+    version = "20230618-git";
+    hash = "md5-zAFiD7CVZpxnOFE9VXdPmg==";
+    url = "http://beta.quicklisp.org/archive/kdlcl/2023-06-18/kdlcl-20230618-git.tgz";
+    cl-deps = [ kdl ];
+  });
+  kdtree-jk = (bqs {
+    name = "kdtree-jk";
+    version = "20230618-git";
+    hash = "md5-2tkBsHHyuSP61/XYaKfAlg==";
+    url = "http://beta.quicklisp.org/archive/kdtree-jk/2023-06-18/kdtree-jk-20230618-git.tgz";
+    cl-deps = [  ];
+  });
+  kdtree-jk-slash-latlon = (bqs {
+    name = "kdtree-jk/latlon";
+    version = "20230618-git";
+    hash = "md5-2tkBsHHyuSP61/XYaKfAlg==";
+    url = "http://beta.quicklisp.org/archive/kdtree-jk/2023-06-18/kdtree-jk-20230618-git.tgz";
+    cl-deps = [ kdtree-jk ];
+  });
+  kdtree-jk-slash-tests = (bqs {
+    name = "kdtree-jk/tests";
+    version = "20230618-git";
+    hash = "md5-2tkBsHHyuSP61/XYaKfAlg==";
+    url = "http://beta.quicklisp.org/archive/kdtree-jk/2023-06-18/kdtree-jk-20230618-git.tgz";
+    cl-deps = [ kdtree-jk ];
   });
   kebab = (bqs {
     name = "kebab";
@@ -23562,10 +24178,10 @@ in with cl; {
   });
   kekule-clj = (bqs {
     name = "kekule-clj";
-    version = "20221106-git";
-    hash = "md5-B1iuqhI7ObWZ7Xh2Z2lskw==";
-    url = "http://beta.quicklisp.org/archive/kekule-clj/2022-11-06/kekule-clj-20221106-git.tgz";
-    cl-deps = [ common-lisp-jupyter ];
+    version = "20231021-git";
+    hash = "md5-SDwAICQRo6u9fRlQucGIxg==";
+    url = "http://beta.quicklisp.org/archive/kekule-clj/2023-10-21/kekule-clj-20231021-git.tgz";
+    cl-deps = [ common-lisp-jupyter jupyter-lab-extension ];
   });
   kenzo = (bqs {
     name = "kenzo";
@@ -23608,6 +24224,69 @@ in with cl; {
     hash = "md5-ytVPyMWxtLM+PJEvQfZ5Rw==";
     url = "http://beta.quicklisp.org/archive/keystone/2020-04-27/keystone-20200427-git.tgz";
     cl-deps = [ cffi cffi-grovel gt keystone static-vectors stefil ];
+  });
+  khazern = (bqs {
+    name = "khazern";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ acclimation ];
+  });
+  khazern-extrinsic = (bqs {
+    name = "khazern-extrinsic";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern ];
+  });
+  khazern-extrinsic-slash-test = (bqs {
+    name = "khazern-extrinsic/test";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern-extrinsic parachute ];
+  });
+  khazern-intrinsic = (bqs {
+    name = "khazern-intrinsic";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern trivial-package-locks ];
+  });
+  khazern-intrinsic-slash-test = (bqs {
+    name = "khazern-intrinsic/test";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ alexandria khazern-intrinsic ];
+  });
+  khazern-sequence = (bqs {
+    name = "khazern-sequence";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern trivial-extensible-sequences ];
+  });
+  khazern-sequence-extrinsic = (bqs {
+    name = "khazern-sequence-extrinsic";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern-extrinsic khazern-sequence ];
+  });
+  khazern-sequence-extrinsic-slash-test = (bqs {
+    name = "khazern-sequence-extrinsic/test";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern-sequence-extrinsic parachute ];
+  });
+  khazern-sequence-intrinsic = (bqs {
+    name = "khazern-sequence-intrinsic";
+    version = "20231021-git";
+    hash = "md5-evGzOq77fDSpklHDE1hrNg==";
+    url = "http://beta.quicklisp.org/archive/khazern/2023-10-21/khazern-20231021-git.tgz";
+    cl-deps = [ khazern-intrinsic khazern-sequence ];
   });
   kl-verify = (bqs {
     name = "kl-verify";
@@ -23667,219 +24346,219 @@ in with cl; {
   });
   lack = (bqs {
     name = "lack";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack-component lack-util ];
   });
   lack-app-directory = (bqs {
     name = "lack-app-directory";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-ppcre lack-app-file quri trivial-mimes trivial-rfc-1123 ];
   });
   lack-app-file = (bqs {
     name = "lack-app-file";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ alexandria lack-component trivial-mimes trivial-rfc-1123 ];
   });
   lack-component = (bqs {
     name = "lack-component";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [  ];
   });
   lack-middleware-accesslog = (bqs {
     name = "lack-middleware-accesslog";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack-util local-time ];
   });
   lack-middleware-auth-basic = (bqs {
     name = "lack-middleware-auth-basic";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-base64 split-sequence ];
   });
   lack-middleware-backtrace = (bqs {
     name = "lack-middleware-backtrace";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ uiop ];
   });
   lack-middleware-csrf = (bqs {
     name = "lack-middleware-csrf";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack-request lack-util ];
   });
   lack-middleware-mount = (bqs {
     name = "lack-middleware-mount";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack-component ];
   });
   lack-middleware-session = (bqs {
     name = "lack-middleware-session";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-ppcre lack-request lack-response lack-util ];
   });
   lack-middleware-static = (bqs {
     name = "lack-middleware-static";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ alexandria lack-app-file lack-component ];
   });
   lack-request = (bqs {
     name = "lack-request";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ circular-streams cl-ppcre http-body quri ];
   });
   lack-response = (bqs {
     name = "lack-response";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ local-time quri ];
   });
   lack-session-store-dbi = (bqs {
     name = "lack-session-store-dbi";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-base64 dbi lack-middleware-session marshal trivial-utf-8 ];
   });
   lack-session-store-redis = (bqs {
     name = "lack-session-store-redis";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-base64 cl-redis lack-middleware-session marshal trivial-utf-8 ];
   });
   lack-test = (bqs {
     name = "lack-test";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-cookie flexi-streams lack quri ];
   });
   lack-util = (bqs {
     name = "lack-util";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-isaac ];
   });
   lack-util-writer-stream = (bqs {
     name = "lack-util-writer-stream";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ babel trivial-gray-streams ];
   });
   t-lack = (bqs {
     name = "t-lack";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ clack lack prove prove-asdf ];
   });
   t-lack-component = (bqs {
     name = "t-lack-component";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack-component lack-test prove prove-asdf ];
   });
   t-lack-middleware-accesslog = (bqs {
     name = "t-lack-middleware-accesslog";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack lack-test prove prove-asdf split-sequence ];
   });
   t-lack-middleware-auth-basic = (bqs {
     name = "t-lack-middleware-auth-basic";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ alexandria cl-base64 lack lack-middleware-auth-basic lack-test prove prove-asdf ];
   });
   t-lack-middleware-backtrace = (bqs {
     name = "t-lack-middleware-backtrace";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ alexandria lack lack-test prove prove-asdf ];
   });
   t-lack-middleware-csrf = (bqs {
     name = "t-lack-middleware-csrf";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-ppcre lack lack-middleware-csrf lack-request lack-test prove prove-asdf ];
   });
   t-lack-middleware-mount = (bqs {
     name = "t-lack-middleware-mount";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack lack-component lack-middleware-mount lack-test prove prove-asdf ];
   });
   t-lack-middleware-session = (bqs {
     name = "t-lack-middleware-session";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ cl-cookie lack lack-middleware-session lack-test prove prove-asdf ];
   });
   t-lack-middleware-static = (bqs {
     name = "t-lack-middleware-static";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ alexandria lack lack-test prove prove-asdf ];
   });
   t-lack-request = (bqs {
     name = "t-lack-request";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ alexandria clack-test dexador flexi-streams hunchentoot lack-request prove prove-asdf ];
   });
   t-lack-session-store-dbi = (bqs {
     name = "t-lack-session-store-dbi";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ dbi lack lack-session-store-dbi lack-test prove prove-asdf sqlite ];
   });
   t-lack-session-store-redis = (bqs {
     name = "t-lack-session-store-redis";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack lack-session-store-redis lack-test prove prove-asdf ];
   });
   t-lack-util = (bqs {
     name = "t-lack-util";
-    version = "20230214-git";
-    hash = "md5-/c9GJ77in1CmkSNURtw1tw==";
-    url = "http://beta.quicklisp.org/archive/lack/2023-02-14/lack-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0+Ha4IFAQ4BfcrT57d5z7w==";
+    url = "http://beta.quicklisp.org/archive/lack/2023-10-21/lack-20231021-git.tgz";
     cl-deps = [ lack-test lack-util prove prove-asdf ];
   });
   lake = (bqs {
@@ -23905,9 +24584,9 @@ in with cl; {
   });
   lambda-fiddle = (bqs {
     name = "lambda-fiddle";
-    version = "20211020-git";
-    hash = "md5-icHFogZndeco5LgFH2fZMg==";
-    url = "http://beta.quicklisp.org/archive/lambda-fiddle/2021-10-20/lambda-fiddle-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-eULr1q/6siOsAmPc0Xw8bA==";
+    url = "http://beta.quicklisp.org/archive/lambda-fiddle/2023-10-21/lambda-fiddle-20231021-git.tgz";
     cl-deps = [  ];
   });
   lambda-reader = (bqs {
@@ -23933,23 +24612,23 @@ in with cl; {
   });
   language-codes = (bqs {
     name = "language-codes";
-    version = "20210531-git";
-    hash = "md5-1vuyY+rAfag6qpwwvnJcEw==";
-    url = "http://beta.quicklisp.org/archive/language-codes/2021-05-31/language-codes-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-VsKAviBGpuBk5YY/z+5Mhw==";
+    url = "http://beta.quicklisp.org/archive/language-codes/2023-10-21/language-codes-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   binary-lass = (bqs {
     name = "binary-lass";
-    version = "20230214-git";
-    hash = "md5-BNzli+re4hUXHjchc0FX8A==";
-    url = "http://beta.quicklisp.org/archive/lass/2023-02-14/lass-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-DOl/1V39FdyDxy6j+VtcMg==";
+    url = "http://beta.quicklisp.org/archive/lass/2023-10-21/lass-20231021-git.tgz";
     cl-deps = [ lass ];
   });
   lass = (bqs {
     name = "lass";
-    version = "20230214-git";
-    hash = "md5-BNzli+re4hUXHjchc0FX8A==";
-    url = "http://beta.quicklisp.org/archive/lass/2023-02-14/lass-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-DOl/1V39FdyDxy6j+VtcMg==";
+    url = "http://beta.quicklisp.org/archive/lass/2023-10-21/lass-20231021-git.tgz";
     cl-deps = [ cl-base64 trivial-indent trivial-mimes ];
   });
   lass-flexbox = (bqs {
@@ -24003,24 +24682,45 @@ in with cl; {
   });
   legion = (bqs {
     name = "legion";
-    version = "20211020-git";
-    hash = "md5-FXyMXLdNJqcjcsQFBugvpw==";
-    url = "http://beta.quicklisp.org/archive/legion/2021-10-20/legion-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gu9lT5WA2/jFt9svhtpg6Q==";
+    url = "http://beta.quicklisp.org/archive/legion/2023-10-21/legion-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-speedy-queue vom ];
   });
   legion-test = (bqs {
     name = "legion-test";
-    version = "20211020-git";
-    hash = "md5-FXyMXLdNJqcjcsQFBugvpw==";
-    url = "http://beta.quicklisp.org/archive/legion/2021-10-20/legion-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gu9lT5WA2/jFt9svhtpg6Q==";
+    url = "http://beta.quicklisp.org/archive/legion/2023-10-21/legion-20231021-git.tgz";
     cl-deps = [ legion local-time prove prove-asdf ];
   });
   legit = (bqs {
     name = "legit";
-    version = "20211020-git";
-    hash = "md5-HYUx0SaxCh7WveyBF5+Ucg==";
-    url = "http://beta.quicklisp.org/archive/legit/2021-10-20/legit-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-/rDp+WOxaS8GT3gsIYfOsw==";
+    url = "http://beta.quicklisp.org/archive/legit/2023-10-21/legit-20231021-git.tgz";
     cl-deps = [ cl-ppcre documentation-utils lambda-fiddle simple-inferiors uiop ];
+  });
+  lemmy-api = (bqs {
+    name = "lemmy-api";
+    version = "20231021-git";
+    hash = "md5-6DgyjE86yU/iG5dVnIw29g==";
+    url = "http://beta.quicklisp.org/archive/lemmy-api/2023-10-21/lemmy-api-20231021-git.tgz";
+    cl-deps = [ closer-mop dexador ];
+  });
+  lemmy-api-slash-0-dot-18-dot-3 = (bqs {
+    name = "lemmy-api/0.18.3";
+    version = "20231021-git";
+    hash = "md5-6DgyjE86yU/iG5dVnIw29g==";
+    url = "http://beta.quicklisp.org/archive/lemmy-api/2023-10-21/lemmy-api-20231021-git.tgz";
+    cl-deps = [ closer-mop dexador ];
+  });
+  lemmy-api-slash-base = (bqs {
+    name = "lemmy-api/base";
+    version = "20231021-git";
+    hash = "md5-6DgyjE86yU/iG5dVnIw29g==";
+    url = "http://beta.quicklisp.org/archive/lemmy-api/2023-10-21/lemmy-api-20231021-git.tgz";
+    cl-deps = [ closer-mop dexador ];
   });
   lense = (bqs {
     name = "lense";
@@ -24031,16 +24731,16 @@ in with cl; {
   });
   let-over-lambda = (bqs {
     name = "let-over-lambda";
-    version = "20220331-git";
-    hash = "md5-BVx1K0IIn6c8R9jeMTtsbA==";
-    url = "http://beta.quicklisp.org/archive/let-over-lambda/2022-03-31/let-over-lambda-20220331-git.tgz";
-    cl-deps = [ alexandria cl-ppcre named-readtables ];
+    version = "20231021-git";
+    hash = "md5-t1GS9UQvudcQ6byjpMX4Gw==";
+    url = "http://beta.quicklisp.org/archive/let-over-lambda/2023-10-21/let-over-lambda-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre fare-quasiquote-extras named-readtables ];
   });
   let-over-lambda-test = (bqs {
     name = "let-over-lambda-test";
-    version = "20220331-git";
-    hash = "md5-BVx1K0IIn6c8R9jeMTtsbA==";
-    url = "http://beta.quicklisp.org/archive/let-over-lambda/2022-03-31/let-over-lambda-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-t1GS9UQvudcQ6byjpMX4Gw==";
+    url = "http://beta.quicklisp.org/archive/let-over-lambda/2023-10-21/let-over-lambda-20231021-git.tgz";
     cl-deps = [ let-over-lambda named-readtables prove prove-asdf ];
   });
   let-plus = (bqs {
@@ -24059,17 +24759,31 @@ in with cl; {
   });
   letrec = (bqs {
     name = "letrec";
-    version = "20190307-hg";
-    hash = "md5-aO7YrGAKHC8Vej9pIe/f7A==";
-    url = "http://beta.quicklisp.org/archive/letrec/2019-03-07/letrec-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-zsJizzzFxYuiPWLZdl4zog==";
+    url = "http://beta.quicklisp.org/archive/letrec/2023-06-18/letrec-20230618-git.tgz";
     cl-deps = [ alexandria ];
+  });
+  letv = (bqs {
+    name = "letv";
+    version = "20230618-git";
+    hash = "md5-JbJzrqGnoNPsVJQ+lO6eyA==";
+    url = "http://beta.quicklisp.org/archive/letv/2023-06-18/letv-20230618-git.tgz";
+    cl-deps = [  ];
   });
   lev = (bqs {
     name = "lev";
-    version = "20150505-git";
-    hash = "md5-EPNA91AL65i1wNSph2Ex+w==";
-    url = "http://beta.quicklisp.org/archive/lev/2015-05-05/lev-20150505-git.tgz";
-    cl-deps = [ cffi ];
+    version = "20231021-git";
+    hash = "md5-CqrhBtqPyZ9agz4+BVzE5A==";
+    url = "http://beta.quicklisp.org/archive/lev/2023-10-21/lev-20231021-git.tgz";
+    cl-deps = [ cffi lev-config ];
+  });
+  lev-config = (bqs {
+    name = "lev-config";
+    version = "20231021-git";
+    hash = "md5-CqrhBtqPyZ9agz4+BVzE5A==";
+    url = "http://beta.quicklisp.org/archive/lev/2023-10-21/lev-20231021-git.tgz";
+    cl-deps = [ cffi-grovel ];
   });
   leveldb = (bqs {
     name = "leveldb";
@@ -24157,65 +24871,65 @@ in with cl; {
   });
   lichat-ldap = (bqs {
     name = "lichat-ldap";
-    version = "20190710-git";
-    hash = "md5-arE5Tq9tVbBNQOXSKbMKUQ==";
-    url = "http://beta.quicklisp.org/archive/lichat-ldap/2019-07-10/lichat-ldap-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-OUc0CtQveST3w0D4Ayz4aQ==";
+    url = "http://beta.quicklisp.org/archive/lichat-ldap/2023-10-21/lichat-ldap-20231021-git.tgz";
     cl-deps = [ documentation-utils lichat-serverlib trivial-ldap ];
   });
   lichat-protocol = (bqs {
     name = "lichat-protocol";
-    version = "20220707-git";
-    hash = "md5-rsF/XmJvL0ErRcu9pextSg==";
-    url = "http://beta.quicklisp.org/archive/lichat-protocol/2022-07-07/lichat-protocol-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JCS1Ds/4E+dtohn5TusBUA==";
+    url = "http://beta.quicklisp.org/archive/lichat-protocol/2023-10-21/lichat-protocol-20231021-git.tgz";
     cl-deps = [ closer-mop documentation-utils trivial-package-local-nicknames ];
   });
   lichat-serverlib = (bqs {
     name = "lichat-serverlib";
-    version = "20220220-git";
-    hash = "md5-3IOL9XIo6eXr2rrX1Benbw==";
-    url = "http://beta.quicklisp.org/archive/lichat-serverlib/2022-02-20/lichat-serverlib-20220220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-eKLhAsIRp+B3YxFLmAdMnw==";
+    url = "http://beta.quicklisp.org/archive/lichat-serverlib/2023-10-21/lichat-serverlib-20231021-git.tgz";
     cl-deps = [ crypto-shortcuts documentation-utils lichat-protocol trivial-mimes ];
   });
   lichat-tcp-client = (bqs {
     name = "lichat-tcp-client";
-    version = "20220707-git";
-    hash = "md5-QqQVXlkIxGFw5280KnLERg==";
-    url = "http://beta.quicklisp.org/archive/lichat-tcp-client/2022-07-07/lichat-tcp-client-20220707-git.tgz";
-    cl-deps = [ bordeaux-threads documentation-utils lichat-protocol usocket verbose ];
+    version = "20231021-git";
+    hash = "md5-H2/KcZMJesZwBvcSkr1q+Q==";
+    url = "http://beta.quicklisp.org/archive/lichat-tcp-client/2023-10-21/lichat-tcp-client-20231021-git.tgz";
+    cl-deps = [ bordeaux-threads cl-base64 documentation-utils lichat-protocol trivial-mimes usocket verbose ];
   });
   lichat-tcp-server = (bqs {
     name = "lichat-tcp-server";
-    version = "20220220-git";
-    hash = "md5-K7OjSJhMEXJINz0lYDVifg==";
-    url = "http://beta.quicklisp.org/archive/lichat-tcp-server/2022-02-20/lichat-tcp-server-20220220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UaJgRoKmRs1R4gMtGrY9Mg==";
+    url = "http://beta.quicklisp.org/archive/lichat-tcp-server/2023-10-21/lichat-tcp-server-20231021-git.tgz";
     cl-deps = [ bordeaux-threads documentation-utils lichat-protocol lichat-serverlib usocket verbose ];
   });
   lichat-ws-server = (bqs {
     name = "lichat-ws-server";
-    version = "20220220-git";
-    hash = "md5-6/OpgO90ymNaWS3jLaYIsA==";
-    url = "http://beta.quicklisp.org/archive/lichat-ws-server/2022-02-20/lichat-ws-server-20220220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Ojp3xvUb3PkNeZMgKsv9Rg==";
+    url = "http://beta.quicklisp.org/archive/lichat-ws-server/2023-10-21/lichat-ws-server-20231021-git.tgz";
     cl-deps = [ bordeaux-threads documentation-utils hunchensocket lichat-protocol lichat-serverlib verbose ];
   });
   lift = (bqs {
     name = "lift";
-    version = "20230214-git";
-    hash = "md5-O4pZckIJVwQyUoSbi8zOZA==";
-    url = "http://beta.quicklisp.org/archive/lift/2023-02-14/lift-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sq23feykt8Atq2D9Fp0cng==";
+    url = "http://beta.quicklisp.org/archive/lift/2023-10-21/lift-20231021-git.tgz";
     cl-deps = [  ];
   });
   lift-documentation = (bqs {
     name = "lift-documentation";
-    version = "20230214-git";
-    hash = "md5-O4pZckIJVwQyUoSbi8zOZA==";
-    url = "http://beta.quicklisp.org/archive/lift/2023-02-14/lift-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sq23feykt8Atq2D9Fp0cng==";
+    url = "http://beta.quicklisp.org/archive/lift/2023-10-21/lift-20231021-git.tgz";
     cl-deps = [ lift ];
   });
   lift-test = (bqs {
     name = "lift-test";
-    version = "20230214-git";
-    hash = "md5-O4pZckIJVwQyUoSbi8zOZA==";
-    url = "http://beta.quicklisp.org/archive/lift/2023-02-14/lift-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sq23feykt8Atq2D9Fp0cng==";
+    url = "http://beta.quicklisp.org/archive/lift/2023-10-21/lift-20231021-git.tgz";
     cl-deps = [ lift ];
   });
   lila = (bqs {
@@ -24227,37 +24941,37 @@ in with cl; {
   });
   lime = (bqs {
     name = "lime";
-    version = "20151218-git";
-    hash = "md5-HEPWydvY20ng4lI0R3d10Q==";
-    url = "http://beta.quicklisp.org/archive/lime/2015-12-18/lime-20151218-git.tgz";
+    version = "20230618-git";
+    hash = "md5-sMy5RdkMSP7/dIklOgSf/w==";
+    url = "http://beta.quicklisp.org/archive/lime/2023-06-18/lime-20230618-git.tgz";
     cl-deps = [ alexandria swank-protocol trivial-types ];
   });
   lime-example = (bqs {
     name = "lime-example";
-    version = "20151218-git";
-    hash = "md5-HEPWydvY20ng4lI0R3d10Q==";
-    url = "http://beta.quicklisp.org/archive/lime/2015-12-18/lime-20151218-git.tgz";
+    version = "20230618-git";
+    hash = "md5-sMy5RdkMSP7/dIklOgSf/w==";
+    url = "http://beta.quicklisp.org/archive/lime/2023-06-18/lime-20230618-git.tgz";
     cl-deps = [ bordeaux-threads lime ];
   });
   lime-test = (bqs {
     name = "lime-test";
-    version = "20151218-git";
-    hash = "md5-HEPWydvY20ng4lI0R3d10Q==";
-    url = "http://beta.quicklisp.org/archive/lime/2015-12-18/lime-20151218-git.tgz";
+    version = "20230618-git";
+    hash = "md5-sMy5RdkMSP7/dIklOgSf/w==";
+    url = "http://beta.quicklisp.org/archive/lime/2023-06-18/lime-20230618-git.tgz";
     cl-deps = [ alexandria external-program fiveam lime ];
   });
   linear-programming = (bqs {
     name = "linear-programming";
-    version = "20221106-git";
-    hash = "md5-NvYnDNqTGldEWZvSK0om4A==";
-    url = "http://beta.quicklisp.org/archive/linear-programming/2022-11-06/linear-programming-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-RWBCh0Y0AUZPaoy5fUP44A==";
+    url = "http://beta.quicklisp.org/archive/linear-programming/2023-06-18/linear-programming-20230618-git.tgz";
     cl-deps = [ alexandria iterate ];
   });
   linear-programming-test = (bqs {
     name = "linear-programming-test";
-    version = "20221106-git";
-    hash = "md5-NvYnDNqTGldEWZvSK0om4A==";
-    url = "http://beta.quicklisp.org/archive/linear-programming/2022-11-06/linear-programming-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-RWBCh0Y0AUZPaoy5fUP44A==";
+    url = "http://beta.quicklisp.org/archive/linear-programming/2023-06-18/linear-programming-20230618-git.tgz";
     cl-deps = [ fiveam iterate linear-programming ];
   });
   linear-programming-glpk = (bqs {
@@ -24297,9 +25011,9 @@ in with cl; {
   });
   linewise-template = (bqs {
     name = "linewise-template";
-    version = "20160208-git";
-    hash = "md5-OWA03Wqrh7/l25WwBkGHsg==";
-    url = "http://beta.quicklisp.org/archive/linewise-template/2016-02-08/linewise-template-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-vfVHHpFYUFB8+hXY46B8sA==";
+    url = "http://beta.quicklisp.org/archive/linewise-template/2023-06-18/linewise-template-20230618-git.tgz";
     cl-deps = [ cl-fad cl-ppcre ];
   });
   linux-packaging = (bqs {
@@ -24337,13 +25051,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/linux-packaging/2021-10-20/linux-packaging-20211020-git.tgz";
     cl-deps = [ linux-packaging linux-packaging-tests ];
   });
-  lionchat = (bqs {
-    name = "lionchat";
-    version = "20220220-git";
-    hash = "md5-wNTJcps849nsWeV1v9qvKQ==";
-    url = "http://beta.quicklisp.org/archive/lionchat/2022-02-20/lionchat-20220220-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads cl-ppcre documentation-utils lichat-tcp-client qtcore qtgui qtools qtools-ui-listing qtools-ui-notification qtools-ui-options qtools-ui-repl qtsvg trivial-arguments ubiquitous verbose ];
-  });
   lisa = (bqs {
     name = "lisa";
     version = "20120407-git";
@@ -24353,16 +25060,16 @@ in with cl; {
   });
   lisp-binary = (bqs {
     name = "lisp-binary";
-    version = "20221106-git";
-    hash = "md5-Mxq7Y0HxcFIXkzdIEL9cHQ==";
-    url = "http://beta.quicklisp.org/archive/lisp-binary/2022-11-06/lisp-binary-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sn1RM797roLcSJGYI/SWvg==";
+    url = "http://beta.quicklisp.org/archive/lisp-binary/2023-10-21/lisp-binary-20231021-git.tgz";
     cl-deps = [ alexandria cffi closer-mop flexi-streams moptilities quasiquote-2-dot-0 ];
   });
   lisp-binary-test = (bqs {
     name = "lisp-binary-test";
-    version = "20221106-git";
-    hash = "md5-Mxq7Y0HxcFIXkzdIEL9cHQ==";
-    url = "http://beta.quicklisp.org/archive/lisp-binary/2022-11-06/lisp-binary-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sn1RM797roLcSJGYI/SWvg==";
+    url = "http://beta.quicklisp.org/archive/lisp-binary/2023-10-21/lisp-binary-20231021-git.tgz";
     cl-deps = [ lisp-binary ];
   });
   lisp-chat = (bqs {
@@ -24388,16 +25095,16 @@ in with cl; {
   });
   ckr-tables = (bqs {
     name = "ckr-tables";
-    version = "20221106-git";
-    hash = "md5-hmYmeaPz2AOyIbUVkj6cLA==";
-    url = "http://beta.quicklisp.org/archive/lisp-critic/2022-11-06/lisp-critic-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-c1Xfly1QSTl+NICrJmwCcg==";
+    url = "http://beta.quicklisp.org/archive/lisp-critic/2023-10-21/lisp-critic-20231021-git.tgz";
     cl-deps = [  ];
   });
   lisp-critic = (bqs {
     name = "lisp-critic";
-    version = "20221106-git";
-    hash = "md5-hmYmeaPz2AOyIbUVkj6cLA==";
-    url = "http://beta.quicklisp.org/archive/lisp-critic/2022-11-06/lisp-critic-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-c1Xfly1QSTl+NICrJmwCcg==";
+    url = "http://beta.quicklisp.org/archive/lisp-critic/2023-10-21/lisp-critic-20231021-git.tgz";
     cl-deps = [ ckr-tables ];
   });
   lisp-executable = (bqs {
@@ -24437,23 +25144,23 @@ in with cl; {
   });
   lil = (bqs {
     name = "lil";
-    version = "20211230-git";
-    hash = "md5-ulGVoyr2zVzE5LV8nrySTw==";
-    url = "http://beta.quicklisp.org/archive/lisp-interface-library/2021-12-30/lisp-interface-library-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-WDq6PmoX9VFGFQWpwiWC7g==";
+    url = "http://beta.quicklisp.org/archive/lisp-interface-library/2023-10-21/lisp-interface-library-20231021-git.tgz";
     cl-deps = [ alexandria closer-mop fare-memoization fare-utils ];
   });
   lil-slash-test = (bqs {
     name = "lil/test";
-    version = "20211230-git";
-    hash = "md5-ulGVoyr2zVzE5LV8nrySTw==";
-    url = "http://beta.quicklisp.org/archive/lisp-interface-library/2021-12-30/lisp-interface-library-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-WDq6PmoX9VFGFQWpwiWC7g==";
+    url = "http://beta.quicklisp.org/archive/lisp-interface-library/2023-10-21/lisp-interface-library-20231021-git.tgz";
     cl-deps = [  ];
   });
   lisp-interface-library = (bqs {
     name = "lisp-interface-library";
-    version = "20211230-git";
-    hash = "md5-ulGVoyr2zVzE5LV8nrySTw==";
-    url = "http://beta.quicklisp.org/archive/lisp-interface-library/2021-12-30/lisp-interface-library-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-WDq6PmoX9VFGFQWpwiWC7g==";
+    url = "http://beta.quicklisp.org/archive/lisp-interface-library/2023-10-21/lisp-interface-library-20231021-git.tgz";
     cl-deps = [ lil ];
   });
   lisp-invocation = (bqs {
@@ -24486,9 +25193,9 @@ in with cl; {
   });
   lisp-pay = (bqs {
     name = "lisp-pay";
-    version = "20230214-git";
-    hash = "md5-aIpzJq2IZKgUKtwiKNkg7g==";
-    url = "http://beta.quicklisp.org/archive/lisp-pay/2023-02-14/lisp-pay-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-O5sTkzG2bEERyo2wfw/SeQ==";
+    url = "http://beta.quicklisp.org/archive/lisp-pay/2023-10-21/lisp-pay-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-base64 cl-tls closer-mop dexador hu-dot-dwim-dot-defclass-star hunchentoot ironclad jonathan lack ningle shasht str ];
   });
   lisp-preprocessor = (bqs {
@@ -24507,9 +25214,9 @@ in with cl; {
   });
   lisp-stat = (bqs {
     name = "lisp-stat";
-    version = "20221106-git";
-    hash = "md5-Ph40PCGcOHj0LwKxZwtP7A==";
-    url = "http://beta.quicklisp.org/archive/lisp-stat/2022-11-06/lisp-stat-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cRCYtRQ79aXcFnHSQ/5F5A==";
+    url = "http://beta.quicklisp.org/archive/lisp-stat/2023-10-21/lisp-stat-20231021-git.tgz";
     cl-deps = [ alexandria alexandria-plus- array-operations data-frame dexador dfio distributions num-utils org-dot-tfeb-dot-conduit-packages select statistics ];
   });
   lisp-unit = (bqs {
@@ -24801,16 +25508,16 @@ in with cl; {
   });
   example-bot = (bqs {
     name = "example-bot";
-    version = "20200925-git";
-    hash = "md5-s7S2Dy54jl2VEfFwG8ojdQ==";
-    url = "http://beta.quicklisp.org/archive/lispcord/2020-09-25/lispcord-20200925-git.tgz";
+    version = "20230618-git";
+    hash = "md5-aKLFrn9Oy44xnDD6gjyqjQ==";
+    url = "http://beta.quicklisp.org/archive/lispcord/2023-06-18/lispcord-20230618-git.tgz";
     cl-deps = [ lispcord ];
   });
   lispcord = (bqs {
     name = "lispcord";
-    version = "20200925-git";
-    hash = "md5-s7S2Dy54jl2VEfFwG8ojdQ==";
-    url = "http://beta.quicklisp.org/archive/lispcord/2020-09-25/lispcord-20200925-git.tgz";
+    version = "20230618-git";
+    hash = "md5-aKLFrn9Oy44xnDD6gjyqjQ==";
+    url = "http://beta.quicklisp.org/archive/lispcord/2023-06-18/lispcord-20230618-git.tgz";
     cl-deps = [ alexandria babel bordeaux-threads drakma jonathan split-sequence verbose websocket-driver-client ];
   });
   lispqr = (bqs {
@@ -24871,16 +25578,16 @@ in with cl; {
   });
   literate-demo = (bqs {
     name = "literate-demo";
-    version = "20221106-git";
-    hash = "md5-hItWtC6UyWayCmyVBjVJwg==";
-    url = "http://beta.quicklisp.org/archive/literate-lisp/2022-11-06/literate-lisp-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2jxnzNwd7IXGA0t22lIyWA==";
+    url = "http://beta.quicklisp.org/archive/literate-lisp/2023-06-18/literate-lisp-20230618-git.tgz";
     cl-deps = [ iterate literate-lisp ];
   });
   literate-lisp = (bqs {
     name = "literate-lisp";
-    version = "20221106-git";
-    hash = "md5-hItWtC6UyWayCmyVBjVJwg==";
-    url = "http://beta.quicklisp.org/archive/literate-lisp/2022-11-06/literate-lisp-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-2jxnzNwd7IXGA0t22lIyWA==";
+    url = "http://beta.quicklisp.org/archive/literate-lisp/2023-06-18/literate-lisp-20230618-git.tgz";
     cl-deps = [ cl-fad cl-ppcre iterate ];
   });
   litterae = (bqs {
@@ -24913,17 +25620,17 @@ in with cl; {
   });
   lla = (bqs {
     name = "lla";
-    version = "20180328-git";
-    hash = "md5-YdWDYD1crPnYFIagz8+vag==";
-    url = "http://beta.quicklisp.org/archive/lla/2018-03-28/lla-20180328-git.tgz";
-    cl-deps = [ alexandria anaphora cffi cl-num-utils cl-slice let-plus ];
+    version = "20230618-git";
+    hash = "md5-B+egJNlEleNGbfZ6Ebtxng==";
+    url = "http://beta.quicklisp.org/archive/lla/2023-06-18/lla-20230618-git.tgz";
+    cl-deps = [ alexandria anaphora cffi let-plus num-utils select ];
   });
-  lla-tests = (bqs {
-    name = "lla-tests";
-    version = "20180328-git";
-    hash = "md5-YdWDYD1crPnYFIagz8+vag==";
-    url = "http://beta.quicklisp.org/archive/lla/2018-03-28/lla-20180328-git.tgz";
-    cl-deps = [ clunit lla ];
+  lla-slash-tests = (bqs {
+    name = "lla/tests";
+    version = "20230618-git";
+    hash = "md5-B+egJNlEleNGbfZ6Ebtxng==";
+    url = "http://beta.quicklisp.org/archive/lla/2023-06-18/lla-20230618-git.tgz";
+    cl-deps = [ clunit2 lla select ];
   });
   lmdb = (bqs {
     name = "lmdb";
@@ -24976,23 +25683,23 @@ in with cl; {
   });
   cl-postgres-plus-local-time = (bqs {
     name = "cl-postgres+local-time";
-    version = "20230214-git";
-    hash = "md5-cUiKlif03tPLod2wWe27bw==";
-    url = "http://beta.quicklisp.org/archive/local-time/2023-02-14/local-time-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sYFSP3fFPyu0sJhKce9/Gw==";
+    url = "http://beta.quicklisp.org/archive/local-time/2023-10-21/local-time-20231021-git.tgz";
     cl-deps = [ cl-postgres local-time ];
   });
   local-time = (bqs {
     name = "local-time";
-    version = "20230214-git";
-    hash = "md5-cUiKlif03tPLod2wWe27bw==";
-    url = "http://beta.quicklisp.org/archive/local-time/2023-02-14/local-time-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sYFSP3fFPyu0sJhKce9/Gw==";
+    url = "http://beta.quicklisp.org/archive/local-time/2023-10-21/local-time-20231021-git.tgz";
     cl-deps = [ uiop ];
   });
   local-time-slash-test = (bqs {
     name = "local-time/test";
-    version = "20230214-git";
-    hash = "md5-cUiKlif03tPLod2wWe27bw==";
-    url = "http://beta.quicklisp.org/archive/local-time/2023-02-14/local-time-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sYFSP3fFPyu0sJhKce9/Gw==";
+    url = "http://beta.quicklisp.org/archive/local-time/2023-10-21/local-time-20231021-git.tgz";
     cl-deps = [ hu-dot-dwim-dot-stefil local-time ];
   });
   cl-postgres-plus-local-time-duration = (bqs {
@@ -25011,58 +25718,58 @@ in with cl; {
   });
   log4cl = (bqs {
     name = "log4cl";
-    version = "20211209-git";
-    hash = "md5-VpEi/tMMCJtnUnkmRo3PRA==";
-    url = "http://beta.quicklisp.org/archive/log4cl/2021-12-09/log4cl-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-S4BIWHlmKgKIeFgWMZVICg==";
+    url = "http://beta.quicklisp.org/archive/log4cl/2023-06-18/log4cl-20230618-git.tgz";
     cl-deps = [ bordeaux-threads ];
   });
   log4cl-examples = (bqs {
     name = "log4cl-examples";
-    version = "20211209-git";
-    hash = "md5-VpEi/tMMCJtnUnkmRo3PRA==";
-    url = "http://beta.quicklisp.org/archive/log4cl/2021-12-09/log4cl-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-S4BIWHlmKgKIeFgWMZVICg==";
+    url = "http://beta.quicklisp.org/archive/log4cl/2023-06-18/log4cl-20230618-git.tgz";
     cl-deps = [ log4cl swank ];
   });
   log4cl-dot-log4slime = (bqs {
     name = "log4cl.log4slime";
-    version = "20211209-git";
-    hash = "md5-VpEi/tMMCJtnUnkmRo3PRA==";
-    url = "http://beta.quicklisp.org/archive/log4cl/2021-12-09/log4cl-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-S4BIWHlmKgKIeFgWMZVICg==";
+    url = "http://beta.quicklisp.org/archive/log4cl/2023-06-18/log4cl-20230618-git.tgz";
     cl-deps = [ log4cl swank ];
   });
   log4cl-dot-log4sly = (bqs {
     name = "log4cl.log4sly";
-    version = "20211209-git";
-    hash = "md5-VpEi/tMMCJtnUnkmRo3PRA==";
-    url = "http://beta.quicklisp.org/archive/log4cl/2021-12-09/log4cl-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-S4BIWHlmKgKIeFgWMZVICg==";
+    url = "http://beta.quicklisp.org/archive/log4cl/2023-06-18/log4cl-20230618-git.tgz";
     cl-deps = [ log4cl slynk ];
   });
   log4cl-slash-syslog = (bqs {
     name = "log4cl/syslog";
-    version = "20211209-git";
-    hash = "md5-VpEi/tMMCJtnUnkmRo3PRA==";
-    url = "http://beta.quicklisp.org/archive/log4cl/2021-12-09/log4cl-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-S4BIWHlmKgKIeFgWMZVICg==";
+    url = "http://beta.quicklisp.org/archive/log4cl/2023-06-18/log4cl-20230618-git.tgz";
     cl-deps = [ log4cl ];
   });
   log4cl-slash-test = (bqs {
     name = "log4cl/test";
-    version = "20211209-git";
-    hash = "md5-VpEi/tMMCJtnUnkmRo3PRA==";
-    url = "http://beta.quicklisp.org/archive/log4cl/2021-12-09/log4cl-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-S4BIWHlmKgKIeFgWMZVICg==";
+    url = "http://beta.quicklisp.org/archive/log4cl/2023-06-18/log4cl-20230618-git.tgz";
     cl-deps = [ log4cl stefil ];
   });
   log4cl-extras = (bqs {
     name = "log4cl-extras";
-    version = "20230214-git";
-    hash = "md5-zVO3bu6zRmOXd9pL//vQWw==";
-    url = "http://beta.quicklisp.org/archive/log4cl-extras/2023-02-14/log4cl-extras-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-zq0aBnqHFQo5fzqfYItQJA==";
+    url = "http://beta.quicklisp.org/archive/log4cl-extras/2023-06-18/log4cl-extras-20230618-git.tgz";
     cl-deps = [ cl-40ants-asdf-system cl-40ants-doc alexandria cl-strings dissect global-vars jonathan local-time log4cl named-readtables pythonic-string-reader with-output-to-stream ];
   });
   log4cl-extras-test = (bqs {
     name = "log4cl-extras-test";
-    version = "20230214-git";
-    hash = "md5-zVO3bu6zRmOXd9pL//vQWw==";
-    url = "http://beta.quicklisp.org/archive/log4cl-extras/2023-02-14/log4cl-extras-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-zq0aBnqHFQo5fzqfYItQJA==";
+    url = "http://beta.quicklisp.org/archive/log4cl-extras/2023-06-18/log4cl-extras-20230618-git.tgz";
     cl-deps = [ hamcrest jonathan rove secret-values ];
   });
   log5 = (bqs {
@@ -25071,6 +25778,41 @@ in with cl; {
     hash = "md5-sFpYX79YslNnwF7Iu4FOjA==";
     url = "http://beta.quicklisp.org/archive/log5/2011-06-19/log5-20110619-git.tgz";
     cl-deps = [  ];
+  });
+  cl-40ants-logging = (bqs {
+    name = "40ants-logging";
+    version = "20231021-git";
+    hash = "md5-0A1attvN1SNevl/6eJDwFw==";
+    url = "http://beta.quicklisp.org/archive/logging/2023-10-21/logging-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system global-vars log4cl-extras ];
+  });
+  cl-40ants-logging-ci = (bqs {
+    name = "40ants-logging-ci";
+    version = "20231021-git";
+    hash = "md5-0A1attvN1SNevl/6eJDwFw==";
+    url = "http://beta.quicklisp.org/archive/logging/2023-10-21/logging-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  cl-40ants-logging-docs = (bqs {
+    name = "40ants-logging-docs";
+    version = "20231021-git";
+    hash = "md5-0A1attvN1SNevl/6eJDwFw==";
+    url = "http://beta.quicklisp.org/archive/logging/2023-10-21/logging-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc cl-40ants-logging docs-config named-readtables pythonic-string-reader ];
+  });
+  cl-40ants-logging-example = (bqs {
+    name = "40ants-logging-example";
+    version = "20231021-git";
+    hash = "md5-0A1attvN1SNevl/6eJDwFw==";
+    url = "http://beta.quicklisp.org/archive/logging/2023-10-21/logging-20231021-git.tgz";
+    cl-deps = [ cl-40ants-logging cl-40ants-slynk defmain log4cl log4cl-extras ];
+  });
+  cl-40ants-logging-tests = (bqs {
+    name = "40ants-logging-tests";
+    version = "20231021-git";
+    hash = "md5-0A1attvN1SNevl/6eJDwFw==";
+    url = "http://beta.quicklisp.org/archive/logging/2023-10-21/logging-20231021-git.tgz";
+    cl-deps = [ rove ];
   });
   lorem-ipsum = (bqs {
     name = "lorem-ipsum";
@@ -25130,16 +25872,16 @@ in with cl; {
   });
   lquery = (bqs {
     name = "lquery";
-    version = "20201220-git";
-    hash = "md5-pxaFhIlZzzPNaWO0pfni7Q==";
-    url = "http://beta.quicklisp.org/archive/lquery/2020-12-20/lquery-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7PpEyQ+b7sd9MTogKKzB7A==";
+    url = "http://beta.quicklisp.org/archive/lquery/2023-10-21/lquery-20231021-git.tgz";
     cl-deps = [ array-utils clss form-fiddle plump ];
   });
   lquery-test = (bqs {
     name = "lquery-test";
-    version = "20201220-git";
-    hash = "md5-pxaFhIlZzzPNaWO0pfni7Q==";
-    url = "http://beta.quicklisp.org/archive/lquery/2020-12-20/lquery-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7PpEyQ+b7sd9MTogKKzB7A==";
+    url = "http://beta.quicklisp.org/archive/lquery/2023-10-21/lquery-20231021-git.tgz";
     cl-deps = [ fiveam lquery ];
   });
   lredis = (bqs {
@@ -25148,6 +25890,20 @@ in with cl; {
     hash = "md5-w2lqLSZl/YwxACw+niL2tg==";
     url = "http://beta.quicklisp.org/archive/lredis/2014-11-06/lredis-20141106-git.tgz";
     cl-deps = [ babel babel-streams usocket ];
+  });
+  lru-cache = (bqs {
+    name = "lru-cache";
+    version = "20231021-git";
+    hash = "md5-EBNDw/Avr1/oHFbrI7oFjA==";
+    url = "http://beta.quicklisp.org/archive/lru-cache/2023-10-21/lru-cache-20231021-git.tgz";
+    cl-deps = [ documentation-utils ];
+  });
+  lru-cache-test = (bqs {
+    name = "lru-cache-test";
+    version = "20231021-git";
+    hash = "md5-EBNDw/Avr1/oHFbrI7oFjA==";
+    url = "http://beta.quicklisp.org/archive/lru-cache/2023-10-21/lru-cache-20231021-git.tgz";
+    cl-deps = [ lru-cache parachute ];
   });
   cl-syntax-lsx = (bqs {
     name = "cl-syntax-lsx";
@@ -25193,16 +25949,16 @@ in with cl; {
   });
   luckless = (bqs {
     name = "luckless";
-    version = "20221106-git";
-    hash = "md5-stw4AcGyiI2n+fM8BlTFmg==";
-    url = "http://beta.quicklisp.org/archive/luckless/2022-11-06/luckless-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dF8grlUHWRQ5r8hbvwmY5A==";
+    url = "http://beta.quicklisp.org/archive/luckless/2023-10-21/luckless-20231021-git.tgz";
     cl-deps = [ atomics documentation-utils ];
   });
   luckless-test = (bqs {
     name = "luckless-test";
-    version = "20221106-git";
-    hash = "md5-stw4AcGyiI2n+fM8BlTFmg==";
-    url = "http://beta.quicklisp.org/archive/luckless/2022-11-06/luckless-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dF8grlUHWRQ5r8hbvwmY5A==";
+    url = "http://beta.quicklisp.org/archive/luckless/2023-10-21/luckless-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads luckless parachute ];
   });
   lunamech-matrix-api = (bqs {
@@ -25235,10 +25991,17 @@ in with cl; {
   });
   macro-level = (bqs {
     name = "macro-level";
-    version = "1.0.1";
-    hash = "md5-SGrVmFNqe3GfBMD3VtkBfw==";
-    url = "http://beta.quicklisp.org/archive/macro-level/2012-10-13/macro-level-1.0.1.tgz";
+    version = "1.1";
+    hash = "md5-W0S2NYqVXBsIZCdtyT/6Mg==";
+    url = "http://beta.quicklisp.org/archive/macro-level/2023-10-21/macro-level_1.1.tgz";
     cl-deps = [  ];
+  });
+  macro-level_tests = (bqs {
+    name = "macro-level_tests";
+    version = "1.1";
+    hash = "md5-W0S2NYqVXBsIZCdtyT/6Mg==";
+    url = "http://beta.quicklisp.org/archive/macro-level/2023-10-21/macro-level_1.1.tgz";
+    cl-deps = [ macro-level parachute ];
   });
   macrodynamics = (bqs {
     name = "macrodynamics";
@@ -25368,261 +26131,254 @@ in with cl; {
   });
   maiden = (bqs {
     name = "maiden";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ bordeaux-threads closer-mop deeds documentation-utils form-fiddle lambda-fiddle trivial-garbage trivial-indent uuid verbose ];
   });
   maiden-accounts = (bqs {
     name = "maiden-accounts";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-activatable = (bqs {
     name = "maiden-activatable";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden maiden-commands maiden-storage ];
   });
   maiden-api-access = (bqs {
     name = "maiden-api-access";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ drakma jsown maiden plump ];
   });
   maiden-blocker = (bqs {
     name = "maiden-blocker";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-channel-relay = (bqs {
     name = "maiden-channel-relay";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-chatlog = (bqs {
     name = "maiden-chatlog";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ babel bordeaux-threads maiden-client-entities maiden-commands maiden-storage postmodern ];
   });
   maiden-client-entities = (bqs {
     name = "maiden-client-entities";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ documentation-utils maiden ];
   });
   maiden-commands = (bqs {
     name = "maiden-commands";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ lambda-fiddle maiden maiden-client-entities ];
   });
   maiden-core-manager = (bqs {
     name = "maiden-core-manager";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-counter = (bqs {
     name = "maiden-counter";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre maiden-activatable maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-crimes = (bqs {
     name = "maiden-crimes";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre maiden-api-access maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-dictionary = (bqs {
     name = "maiden-dictionary";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-client-entities maiden-commands maiden-storage oxenfurt ];
   });
   maiden-emoticon = (bqs {
     name = "maiden-emoticon";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre maiden-activatable maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-help = (bqs {
     name = "maiden-help";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ documentation-utils maiden-client-entities maiden-commands ];
   });
   maiden-irc = (bqs {
     name = "maiden-irc";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ babel cl-base64 cl-ppcre form-fiddle lambda-fiddle maiden-client-entities maiden-networking ];
   });
   maiden-lastfm = (bqs {
     name = "maiden-lastfm";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ bordeaux-threads maiden-api-access maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-lichat = (bqs {
     name = "maiden-lichat";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ lichat-protocol maiden-client-entities maiden-networking ];
   });
   maiden-location = (bqs {
     name = "maiden-location";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-api-access maiden-client-entities maiden-commands maiden-storage ];
-  });
-  maiden-lookup = (bqs {
-    name = "maiden-lookup";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
-    cl-deps = [ cl-ppcre drakma lquery maiden-api-access maiden-client-entities maiden-commands ];
   });
   maiden-markov = (bqs {
     name = "maiden-markov";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-ppcre fast-io maiden-activatable maiden-client-entities maiden-commands maiden-storage parse-number ];
   });
   maiden-medals = (bqs {
     name = "maiden-medals";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre maiden-accounts maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-networking = (bqs {
     name = "maiden-networking";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-plus-ssl maiden usocket ];
   });
   maiden-notify = (bqs {
     name = "maiden-notify";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-accounts maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-permissions = (bqs {
     name = "maiden-permissions";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre documentation-utils maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-relay = (bqs {
     name = "maiden-relay";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-networking maiden-serialize ];
   });
   maiden-serialize = (bqs {
     name = "maiden-serialize";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-store gzip-stream maiden ];
   });
   maiden-silly = (bqs {
     name = "maiden-silly";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre lquery maiden-activatable maiden-api-access maiden-client-entities maiden-commands ];
   });
   maiden-storage = (bqs {
     name = "maiden-storage";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden pathname-utils ubiquitous-concurrent ];
   });
   maiden-talk = (bqs {
     name = "maiden-talk";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ array-utils cl-mixed-mpg123 drakma harmony maiden-commands trivial-features ];
   });
   maiden-throttle = (bqs {
     name = "maiden-throttle";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-time = (bqs {
     name = "maiden-time";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ maiden-api-access maiden-client-entities maiden-commands maiden-location ];
   });
   maiden-trivia = (bqs {
     name = "maiden-trivia";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ alexandria maiden-client-entities maiden-commands maiden-storage ];
   });
   maiden-twitter = (bqs {
     name = "maiden-twitter";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ chirp maiden-client-entities ];
   });
   maiden-urlinfo = (bqs {
     name = "maiden-urlinfo";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre drakma maiden-activatable maiden-client-entities maiden-commands plump ];
   });
   maiden-vote = (bqs {
     name = "maiden-vote";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ cl-ppcre maiden-client-entities maiden-commands ];
   });
   maiden-weather = (bqs {
     name = "maiden-weather";
-    version = "20230214-git";
-    hash = "md5-4sUEfW4SPQ0I8X9zp72YPQ==";
-    url = "http://beta.quicklisp.org/archive/maiden/2023-02-14/maiden-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1chwbgy+fGhRJgICqKwdfg==";
+    url = "http://beta.quicklisp.org/archive/maiden/2023-10-21/maiden-20231021-git.tgz";
     cl-deps = [ local-time maiden-api-access maiden-client-entities maiden-commands maiden-location maiden-storage ];
   });
   maidenhead = (bqs {
@@ -25674,6 +26430,20 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/manifest/2012-02-08/manifest-20120208-git.tgz";
     cl-deps = [ alexandria closer-mop monkeylib-html puri split-sequence toot ];
   });
+  manifolds = (bqs {
+    name = "manifolds";
+    version = "20231021-git";
+    hash = "md5-Ztg5x0fSajzBwMtpfB026A==";
+    url = "http://beta.quicklisp.org/archive/manifolds/2023-10-21/manifolds-20231021-git.tgz";
+    cl-deps = [ cl-3d-math cl-3d-spaces documentation-utils ];
+  });
+  manifolds-test = (bqs {
+    name = "manifolds-test";
+    version = "20231021-git";
+    hash = "md5-Ztg5x0fSajzBwMtpfB026A==";
+    url = "http://beta.quicklisp.org/archive/manifolds/2023-10-21/manifolds-20231021-git.tgz";
+    cl-deps = [ cl-wavefront manifolds parachute ];
+  });
   map-bind = (bqs {
     name = "map-bind";
     version = "20120811-git";
@@ -25683,9 +26453,9 @@ in with cl; {
   });
   map-set = (bqs {
     name = "map-set";
-    version = "20190307-hg";
-    hash = "md5-hm26Ns3wYMlDJny3nMwFMg==";
-    url = "http://beta.quicklisp.org/archive/map-set/2019-03-07/map-set-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-2fzu0YosNl6jP58vhhyM4Q==";
+    url = "http://beta.quicklisp.org/archive/map-set/2023-06-18/map-set-20230618-git.tgz";
     cl-deps = [  ];
   });
   marching-cubes = (bqs {
@@ -25725,16 +26495,16 @@ in with cl; {
   });
   markup = (bqs {
     name = "markup";
-    version = "20230214-git";
-    hash = "md5-fX/u8FOCrNM1UXRkJOjc0A==";
-    url = "http://beta.quicklisp.org/archive/markup/2023-02-14/markup-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Sik5z5J9NvJRs4FqsAZXaA==";
+    url = "http://beta.quicklisp.org/archive/markup/2023-06-18/markup-20230618-git.tgz";
     cl-deps = [ alexandria named-readtables str trivial-gray-streams ];
   });
   markup-dot-test = (bqs {
     name = "markup.test";
-    version = "20230214-git";
-    hash = "md5-fX/u8FOCrNM1UXRkJOjc0A==";
-    url = "http://beta.quicklisp.org/archive/markup/2023-02-14/markup-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Sik5z5J9NvJRs4FqsAZXaA==";
+    url = "http://beta.quicklisp.org/archive/markup/2023-06-18/markup-20230618-git.tgz";
     cl-deps = [ fiveam markup ];
   });
   fmarshal = (bqs {
@@ -25753,122 +26523,129 @@ in with cl; {
   });
   math = (bqs {
     name = "math";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ cl-utilities font-discovery gsll vgplot ];
   });
   math-slash-appr = (bqs {
     name = "math/appr";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ cl-utilities ];
   });
   math-slash-coord = (bqs {
     name = "math/coord";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-core = (bqs {
     name = "math/core";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-docs = (bqs {
     name = "math/docs";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ codex math mnas-package ];
   });
   math-slash-equation = (bqs {
     name = "math/equation";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-geom = (bqs {
     name = "math/geom";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-gnuplot = (bqs {
     name = "math/gnuplot";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ font-discovery vgplot ];
   });
   math-slash-half-div = (bqs {
     name = "math/half-div";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-ls-gauss = (bqs {
     name = "math/ls-gauss";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ cl-utilities ];
   });
   math-slash-ls-gsll = (bqs {
     name = "math/ls-gsll";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ cl-utilities gsll ];
   });
   math-slash-matr = (bqs {
     name = "math/matr";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ cl-utilities ];
   });
   math-slash-rnd = (bqs {
     name = "math/rnd";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ cl-utilities ];
   });
   math-slash-series = (bqs {
     name = "math/series";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-smooth = (bqs {
     name = "math/smooth";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-stat = (bqs {
     name = "math/stat";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [  ];
   });
   math-slash-tests = (bqs {
     name = "math/tests";
-    version = "20221106-git";
-    hash = "md5-cV4VjARwNimrH5Vb9DBJvQ==";
-    url = "http://beta.quicklisp.org/archive/math/2022-11-06/math-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
     cl-deps = [ fiveam math ];
+  });
+  math-slash-x-o = (bqs {
+    name = "math/x-o";
+    version = "20231021-git";
+    hash = "md5-UdQ4VHdtkxp0nyeFpfcb5g==";
+    url = "http://beta.quicklisp.org/archive/math/2023-10-21/math-20231021-git.tgz";
+    cl-deps = [ cl-utilities ];
   });
   mathkit = (bqs {
     name = "mathkit";
@@ -25928,401 +26705,401 @@ in with cl; {
   });
   automaton = (bqs {
     name = "automaton";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [  ];
   });
   clim = (bqs {
     name = "clim";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim-core drei-mcclim ];
   });
   clim-core = (bqs {
     name = "clim-core";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads closer-mop spatial-trees trivial-features trivial-garbage trivial-gray-streams ];
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
+    cl-deps = [ bordeaux-threads closer-mop cluffer spatial-trees trivial-features trivial-garbage trivial-gray-streams ];
   });
   clim-core-slash-frames = (bqs {
     name = "clim-core/frames";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads closer-mop spatial-trees trivial-features trivial-garbage trivial-gray-streams ];
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
+    cl-deps = [ bordeaux-threads closer-mop cluffer spatial-trees trivial-features trivial-garbage trivial-gray-streams ];
   });
   clim-core-slash-silex = (bqs {
     name = "clim-core/silex";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ bordeaux-threads closer-mop spatial-trees trivial-features trivial-garbage trivial-gray-streams ];
   });
   clim-core-slash-system = (bqs {
     name = "clim-core/system";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ bordeaux-threads closer-mop trivial-features trivial-gray-streams ];
   });
   clim-debugger = (bqs {
     name = "clim-debugger";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clouseau mcclim slim swank ];
   });
   clim-examples = (bqs {
     name = "clim-examples";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
-    cl-deps = [ alexandria clim closer-mop mcclim mcclim-bezier mcclim-raster-image mcclim-svg ];
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
+    cl-deps = [ alexandria clim closer-mop lorem-ipsum mcclim mcclim-raster-image mcclim-svg ];
   });
   clim-examples-slash-superapp = (bqs {
     name = "clim-examples/superapp";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ bordeaux-threads mcclim ];
   });
   clim-lisp = (bqs {
     name = "clim-lisp";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ bordeaux-threads closer-mop trivial-features trivial-gray-streams ];
   });
   clim-listener = (bqs {
     name = "clim-listener";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ cl-fad clim-debugger mcclim uiop ];
   });
   clim-pdf = (bqs {
     name = "clim-pdf";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ cl-pdf clim clim-postscript clim-postscript-font flexi-streams ];
   });
   clim-pdf-slash-test = (bqs {
     name = "clim-pdf/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim-pdf fiveam mcclim ];
   });
   clim-postscript = (bqs {
     name = "clim-postscript";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim clim-postscript-font ];
   });
   clim-postscript-font = (bqs {
     name = "clim-postscript-font";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim mcclim-backend-common ];
   });
   clim-postscript-slash-test = (bqs {
     name = "clim-postscript/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim-postscript fiveam mcclim ];
   });
   clouseau = (bqs {
     name = "clouseau";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ closer-mop mcclim ];
   });
   clouseau-slash-test = (bqs {
     name = "clouseau/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clouseau fiveam ];
   });
   conditional-commands = (bqs {
     name = "conditional-commands";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   drei-mcclim = (bqs {
     name = "drei-mcclim";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ automaton clim-core esa-mcclim flexichain persistent swank ];
   });
   drei-mcclim-slash-test = (bqs {
     name = "drei-mcclim/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ automaton drei-mcclim fiveam ];
   });
   esa-mcclim = (bqs {
     name = "esa-mcclim";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria clim-core ];
   });
   functional-geometry = (bqs {
     name = "functional-geometry";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim-listener ];
   });
   mcclim = (bqs {
     name = "mcclim";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim clim-pdf clim-postscript conditional-commands mcclim-bezier mcclim-bitmaps mcclim-clx mcclim-clx-fb mcclim-franz mcclim-null ];
   });
   mcclim-backend-common = (bqs {
     name = "mcclim-backend-common";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   mcclim-bezier = (bqs {
     name = "mcclim-bezier";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim clim-pdf clim-postscript flexichain mcclim-clx mcclim-null mcclim-render ];
   });
   mcclim-bezier-slash-clx = (bqs {
     name = "mcclim-bezier/clx";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim clim-pdf clim-postscript flexichain mcclim-clx mcclim-null mcclim-render ];
   });
   mcclim-bezier-slash-core = (bqs {
     name = "mcclim-bezier/core";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim clim-pdf clim-postscript flexichain mcclim-null mcclim-render ];
   });
   mcclim-bitmaps = (bqs {
     name = "mcclim-bitmaps";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim opticl ];
   });
   mcclim-clx = (bqs {
     name = "mcclim-clx";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
-    cl-deps = [ alexandria babel cl-aa cl-dejavu cl-paths-ttf cl-unicode cl-vectors clim clx flexi-streams mcclim-backend-common zpb-ttf ];
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
+    cl-deps = [ alexandria babel cl-aa cl-dejavu cl-paths-ttf cl-unicode cl-vectors clim clx flexi-streams mcclim-backend-common trivial-garbage zpb-ttf ];
   });
   mcclim-clx-fb = (bqs {
     name = "mcclim-clx-fb";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ mcclim-backend-common mcclim-clx mcclim-render ];
   });
   mcclim-dot = (bqs {
     name = "mcclim-dot";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-dot closer-mop mcclim parse-number shasht split-sequence uiop ];
   });
   mcclim-dot-slash-core = (bqs {
     name = "mcclim-dot/core";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-dot closer-mop mcclim parse-number split-sequence ];
   });
   mcclim-dot-slash-graphviz = (bqs {
     name = "mcclim-dot/graphviz";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-dot closer-mop mcclim parse-number shasht split-sequence uiop ];
   });
   mcclim-dot-slash-test = (bqs {
     name = "mcclim-dot/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-dot closer-mop fiveam mcclim mcclim-raster-image parse-number shasht split-sequence uiop ];
   });
   mcclim-fontconfig = (bqs {
     name = "mcclim-fontconfig";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cffi cffi-grovel ];
   });
   mcclim-fonts = (bqs {
     name = "mcclim-fonts";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   mcclim-fonts-slash-truetype = (bqs {
     name = "mcclim-fonts/truetype";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-aa cl-dejavu cl-paths-ttf cl-vectors clim flexi-streams zpb-ttf ];
   });
   mcclim-franz = (bqs {
     name = "mcclim-franz";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   mcclim-harfbuzz = (bqs {
     name = "mcclim-harfbuzz";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cffi cffi-grovel trivial-garbage ];
   });
   mcclim-layouts = (bqs {
     name = "mcclim-layouts";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [  ];
   });
   mcclim-layouts-slash-tab = (bqs {
     name = "mcclim-layouts/tab";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   mcclim-null = (bqs {
     name = "mcclim-null";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   mcclim-raster-image = (bqs {
     name = "mcclim-raster-image";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim mcclim-backend-common mcclim-render ];
   });
   mcclim-raster-image-slash-test = (bqs {
     name = "mcclim-raster-image/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ fiveam mcclim mcclim-raster-image ];
   });
   mcclim-render = (bqs {
     name = "mcclim-render";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-aa cl-dejavu cl-paths-ttf cl-vectors clim flexi-streams mcclim-backend-common zpb-ttf ];
   });
   mcclim-svg = (bqs {
     name = "mcclim-svg";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ alexandria cl-aa cl-base64 cl-dejavu cl-paths-ttf cl-vectors cl-who clim flexi-streams mcclim mcclim-bitmaps zpb-ttf ];
   });
   mcclim-tooltips = (bqs {
     name = "mcclim-tooltips";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim ];
   });
   mcclim-tree-with-cross-edges = (bqs {
     name = "mcclim-tree-with-cross-edges";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ mcclim ];
   });
   mcclim-slash-extensions = (bqs {
     name = "mcclim/extensions";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim clim-pdf clim-postscript conditional-commands mcclim-bezier mcclim-bitmaps mcclim-franz ];
   });
   mcclim-slash-looks = (bqs {
     name = "mcclim/looks";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ clim mcclim-clx mcclim-clx-fb mcclim-null ];
   });
   mcclim-slash-test = (bqs {
     name = "mcclim/test";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ fiveam mcclim ];
   });
   mcclim-slash-test-util = (bqs {
     name = "mcclim/test-util";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ fiveam mcclim ];
   });
   persistent = (bqs {
     name = "persistent";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [  ];
   });
   scigraph = (bqs {
     name = "scigraph";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ mcclim ];
   });
   scigraph-slash-dwim = (bqs {
     name = "scigraph/dwim";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ mcclim ];
   });
   slim = (bqs {
     name = "slim";
-    version = "20230214-git";
-    hash = "md5-TUpPzlYftd1ZO9xodBvX0g==";
-    url = "http://beta.quicklisp.org/archive/mcclim/2023-02-14/mcclim-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-MX8eB2OpdDA2bJ9PpvD9uw==";
+    url = "http://beta.quicklisp.org/archive/mcclim/2023-10-21/mcclim-20231021-git.tgz";
     cl-deps = [ mcclim ];
   });
   md5 = (bqs {
@@ -26360,6 +27137,55 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/memoize/2014-08-26/memoize-20140826-http.tgz";
     cl-deps = [  ];
   });
+  memory-regions = (bqs {
+    name = "memory-regions";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi closer-mop documentation-utils mmap static-vectors trivial-extensible-sequences trivial-gray-streams ];
+  });
+  memory-regions-slash-allocator = (bqs {
+    name = "memory-regions/allocator";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils ];
+  });
+  memory-regions-slash-object = (bqs {
+    name = "memory-regions/object";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi closer-mop documentation-utils ];
+  });
+  memory-regions-slash-pathname = (bqs {
+    name = "memory-regions/pathname";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils mmap static-vectors ];
+  });
+  memory-regions-slash-region = (bqs {
+    name = "memory-regions/region";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils ];
+  });
+  memory-regions-slash-sequence = (bqs {
+    name = "memory-regions/sequence";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils trivial-extensible-sequences ];
+  });
+  memory-regions-slash-stream = (bqs {
+    name = "memory-regions/stream";
+    version = "20231021-git";
+    hash = "md5-TvIUgS/+4rrSt3mzT3I2pg==";
+    url = "http://beta.quicklisp.org/archive/memory-regions/2023-10-21/memory-regions-20231021-git.tgz";
+    cl-deps = [ cffi documentation-utils trivial-gray-streams ];
+  });
   message-oo = (bqs {
     name = "message-oo";
     version = "20130615-git";
@@ -26369,9 +27195,9 @@ in with cl; {
   });
   messagebox = (bqs {
     name = "messagebox";
-    version = "20211020-git";
-    hash = "md5-t6W75Q3jMHWpz2cDlhTkYA==";
-    url = "http://beta.quicklisp.org/archive/messagebox/2021-10-20/messagebox-20211020-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dnf7NuHSavjQsYULTgD2PA==";
+    url = "http://beta.quicklisp.org/archive/messagebox/2023-10-21/messagebox-20231021-git.tgz";
     cl-deps = [ documentation-utils trivial-features uiop ];
   });
   meta = (bqs {
@@ -26390,16 +27216,16 @@ in with cl; {
   });
   metabang-bind = (bqs {
     name = "metabang-bind";
-    version = "20230214-git";
-    hash = "md5-y0guNerS9XmAPIiM/OuGsw==";
-    url = "http://beta.quicklisp.org/archive/metabang-bind/2023-02-14/metabang-bind-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1dQsoc7UvAtGGkN/b8/vDQ==";
+    url = "http://beta.quicklisp.org/archive/metabang-bind/2023-06-18/metabang-bind-20230618-git.tgz";
     cl-deps = [  ];
   });
   metabang-bind-test = (bqs {
     name = "metabang-bind-test";
-    version = "20230214-git";
-    hash = "md5-y0guNerS9XmAPIiM/OuGsw==";
-    url = "http://beta.quicklisp.org/archive/metabang-bind/2023-02-14/metabang-bind-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1dQsoc7UvAtGGkN/b8/vDQ==";
+    url = "http://beta.quicklisp.org/archive/metabang-bind/2023-06-18/metabang-bind-20230618-git.tgz";
     cl-deps = [ lift metabang-bind ];
   });
   metacopy = (bqs {
@@ -26558,101 +27384,143 @@ in with cl; {
   });
   mgl = (bqs {
     name = "mgl";
-    version = "20220220-git";
-    hash = "md5-DSNQh2Hrts4WYcBPsJFB0w==";
-    url = "http://beta.quicklisp.org/archive/mgl/2022-02-20/mgl-20220220-git.tgz";
-    cl-deps = [ alexandria array-operations cl-reexport closer-mop lla mgl-gnuplot mgl-mat mgl-pax named-readtables pythonic-string-reader swank ];
+    version = "20230618-git";
+    hash = "md5-FVj+nq9RDCbFiS542AYlLQ==";
+    url = "http://beta.quicklisp.org/archive/mgl/2023-06-18/mgl-20230618-git.tgz";
+    cl-deps = [ alexandria array-operations cl-reexport closer-mop lla mgl-gnuplot mgl-mat mgl-pax named-readtables num-utils pythonic-string-reader swank ];
   });
   mgl-example = (bqs {
     name = "mgl-example";
-    version = "20220220-git";
-    hash = "md5-DSNQh2Hrts4WYcBPsJFB0w==";
-    url = "http://beta.quicklisp.org/archive/mgl/2022-02-20/mgl-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-FVj+nq9RDCbFiS542AYlLQ==";
+    url = "http://beta.quicklisp.org/archive/mgl/2023-06-18/mgl-20230618-git.tgz";
     cl-deps = [ mgl ];
   });
   mgl-gnuplot = (bqs {
     name = "mgl-gnuplot";
-    version = "20220220-git";
-    hash = "md5-DSNQh2Hrts4WYcBPsJFB0w==";
-    url = "http://beta.quicklisp.org/archive/mgl/2022-02-20/mgl-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-FVj+nq9RDCbFiS542AYlLQ==";
+    url = "http://beta.quicklisp.org/archive/mgl/2023-06-18/mgl-20230618-git.tgz";
     cl-deps = [ alexandria external-program ];
   });
   mgl-slash-test = (bqs {
     name = "mgl/test";
-    version = "20220220-git";
-    hash = "md5-DSNQh2Hrts4WYcBPsJFB0w==";
-    url = "http://beta.quicklisp.org/archive/mgl/2022-02-20/mgl-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-FVj+nq9RDCbFiS542AYlLQ==";
+    url = "http://beta.quicklisp.org/archive/mgl/2023-06-18/mgl-20230618-git.tgz";
     cl-deps = [ mgl mgl-mat ];
   });
   mgl-mat = (bqs {
     name = "mgl-mat";
-    version = "20230214-git";
-    hash = "md5-cGZ5CdYJSSqHJoHEB1wa0A==";
-    url = "http://beta.quicklisp.org/archive/mgl-mat/2023-02-14/mgl-mat-20230214-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads cffi cffi-grovel cl-cuda flexi-streams ieee-floats lla mgl-pax static-vectors trivial-garbage ];
+    version = "20231021-git";
+    hash = "md5-KeReAB3bwsf6f7cQvIVyNQ==";
+    url = "http://beta.quicklisp.org/archive/mgl-mat/2023-10-21/mgl-mat-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-threads cffi cffi-grovel cl-cuda flexi-streams ieee-floats lla mgl-pax num-utils static-vectors trivial-garbage ];
   });
   mgl-mat-slash-test = (bqs {
     name = "mgl-mat/test";
-    version = "20230214-git";
-    hash = "md5-cGZ5CdYJSSqHJoHEB1wa0A==";
-    url = "http://beta.quicklisp.org/archive/mgl-mat/2023-02-14/mgl-mat-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-KeReAB3bwsf6f7cQvIVyNQ==";
+    url = "http://beta.quicklisp.org/archive/mgl-mat/2023-10-21/mgl-mat-20231021-git.tgz";
     cl-deps = [ cl-fad mgl-mat ];
+  });
+  dref = (bqs {
+    name = "dref";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ mgl-pax-bootstrap mgl-pax-dot-asdf named-readtables pythonic-string-reader ];
+  });
+  dref-test = (bqs {
+    name = "dref-test";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ alexandria dref mgl-pax mgl-pax-dot-asdf swank try ];
+  });
+  dref-test-slash-autoload = (bqs {
+    name = "dref-test/autoload";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ dref mgl-pax-dot-asdf try ];
+  });
+  dref-slash-full = (bqs {
+    name = "dref/full";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ alexandria dref mgl-pax-dot-asdf swank ];
   });
   mgl-pax = (bqs {
     name = "mgl-pax";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ mgl-pax-dot-asdf named-readtables pythonic-string-reader ];
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ dref mgl-pax-bootstrap mgl-pax-dot-asdf named-readtables pythonic-string-reader ];
+  });
+  mgl-pax-bootstrap = (bqs {
+    name = "mgl-pax-bootstrap";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ mgl-pax-dot-asdf ];
+  });
+  mgl-pax-test = (bqs {
+    name = "mgl-pax-test";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize dref dref-test md5 mgl-pax mgl-pax-dot-asdf swank trivial-utf-8 try ];
+  });
+  mgl-pax-test-slash-extension = (bqs {
+    name = "mgl-pax-test/extension";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ mgl-pax mgl-pax-dot-asdf try ];
   });
   mgl-pax-dot-asdf = (bqs {
     name = "mgl-pax.asdf";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
     cl-deps = [  ];
   });
   mgl-pax-slash-document = (bqs {
     name = "mgl-pax/document";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize md5 mgl-pax mgl-pax-dot-asdf swank ];
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize dref md5 mgl-pax mgl-pax-dot-asdf swank trivial-utf-8 ];
   });
   mgl-pax-slash-full = (bqs {
     name = "mgl-pax/full";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize md5 mgl-pax mgl-pax-dot-asdf swank ];
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize dref md5 mgl-pax mgl-pax-dot-asdf swank trivial-utf-8 ];
   });
   mgl-pax-slash-navigate = (bqs {
     name = "mgl-pax/navigate";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ alexandria mgl-pax mgl-pax-dot-asdf swank ];
-  });
-  mgl-pax-slash-test = (bqs {
-    name = "mgl-pax/test";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize md5 mgl-pax mgl-pax-dot-asdf swank try ];
-  });
-  mgl-pax-slash-test-extension = (bqs {
-    name = "mgl-pax/test-extension";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ mgl-pax mgl-pax-dot-asdf try ];
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ alexandria dref mgl-pax mgl-pax-dot-asdf swank ];
   });
   mgl-pax-slash-transcribe = (bqs {
     name = "mgl-pax/transcribe";
-    version = "20230214-git";
-    hash = "md5-cYdpuNh3I1bb4xhNI3DZ7Q==";
-    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-02-14/mgl-pax-20230214-git.tgz";
-    cl-deps = [ alexandria mgl-pax mgl-pax-dot-asdf swank ];
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ alexandria dref mgl-pax mgl-pax-dot-asdf swank ];
+  });
+  mgl-pax-slash-web = (bqs {
+    name = "mgl-pax/web";
+    version = "20231021-git";
+    hash = "md5-F/MHeQiURXKJ3DuC9s8K7g==";
+    url = "http://beta.quicklisp.org/archive/mgl-pax/2023-10-21/mgl-pax-20231021-git.tgz";
+    cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks alexandria colorize dref hunchentoot md5 mgl-pax mgl-pax-dot-asdf swank trivial-utf-8 ];
   });
   mgrs = (bqs {
     name = "mgrs";
@@ -26670,16 +27538,16 @@ in with cl; {
   });
   micmac = (bqs {
     name = "micmac";
-    version = "20220220-git";
-    hash = "md5-6f4CXsxX5V0+NKSsGbIoWQ==";
-    url = "http://beta.quicklisp.org/archive/micmac/2022-02-20/micmac-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-XAqodvLHgqcTFGU5jVeNfA==";
+    url = "http://beta.quicklisp.org/archive/micmac/2023-06-18/micmac-20230618-git.tgz";
     cl-deps = [ alexandria mgl-pax ];
   });
   micmac-slash-test = (bqs {
     name = "micmac/test";
-    version = "20220220-git";
-    hash = "md5-6f4CXsxX5V0+NKSsGbIoWQ==";
-    url = "http://beta.quicklisp.org/archive/micmac/2022-02-20/micmac-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-XAqodvLHgqcTFGU5jVeNfA==";
+    url = "http://beta.quicklisp.org/archive/micmac/2023-06-18/micmac-20230618-git.tgz";
     cl-deps = [ micmac ];
   });
   midi = (bqs {
@@ -26740,37 +27608,37 @@ in with cl; {
   });
   lack-middleware-mito = (bqs {
     name = "lack-middleware-mito";
-    version = "20230214-git";
-    hash = "md5-EFreBjEtRmoC/yP8vBbClQ==";
-    url = "http://beta.quicklisp.org/archive/mito/2023-02-14/mito-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BlgxGkoIAILpQJgdvicJpw==";
+    url = "http://beta.quicklisp.org/archive/mito/2023-10-21/mito-20231021-git.tgz";
     cl-deps = [ dbi mito-core ];
   });
   mito = (bqs {
     name = "mito";
-    version = "20230214-git";
-    hash = "md5-EFreBjEtRmoC/yP8vBbClQ==";
-    url = "http://beta.quicklisp.org/archive/mito/2023-02-14/mito-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BlgxGkoIAILpQJgdvicJpw==";
+    url = "http://beta.quicklisp.org/archive/mito/2023-10-21/mito-20231021-git.tgz";
     cl-deps = [ cl-reexport lack-middleware-mito mito-core mito-migration ];
   });
   mito-core = (bqs {
     name = "mito-core";
-    version = "20230214-git";
-    hash = "md5-EFreBjEtRmoC/yP8vBbClQ==";
-    url = "http://beta.quicklisp.org/archive/mito/2023-02-14/mito-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BlgxGkoIAILpQJgdvicJpw==";
+    url = "http://beta.quicklisp.org/archive/mito/2023-10-21/mito-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre cl-reexport closer-mop dbi dissect local-time sxql trivia uuid ];
   });
   mito-migration = (bqs {
     name = "mito-migration";
-    version = "20230214-git";
-    hash = "md5-EFreBjEtRmoC/yP8vBbClQ==";
-    url = "http://beta.quicklisp.org/archive/mito/2023-02-14/mito-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BlgxGkoIAILpQJgdvicJpw==";
+    url = "http://beta.quicklisp.org/archive/mito/2023-10-21/mito-20231021-git.tgz";
     cl-deps = [ alexandria chipz cl-reexport closer-mop dbi esrap mito-core sxql uiop ];
   });
   mito-test = (bqs {
     name = "mito-test";
-    version = "20230214-git";
-    hash = "md5-EFreBjEtRmoC/yP8vBbClQ==";
-    url = "http://beta.quicklisp.org/archive/mito/2023-02-14/mito-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-BlgxGkoIAILpQJgdvicJpw==";
+    url = "http://beta.quicklisp.org/archive/mito/2023-10-21/mito-20231021-git.tgz";
     cl-deps = [ mito prove prove-asdf ];
   });
   mito-attachment = (bqs {
@@ -26859,255 +27727,255 @@ in with cl; {
   });
   mmap = (bqs {
     name = "mmap";
-    version = "20230214-git";
-    hash = "md5-1X0WTUGH5A7hcKco/bplgQ==";
-    url = "http://beta.quicklisp.org/archive/mmap/2023-02-14/mmap-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-keDR7acrtKUFSXlvR1MYIQ==";
+    url = "http://beta.quicklisp.org/archive/mmap/2023-10-21/mmap-20231021-git.tgz";
     cl-deps = [ cffi documentation-utils trivial-features ];
   });
   mmap-test = (bqs {
     name = "mmap-test";
-    version = "20230214-git";
-    hash = "md5-1X0WTUGH5A7hcKco/bplgQ==";
-    url = "http://beta.quicklisp.org/archive/mmap/2023-02-14/mmap-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-keDR7acrtKUFSXlvR1MYIQ==";
+    url = "http://beta.quicklisp.org/archive/mmap/2023-10-21/mmap-20231021-git.tgz";
     cl-deps = [ alexandria cffi mmap parachute ];
   });
   mnas-graph = (bqs {
     name = "mnas-graph";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ mnas-hash-table mnas-string ];
   });
   mnas-graph-slash-alg = (bqs {
     name = "mnas-graph/alg";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ mnas-hash-table mnas-string ];
   });
   mnas-graph-slash-core = (bqs {
     name = "mnas-graph/core";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ mnas-hash-table mnas-string ];
   });
   mnas-graph-slash-demos = (bqs {
     name = "mnas-graph/demos";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ mnas-hash-table mnas-string ];
   });
   mnas-graph-slash-docs = (bqs {
     name = "mnas-graph/docs";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ codex mnas-graph mnas-package ];
   });
   mnas-graph-slash-filter = (bqs {
     name = "mnas-graph/filter";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [  ];
   });
   mnas-graph-slash-printer-viewer = (bqs {
     name = "mnas-graph/printer-viewer";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [  ];
   });
   mnas-graph-slash-sample = (bqs {
     name = "mnas-graph/sample";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ mnas-hash-table mnas-string ];
   });
   mnas-graph-slash-tests = (bqs {
     name = "mnas-graph/tests";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ fiveam mnas-graph ];
   });
   mnas-graph-slash-view = (bqs {
     name = "mnas-graph/view";
-    version = "20221106-git";
-    hash = "md5-xXqdN9+IzIjO5XSmLLrwXA==";
-    url = "http://beta.quicklisp.org/archive/mnas-graph/2022-11-06/mnas-graph-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-KfwGqzRa43ZIG3kaZXmGtg==";
+    url = "http://beta.quicklisp.org/archive/mnas-graph/2023-06-18/mnas-graph-20230618-git.tgz";
     cl-deps = [ mnas-hash-table mnas-string ];
   });
   mnas-hash-table = (bqs {
     name = "mnas-hash-table";
-    version = "20220707-git";
-    hash = "md5-02c32LU1ex5/zpeU2aHtaA==";
-    url = "http://beta.quicklisp.org/archive/mnas-hash-table/2022-07-07/mnas-hash-table-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-at/FzkPUS5/xjqrXa1/lgQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-hash-table/2023-06-18/mnas-hash-table-20230618-git.tgz";
     cl-deps = [  ];
   });
   mnas-hash-table-slash-docs = (bqs {
     name = "mnas-hash-table/docs";
-    version = "20220707-git";
-    hash = "md5-02c32LU1ex5/zpeU2aHtaA==";
-    url = "http://beta.quicklisp.org/archive/mnas-hash-table/2022-07-07/mnas-hash-table-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-at/FzkPUS5/xjqrXa1/lgQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-hash-table/2023-06-18/mnas-hash-table-20230618-git.tgz";
     cl-deps = [ codex mnas-hash-table ];
   });
   mnas-hash-table-slash-tests = (bqs {
     name = "mnas-hash-table/tests";
-    version = "20220707-git";
-    hash = "md5-02c32LU1ex5/zpeU2aHtaA==";
-    url = "http://beta.quicklisp.org/archive/mnas-hash-table/2022-07-07/mnas-hash-table-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-at/FzkPUS5/xjqrXa1/lgQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-hash-table/2023-06-18/mnas-hash-table-20230618-git.tgz";
     cl-deps = [ fiveam mnas-hash-table ];
   });
   mnas-package = (bqs {
     name = "mnas-package";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop inferior-shell mnas-graph mnas-string slynk ];
   });
   mnas-package-slash-doc = (bqs {
     name = "mnas-package/doc";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop slynk ];
   });
   mnas-package-slash-docs = (bqs {
     name = "mnas-package/docs";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ codex mnas-package ];
   });
   mnas-package-slash-example = (bqs {
     name = "mnas-package/example";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [  ];
   });
   mnas-package-slash-make = (bqs {
     name = "mnas-package/make";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop mnas-graph slynk ];
   });
   mnas-package-slash-obj = (bqs {
     name = "mnas-package/obj";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ closer-mop ];
   });
   mnas-package-slash-pkg = (bqs {
     name = "mnas-package/pkg";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop slynk ];
   });
   mnas-package-slash-sec = (bqs {
     name = "mnas-package/sec";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop mnas-graph mnas-string slynk ];
   });
   mnas-package-slash-sys = (bqs {
     name = "mnas-package/sys";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria ];
   });
   mnas-package-slash-tests = (bqs {
     name = "mnas-package/tests";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ fiveam mnas-package ];
   });
   mnas-package-slash-view = (bqs {
     name = "mnas-package/view";
-    version = "20221106-git";
-    hash = "md5-LVfpTi763+qYY7QoYO+quw==";
-    url = "http://beta.quicklisp.org/archive/mnas-package/2022-11-06/mnas-package-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-4hG3uJyXJUYNOXJvVCYIyw==";
+    url = "http://beta.quicklisp.org/archive/mnas-package/2023-06-18/mnas-package-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop mnas-graph slynk ];
   });
   mnas-path = (bqs {
     name = "mnas-path";
-    version = "20220707-git";
-    hash = "md5-fzPqOkvBdjfFC6g+IVl3jw==";
-    url = "http://beta.quicklisp.org/archive/mnas-path/2022-07-07/mnas-path-20220707-git.tgz";
-    cl-deps = [ cl-fad ];
+    version = "20231021-git";
+    hash = "md5-8Cbkf9J9t337QeM/X3YXig==";
+    url = "http://beta.quicklisp.org/archive/mnas-path/2023-10-21/mnas-path-20231021-git.tgz";
+    cl-deps = [ cl-fad mnas-string ];
   });
   mnas-path-slash-docs = (bqs {
     name = "mnas-path/docs";
-    version = "20220707-git";
-    hash = "md5-fzPqOkvBdjfFC6g+IVl3jw==";
-    url = "http://beta.quicklisp.org/archive/mnas-path/2022-07-07/mnas-path-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8Cbkf9J9t337QeM/X3YXig==";
+    url = "http://beta.quicklisp.org/archive/mnas-path/2023-10-21/mnas-path-20231021-git.tgz";
     cl-deps = [ codex mnas-package mnas-path ];
   });
   mnas-string = (bqs {
     name = "mnas-string";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
-    cl-deps = [ cl-ppcre ];
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
+    cl-deps = [ cl-ppcre mnas-hash-table ];
   });
   mnas-string-slash-core = (bqs {
     name = "mnas-string/core";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
     cl-deps = [ cl-ppcre ];
   });
   mnas-string-slash-db = (bqs {
     name = "mnas-string/db";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
     cl-deps = [ cl-ppcre ];
   });
   mnas-string-slash-docs = (bqs {
     name = "mnas-string/docs";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
     cl-deps = [ codex mnas-package mnas-string ];
   });
   mnas-string-slash-parse = (bqs {
     name = "mnas-string/parse";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
     cl-deps = [ cl-ppcre ];
   });
   mnas-string-slash-print = (bqs {
     name = "mnas-string/print";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
-    cl-deps = [  ];
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
+    cl-deps = [ mnas-hash-table ];
   });
   mnas-string-slash-tests = (bqs {
     name = "mnas-string/tests";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
     cl-deps = [ fiveam mnas-string ];
   });
   mnas-string-slash-translit = (bqs {
     name = "mnas-string/translit";
-    version = "20220707-git";
-    hash = "md5-QaSldFie89Ou4S7eGVYI1w==";
-    url = "http://beta.quicklisp.org/archive/mnas-string/2022-07-07/mnas-string-20220707-git.tgz";
-    cl-deps = [  ];
+    version = "20231021-git";
+    hash = "md5-2ac1+Wrobvno1VSdYSdodQ==";
+    url = "http://beta.quicklisp.org/archive/mnas-string/2023-10-21/mnas-string-20231021-git.tgz";
+    cl-deps = [ mnas-hash-table ];
   });
   mockingbird = (bqs {
     name = "mockingbird";
@@ -27167,37 +28035,37 @@ in with cl; {
   });
   modularize = (bqs {
     name = "modularize";
-    version = "20200427-git";
-    hash = "md5-Sz3zNTwhrOvh/BegxsOTrQ==";
-    url = "http://beta.quicklisp.org/archive/modularize/2020-04-27/modularize-20200427-git.tgz";
+    version = "20231021-git";
+    hash = "md5-qvNWm7+p3PdsW0me9+uiiw==";
+    url = "http://beta.quicklisp.org/archive/modularize/2023-10-21/modularize-20231021-git.tgz";
     cl-deps = [ documentation-utils trivial-package-local-nicknames ];
   });
   modularize-test-module = (bqs {
     name = "modularize-test-module";
-    version = "20200427-git";
-    hash = "md5-Sz3zNTwhrOvh/BegxsOTrQ==";
-    url = "http://beta.quicklisp.org/archive/modularize/2020-04-27/modularize-20200427-git.tgz";
+    version = "20231021-git";
+    hash = "md5-qvNWm7+p3PdsW0me9+uiiw==";
+    url = "http://beta.quicklisp.org/archive/modularize/2023-10-21/modularize-20231021-git.tgz";
     cl-deps = [ modularize ];
   });
   modularize-hooks = (bqs {
     name = "modularize-hooks";
-    version = "20190710-git";
-    hash = "md5-htjtWbsuYjGzxlE3KSASig==";
-    url = "http://beta.quicklisp.org/archive/modularize-hooks/2019-07-10/modularize-hooks-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Lm7mhW8zC7IowSJpeD+kWg==";
+    url = "http://beta.quicklisp.org/archive/modularize-hooks/2023-10-21/modularize-hooks-20231021-git.tgz";
     cl-deps = [ closer-mop lambda-fiddle modularize trivial-arguments ];
   });
   interfaces-test-implementation = (bqs {
     name = "interfaces-test-implementation";
-    version = "20210630-git";
-    hash = "md5-HzcioWYQn1aOekwSXN2syQ==";
-    url = "http://beta.quicklisp.org/archive/modularize-interfaces/2021-06-30/modularize-interfaces-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ND5iprHSu9efl6n1TJLttg==";
+    url = "http://beta.quicklisp.org/archive/modularize-interfaces/2023-10-21/modularize-interfaces-20231021-git.tgz";
     cl-deps = [ modularize modularize-interfaces ];
   });
   modularize-interfaces = (bqs {
     name = "modularize-interfaces";
-    version = "20210630-git";
-    hash = "md5-HzcioWYQn1aOekwSXN2syQ==";
-    url = "http://beta.quicklisp.org/archive/modularize-interfaces/2021-06-30/modularize-interfaces-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ND5iprHSu9efl6n1TJLttg==";
+    url = "http://beta.quicklisp.org/archive/modularize-interfaces/2023-10-21/modularize-interfaces-20231021-git.tgz";
     cl-deps = [ lambda-fiddle modularize trivial-arguments trivial-indent ];
   });
   moira = (bqs {
@@ -27298,34 +28166,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/monkeylib-utilities/2017-04-03/monkeylib-utilities-20170403-git.tgz";
     cl-deps = [ alexandria split-sequence ];
   });
-  monomyth = (bqs {
-    name = "monomyth";
-    version = "20211230-git";
-    hash = "md5-lfs6wMHPbKtYcSrVMlEAqQ==";
-    url = "http://beta.quicklisp.org/archive/monomyth/2021-12-30/monomyth-20211230-git.tgz";
-    cl-deps = [ alexandria babel cl-algebraic-data-type cl-rabbit cl-store clack closer-mop flexi-streams fset iterate jonathan ningle optima pzmq rutils stmx trivia uuid verbose woo ];
-  });
-  monomyth-slash-basic-example-master = (bqs {
-    name = "monomyth/basic-example-master";
-    version = "20211230-git";
-    hash = "md5-lfs6wMHPbKtYcSrVMlEAqQ==";
-    url = "http://beta.quicklisp.org/archive/monomyth/2021-12-30/monomyth-20211230-git.tgz";
-    cl-deps = [ monomyth rove ];
-  });
-  monomyth-slash-basic-example-worker = (bqs {
-    name = "monomyth/basic-example-worker";
-    version = "20211230-git";
-    hash = "md5-lfs6wMHPbKtYcSrVMlEAqQ==";
-    url = "http://beta.quicklisp.org/archive/monomyth/2021-12-30/monomyth-20211230-git.tgz";
-    cl-deps = [ monomyth rove ];
-  });
-  monomyth-slash-tests = (bqs {
-    name = "monomyth/tests";
-    version = "20211230-git";
-    hash = "md5-lfs6wMHPbKtYcSrVMlEAqQ==";
-    url = "http://beta.quicklisp.org/archive/monomyth/2021-12-30/monomyth-20211230-git.tgz";
-    cl-deps = [ cl-mock dexador lparallel monomyth quri rove ];
-  });
   lucene-in-action-tests = (bqs {
     name = "lucene-in-action-tests";
     version = "20180228-git";
@@ -27367,13 +28207,6 @@ in with cl; {
     hash = "md5-sRg5e+Ml5gp3LqNjHE8ZpA==";
     url = "http://beta.quicklisp.org/archive/moptilities/2017-04-03/moptilities-20170403-git.tgz";
     cl-deps = [ lift moptilities ];
-  });
-  more-cffi = (bqs {
-    name = "more-cffi";
-    version = "20230214-git";
-    hash = "md5-mgMzosEjk1bDc8FFgUoHhA==";
-    url = "http://beta.quicklisp.org/archive/more-cffi/2023-02-14/more-cffi-20230214-git.tgz";
-    cl-deps = [ adp alexandria cffi iterate ];
   });
   more-conditions = (bqs {
     name = "more-conditions";
@@ -27454,9 +28287,9 @@ in with cl; {
   });
   multilang-documentation = (bqs {
     name = "multilang-documentation";
-    version = "20190710-git";
-    hash = "md5-umHN16BtOYFDxPGGFMKzpw==";
-    url = "http://beta.quicklisp.org/archive/multilang-documentation/2019-07-10/multilang-documentation-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Z340jAjWJhrena0tMZufuA==";
+    url = "http://beta.quicklisp.org/archive/multilang-documentation/2023-10-21/multilang-documentation-20231021-git.tgz";
     cl-deps = [ documentation-utils language-codes system-locale ];
   });
   multiple-value-variants = (bqs {
@@ -27468,52 +28301,10 @@ in with cl; {
   });
   multiposter = (bqs {
     name = "multiposter";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ cl-ppcre documentation-utils ];
-  });
-  multiposter-git = (bqs {
-    name = "multiposter-git";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ legit multiposter ];
-  });
-  multiposter-lichat = (bqs {
-    name = "multiposter-lichat";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ cl-base64 lichat-tcp-client multiposter trivial-mimes ];
-  });
-  multiposter-mastodon = (bqs {
-    name = "multiposter-mastodon";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ multiposter tooter ];
-  });
-  multiposter-studio = (bqs {
-    name = "multiposter-studio";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ multiposter north-dexador studio-client ];
-  });
-  multiposter-tumblr = (bqs {
-    name = "multiposter-tumblr";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ humbler multiposter north-dexador ];
-  });
-  multiposter-twitter = (bqs {
-    name = "multiposter-twitter";
-    version = "20230214-git";
-    hash = "md5-B/CR22/99heY1sAFXxXrAA==";
-    url = "http://beta.quicklisp.org/archive/multiposter/2023-02-14/multiposter-20230214-git.tgz";
-    cl-deps = [ chirp multiposter ];
+    version = "20231021-git";
+    hash = "md5-A9EN5LO3bAjcfVDOpPAQzg==";
+    url = "http://beta.quicklisp.org/archive/multiposter/2023-10-21/multiposter-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre clohost closer-mop documentation-utils fuzzy-dates humbler lichat-tcp-client lquery north-drakma pathname-utils studio-client tooter trivial-arguments trivial-mimes ubiquitous uiop ];
   });
   multival-plist = (bqs {
     name = "multival-plist";
@@ -27538,45 +28329,52 @@ in with cl; {
   });
   mutility = (bqs {
     name = "mutility";
-    version = "20230214-git";
-    hash = "md5-6xdaWcalyzIrgmZhjCWH/g==";
-    url = "http://beta.quicklisp.org/archive/mutility/2023-02-14/mutility-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1XE0WxdFCbl/5PldxR225w==";
+    url = "http://beta.quicklisp.org/archive/mutility/2023-10-21/mutility-20231021-git.tgz";
     cl-deps = [ alexandria closer-mop local-time ];
   });
   mutility-slash-files = (bqs {
     name = "mutility/files";
-    version = "20230214-git";
-    hash = "md5-6xdaWcalyzIrgmZhjCWH/g==";
-    url = "http://beta.quicklisp.org/archive/mutility/2023-02-14/mutility-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1XE0WxdFCbl/5PldxR225w==";
+    url = "http://beta.quicklisp.org/archive/mutility/2023-10-21/mutility-20231021-git.tgz";
     cl-deps = [ mutility ];
   });
   mutility-slash-loopy = (bqs {
     name = "mutility/loopy";
-    version = "20230214-git";
-    hash = "md5-6xdaWcalyzIrgmZhjCWH/g==";
-    url = "http://beta.quicklisp.org/archive/mutility/2023-02-14/mutility-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1XE0WxdFCbl/5PldxR225w==";
+    url = "http://beta.quicklisp.org/archive/mutility/2023-10-21/mutility-20231021-git.tgz";
     cl-deps = [ mutility trivial-do ];
   });
   mutility-slash-most = (bqs {
     name = "mutility/most";
-    version = "20230214-git";
-    hash = "md5-6xdaWcalyzIrgmZhjCWH/g==";
-    url = "http://beta.quicklisp.org/archive/mutility/2023-02-14/mutility-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1XE0WxdFCbl/5PldxR225w==";
+    url = "http://beta.quicklisp.org/archive/mutility/2023-10-21/mutility-20231021-git.tgz";
     cl-deps = [ mutility trivial-do ];
   });
   mutility-slash-test-helpers = (bqs {
     name = "mutility/test-helpers";
-    version = "20230214-git";
-    hash = "md5-6xdaWcalyzIrgmZhjCWH/g==";
-    url = "http://beta.quicklisp.org/archive/mutility/2023-02-14/mutility-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1XE0WxdFCbl/5PldxR225w==";
+    url = "http://beta.quicklisp.org/archive/mutility/2023-10-21/mutility-20231021-git.tgz";
     cl-deps = [ mutility ];
   });
   mutility-slash-tests = (bqs {
     name = "mutility/tests";
-    version = "20230214-git";
-    hash = "md5-6xdaWcalyzIrgmZhjCWH/g==";
-    url = "http://beta.quicklisp.org/archive/mutility/2023-02-14/mutility-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1XE0WxdFCbl/5PldxR225w==";
+    url = "http://beta.quicklisp.org/archive/mutility/2023-10-21/mutility-20231021-git.tgz";
     cl-deps = [ alexandria cl-patterns fiveam mutility trivial-do ];
+  });
+  mutils = (bqs {
+    name = "mutils";
+    version = "20231021-git";
+    hash = "md5-9Wz8zTAJcVbVPcizAOrkYg==";
+    url = "http://beta.quicklisp.org/archive/mutils/2023-10-21/mutils-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre ];
   });
   mw-equiv = (bqs {
     name = "mw-equiv";
@@ -27587,58 +28385,58 @@ in with cl; {
   });
   mystic = (bqs {
     name = "mystic";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
-    cl-deps = [ anaphora cl-mustache local-time split-sequence ];
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
+    cl-deps = [ alexandria anaphora cl-mustache local-time split-sequence ubiquitous ];
   });
   mystic-file-mixin = (bqs {
     name = "mystic-file-mixin";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ mystic ];
   });
   mystic-fiveam-mixin = (bqs {
     name = "mystic-fiveam-mixin";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ mystic mystic-file-mixin ];
   });
   mystic-gitignore-mixin = (bqs {
     name = "mystic-gitignore-mixin";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ mystic mystic-file-mixin ];
   });
   mystic-library-template = (bqs {
     name = "mystic-library-template";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ mystic mystic-fiveam-mixin mystic-gitignore-mixin mystic-readme-mixin mystic-travis-mixin ];
   });
   mystic-readme-mixin = (bqs {
     name = "mystic-readme-mixin";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ mystic mystic-file-mixin ];
   });
   mystic-test = (bqs {
     name = "mystic-test";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ fiveam mystic mystic-library-template ];
   });
   mystic-travis-mixin = (bqs {
     name = "mystic-travis-mixin";
-    version = "20160208-git";
-    hash = "md5-x2tVg977vAqSEzL0lv7nxQ==";
-    url = "http://beta.quicklisp.org/archive/mystic/2016-02-08/mystic-20160208-git.tgz";
+    version = "20230618-git";
+    hash = "md5-27PLOLctHgIAM9IlNGOP2Q==";
+    url = "http://beta.quicklisp.org/archive/mystic/2023-06-18/mystic-20230618-git.tgz";
     cl-deps = [ mystic mystic-file-mixin ];
   });
   myway = (bqs {
@@ -27655,13 +28453,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/myway/2022-11-06/myway-20221106-git.tgz";
     cl-deps = [ myway prove prove-asdf ];
   });
-  myweb = (bqs {
-    name = "myweb";
-    version = "20150608-git";
-    hash = "md5-vJEzZJXKFCHax5vxTF5ogQ==";
-    url = "http://beta.quicklisp.org/archive/myweb/2015-06-08/myweb-20150608-git.tgz";
-    cl-deps = [ bordeaux-threads cl-log local-time trivial-utf-8 usocket ];
-  });
   nail = (bqs {
     name = "nail";
     version = "20230214-git";
@@ -27671,9 +28462,9 @@ in with cl; {
   });
   named-closure = (bqs {
     name = "named-closure";
-    version = "20220220-git";
-    hash = "md5-ry2LZmyU66PJtcsApaj7Vg==";
-    url = "http://beta.quicklisp.org/archive/named-closure/2022-02-20/named-closure-20220220-git.tgz";
+    version = "20230618-git";
+    hash = "md5-l4K+XVOA1e+vMvuLZ6ZQ2g==";
+    url = "http://beta.quicklisp.org/archive/named-closure/2023-06-18/named-closure-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop hu-dot-dwim-dot-util hu-dot-dwim-dot-walker ];
   });
   named-read-macros = (bqs {
@@ -27692,23 +28483,16 @@ in with cl; {
   });
   named-readtables = (bqs {
     name = "named-readtables";
-    version = "20220331-git";
-    hash = "md5-K2avf2iW1lb1QzMUKQWoxA==";
-    url = "http://beta.quicklisp.org/archive/named-readtables/2022-03-31/named-readtables-20220331-git.tgz";
-    cl-deps = [  ];
+    version = "20231021-git";
+    hash = "md5-5GuMp9RptOei4QaV3Fx8EQ==";
+    url = "http://beta.quicklisp.org/archive/named-readtables/2023-10-21/named-readtables-20231021-git.tgz";
+    cl-deps = [ mgl-pax-bootstrap ];
   });
-  named-readtables-slash-doc = (bqs {
-    name = "named-readtables/doc";
-    version = "20220331-git";
-    hash = "md5-K2avf2iW1lb1QzMUKQWoxA==";
-    url = "http://beta.quicklisp.org/archive/named-readtables/2022-03-31/named-readtables-20220331-git.tgz";
-    cl-deps = [ mgl-pax named-readtables ];
-  });
-  named-readtables-slash-test = (bqs {
-    name = "named-readtables/test";
-    version = "20220331-git";
-    hash = "md5-K2avf2iW1lb1QzMUKQWoxA==";
-    url = "http://beta.quicklisp.org/archive/named-readtables/2022-03-31/named-readtables-20220331-git.tgz";
+  named-readtables-test = (bqs {
+    name = "named-readtables-test";
+    version = "20231021-git";
+    hash = "md5-5GuMp9RptOei4QaV3Fx8EQ==";
+    url = "http://beta.quicklisp.org/archive/named-readtables/2023-10-21/named-readtables-20231021-git.tgz";
     cl-deps = [ named-readtables try ];
   });
   nanovg-blob = (bqs {
@@ -27739,6 +28523,13 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/narrowed-types/2018-02-28/narrowed-types-20180228-git.tgz";
     cl-deps = [ narrowed-types rt ];
   });
+  native-lazy-seq = (bqs {
+    name = "native-lazy-seq";
+    version = "20230618-git";
+    hash = "md5-2sFGFXnls5hWm7v1ufJYYQ==";
+    url = "http://beta.quicklisp.org/archive/native-lazy-seq/2023-06-18/native-lazy-seq-20230618-git.tgz";
+    cl-deps = [ iterate serapeum trivial-extensible-sequences trivial-package-local-nicknames ];
+  });
   nbd = (bqs {
     name = "nbd";
     version = "20211020-git";
@@ -27753,34 +28544,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/nbd/2021-10-20/nbd-20211020-git.tgz";
     cl-deps = [ nbd wild-package-inferred-system ];
   });
-  nclasses = (bqs {
-    name = "nclasses";
-    version = "20230214-git";
-    hash = "md5-imh2sjVD+1rsKKPr8H3b2A==";
-    url = "http://beta.quicklisp.org/archive/nclasses/2023-02-14/nclasses-20230214-git.tgz";
-    cl-deps = [ moptilities nasdf ];
-  });
-  nclasses-slash-submodules = (bqs {
-    name = "nclasses/submodules";
-    version = "20230214-git";
-    hash = "md5-imh2sjVD+1rsKKPr8H3b2A==";
-    url = "http://beta.quicklisp.org/archive/nclasses/2023-02-14/nclasses-20230214-git.tgz";
-    cl-deps = [ nasdf ];
-  });
-  nclasses-slash-tests = (bqs {
-    name = "nclasses/tests";
-    version = "20230214-git";
-    hash = "md5-imh2sjVD+1rsKKPr8H3b2A==";
-    url = "http://beta.quicklisp.org/archive/nclasses/2023-02-14/nclasses-20230214-git.tgz";
-    cl-deps = [ moptilities nasdf nclasses ];
-  });
-  nclasses-slash-tests-slash-compilation = (bqs {
-    name = "nclasses/tests/compilation";
-    version = "20230214-git";
-    hash = "md5-imh2sjVD+1rsKKPr8H3b2A==";
-    url = "http://beta.quicklisp.org/archive/nclasses/2023-02-14/nclasses-20230214-git.tgz";
-    cl-deps = [ nasdf nclasses ];
-  });
   ndebug = (bqs {
     name = "ndebug";
     version = "20230214-git";
@@ -27794,20 +28557,6 @@ in with cl; {
     hash = "md5-gk4kxIQ+6m9NO/nhL3V0pw==";
     url = "http://beta.quicklisp.org/archive/ndebug/2023-02-14/ndebug-20230214-git.tgz";
     cl-deps = [ lisp-unit2 ndebug ];
-  });
-  neo4cl = (bqs {
-    name = "neo4cl";
-    version = "20220707-git";
-    hash = "md5-pF18fvmfw9rvZvS8OeXbHQ==";
-    url = "http://beta.quicklisp.org/archive/neo4cl/2022-07-07/neo4cl-20220707-git.tgz";
-    cl-deps = [ ieee-floats trivial-utf-8 usocket ];
-  });
-  neo4cl-test = (bqs {
-    name = "neo4cl-test";
-    version = "20220707-git";
-    hash = "md5-pF18fvmfw9rvZvS8OeXbHQ==";
-    url = "http://beta.quicklisp.org/archive/neo4cl/2022-07-07/neo4cl-20220707-git.tgz";
-    cl-deps = [ fiveam flexi-streams neo4cl ];
   });
   net-telent-date = (bqs {
     name = "net-telent-date";
@@ -27858,67 +28607,32 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/new-op/2023-02-14/new-op-20230214-git.tgz";
     cl-deps = [  ];
   });
-  nfiles = (bqs {
-    name = "nfiles";
-    version = "20230214-git";
-    hash = "md5-3k+QH2w/qbiTif/NJ7bZuw==";
-    url = "http://beta.quicklisp.org/archive/nfiles/2023-02-14/nfiles-20230214-git.tgz";
-    cl-deps = [ alexandria hu-dot-dwim-dot-defclass-star nasdf quri serapeum trivial-garbage trivial-package-local-nicknames trivial-types ];
-  });
-  nfiles-slash-submodules = (bqs {
-    name = "nfiles/submodules";
-    version = "20230214-git";
-    hash = "md5-3k+QH2w/qbiTif/NJ7bZuw==";
-    url = "http://beta.quicklisp.org/archive/nfiles/2023-02-14/nfiles-20230214-git.tgz";
-    cl-deps = [ nasdf ];
-  });
-  nfiles-slash-tests = (bqs {
-    name = "nfiles/tests";
-    version = "20230214-git";
-    hash = "md5-3k+QH2w/qbiTif/NJ7bZuw==";
-    url = "http://beta.quicklisp.org/archive/nfiles/2023-02-14/nfiles-20230214-git.tgz";
-    cl-deps = [ nasdf nfiles ];
-  });
-  nfiles-slash-tests-slash-compilation = (bqs {
-    name = "nfiles/tests/compilation";
-    version = "20230214-git";
-    hash = "md5-3k+QH2w/qbiTif/NJ7bZuw==";
-    url = "http://beta.quicklisp.org/archive/nfiles/2023-02-14/nfiles-20230214-git.tgz";
-    cl-deps = [ nasdf nfiles ];
-  });
-  nhooks = (bqs {
-    name = "nhooks";
-    version = "20230214-git";
-    hash = "md5-A1HqTFFO+U2tBryaFPDr4A==";
-    url = "http://beta.quicklisp.org/archive/nhooks/2023-02-14/nhooks-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads closer-mop serapeum ];
-  });
   nibbles = (bqs {
     name = "nibbles";
-    version = "20220331-git";
-    hash = "md5-zQIbeUsk7yUedqJMrA1Zqw==";
-    url = "http://beta.quicklisp.org/archive/nibbles/2022-03-31/nibbles-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-rEALlGNOfsZZ65ZXnEA17Q==";
+    url = "http://beta.quicklisp.org/archive/nibbles/2023-10-21/nibbles-20231021-git.tgz";
     cl-deps = [  ];
   });
   nibbles-slash-tests = (bqs {
     name = "nibbles/tests";
-    version = "20220331-git";
-    hash = "md5-zQIbeUsk7yUedqJMrA1Zqw==";
-    url = "http://beta.quicklisp.org/archive/nibbles/2022-03-31/nibbles-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-rEALlGNOfsZZ65ZXnEA17Q==";
+    url = "http://beta.quicklisp.org/archive/nibbles/2023-10-21/nibbles-20231021-git.tgz";
     cl-deps = [ nibbles rt ];
   });
   nibbles-streams = (bqs {
     name = "nibbles-streams";
-    version = "20220707-git";
-    hash = "md5-+Xa+XBck/hoD3yyRRUpizA==";
-    url = "http://beta.quicklisp.org/archive/nibbles-streams/2022-07-07/nibbles-streams-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-UM3HFWrhbhJEI5ItrrIu+Q==";
+    url = "http://beta.quicklisp.org/archive/nibbles-streams/2023-06-18/nibbles-streams-20230618-git.tgz";
     cl-deps = [ nibbles serapeum trivial-gray-streams ];
   });
   nibbles-streams-slash-tests = (bqs {
     name = "nibbles-streams/tests";
-    version = "20220707-git";
-    hash = "md5-+Xa+XBck/hoD3yyRRUpizA==";
-    url = "http://beta.quicklisp.org/archive/nibbles-streams/2022-07-07/nibbles-streams-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-UM3HFWrhbhJEI5ItrrIu+Q==";
+    url = "http://beta.quicklisp.org/archive/nibbles-streams/2023-06-18/nibbles-streams-20230618-git.tgz";
     cl-deps = [ fiveam flexi-streams nibbles-streams ];
   });
   nineveh = (bqs {
@@ -27930,73 +28644,17 @@ in with cl; {
   });
   ningle = (bqs {
     name = "ningle";
-    version = "20211230-git";
-    hash = "md5-5TFsdiWiTQ/joGZicoQEsA==";
-    url = "http://beta.quicklisp.org/archive/ningle/2021-12-30/ningle-20211230-git.tgz";
-    cl-deps = [ alexandria cl-syntax-annot lack-component lack-request lack-response myway ];
+    version = "20231021-git";
+    hash = "md5-lEYizWoKUOV0H8zU4WriSQ==";
+    url = "http://beta.quicklisp.org/archive/ningle/2023-10-21/ningle-20231021-git.tgz";
+    cl-deps = [ alexandria lack-component lack-request lack-response myway ];
   });
   ningle-test = (bqs {
     name = "ningle-test";
-    version = "20211230-git";
-    hash = "md5-5TFsdiWiTQ/joGZicoQEsA==";
-    url = "http://beta.quicklisp.org/archive/ningle/2021-12-30/ningle-20211230-git.tgz";
-    cl-deps = [ babel clack-test drakma ningle prove yason ];
-  });
-  njson = (bqs {
-    name = "njson";
-    version = "20230214-git";
-    hash = "md5-lytB1CXUz9ZxescpT4LNvg==";
-    url = "http://beta.quicklisp.org/archive/njson/2023-02-14/njson-20230214-git.tgz";
-    cl-deps = [ nasdf ];
-  });
-  njson-slash-aliases = (bqs {
-    name = "njson/aliases";
-    version = "20230214-git";
-    hash = "md5-lytB1CXUz9ZxescpT4LNvg==";
-    url = "http://beta.quicklisp.org/archive/njson/2023-02-14/njson-20230214-git.tgz";
-    cl-deps = [ njson ];
-  });
-  njson-slash-cl-json = (bqs {
-    name = "njson/cl-json";
-    version = "20230214-git";
-    hash = "md5-lytB1CXUz9ZxescpT4LNvg==";
-    url = "http://beta.quicklisp.org/archive/njson/2023-02-14/njson-20230214-git.tgz";
-    cl-deps = [ cl-json njson ];
-  });
-  njson-slash-submodules = (bqs {
-    name = "njson/submodules";
-    version = "20230214-git";
-    hash = "md5-lytB1CXUz9ZxescpT4LNvg==";
-    url = "http://beta.quicklisp.org/archive/njson/2023-02-14/njson-20230214-git.tgz";
-    cl-deps = [ nasdf ];
-  });
-  njson-slash-tests = (bqs {
-    name = "njson/tests";
-    version = "20230214-git";
-    hash = "md5-lytB1CXUz9ZxescpT4LNvg==";
-    url = "http://beta.quicklisp.org/archive/njson/2023-02-14/njson-20230214-git.tgz";
-    cl-deps = [ nasdf njson ];
-  });
-  njson-slash-tests-slash-compilation = (bqs {
-    name = "njson/tests/compilation";
-    version = "20230214-git";
-    hash = "md5-lytB1CXUz9ZxescpT4LNvg==";
-    url = "http://beta.quicklisp.org/archive/njson/2023-02-14/njson-20230214-git.tgz";
-    cl-deps = [ nasdf njson ];
-  });
-  nkeymaps = (bqs {
-    name = "nkeymaps";
-    version = "20230214-git";
-    hash = "md5-I7S02Ixw+Pvfdc84SiKSDQ==";
-    url = "http://beta.quicklisp.org/archive/nkeymaps/2023-02-14/nkeymaps-20230214-git.tgz";
-    cl-deps = [ alexandria fset trivial-package-local-nicknames uiop ];
-  });
-  nkeymaps-slash-tests = (bqs {
-    name = "nkeymaps/tests";
-    version = "20230214-git";
-    hash = "md5-I7S02Ixw+Pvfdc84SiKSDQ==";
-    url = "http://beta.quicklisp.org/archive/nkeymaps/2023-02-14/nkeymaps-20230214-git.tgz";
-    cl-deps = [ alexandria fset lisp-unit2 nkeymaps ];
+    version = "20231021-git";
+    hash = "md5-lEYizWoKUOV0H8zU4WriSQ==";
+    url = "http://beta.quicklisp.org/archive/ningle/2023-10-21/ningle-20231021-git.tgz";
+    cl-deps = [ babel lack-component lack-test ningle prove yason ];
   });
   nlopt = (bqs {
     name = "nlopt";
@@ -28007,44 +28665,44 @@ in with cl; {
   });
   nodgui = (bqs {
     name = "nodgui";
-    version = "20230214-git";
-    hash = "md5-Ov11JBBVhbtOdm2vy+GVBA==";
-    url = "http://beta.quicklisp.org/archive/nodgui/2023-02-14/nodgui-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-rP+Det5Hq/pY8eXgr6Wrag==";
+    url = "http://beta.quicklisp.org/archive/nodgui/2023-10-21/nodgui-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-colors2 cl-jpeg cl-ppcre-unicode cl-unicode clunit2 esrap named-readtables parse-number ];
   });
   north = (bqs {
     name = "north";
-    version = "20230214-git";
-    hash = "md5-Jp37m2aZPC86XWCjqdXkXg==";
-    url = "http://beta.quicklisp.org/archive/north/2023-02-14/north-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aXbaUN2b/4WK7293NJSN9g==";
+    url = "http://beta.quicklisp.org/archive/north/2023-10-21/north-20231021-git.tgz";
     cl-deps = [ north-drakma ];
   });
   north-core = (bqs {
     name = "north-core";
-    version = "20230214-git";
-    hash = "md5-Jp37m2aZPC86XWCjqdXkXg==";
-    url = "http://beta.quicklisp.org/archive/north/2023-02-14/north-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aXbaUN2b/4WK7293NJSN9g==";
+    url = "http://beta.quicklisp.org/archive/north/2023-10-21/north-20231021-git.tgz";
     cl-deps = [ cl-ppcre crypto-shortcuts documentation-utils uuid ];
   });
   north-dexador = (bqs {
     name = "north-dexador";
-    version = "20230214-git";
-    hash = "md5-Jp37m2aZPC86XWCjqdXkXg==";
-    url = "http://beta.quicklisp.org/archive/north/2023-02-14/north-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aXbaUN2b/4WK7293NJSN9g==";
+    url = "http://beta.quicklisp.org/archive/north/2023-10-21/north-20231021-git.tgz";
     cl-deps = [ dexador north-core ];
   });
   north-drakma = (bqs {
     name = "north-drakma";
-    version = "20230214-git";
-    hash = "md5-Jp37m2aZPC86XWCjqdXkXg==";
-    url = "http://beta.quicklisp.org/archive/north/2023-02-14/north-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aXbaUN2b/4WK7293NJSN9g==";
+    url = "http://beta.quicklisp.org/archive/north/2023-10-21/north-20231021-git.tgz";
     cl-deps = [ drakma north-core ];
   });
   north-example = (bqs {
     name = "north-example";
-    version = "20230214-git";
-    hash = "md5-Jp37m2aZPC86XWCjqdXkXg==";
-    url = "http://beta.quicklisp.org/archive/north/2023-02-14/north-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aXbaUN2b/4WK7293NJSN9g==";
+    url = "http://beta.quicklisp.org/archive/north/2023-10-21/north-20231021-git.tgz";
     cl-deps = [ clip drakma hunchentoot north ];
   });
   nsort = (bqs {
@@ -28053,27 +28711,6 @@ in with cl; {
     hash = "md5-ceAWVqIfYUR+Apj4nTr0Vg==";
     url = "http://beta.quicklisp.org/archive/nsort/2015-05-05/nsort-20150505-git.tgz";
     cl-deps = [ prove ];
-  });
-  nsymbols = (bqs {
-    name = "nsymbols";
-    version = "20230214-git";
-    hash = "md5-u/kAJgln3MJBnUhK0/e++g==";
-    url = "http://beta.quicklisp.org/archive/nsymbols/2023-02-14/nsymbols-20230214-git.tgz";
-    cl-deps = [  ];
-  });
-  nsymbols-slash-star = (bqs {
-    name = "nsymbols/star";
-    version = "20230214-git";
-    hash = "md5-u/kAJgln3MJBnUhK0/e++g==";
-    url = "http://beta.quicklisp.org/archive/nsymbols/2023-02-14/nsymbols-20230214-git.tgz";
-    cl-deps = [ closer-mop nsymbols ];
-  });
-  nsymbols-slash-tests = (bqs {
-    name = "nsymbols/tests";
-    version = "20230214-git";
-    hash = "md5-u/kAJgln3MJBnUhK0/e++g==";
-    url = "http://beta.quicklisp.org/archive/nsymbols/2023-02-14/nsymbols-20230214-git.tgz";
-    cl-deps = [ lisp-unit2 nsymbols ];
   });
   nuclblog = (bqs {
     name = "nuclblog";
@@ -28126,58 +28763,23 @@ in with cl; {
   });
   num-utils = (bqs {
     name = "num-utils";
-    version = "20230214-git";
-    hash = "md5-5hLFl+uZEV74QhQ3dk+I0Q==";
-    url = "http://beta.quicklisp.org/archive/numerical-utilities/2023-02-14/numerical-utilities-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-5zG5/3OdZp35edKgtxapHg==";
+    url = "http://beta.quicklisp.org/archive/numerical-utilities/2023-10-21/numerical-utilities-20231021-git.tgz";
     cl-deps = [ alexandria alexandria-plus- anaphora array-operations let-plus select ];
-  });
-  num-utils-slash-tests = (bqs {
-    name = "num-utils/tests";
-    version = "20230214-git";
-    hash = "md5-5hLFl+uZEV74QhQ3dk+I0Q==";
-    url = "http://beta.quicklisp.org/archive/numerical-utilities/2023-02-14/numerical-utilities-20230214-git.tgz";
-    cl-deps = [ fiveam num-utils select ];
-  });
-  dense-numericals = (bqs {
-    name = "dense-numericals";
-    version = "2023.02.0";
-    hash = "md5-sIHb+9GRP4IgtN3M18Vo9w==";
-    url = "http://beta.quicklisp.org/archive/numericals/2023-02-14/numericals-2023.02.0.tgz";
-    cl-deps = [ alexandria bmas cffi cl-autowrap dense-arrays-plus-static-vectors dense-arrays-plus-lite fiveam iterate lparallel magicl numericals-dot-common policy-cond polymorphic-functions swank trivial-coerce trivial-package-local-nicknames uiop ];
-  });
-  numericals = (bqs {
-    name = "numericals";
-    version = "2023.02.0";
-    hash = "md5-sIHb+9GRP4IgtN3M18Vo9w==";
-    url = "http://beta.quicklisp.org/archive/numericals/2023-02-14/numericals-2023.02.0.tgz";
-    cl-deps = [ alexandria bmas cffi cl-form-types compiler-macro-notes ctype fiveam introspect-environment iterate lparallel magicl numericals-dot-common policy-cond polymorphic-functions specialized-function swank trivial-coerce trivial-package-local-nicknames trivial-types ];
-  });
-  numericals-dot-common = (bqs {
-    name = "numericals.common";
-    version = "2023.02.0";
-    hash = "md5-sIHb+9GRP4IgtN3M18Vo9w==";
-    url = "http://beta.quicklisp.org/archive/numericals/2023-02-14/numericals-2023.02.0.tgz";
-    cl-deps = [ alexandria cl-form-types fiveam ];
-  });
-  numericals-slash-benchmarks = (bqs {
-    name = "numericals/benchmarks";
-    version = "2023.02.0";
-    hash = "md5-sIHb+9GRP4IgtN3M18Vo9w==";
-    url = "http://beta.quicklisp.org/archive/numericals/2023-02-14/numericals-2023.02.0.tgz";
-    cl-deps = [ alexandria cl-ascii-table fiveam jsown-utils numericals py4cl2 ];
   });
   numpy-file-format = (bqs {
     name = "numpy-file-format";
-    version = "20210124-git";
-    hash = "md5-DYHOHmftEyN4frDzzWmBEw==";
-    url = "http://beta.quicklisp.org/archive/numpy-file-format/2021-01-24/numpy-file-format-20210124-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+I6OyThaq5HRbKe7Z4B9MQ==";
+    url = "http://beta.quicklisp.org/archive/numpy-file-format/2023-10-21/numpy-file-format-20231021-git.tgz";
     cl-deps = [ ieee-floats trivial-features ];
   });
   numpy-file-format-slash-tests = (bqs {
     name = "numpy-file-format/tests";
-    version = "20210124-git";
-    hash = "md5-DYHOHmftEyN4frDzzWmBEw==";
-    url = "http://beta.quicklisp.org/archive/numpy-file-format/2021-01-24/numpy-file-format-20210124-git.tgz";
+    version = "20231021-git";
+    hash = "md5-+I6OyThaq5HRbKe7Z4B9MQ==";
+    url = "http://beta.quicklisp.org/archive/numpy-file-format/2023-10-21/numpy-file-format-20231021-git.tgz";
     cl-deps = [ numpy-file-format uiop ];
   });
   nyaml = (bqs {
@@ -28194,194 +28796,12 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/nyaml/2021-12-30/nyaml-20211230-git.tgz";
     cl-deps = [ alexandria esrap nyaml parachute split-sequence yason ];
   });
-  nasdf = (bqs {
-    name = "nasdf";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
+  nytpu-dot-lisp-utils = (bqs {
+    name = "nytpu.lisp-utils";
+    version = "20231021-git";
+    hash = "md5-mE4A2Na27svX3aClo+ZcTQ==";
+    url = "http://beta.quicklisp.org/archive/nytpu.lisp-utils/2023-10-21/nytpu.lisp-utils-20231021-git.tgz";
     cl-deps = [  ];
-  });
-  nyxt = (bqs {
-    name = "nyxt";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads calispel cl-base64 cl-containers cl-gopher cl-html-diff cl-json cl-ppcre cl-ppcre-unicode cl-prevalence cl-qrencode cl-tld closer-mop clss cluffer dexador dissect enchant flexi-streams history-tree hu-dot-dwim-dot-defclass-star idna iolib lass local-time log4cl lparallel montezuma moptilities nasdf ndebug nfiles nhooks njson nkeymaps nsymbols ospm parenscript phos plump py-configparser quri serapeum slynk spinneret str swank trivia trivial-clipboard trivial-features trivial-garbage trivial-package-local-nicknames trivial-types uiop unix-opts ];
-  });
-  nyxt-ubuntu-package = (bqs {
-    name = "nyxt-ubuntu-package";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads cl-cffi-gtk cl-gobject-introspection cl-webkit2 linux-packaging nasdf nyxt wild-package-inferred-system ];
-  });
-  nyxt-slash-analysis = (bqs {
-    name = "nyxt/analysis";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria cl-ppcre nasdf serapeum str ];
-  });
-  nyxt-slash-analysis-slash-tests = (bqs {
-    name = "nyxt/analysis/tests";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria cl-ppcre nasdf serapeum str ];
-  });
-  nyxt-slash-application-slash-tests = (bqs {
-    name = "nyxt/application/tests";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nasdf nyxt ];
-  });
-  nyxt-slash-benchmark = (bqs {
-    name = "nyxt/benchmark";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria nasdf nyxt trivial-benchmark ];
-  });
-  nyxt-slash-class-star = (bqs {
-    name = "nyxt/class-star";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria hu-dot-dwim-dot-defclass-star moptilities nasdf ];
-  });
-  nyxt-slash-clean-fasls = (bqs {
-    name = "nyxt/clean-fasls";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ swank ];
-  });
-  nyxt-slash-documentation = (bqs {
-    name = "nyxt/documentation";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nyxt ];
-  });
-  nyxt-slash-download-manager = (bqs {
-    name = "nyxt/download-manager";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ calispel cl-ppcre dexador log4cl nasdf quri str ];
-  });
-  nyxt-slash-gi-gtk = (bqs {
-    name = "nyxt/gi-gtk";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads cl-cffi-gtk cl-gobject-introspection cl-webkit2 nasdf nyxt ];
-  });
-  nyxt-slash-gi-gtk-application = (bqs {
-    name = "nyxt/gi-gtk-application";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads cl-cffi-gtk cl-gobject-introspection cl-webkit2 nasdf nyxt ];
-  });
-  nyxt-slash-gi-gtk-slash-tests = (bqs {
-    name = "nyxt/gi-gtk/tests";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads cl-cffi-gtk cl-gobject-introspection cl-webkit2 nasdf nyxt ];
-  });
-  nyxt-slash-gtk = (bqs {
-    name = "nyxt/gtk";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ cl-cffi-gtk cl-webkit2 nasdf nyxt ];
-  });
-  nyxt-slash-gtk-application = (bqs {
-    name = "nyxt/gtk-application";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ cl-cffi-gtk cl-webkit2 nasdf nyxt ];
-  });
-  nyxt-slash-password-manager = (bqs {
-    name = "nyxt/password-manager";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads cl-ppcre hu-dot-dwim-dot-defclass-star moptilities nasdf serapeum str trivial-clipboard uiop ];
-  });
-  nyxt-slash-prompter = (bqs {
-    name = "nyxt/prompter";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria calispel cl-containers closer-mop hu-dot-dwim-dot-defclass-star lparallel moptilities nasdf serapeum str trivial-package-local-nicknames ];
-  });
-  nyxt-slash-prompter-slash-tests = (bqs {
-    name = "nyxt/prompter/tests";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria calispel cl-containers closer-mop hu-dot-dwim-dot-defclass-star lparallel moptilities nasdf serapeum str trivial-package-local-nicknames ];
-  });
-  nyxt-slash-submodules = (bqs {
-    name = "nyxt/submodules";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nasdf ];
-  });
-  nyxt-slash-tests = (bqs {
-    name = "nyxt/tests";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nasdf nyxt ];
-  });
-  nyxt-slash-tests-slash-compilation = (bqs {
-    name = "nyxt/tests/compilation";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nasdf nyxt ];
-  });
-  nyxt-slash-text-buffer = (bqs {
-    name = "nyxt/text-buffer";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ cluffer nasdf ];
-  });
-  nyxt-slash-theme = (bqs {
-    name = "nyxt/theme";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria hu-dot-dwim-dot-defclass-star lass moptilities nasdf serapeum ];
-  });
-  nyxt-slash-theme-slash-tests = (bqs {
-    name = "nyxt/theme/tests";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ alexandria hu-dot-dwim-dot-defclass-star lass moptilities nasdf serapeum ];
-  });
-  nyxt-slash-user-interface = (bqs {
-    name = "nyxt/user-interface";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nasdf spinneret ];
-  });
-  nyxt-slash-version = (bqs {
-    name = "nyxt/version";
-    version = "20230214-git";
-    hash = "md5-TJ1XzsvCYNmeiKcrRANIsA==";
-    url = "http://beta.quicklisp.org/archive/nyxt/2023-02-14/nyxt-20230214-git.tgz";
-    cl-deps = [ nyxt ];
   });
   object-class = (bqs {
     name = "object-class";
@@ -28462,30 +28882,30 @@ in with cl; {
   });
   omg = (bqs {
     name = "omg";
-    version = "20230214-git";
-    hash = "md5-URSzAkJ8olUjvs1k3PHdrQ==";
-    url = "http://beta.quicklisp.org/archive/omglib/2023-02-14/omglib-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-N+faaiEOQXvRkVzIwyJdSA==";
+    url = "http://beta.quicklisp.org/archive/omglib/2023-10-21/omglib-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-jpeg clack find-port hunchentoot inferior-shell media-types osicat pngload skippy swank trivial-utf-8 uiop usocket websocket-driver-server ];
   });
   one-more-re-nightmare = (bqs {
     name = "one-more-re-nightmare";
-    version = "20221106-git";
-    hash = "md5-5iMfjOP6VEYZ5RHPGm3NtA==";
-    url = "http://beta.quicklisp.org/archive/one-more-re-nightmare/2022-11-06/one-more-re-nightmare-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-clrI5C9ZrxBt+RZQIDgGwA==";
+    url = "http://beta.quicklisp.org/archive/one-more-re-nightmare/2023-10-21/one-more-re-nightmare-20231021-git.tgz";
     cl-deps = [ alexandria babel bordeaux-threads dynamic-mixins esrap stealth-mixin trivia trivial-indent ];
   });
   one-more-re-nightmare-simd = (bqs {
     name = "one-more-re-nightmare-simd";
-    version = "20221106-git";
-    hash = "md5-5iMfjOP6VEYZ5RHPGm3NtA==";
-    url = "http://beta.quicklisp.org/archive/one-more-re-nightmare/2022-11-06/one-more-re-nightmare-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-clrI5C9ZrxBt+RZQIDgGwA==";
+    url = "http://beta.quicklisp.org/archive/one-more-re-nightmare/2023-10-21/one-more-re-nightmare-20231021-git.tgz";
     cl-deps = [ one-more-re-nightmare ];
   });
   one-more-re-nightmare-tests = (bqs {
     name = "one-more-re-nightmare-tests";
-    version = "20221106-git";
-    hash = "md5-5iMfjOP6VEYZ5RHPGm3NtA==";
-    url = "http://beta.quicklisp.org/archive/one-more-re-nightmare/2022-11-06/one-more-re-nightmare-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-clrI5C9ZrxBt+RZQIDgGwA==";
+    url = "http://beta.quicklisp.org/archive/one-more-re-nightmare/2023-10-21/one-more-re-nightmare-20231021-git.tgz";
     cl-deps = [ lparallel one-more-re-nightmare parachute ];
   });
   cl-oneliner = (bqs {
@@ -28536,6 +28956,20 @@ in with cl; {
     hash = "md5-XDACtdaWOCHBLzKs7rYqRQ==";
     url = "http://beta.quicklisp.org/archive/openal-blob/2020-10-16/openal-blob-stable-git.tgz";
     cl-deps = [ base-blobs bodge-blobs-support trivial-features ];
+  });
+  openapi-generator = (bqs {
+    name = "openapi-generator";
+    version = "20231021-git";
+    hash = "md5-R+iiAP+34aIr6uLidwc8KA==";
+    url = "http://beta.quicklisp.org/archive/openapi-generator/2023-10-21/openapi-generator-20231021-git.tgz";
+    cl-deps = [ alexandria cl-hash-util cl-json-pointer cl-project cl-semver com-dot-inuoe-dot-jzon dexador json-mop listopia moptilities parse-float pathname-utils quri serapeum str yason ];
+  });
+  openapi-generator-slash-test = (bqs {
+    name = "openapi-generator/test";
+    version = "20231021-git";
+    hash = "md5-R+iiAP+34aIr6uLidwc8KA==";
+    url = "http://beta.quicklisp.org/archive/openapi-generator/2023-10-21/openapi-generator-20231021-git.tgz";
+    cl-deps = [ fiveam openapi-generator str ];
   });
   openid-key = (bqs {
     name = "openid-key";
@@ -28644,86 +29078,79 @@ in with cl; {
   });
   orizuru-orm = (bqs {
     name = "orizuru-orm";
-    version = "20210228-git";
-    hash = "md5-ElRvLzTDoXQdRsbb0K0yFA==";
-    url = "http://beta.quicklisp.org/archive/orizuru-orm/2021-02-28/orizuru-orm-20210228-git.tgz";
+    version = "20231021-git";
+    hash = "md5-OIPNgUzrwo8uT8dG1CY5fA==";
+    url = "http://beta.quicklisp.org/archive/orizuru-orm/2023-10-21/orizuru-orm-20231021-git.tgz";
     cl-deps = [ alexandria anaphora cl-fad cl-ppcre-unicode clos-fixtures closer-mop clunit2 dbi iterate local-time sxql uiop ];
   });
   osc = (bqs {
     name = "osc";
-    version = "20230214-git";
-    hash = "md5-E9POP4KMfzEbe4pkbEPKhA==";
-    url = "http://beta.quicklisp.org/archive/osc/2023-02-14/osc-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-O3AfRKvE1aDc3lfPY6tN7A==";
+    url = "http://beta.quicklisp.org/archive/osc/2023-06-18/osc-20230618-git.tgz";
     cl-deps = [ usocket ];
   });
   osicat = (bqs {
     name = "osicat";
-    version = "20230214-git";
-    hash = "md5-mDe8RxsjVWFrRl+mEK9xjQ==";
-    url = "http://beta.quicklisp.org/archive/osicat/2023-02-14/osicat-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mArKCFSIIMQsHOenMI/1OQ==";
+    url = "http://beta.quicklisp.org/archive/osicat/2023-10-21/osicat-20231021-git.tgz";
     cl-deps = [ alexandria cffi cffi-grovel trivial-features ];
   });
   osicat-slash-tests = (bqs {
     name = "osicat/tests";
-    version = "20230214-git";
-    hash = "md5-mDe8RxsjVWFrRl+mEK9xjQ==";
-    url = "http://beta.quicklisp.org/archive/osicat/2023-02-14/osicat-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-mArKCFSIIMQsHOenMI/1OQ==";
+    url = "http://beta.quicklisp.org/archive/osicat/2023-10-21/osicat-20231021-git.tgz";
     cl-deps = [ osicat rt ];
-  });
-  osmpbf = (bqs {
-    name = "osmpbf";
-    version = "20210630-git";
-    hash = "md5-dTeCl+owrb5+60Rb4eTWeg==";
-    url = "http://beta.quicklisp.org/archive/osmpbf/2021-06-30/osmpbf-20210630-git.tgz";
-    cl-deps = [ chipz com-dot-google-dot-base flexi-streams nibbles protobuf ];
   });
   ospm = (bqs {
     name = "ospm";
-    version = "20221106-git";
-    hash = "md5-vptFReU9WFa4x70hklQFcw==";
-    url = "http://beta.quicklisp.org/archive/ospm/2022-11-06/ospm-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3FsQRwuu4Si5AflGFwYovQ==";
+    url = "http://beta.quicklisp.org/archive/ospm/2023-10-21/ospm-20231021-git.tgz";
     cl-deps = [ alexandria calispel hu-dot-dwim-dot-defclass-star local-time moptilities named-readtables serapeum trivia ];
   });
   ospm-slash-tests = (bqs {
     name = "ospm/tests";
-    version = "20221106-git";
-    hash = "md5-vptFReU9WFa4x70hklQFcw==";
-    url = "http://beta.quicklisp.org/archive/ospm/2022-11-06/ospm-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3FsQRwuu4Si5AflGFwYovQ==";
+    url = "http://beta.quicklisp.org/archive/ospm/2023-10-21/ospm-20231021-git.tgz";
     cl-deps = [ lisp-unit2 ospm ];
   });
   overlord = (bqs {
     name = "overlord";
-    version = "20221106-git";
-    hash = "md5-HpYPPlf1r5ABP+NQvaK44g==";
-    url = "http://beta.quicklisp.org/archive/overlord/2022-11-06/overlord-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-IoqDQ19mZDDZVX/zjoQqVg==";
+    url = "http://beta.quicklisp.org/archive/overlord/2023-06-18/overlord-20230618-git.tgz";
     cl-deps = [ alexandria babel bit-smasher bordeaux-threads cl-murmurhash cl-ppcre cl-strftime cmd exit-hooks fset global-vars local-time lparallel named-readtables quickproject serapeum trivia trivial-file-size ];
   });
   oxenfurt = (bqs {
     name = "oxenfurt";
-    version = "20190710-git";
-    hash = "md5-0zmSZu3xOWmwAx+XKhVHfw==";
-    url = "http://beta.quicklisp.org/archive/oxenfurt/2019-07-10/oxenfurt-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dQrf2Vqu/kmp3tk7x09efw==";
+    url = "http://beta.quicklisp.org/archive/oxenfurt/2023-10-21/oxenfurt-20231021-git.tgz";
     cl-deps = [ oxenfurt-dexador ];
   });
   oxenfurt-core = (bqs {
     name = "oxenfurt-core";
-    version = "20190710-git";
-    hash = "md5-0zmSZu3xOWmwAx+XKhVHfw==";
-    url = "http://beta.quicklisp.org/archive/oxenfurt/2019-07-10/oxenfurt-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dQrf2Vqu/kmp3tk7x09efw==";
+    url = "http://beta.quicklisp.org/archive/oxenfurt/2023-10-21/oxenfurt-20231021-git.tgz";
     cl-deps = [ alexandria babel documentation-utils yason ];
   });
   oxenfurt-dexador = (bqs {
     name = "oxenfurt-dexador";
-    version = "20190710-git";
-    hash = "md5-0zmSZu3xOWmwAx+XKhVHfw==";
-    url = "http://beta.quicklisp.org/archive/oxenfurt/2019-07-10/oxenfurt-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dQrf2Vqu/kmp3tk7x09efw==";
+    url = "http://beta.quicklisp.org/archive/oxenfurt/2023-10-21/oxenfurt-20231021-git.tgz";
     cl-deps = [ dexador oxenfurt-core ];
   });
   oxenfurt-drakma = (bqs {
     name = "oxenfurt-drakma";
-    version = "20190710-git";
-    hash = "md5-0zmSZu3xOWmwAx+XKhVHfw==";
-    url = "http://beta.quicklisp.org/archive/oxenfurt/2019-07-10/oxenfurt-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-dQrf2Vqu/kmp3tk7x09efw==";
+    url = "http://beta.quicklisp.org/archive/oxenfurt/2023-10-21/oxenfurt-20231021-git.tgz";
     cl-deps = [ drakma oxenfurt-core ];
   });
   pack = (bqs {
@@ -28805,9 +29232,9 @@ in with cl; {
   });
   pango-markup = (bqs {
     name = "pango-markup";
-    version = "20200325-git";
-    hash = "md5-FIERrtTYxQTl5eH9f5KccQ==";
-    url = "http://beta.quicklisp.org/archive/pango-markup/2020-03-25/pango-markup-20200325-git.tgz";
+    version = "20231021-git";
+    hash = "md5-sQAG0Wogq0edAUoQKzV2MA==";
+    url = "http://beta.quicklisp.org/archive/pango-markup/2023-10-21/pango-markup-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   papyrus = (bqs {
@@ -28819,37 +29246,37 @@ in with cl; {
   });
   parachute = (bqs {
     name = "parachute";
-    version = "20230214-git";
-    hash = "md5-3iizvD9kMpCjGhGLEjx2jw==";
-    url = "http://beta.quicklisp.org/archive/parachute/2023-02-14/parachute-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2okwJp2Cy3Gp+FI5AcOldQ==";
+    url = "http://beta.quicklisp.org/archive/parachute/2023-10-21/parachute-20231021-git.tgz";
     cl-deps = [ documentation-utils form-fiddle trivial-custom-debugger ];
   });
   parachute-fiveam = (bqs {
     name = "parachute-fiveam";
-    version = "20230214-git";
-    hash = "md5-3iizvD9kMpCjGhGLEjx2jw==";
-    url = "http://beta.quicklisp.org/archive/parachute/2023-02-14/parachute-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2okwJp2Cy3Gp+FI5AcOldQ==";
+    url = "http://beta.quicklisp.org/archive/parachute/2023-10-21/parachute-20231021-git.tgz";
     cl-deps = [ parachute ];
   });
   parachute-lisp-unit = (bqs {
     name = "parachute-lisp-unit";
-    version = "20230214-git";
-    hash = "md5-3iizvD9kMpCjGhGLEjx2jw==";
-    url = "http://beta.quicklisp.org/archive/parachute/2023-02-14/parachute-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2okwJp2Cy3Gp+FI5AcOldQ==";
+    url = "http://beta.quicklisp.org/archive/parachute/2023-10-21/parachute-20231021-git.tgz";
     cl-deps = [ parachute ];
   });
   parachute-prove = (bqs {
     name = "parachute-prove";
-    version = "20230214-git";
-    hash = "md5-3iizvD9kMpCjGhGLEjx2jw==";
-    url = "http://beta.quicklisp.org/archive/parachute/2023-02-14/parachute-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-2okwJp2Cy3Gp+FI5AcOldQ==";
+    url = "http://beta.quicklisp.org/archive/parachute/2023-10-21/parachute-20231021-git.tgz";
     cl-deps = [ cl-ppcre parachute ];
   });
   parameterized-function = (bqs {
     name = "parameterized-function";
-    version = "20190307-hg";
-    hash = "md5-E96YuDgc2EycrT3eEi6Rmg==";
-    url = "http://beta.quicklisp.org/archive/parameterized-function/2019-03-07/parameterized-function-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-3BSPcaTNU8CLSeyN0zWnTw==";
+    url = "http://beta.quicklisp.org/archive/parameterized-function/2023-06-18/parameterized-function-20230618-git.tgz";
     cl-deps = [ interface ];
   });
   paren-files = (bqs {
@@ -28992,13 +29419,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/parse-number/2018-02-28/parse-number-v1.7.tgz";
     cl-deps = [ parse-number ];
   });
-  parse-number-range = (bqs {
-    name = "parse-number-range";
-    version = "1.0";
-    hash = "md5-oaFzv/6vzcqTIEc/FBA/gA==";
-    url = "http://beta.quicklisp.org/archive/parse-number-range/2012-11-25/parse-number-range-1.0.tgz";
-    cl-deps = [ cartesian-product-switch enhanced-multiple-value-bind map-bind ];
-  });
   parseltongue = (bqs {
     name = "parseltongue";
     version = "20130312-git";
@@ -29008,16 +29428,16 @@ in with cl; {
   });
   parseq = (bqs {
     name = "parseq";
-    version = "20210531-git";
-    hash = "md5-pi/bBiNFD374Ipfosj/TQw==";
-    url = "http://beta.quicklisp.org/archive/parseq/2021-05-31/parseq-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fbrZDV+kZ1fEHud0ni/zag==";
+    url = "http://beta.quicklisp.org/archive/parseq/2023-10-21/parseq-20231021-git.tgz";
     cl-deps = [  ];
   });
   parseq-slash-test = (bqs {
     name = "parseq/test";
-    version = "20210531-git";
-    hash = "md5-pi/bBiNFD374Ipfosj/TQw==";
-    url = "http://beta.quicklisp.org/archive/parseq/2021-05-31/parseq-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fbrZDV+kZ1fEHud0ni/zag==";
+    url = "http://beta.quicklisp.org/archive/parseq/2023-10-21/parseq-20231021-git.tgz";
     cl-deps = [ parseq ];
   });
   parser-dot-common-rules = (bqs {
@@ -29120,16 +29540,16 @@ in with cl; {
   });
   pathname-utils = (bqs {
     name = "pathname-utils";
-    version = "20221106-git";
-    hash = "md5-IsLUF5tbT2nfO4jx7gthBg==";
-    url = "http://beta.quicklisp.org/archive/pathname-utils/2022-11-06/pathname-utils-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-biGFRik33g9StfqX8bDaYg==";
+    url = "http://beta.quicklisp.org/archive/pathname-utils/2023-10-21/pathname-utils-20231021-git.tgz";
     cl-deps = [ trivial-features ];
   });
   pathname-utils-test = (bqs {
     name = "pathname-utils-test";
-    version = "20221106-git";
-    hash = "md5-IsLUF5tbT2nfO4jx7gthBg==";
-    url = "http://beta.quicklisp.org/archive/pathname-utils/2022-11-06/pathname-utils-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-biGFRik33g9StfqX8bDaYg==";
+    url = "http://beta.quicklisp.org/archive/pathname-utils/2023-10-21/pathname-utils-20231021-git.tgz";
     cl-deps = [ parachute pathname-utils ];
   });
   patron = (bqs {
@@ -29246,73 +29666,73 @@ in with cl; {
   });
   petalisp = (bqs {
     name = "petalisp";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
     cl-deps = [ petalisp-dot-api petalisp-dot-test-suite ];
   });
   petalisp-dot-api = (bqs {
     name = "petalisp.api";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
-    cl-deps = [ alexandria petalisp-dot-core petalisp-dot-utilities petalisp-dot-xmas-backend split-sequence trivia trivial-macroexpand-all ];
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
+    cl-deps = [ alexandria petalisp-dot-codegen petalisp-dot-core petalisp-dot-ir petalisp-dot-native-backend petalisp-dot-utilities split-sequence trivia trivial-macroexpand-all ];
+  });
+  petalisp-dot-codegen = (bqs {
+    name = "petalisp.codegen";
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
+    cl-deps = [ alexandria cffi petalisp-dot-core petalisp-dot-ir petalisp-dot-utilities trivia trivial-macroexpand-all ucons ];
   });
   petalisp-dot-core = (bqs {
     name = "petalisp.core";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads lparallel petalisp-dot-utilities trivia typo ];
   });
   petalisp-dot-examples = (bqs {
     name = "petalisp.examples";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
     cl-deps = [ numpy-file-format petalisp-dot-api ];
   });
   petalisp-dot-graphviz = (bqs {
     name = "petalisp.graphviz";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
     cl-deps = [ alexandria cl-dot closer-mop petalisp petalisp-dot-core petalisp-dot-ir petalisp-dot-utilities trivial-features uiop ];
   });
   petalisp-dot-ir = (bqs {
     name = "petalisp.ir";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
     cl-deps = [ alexandria petalisp-dot-core petalisp-dot-utilities priority-queue split-sequence ucons ];
   });
   petalisp-dot-native-backend = (bqs {
     name = "petalisp.native-backend";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
-    cl-deps = [ alexandria atomics bordeaux-threads lparallel petalisp-dot-core petalisp-dot-ir petalisp-dot-utilities trivia trivial-garbage typo ];
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-threads cffi lparallel petalisp-dot-codegen petalisp-dot-core petalisp-dot-ir petalisp-dot-utilities static-vectors trivia trivial-garbage typo ];
   });
   petalisp-dot-test-suite = (bqs {
     name = "petalisp.test-suite";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
-    cl-deps = [ bordeaux-threads closer-mop petalisp-dot-examples petalisp-dot-xmas-backend ];
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
+    cl-deps = [ bordeaux-threads closer-mop petalisp-dot-api petalisp-dot-examples petalisp-dot-native-backend ];
   });
   petalisp-dot-utilities = (bqs {
     name = "petalisp.utilities";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
-    cl-deps = [ alexandria atomics bordeaux-threads queues-dot-priority-queue trivia trivial-garbage ];
-  });
-  petalisp-dot-xmas-backend = (bqs {
-    name = "petalisp.xmas-backend";
-    version = "20230214-git";
-    hash = "md5-7jNqW+Qf1cxjdWjMCtgeWg==";
-    url = "http://beta.quicklisp.org/archive/petalisp/2023-02-14/petalisp-20230214-git.tgz";
-    cl-deps = [ alexandria atomics bordeaux-threads lparallel petalisp-dot-core petalisp-dot-ir petalisp-dot-utilities trivia trivial-garbage typo ];
+    version = "20231021-git";
+    hash = "md5-8r/TjdGecH7qlGy1QoZ5Ug==";
+    url = "http://beta.quicklisp.org/archive/petalisp/2023-10-21/petalisp-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-threads queues-dot-priority-queue trivia trivial-garbage ];
   });
   petit-dot-package-utils = (bqs {
     name = "petit.package-utils";
@@ -29512,9 +29932,9 @@ in with cl; {
   });
   piping = (bqs {
     name = "piping";
-    version = "20221106-git";
-    hash = "md5-XLmV/rmU2D5u1yUAoRo0Nw==";
-    url = "http://beta.quicklisp.org/archive/piping/2022-11-06/piping-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-ojqjJSGeb26jUx97ZHgHmw==";
+    url = "http://beta.quicklisp.org/archive/piping/2023-10-21/piping-20231021-git.tgz";
     cl-deps = [  ];
   });
   pithy-xml = (bqs {
@@ -29559,13 +29979,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/place-utils/2018-10-18/place-utils-0.2.tgz";
     cl-deps = [  ];
   });
-  plain-odbc = (bqs {
-    name = "plain-odbc";
-    version = "20191130-git";
-    hash = "md5-z6DaMqCDpAY0Tm9lBNli3g==";
-    url = "http://beta.quicklisp.org/archive/plain-odbc/2019-11-30/plain-odbc-20191130-git.tgz";
-    cl-deps = [ alexandria cffi ];
-  });
   planks = (bqs {
     name = "planks";
     version = "20110522-git";
@@ -29596,23 +30009,23 @@ in with cl; {
   });
   plot = (bqs {
     name = "plot";
-    version = "20230214-git";
-    hash = "md5-FiqL6VAIVuT+UGnKPCwO8g==";
-    url = "http://beta.quicklisp.org/archive/plot/2023-02-14/plot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-75f7O2WGcAnrWuZdsaM5Ag==";
+    url = "http://beta.quicklisp.org/archive/plot/2023-10-21/plot-20231021-git.tgz";
     cl-deps = [ alexandria alexandria-plus- cl-ppcre data-frame ];
   });
   plot-slash-text = (bqs {
     name = "plot/text";
-    version = "20230214-git";
-    hash = "md5-FiqL6VAIVuT+UGnKPCwO8g==";
-    url = "http://beta.quicklisp.org/archive/plot/2023-02-14/plot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-75f7O2WGcAnrWuZdsaM5Ag==";
+    url = "http://beta.quicklisp.org/archive/plot/2023-10-21/plot-20231021-git.tgz";
     cl-deps = [ cl-spark iterate num-utils select ];
   });
   plot-slash-vega = (bqs {
     name = "plot/vega";
-    version = "20230214-git";
-    hash = "md5-FiqL6VAIVuT+UGnKPCwO8g==";
-    url = "http://beta.quicklisp.org/archive/plot/2023-02-14/plot-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-75f7O2WGcAnrWuZdsaM5Ag==";
+    url = "http://beta.quicklisp.org/archive/plot/2023-10-21/plot-20231021-git.tgz";
     cl-deps = [ cl-who dfio duologue lass let-plus lisp-stat local-time parenscript plot quri yason ];
   });
   pludeck = (bqs {
@@ -29624,58 +30037,58 @@ in with cl; {
   });
   plump = (bqs {
     name = "plump";
-    version = "20230214-git";
-    hash = "md5-9jJ0w+VtcSZ5N3gWX4G20Q==";
-    url = "http://beta.quicklisp.org/archive/plump/2023-02-14/plump-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fDbN23yWQsnvgwptFxyImA==";
+    url = "http://beta.quicklisp.org/archive/plump/2023-10-21/plump-20231021-git.tgz";
     cl-deps = [ array-utils documentation-utils ];
   });
   plump-dom = (bqs {
     name = "plump-dom";
-    version = "20230214-git";
-    hash = "md5-9jJ0w+VtcSZ5N3gWX4G20Q==";
-    url = "http://beta.quicklisp.org/archive/plump/2023-02-14/plump-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fDbN23yWQsnvgwptFxyImA==";
+    url = "http://beta.quicklisp.org/archive/plump/2023-10-21/plump-20231021-git.tgz";
     cl-deps = [ plump ];
   });
   plump-lexer = (bqs {
     name = "plump-lexer";
-    version = "20230214-git";
-    hash = "md5-9jJ0w+VtcSZ5N3gWX4G20Q==";
-    url = "http://beta.quicklisp.org/archive/plump/2023-02-14/plump-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fDbN23yWQsnvgwptFxyImA==";
+    url = "http://beta.quicklisp.org/archive/plump/2023-10-21/plump-20231021-git.tgz";
     cl-deps = [ plump ];
   });
   plump-parser = (bqs {
     name = "plump-parser";
-    version = "20230214-git";
-    hash = "md5-9jJ0w+VtcSZ5N3gWX4G20Q==";
-    url = "http://beta.quicklisp.org/archive/plump/2023-02-14/plump-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-fDbN23yWQsnvgwptFxyImA==";
+    url = "http://beta.quicklisp.org/archive/plump/2023-10-21/plump-20231021-git.tgz";
     cl-deps = [ plump ];
   });
   plump-bundle = (bqs {
     name = "plump-bundle";
-    version = "20190710-git";
-    hash = "md5-qJzMJVfBZX+ggDAtXJKabQ==";
-    url = "http://beta.quicklisp.org/archive/plump-bundle/2019-07-10/plump-bundle-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-6N3qlX6R5hMxagfiYDQaSw==";
+    url = "http://beta.quicklisp.org/archive/plump-bundle/2023-10-21/plump-bundle-20231021-git.tgz";
     cl-deps = [ babel closer-mop fast-io plump-dom ];
   });
   plump-sexp = (bqs {
     name = "plump-sexp";
-    version = "20210531-git";
-    hash = "md5-ZR71O0sliXHeTKZqKZpRVw==";
-    url = "http://beta.quicklisp.org/archive/plump-sexp/2021-05-31/plump-sexp-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7mm7uWdCAeqYzoTiQJL3sg==";
+    url = "http://beta.quicklisp.org/archive/plump-sexp/2023-10-21/plump-sexp-20231021-git.tgz";
     cl-deps = [ plump ];
   });
   plump-tex = (bqs {
     name = "plump-tex";
-    version = "20210531-git";
-    hash = "md5-MfmwPQD0FLToI+cq3uE2mg==";
-    url = "http://beta.quicklisp.org/archive/plump-tex/2021-05-31/plump-tex-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0tC07PG1ZO1n4pNdiTYrHQ==";
+    url = "http://beta.quicklisp.org/archive/plump-tex/2023-10-21/plump-tex-20231021-git.tgz";
     cl-deps = [ cl-ppcre plump ];
   });
   plump-tex-test = (bqs {
     name = "plump-tex-test";
-    version = "20210531-git";
-    hash = "md5-MfmwPQD0FLToI+cq3uE2mg==";
-    url = "http://beta.quicklisp.org/archive/plump-tex/2021-05-31/plump-tex-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0tC07PG1ZO1n4pNdiTYrHQ==";
+    url = "http://beta.quicklisp.org/archive/plump-tex/2023-10-21/plump-tex-20231021-git.tgz";
     cl-deps = [ fiveam plump-tex ];
   });
   png-read = (bqs {
@@ -29715,9 +30128,9 @@ in with cl; {
   });
   policy-cond = (bqs {
     name = "policy-cond";
-    version = "20200427-git";
-    hash = "md5-xiCQEn0Dt4hRisElf0ntog==";
-    url = "http://beta.quicklisp.org/archive/policy-cond/2020-04-27/policy-cond-20200427-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Jb6NrxDEI8ikp8QgmKiAWA==";
+    url = "http://beta.quicklisp.org/archive/policy-cond/2023-10-21/policy-cond-20231021-git.tgz";
     cl-deps = [  ];
   });
   polisher = (bqs {
@@ -29736,16 +30149,23 @@ in with cl; {
   });
   polymorphic-functions = (bqs {
     name = "polymorphic-functions";
-    version = "20230214-git";
-    hash = "md5-NhMgOx81rOD5mk4v06lNow==";
-    url = "http://beta.quicklisp.org/archive/polymorphic-functions/2023-02-14/polymorphic-functions-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-p/137VjkFJxs+SViHFkppw==";
+    url = "http://beta.quicklisp.org/archive/polymorphic-functions/2023-06-18/polymorphic-functions-20230618-git.tgz";
     cl-deps = [ alexandria cl-form-types closer-mop compiler-macro-notes ctype extensible-compound-types fiveam introspect-environment let-plus optima split-sequence trivial-garbage ];
+  });
+  polymorphic-functions-slash-specializing = (bqs {
+    name = "polymorphic-functions/specializing";
+    version = "20230618-git";
+    hash = "md5-p/137VjkFJxs+SViHFkppw==";
+    url = "http://beta.quicklisp.org/archive/polymorphic-functions/2023-06-18/polymorphic-functions-20230618-git.tgz";
+    cl-deps = [ polymorphic-functions ];
   });
   polymorphic-functions-slash-swank = (bqs {
     name = "polymorphic-functions/swank";
-    version = "20230214-git";
-    hash = "md5-NhMgOx81rOD5mk4v06lNow==";
-    url = "http://beta.quicklisp.org/archive/polymorphic-functions/2023-02-14/polymorphic-functions-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-p/137VjkFJxs+SViHFkppw==";
+    url = "http://beta.quicklisp.org/archive/polymorphic-functions/2023-06-18/polymorphic-functions-20230618-git.tgz";
     cl-deps = [ polymorphic-functions swank ];
   });
   pooler = (bqs {
@@ -29841,93 +30261,93 @@ in with cl; {
   });
   posix-shm = (bqs {
     name = "posix-shm";
-    version = "20221106-git";
-    hash = "md5-fiVdq7CQdva/YEWX0Mb2rQ==";
-    url = "http://beta.quicklisp.org/archive/posix-shm/2022-11-06/posix-shm-20221106-git.tgz";
-    cl-deps = [ alexandria cffi cffi-grovel ];
+    version = "20231021-git";
+    hash = "md5-V2Bj8IjU9A3oVnOK0KihNA==";
+    url = "http://beta.quicklisp.org/archive/posix-shm/2023-10-21/posix-shm-20231021-git.tgz";
+    cl-deps = [ alexandria cffi cffi-grovel trivial-features ];
   });
   posix-shm-slash-ffi = (bqs {
     name = "posix-shm/ffi";
-    version = "20221106-git";
-    hash = "md5-fiVdq7CQdva/YEWX0Mb2rQ==";
-    url = "http://beta.quicklisp.org/archive/posix-shm/2022-11-06/posix-shm-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-V2Bj8IjU9A3oVnOK0KihNA==";
+    url = "http://beta.quicklisp.org/archive/posix-shm/2023-10-21/posix-shm-20231021-git.tgz";
     cl-deps = [ cffi cffi-grovel ];
   });
   posix-shm-slash-test = (bqs {
     name = "posix-shm/test";
-    version = "20221106-git";
-    hash = "md5-fiVdq7CQdva/YEWX0Mb2rQ==";
-    url = "http://beta.quicklisp.org/archive/posix-shm/2022-11-06/posix-shm-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-V2Bj8IjU9A3oVnOK0KihNA==";
+    url = "http://beta.quicklisp.org/archive/posix-shm/2023-10-21/posix-shm-20231021-git.tgz";
     cl-deps = [ osicat parachute posix-shm ];
   });
   cl-postgres = (bqs {
     name = "cl-postgres";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ cl-base64 ironclad md5 split-sequence uax-15 ];
   });
   cl-postgres-slash-simple-date-tests = (bqs {
     name = "cl-postgres/simple-date-tests";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ cl-postgres fiveam s-sql simple-date uiop ];
   });
   cl-postgres-slash-tests = (bqs {
     name = "cl-postgres/tests";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ cl-postgres fiveam uiop ];
   });
   postmodern = (bqs {
     name = "postmodern";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-postgres closer-mop global-vars s-sql split-sequence uiop ];
   });
   postmodern-slash-tests = (bqs {
     name = "postmodern/tests";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ cl-postgres cl-postgres-plus-local-time fiveam local-time postmodern s-sql simple-date uiop ];
   });
   s-sql = (bqs {
     name = "s-sql";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ alexandria cl-postgres ];
   });
   s-sql-slash-tests = (bqs {
     name = "s-sql/tests";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ cl-postgres fiveam postmodern s-sql uiop ];
   });
   simple-date = (bqs {
     name = "simple-date";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [  ];
   });
   simple-date-slash-postgres-glue = (bqs {
     name = "simple-date/postgres-glue";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ cl-postgres fiveam s-sql simple-date uiop ];
   });
   simple-date-slash-tests = (bqs {
     name = "simple-date/tests";
-    version = "20230214-git";
-    hash = "md5-6Pd854AGWvbEgbyNrSCz3w==";
-    url = "http://beta.quicklisp.org/archive/postmodern/2023-02-14/postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e4OVQcqtVtez/HqzlFoGlA==";
+    url = "http://beta.quicklisp.org/archive/postmodern/2023-10-21/postmodern-20231021-git.tgz";
     cl-deps = [ fiveam simple-date ];
   });
   postmodern-localtime = (bqs {
@@ -29974,16 +30394,16 @@ in with cl; {
   });
   ppath = (bqs {
     name = "ppath";
-    version = "20180711-git";
-    hash = "md5-vP3aL/EWFyG5jCwSM0NEKQ==";
-    url = "http://beta.quicklisp.org/archive/ppath/2018-07-11/ppath-20180711-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gfX0wylTLkRAieTgx+5FJA==";
+    url = "http://beta.quicklisp.org/archive/ppath/2023-10-21/ppath-20231021-git.tgz";
     cl-deps = [ alexandria cffi cl-ppcre osicat split-sequence trivial-features uiop ];
   });
   ppath-test = (bqs {
     name = "ppath-test";
-    version = "20180711-git";
-    hash = "md5-vP3aL/EWFyG5jCwSM0NEKQ==";
-    url = "http://beta.quicklisp.org/archive/ppath/2018-07-11/ppath-20180711-git.tgz";
+    version = "20231021-git";
+    hash = "md5-gfX0wylTLkRAieTgx+5FJA==";
+    url = "http://beta.quicklisp.org/archive/ppath/2023-10-21/ppath-20231021-git.tgz";
     cl-deps = [ alexandria cl-fad ppath prove prove-asdf ];
   });
   pcl-binary-data = (bqs {
@@ -30091,6 +30511,20 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/prbs/2018-02-28/prbs-20180228-git.tgz";
     cl-deps = [ cl-gendoc prbs ];
   });
+  prepl = (bqs {
+    name = "prepl";
+    version = "20231021-git";
+    hash = "md5-g14rUygG+Lnv762LZ+dt7A==";
+    url = "http://beta.quicklisp.org/archive/prepl/2023-10-21/prepl-20231021-git.tgz";
+    cl-deps = [ bordeaux-threads closer-mop conium iterate named-readtables ];
+  });
+  prettier-builtins = (bqs {
+    name = "prettier-builtins";
+    version = "20231021-git";
+    hash = "md5-Pk5ZrfC1Iz1djg3vfwLUJw==";
+    url = "http://beta.quicklisp.org/archive/prettier-builtins/2023-10-21/prettier-builtins-20231021-git.tgz";
+    cl-deps = [ alexandria uiop ];
+  });
   pretty-function = (bqs {
     name = "pretty-function";
     version = "20130615-git";
@@ -30114,9 +30548,9 @@ in with cl; {
   });
   print-licenses = (bqs {
     name = "print-licenses";
-    version = "20220707-git";
-    hash = "md5-wbAmgPEUjQgcWYnw2UF7CA==";
-    url = "http://beta.quicklisp.org/archive/print-licenses/2022-07-07/print-licenses-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-8VvN6tlP6jwrQX7Jt478hQ==";
+    url = "http://beta.quicklisp.org/archive/print-licenses/2023-06-18/print-licenses-20230618-git.tgz";
     cl-deps = [ alexandria iterate ];
   });
   printv = (bqs {
@@ -30202,6 +30636,27 @@ in with cl; {
     hash = "md5-UBAiEBwCEaJntgjEYV/c4A==";
     url = "http://beta.quicklisp.org/archive/projectured/2017-12-27/projectured-quicklisp-c3a60e76-git.tgz";
     cl-deps = [ hu-dot-dwim-dot-asdf hu-dot-dwim-dot-logger hu-dot-dwim-dot-stefil-plus-hu-dot-dwim-dot-def-plus-swank projectured-dot-document projectured-dot-editor projectured-dot-projection projectured-dot-swank ];
+  });
+  prometheus-gc = (bqs {
+    name = "prometheus-gc";
+    version = "20230618-git";
+    hash = "md5-PxjKWkPqofOzy9vOHF+OIw==";
+    url = "http://beta.quicklisp.org/archive/prometheus-gc/2023-06-18/prometheus-gc-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system prometheus ];
+  });
+  prometheus-gc-ci = (bqs {
+    name = "prometheus-gc-ci";
+    version = "20230618-git";
+    hash = "md5-PxjKWkPqofOzy9vOHF+OIw==";
+    url = "http://beta.quicklisp.org/archive/prometheus-gc/2023-06-18/prometheus-gc-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  prometheus-gc-tests = (bqs {
+    name = "prometheus-gc-tests";
+    version = "20230618-git";
+    hash = "md5-PxjKWkPqofOzy9vOHF+OIw==";
+    url = "http://beta.quicklisp.org/archive/prometheus-gc/2023-06-18/prometheus-gc-20230618-git.tgz";
+    cl-deps = [ rove ];
   });
   prometheus = (bqs {
     name = "prometheus";
@@ -30310,16 +30765,16 @@ in with cl; {
   });
   promise = (bqs {
     name = "promise";
-    version = "20230214-git";
-    hash = "md5-wrUrjMHcZoQa4jnop6HchA==";
-    url = "http://beta.quicklisp.org/archive/promise/2023-02-14/promise-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-O7R7cmd/G7zZvwmDKGaw9A==";
+    url = "http://beta.quicklisp.org/archive/promise/2023-10-21/promise-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   promise-test = (bqs {
     name = "promise-test";
-    version = "20230214-git";
-    hash = "md5-wrUrjMHcZoQa4jnop6HchA==";
-    url = "http://beta.quicklisp.org/archive/promise/2023-02-14/promise-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-O7R7cmd/G7zZvwmDKGaw9A==";
+    url = "http://beta.quicklisp.org/archive/promise/2023-10-21/promise-20231021-git.tgz";
     cl-deps = [ parachute promise ];
   });
   prompt-for = (bqs {
@@ -30436,30 +30891,30 @@ in with cl; {
   });
   protobuf = (bqs {
     name = "protobuf";
-    version = "20220331-git";
-    hash = "md5-BnLlQQKnBjyjPgiBe8nQ3Q==";
-    url = "http://beta.quicklisp.org/archive/protobuf/2022-03-31/protobuf-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-hDUpksyWGjOXwPWy2uLt4Q==";
+    url = "http://beta.quicklisp.org/archive/protobuf/2023-06-18/protobuf-20230618-git.tgz";
     cl-deps = [ com-dot-google-dot-base varint ];
   });
   protobuf-conformance = (bqs {
     name = "protobuf-conformance";
-    version = "20220331-git";
-    hash = "md5-BnLlQQKnBjyjPgiBe8nQ3Q==";
-    url = "http://beta.quicklisp.org/archive/protobuf/2022-03-31/protobuf-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-hDUpksyWGjOXwPWy2uLt4Q==";
+    url = "http://beta.quicklisp.org/archive/protobuf/2023-06-18/protobuf-20230618-git.tgz";
     cl-deps = [ com-dot-google-dot-base nibbles protobuf ];
   });
   varint = (bqs {
     name = "varint";
-    version = "20220331-git";
-    hash = "md5-BnLlQQKnBjyjPgiBe8nQ3Q==";
-    url = "http://beta.quicklisp.org/archive/protobuf/2022-03-31/protobuf-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-hDUpksyWGjOXwPWy2uLt4Q==";
+    url = "http://beta.quicklisp.org/archive/protobuf/2023-06-18/protobuf-20230618-git.tgz";
     cl-deps = [ com-dot-google-dot-base nibbles ];
   });
   varint-slash-test = (bqs {
     name = "varint/test";
-    version = "20220331-git";
-    hash = "md5-BnLlQQKnBjyjPgiBe8nQ3Q==";
-    url = "http://beta.quicklisp.org/archive/protobuf/2022-03-31/protobuf-20220331-git.tgz";
+    version = "20230618-git";
+    hash = "md5-hDUpksyWGjOXwPWy2uLt4Q==";
+    url = "http://beta.quicklisp.org/archive/protobuf/2023-06-18/protobuf-20230618-git.tgz";
     cl-deps = [ hu-dot-dwim-dot-stefil varint ];
   });
   cl-test-more = (bqs {
@@ -30506,17 +30961,24 @@ in with cl; {
   });
   psychiq = (bqs {
     name = "psychiq";
-    version = "20200925-git";
-    hash = "md5-9KE9y5GEkRN61rOWr+UEVg==";
-    url = "http://beta.quicklisp.org/archive/psychiq/2020-09-25/psychiq-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-oXP6GttgniCcUEaDhpxkew==";
+    url = "http://beta.quicklisp.org/archive/psychiq/2023-10-21/psychiq-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-redis cl-reexport dissect jonathan local-time uiop vom ];
   });
   psychiq-test = (bqs {
     name = "psychiq-test";
-    version = "20200925-git";
-    hash = "md5-9KE9y5GEkRN61rOWr+UEVg==";
-    url = "http://beta.quicklisp.org/archive/psychiq/2020-09-25/psychiq-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-oXP6GttgniCcUEaDhpxkew==";
+    url = "http://beta.quicklisp.org/archive/psychiq/2023-10-21/psychiq-20231021-git.tgz";
     cl-deps = [ prove prove-asdf psychiq ];
+  });
+  ptc = (bqs {
+    name = "ptc";
+    version = "20231021-git";
+    hash = "md5-xJ2rlMk0HBjQRw7N2kivUA==";
+    url = "http://beta.quicklisp.org/archive/ptc/2023-10-21/ptc-20231021-git.tgz";
+    cl-deps = [  ];
   });
   ptester = (bqs {
     name = "ptester";
@@ -30525,18 +30987,32 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/ptester/2016-09-29/ptester-20160929-git.tgz";
     cl-deps = [  ];
   });
+  punycode = (bqs {
+    name = "punycode";
+    version = "20231021-git";
+    hash = "md5-BQnuwB4HvIwjmfXbap24dw==";
+    url = "http://beta.quicklisp.org/archive/punycode/2023-10-21/punycode-20231021-git.tgz";
+    cl-deps = [  ];
+  });
+  punycode-test = (bqs {
+    name = "punycode-test";
+    version = "20231021-git";
+    hash = "md5-BQnuwB4HvIwjmfXbap24dw==";
+    url = "http://beta.quicklisp.org/archive/punycode/2023-10-21/punycode-20231021-git.tgz";
+    cl-deps = [ parachute punycode ];
+  });
   purgatory = (bqs {
     name = "purgatory";
-    version = "20220707-git";
-    hash = "md5-fbV182KfgsQ574kzM4hVfQ==";
-    url = "http://beta.quicklisp.org/archive/purgatory/2022-07-07/purgatory-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aB17uKTaZslAgD/Yt0dnnA==";
+    url = "http://beta.quicklisp.org/archive/purgatory/2023-10-21/purgatory-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-ppcre uiop usocket ];
   });
   purgatory-tests = (bqs {
     name = "purgatory-tests";
-    version = "20220707-git";
-    hash = "md5-fbV182KfgsQ574kzM4hVfQ==";
-    url = "http://beta.quicklisp.org/archive/purgatory/2022-07-07/purgatory-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-aB17uKTaZslAgD/Yt0dnnA==";
+    url = "http://beta.quicklisp.org/archive/purgatory/2023-10-21/purgatory-20231021-git.tgz";
     cl-deps = [ alexandria babel cl-plus-ssl cl-ppcre clunit2 purgatory uiop usocket ];
   });
   puri = (bqs {
@@ -30583,23 +31059,23 @@ in with cl; {
   });
   py4cl2 = (bqs {
     name = "py4cl2";
-    version = "v2.9.1";
-    hash = "md5-UMIvI+JTqr9YRIHx1ylYRw==";
-    url = "http://beta.quicklisp.org/archive/py4cl2/2023-02-14/py4cl2-v2.9.1.tgz";
+    version = "v2.9.2";
+    hash = "md5-BWwrwul0Lxtaa7BnjWhysA==";
+    url = "http://beta.quicklisp.org/archive/py4cl2/2023-06-18/py4cl2-v2.9.2.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-json float-features iterate numpy-file-format parse-number trivial-garbage uiop ];
   });
   py4cl2-cffi = (bqs {
     name = "py4cl2-cffi";
-    version = "20230215-git";
-    hash = "md5-8X/gcyiKIPW9SPgZ9qfiIw==";
-    url = "http://beta.quicklisp.org/archive/py4cl2-cffi/2023-02-15/py4cl2-cffi-20230215-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads cffi float-features iterate parse-number split-sequence trivial-garbage uiop ];
+    version = "20231021-git";
+    hash = "md5-CUTZgRDoh9Pe2OGZPhEyZw==";
+    url = "http://beta.quicklisp.org/archive/py4cl2-cffi/2023-10-21/py4cl2-cffi-20231021-git.tgz";
+    cl-deps = [ alexandria bordeaux-threads cffi cl-ppcre float-features iterate optima parse-number swank trivial-backtrace trivial-garbage uiop ];
   });
   py4cl2-cffi-slash-config = (bqs {
     name = "py4cl2-cffi/config";
-    version = "20230215-git";
-    hash = "md5-8X/gcyiKIPW9SPgZ9qfiIw==";
-    url = "http://beta.quicklisp.org/archive/py4cl2-cffi/2023-02-15/py4cl2-cffi-20230215-git.tgz";
+    version = "20231021-git";
+    hash = "md5-CUTZgRDoh9Pe2OGZPhEyZw==";
+    url = "http://beta.quicklisp.org/archive/py4cl2-cffi/2023-10-21/py4cl2-cffi-20231021-git.tgz";
     cl-deps = [ uiop ];
   });
   pythonic-string-reader = (bqs {
@@ -30667,16 +31143,16 @@ in with cl; {
   });
   qlot = (bqs {
     name = "qlot";
-    version = "20220331-git";
-    hash = "md5-WHCzXRC9E/9SfQn2lEKs/w==";
-    url = "http://beta.quicklisp.org/archive/qlot/2022-03-31/qlot-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-6CoNQ7xlyLSh7bVrrsFyEw==";
+    url = "http://beta.quicklisp.org/archive/qlot/2023-10-21/qlot-20231021-git.tgz";
     cl-deps = [  ];
   });
   qlot-slash-command = (bqs {
     name = "qlot/command";
-    version = "20220331-git";
-    hash = "md5-WHCzXRC9E/9SfQn2lEKs/w==";
-    url = "http://beta.quicklisp.org/archive/qlot/2022-03-31/qlot-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-6CoNQ7xlyLSh7bVrrsFyEw==";
+    url = "http://beta.quicklisp.org/archive/qlot/2023-10-21/qlot-20231021-git.tgz";
     cl-deps = [  ];
   });
   qmynd = (bqs {
@@ -31213,9 +31689,9 @@ in with cl; {
   });
   queen = (bqs {
     name = "queen";
-    version = "20160929-git";
-    hash = "md5-LnxoRB6Z2CbPssfLmqg3Zg==";
-    url = "http://beta.quicklisp.org/archive/queen.lisp/2016-09-29/queen.lisp-20160929-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1IrugiAEcZel7vByXDXUYw==";
+    url = "http://beta.quicklisp.org/archive/queen.lisp/2023-06-18/queen.lisp-20230618-git.tgz";
     cl-deps = [ alexandria anaphora cl-ppcre-unicode named-readtables ];
   });
   query-fs = (bqs {
@@ -31276,16 +31752,16 @@ in with cl; {
   });
   quick-patch = (bqs {
     name = "quick-patch";
-    version = "20221106-git";
-    hash = "md5-qEa7+dFLNHDJV2wuVj3jKQ==";
-    url = "http://beta.quicklisp.org/archive/quick-patch/2022-11-06/quick-patch-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-vmLCCIviFmQ9pGfozWKZZw==";
+    url = "http://beta.quicklisp.org/archive/quick-patch/2023-06-18/quick-patch-20230618-git.tgz";
     cl-deps = [  ];
   });
   quick-patch-slash-tests = (bqs {
     name = "quick-patch/tests";
-    version = "20221106-git";
-    hash = "md5-qEa7+dFLNHDJV2wuVj3jKQ==";
-    url = "http://beta.quicklisp.org/archive/quick-patch/2022-11-06/quick-patch-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-vmLCCIviFmQ9pGfozWKZZw==";
+    url = "http://beta.quicklisp.org/archive/quick-patch/2023-06-18/quick-patch-20230618-git.tgz";
     cl-deps = [ cl-mock fiveam quick-patch str tmpdir ];
   });
   quickapp = (bqs {
@@ -31294,6 +31770,13 @@ in with cl; {
     hash = "md5-98ANEhfXtY9vHwI2aFgIkQ==";
     url = "http://beta.quicklisp.org/archive/quickapp/2016-08-25/quickapp-20160825-git.tgz";
     cl-deps = [  ];
+  });
+  quickhull = (bqs {
+    name = "quickhull";
+    version = "20231021-git";
+    hash = "md5-ym5dEapecj34OiJGXbboUw==";
+    url = "http://beta.quicklisp.org/archive/quickhull/2023-10-21/quickhull-20231021-git.tgz";
+    cl-deps = [ cl-3d-math documentation-utils ];
   });
   quicklisp-slime-helper = (bqs {
     name = "quicklisp-slime-helper";
@@ -31365,109 +31848,18 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/quickutil/2021-08-07/quickutil-20210807-git.tgz";
     cl-deps = [ quickutil-client quickutil-server ];
   });
-  boondoggle = (bqs {
-    name = "boondoggle";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ cl-quil command-line-arguments drakma uiop ];
-  });
-  boondoggle-tests = (bqs {
-    name = "boondoggle-tests";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ boondoggle cl-quil fiasco sapaclisp uiop ];
-  });
-  cl-quil = (bqs {
-    name = "cl-quil";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ abstract-classes alexa alexandria cl-algebraic-data-type cl-grnm cl-heap cl-permutation closer-mop flexi-streams global-vars magicl optima parse-float queues-dot-priority-queue salza2 singleton-classes split-sequence trivial-garbage uiop yacc yason ];
-  });
-  cl-quil-benchmarking = (bqs {
-    name = "cl-quil-benchmarking";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ bordeaux-threads cl-quil metering qvm-app trivial-benchmark trivial-garbage ];
-  });
-  cl-quil-tests = (bqs {
-    name = "cl-quil-tests";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ alexa alexandria cl-permutation cl-ppcre cl-quil fiasco magicl qvm uiop yacc ];
-  });
-  cl-quil-slash-quilec = (bqs {
-    name = "cl-quil/quilec";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ alexandria cl-quil magicl ];
-  });
-  cl-quil-slash-quilec-tests = (bqs {
-    name = "cl-quil/quilec-tests";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ alexandria cl-quil fiasco magicl qvm ];
-  });
-  cl-quil-slash-quilt = (bqs {
-    name = "cl-quil/quilt";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ cl-quil ];
-  });
-  cl-quil-slash-quilt-tests = (bqs {
-    name = "cl-quil/quilt-tests";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ cl-quil cl-quil-tests ];
-  });
-  cl-quil-slash-tools = (bqs {
-    name = "cl-quil/tools";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ cl-quil common-lisp-jupyter swank ];
-  });
-  cl-quil-slash-tools-tests = (bqs {
-    name = "cl-quil/tools-tests";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ cl-quil cl-quil-tests common-lisp-jupyter swank ];
-  });
-  quilc = (bqs {
-    name = "quilc";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ alexandria bordeaux-threads cl-ppcre cl-quil cl-quil-benchmarking cl-syslog command-line-arguments drakma magicl rpcq split-sequence swank trivial-features uiop yason ];
-  });
-  quilc-tests = (bqs {
-    name = "quilc-tests";
-    version = "v1.26.0";
-    hash = "md5-mQL+zPXJapm7r5meEfEmOA==";
-    url = "http://beta.quicklisp.org/archive/quilc/2021-12-09/quilc-v1.26.0.tgz";
-    cl-deps = [ alexandria bordeaux-threads fiasco quilc uiop uuid ];
-  });
   quri = (bqs {
     name = "quri";
-    version = "20221106-git";
-    hash = "md5-mT1pg1S0DHl7GFUKwPzCSw==";
-    url = "http://beta.quicklisp.org/archive/quri/2022-11-06/quri-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-eEWBe1pOPCXBewKEj6Bzfw==";
+    url = "http://beta.quicklisp.org/archive/quri/2023-06-18/quri-20230618-git.tgz";
     cl-deps = [ alexandria babel cl-utilities split-sequence ];
   });
   quri-test = (bqs {
     name = "quri-test";
-    version = "20221106-git";
-    hash = "md5-mT1pg1S0DHl7GFUKwPzCSw==";
-    url = "http://beta.quicklisp.org/archive/quri/2022-11-06/quri-20221106-git.tgz";
+    version = "20230618-git";
+    hash = "md5-eEWBe1pOPCXBewKEj6Bzfw==";
+    url = "http://beta.quicklisp.org/archive/quri/2023-06-18/quri-20230618-git.tgz";
     cl-deps = [ prove prove-asdf quri ];
   });
   quux-hunchentoot = (bqs {
@@ -31483,62 +31875,6 @@ in with cl; {
     hash = "md5-+JvZcuGd0v1auuKp6LFD4g==";
     url = "http://beta.quicklisp.org/archive/quux-time/2015-04-07/quux-time-20150407-git.tgz";
     cl-deps = [  ];
-  });
-  qvm = (bqs {
-    name = "qvm";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ abstract-classes alexandria cffi cffi-grovel cl-quil global-vars ieee-floats lparallel magicl mt19937 static-vectors trivial-features trivial-garbage ];
-  });
-  qvm-app = (bqs {
-    name = "qvm-app";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ alexandria bordeaux-threads cl-fad cl-ppcre cl-quil cl-syslog command-line-arguments drakma global-vars hunchentoot ieee-floats qvm qvm-benchmarks swank trivial-features trivial-garbage uiop yason ];
-  });
-  qvm-app-ng = (bqs {
-    name = "qvm-app-ng";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ alexandria bordeaux-threads cl-algebraic-data-type cl-quil cl-syslog command-line-arguments global-vars hunchentoot qvm trivial-features uiop uuid yason ];
-  });
-  qvm-app-ng-tests = (bqs {
-    name = "qvm-app-ng-tests";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ alexandria drakma fiasco lparallel qvm-app-ng uiop yason ];
-  });
-  qvm-app-tests = (bqs {
-    name = "qvm-app-tests";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ fiasco qvm-app uiop ];
-  });
-  qvm-benchmarks = (bqs {
-    name = "qvm-benchmarks";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ cl-quil qvm trivial-benchmark yason ];
-  });
-  qvm-examples = (bqs {
-    name = "qvm-examples";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ cl-grnm cl-quil qvm qvm-app ];
-  });
-  qvm-tests = (bqs {
-    name = "qvm-tests";
-    version = "v1.17.2";
-    hash = "md5-Whg5Epgt6ZwL+nuYmVt8/Q==";
-    url = "http://beta.quicklisp.org/archive/qvm/2021-06-30/qvm-v1.17.2.tgz";
-    cl-deps = [ alexandria cffi cl-quil fiasco qvm qvm-examples trivial-garbage ];
   });
   lracer = (bqs {
     name = "lracer";
@@ -31591,23 +31927,30 @@ in with cl; {
   });
   random-sample = (bqs {
     name = "random-sample";
-    version = "20211230-git";
-    hash = "md5-cndb3/XuO9ev7R43oxnUaA==";
-    url = "http://beta.quicklisp.org/archive/random-sample/2021-12-30/random-sample-20211230-git.tgz";
+    version = "20230618-git";
+    hash = "md5-eahLI8unVKwlIkVfnN8f9w==";
+    url = "http://beta.quicklisp.org/archive/random-sample/2023-06-18/random-sample-20230618-git.tgz";
     cl-deps = [ alexandria infix-math named-readtables serapeum ];
   });
   random-state = (bqs {
     name = "random-state";
-    version = "20230214-git";
-    hash = "md5-zs1+oj3TCEVIjj1SUoUMXQ==";
-    url = "http://beta.quicklisp.org/archive/random-state/2023-02-14/random-state-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-if5yMxNcDsVQFJ4Z46lneQ==";
+    url = "http://beta.quicklisp.org/archive/random-state/2023-10-21/random-state-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
+  });
+  random-state-test = (bqs {
+    name = "random-state-test";
+    version = "20231021-git";
+    hash = "md5-if5yMxNcDsVQFJ4Z46lneQ==";
+    url = "http://beta.quicklisp.org/archive/random-state/2023-10-21/random-state-20231021-git.tgz";
+    cl-deps = [ parachute random-state ];
   });
   random-state-viewer = (bqs {
     name = "random-state-viewer";
-    version = "20230214-git";
-    hash = "md5-zs1+oj3TCEVIjj1SUoUMXQ==";
-    url = "http://beta.quicklisp.org/archive/random-state/2023-02-14/random-state-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-if5yMxNcDsVQFJ4Z46lneQ==";
+    url = "http://beta.quicklisp.org/archive/random-state/2023-10-21/random-state-20231021-git.tgz";
     cl-deps = [ qtcore qtgui qtools random-state ];
   });
   random-uuid = (bqs {
@@ -31633,9 +31976,9 @@ in with cl; {
   });
   ratify = (bqs {
     name = "ratify";
-    version = "20191007-git";
-    hash = "md5-uzNx80PBz9dbbMTqby58wQ==";
-    url = "http://beta.quicklisp.org/archive/ratify/2019-10-07/ratify-20191007-git.tgz";
+    version = "20231021-git";
+    hash = "md5-q5eL/lvEpvl7UZMIsL/8CA==";
+    url = "http://beta.quicklisp.org/archive/ratify/2023-10-21/ratify-20231021-git.tgz";
     cl-deps = [ cl-ppcre local-time parse-float ];
   });
   ratmath = (bqs {
@@ -31736,6 +32079,286 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/reader-interception/2015-06-08/reader-interception-20150608-git.tgz";
     cl-deps = [ fare-utils hu-dot-dwim-dot-stefil reader-interception ];
   });
+  reblocks = (bqs {
+    name = "reblocks";
+    version = "20231021-git";
+    hash = "md5-pVwcuMAihE+23NWPJi3pFg==";
+    url = "http://beta.quicklisp.org/archive/reblocks/2023-10-21/reblocks-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc alexandria anaphora babel bordeaux-threads cl-cookie cl-fad cl-ppcre cl-strings clack closer-mop dexador f-underscore find-port ironclad jonathan lack lack-middleware-session lack-request lack-response lack-util local-time log4cl log4cl-extras metacopy metatilities named-readtables parenscript puri pythonic-string-reader quri routes salza2 serapeum spinneret str trivial-garbage trivial-open-browser trivial-timeout uuid yason ];
+  });
+  reblocks-docs = (bqs {
+    name = "reblocks-docs";
+    version = "20231021-git";
+    hash = "md5-pVwcuMAihE+23NWPJi3pFg==";
+    url = "http://beta.quicklisp.org/archive/reblocks/2023-10-21/reblocks-20231021-git.tgz";
+    cl-deps = [ reblocks ];
+  });
+  reblocks-tests = (bqs {
+    name = "reblocks-tests";
+    version = "20231021-git";
+    hash = "md5-pVwcuMAihE+23NWPJi3pFg==";
+    url = "http://beta.quicklisp.org/archive/reblocks/2023-10-21/reblocks-20231021-git.tgz";
+    cl-deps = [ alexandria cl-mock cl-ppcre closer-mop hamcrest lack-request lack-test reblocks rove serapeum str ];
+  });
+  reblocks-auth = (bqs {
+    name = "reblocks-auth";
+    version = "20231021-git";
+    hash = "md5-0ppAtS4LlGtUGLPCZyV9Dw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-auth/2023-10-21/reblocks-auth-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system alexandria cl-strings dexador jonathan local-time log4cl mailgun mito quri reblocks reblocks-lass reblocks-ui secret-values uuid ];
+  });
+  reblocks-auth-ci = (bqs {
+    name = "reblocks-auth-ci";
+    version = "20231021-git";
+    hash = "md5-0ppAtS4LlGtUGLPCZyV9Dw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-auth/2023-10-21/reblocks-auth-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-auth-docs = (bqs {
+    name = "reblocks-auth-docs";
+    version = "20231021-git";
+    hash = "md5-0ppAtS4LlGtUGLPCZyV9Dw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-auth/2023-10-21/reblocks-auth-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-auth ];
+  });
+  reblocks-auth-example = (bqs {
+    name = "reblocks-auth-example";
+    version = "20231021-git";
+    hash = "md5-0ppAtS4LlGtUGLPCZyV9Dw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-auth/2023-10-21/reblocks-auth-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system cl-40ants-logging cl-40ants-slynk cl-plus-ssl clack-handler-hunchentoot local-time mito reblocks reblocks-auth reblocks-lass reblocks-navigation-widget reblocks-prometheus reblocks-ui serapeum spinneret ];
+  });
+  reblocks-auth-tests = (bqs {
+    name = "reblocks-auth-tests";
+    version = "20231021-git";
+    hash = "md5-0ppAtS4LlGtUGLPCZyV9Dw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-auth/2023-10-21/reblocks-auth-20231021-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-file-server = (bqs {
+    name = "reblocks-file-server";
+    version = "20230618-git";
+    hash = "md5-ZNDVoAs0Tx/n95wgB7dhNA==";
+    url = "http://beta.quicklisp.org/archive/reblocks-file-server/2023-06-18/reblocks-file-server-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system cl-fad cl-ppcre reblocks routes trivial-mimes ];
+  });
+  reblocks-file-server-ci = (bqs {
+    name = "reblocks-file-server-ci";
+    version = "20230618-git";
+    hash = "md5-ZNDVoAs0Tx/n95wgB7dhNA==";
+    url = "http://beta.quicklisp.org/archive/reblocks-file-server/2023-06-18/reblocks-file-server-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-file-server-docs = (bqs {
+    name = "reblocks-file-server-docs";
+    version = "20230618-git";
+    hash = "md5-ZNDVoAs0Tx/n95wgB7dhNA==";
+    url = "http://beta.quicklisp.org/archive/reblocks-file-server/2023-06-18/reblocks-file-server-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-file-server ];
+  });
+  reblocks-file-server-tests = (bqs {
+    name = "reblocks-file-server-tests";
+    version = "20230618-git";
+    hash = "md5-ZNDVoAs0Tx/n95wgB7dhNA==";
+    url = "http://beta.quicklisp.org/archive/reblocks-file-server/2023-06-18/reblocks-file-server-20230618-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-lass = (bqs {
+    name = "reblocks-lass";
+    version = "20230618-git";
+    hash = "md5-IV2ptqG+PUFu4O258fwZqg==";
+    url = "http://beta.quicklisp.org/archive/reblocks-lass/2023-06-18/reblocks-lass-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system lass reblocks ];
+  });
+  reblocks-lass-ci = (bqs {
+    name = "reblocks-lass-ci";
+    version = "20230618-git";
+    hash = "md5-IV2ptqG+PUFu4O258fwZqg==";
+    url = "http://beta.quicklisp.org/archive/reblocks-lass/2023-06-18/reblocks-lass-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-lass-docs = (bqs {
+    name = "reblocks-lass-docs";
+    version = "20230618-git";
+    hash = "md5-IV2ptqG+PUFu4O258fwZqg==";
+    url = "http://beta.quicklisp.org/archive/reblocks-lass/2023-06-18/reblocks-lass-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-lass ];
+  });
+  reblocks-lass-tests = (bqs {
+    name = "reblocks-lass-tests";
+    version = "20230618-git";
+    hash = "md5-IV2ptqG+PUFu4O258fwZqg==";
+    url = "http://beta.quicklisp.org/archive/reblocks-lass/2023-06-18/reblocks-lass-20230618-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-navigation-widget = (bqs {
+    name = "reblocks-navigation-widget";
+    version = "20230618-git";
+    hash = "md5-T1WBhcgfvgUDOo1q9g3/BQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-navigation-widget/2023-06-18/reblocks-navigation-widget-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system log4cl reblocks reblocks-ui ];
+  });
+  reblocks-navigation-widget-ci = (bqs {
+    name = "reblocks-navigation-widget-ci";
+    version = "20230618-git";
+    hash = "md5-T1WBhcgfvgUDOo1q9g3/BQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-navigation-widget/2023-06-18/reblocks-navigation-widget-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-navigation-widget-docs = (bqs {
+    name = "reblocks-navigation-widget-docs";
+    version = "20230618-git";
+    hash = "md5-T1WBhcgfvgUDOo1q9g3/BQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-navigation-widget/2023-06-18/reblocks-navigation-widget-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-navigation-widget ];
+  });
+  reblocks-navigation-widget-tests = (bqs {
+    name = "reblocks-navigation-widget-tests";
+    version = "20230618-git";
+    hash = "md5-T1WBhcgfvgUDOo1q9g3/BQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-navigation-widget/2023-06-18/reblocks-navigation-widget-20230618-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-parenscript = (bqs {
+    name = "reblocks-parenscript";
+    version = "20230618-git";
+    hash = "md5-jnZ7gymQKdaDa+xUG/Eu9A==";
+    url = "http://beta.quicklisp.org/archive/reblocks-parenscript/2023-06-18/reblocks-parenscript-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system alexandria bordeaux-threads parenscript reblocks ];
+  });
+  reblocks-parenscript-ci = (bqs {
+    name = "reblocks-parenscript-ci";
+    version = "20230618-git";
+    hash = "md5-jnZ7gymQKdaDa+xUG/Eu9A==";
+    url = "http://beta.quicklisp.org/archive/reblocks-parenscript/2023-06-18/reblocks-parenscript-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-parenscript-docs = (bqs {
+    name = "reblocks-parenscript-docs";
+    version = "20230618-git";
+    hash = "md5-jnZ7gymQKdaDa+xUG/Eu9A==";
+    url = "http://beta.quicklisp.org/archive/reblocks-parenscript/2023-06-18/reblocks-parenscript-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-parenscript ];
+  });
+  reblocks-parenscript-tests = (bqs {
+    name = "reblocks-parenscript-tests";
+    version = "20230618-git";
+    hash = "md5-jnZ7gymQKdaDa+xUG/Eu9A==";
+    url = "http://beta.quicklisp.org/archive/reblocks-parenscript/2023-06-18/reblocks-parenscript-20230618-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-prometheus = (bqs {
+    name = "reblocks-prometheus";
+    version = "20231021-git";
+    hash = "md5-dMnslDtNmyijypPPg/arsQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-prometheus/2023-10-21/reblocks-prometheus-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system cffi-grovel log4cl-extras prometheus prometheus-gc prometheus-dot-collectors-dot-process prometheus-dot-collectors-dot-sbcl prometheus-dot-formats-dot-text reblocks ];
+  });
+  reblocks-prometheus-ci = (bqs {
+    name = "reblocks-prometheus-ci";
+    version = "20231021-git";
+    hash = "md5-dMnslDtNmyijypPPg/arsQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-prometheus/2023-10-21/reblocks-prometheus-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-prometheus-docs = (bqs {
+    name = "reblocks-prometheus-docs";
+    version = "20231021-git";
+    hash = "md5-dMnslDtNmyijypPPg/arsQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-prometheus/2023-10-21/reblocks-prometheus-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-prometheus ];
+  });
+  reblocks-prometheus-tests = (bqs {
+    name = "reblocks-prometheus-tests";
+    version = "20231021-git";
+    hash = "md5-dMnslDtNmyijypPPg/arsQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-prometheus/2023-10-21/reblocks-prometheus-20231021-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-typeahead = (bqs {
+    name = "reblocks-typeahead";
+    version = "20231021-git";
+    hash = "md5-30GA+SMB5+a7F3nEonyYqQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-typeahead/2023-10-21/reblocks-typeahead-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system parenscript reblocks reblocks-lass reblocks-parenscript reblocks-ui ];
+  });
+  reblocks-typeahead-ci = (bqs {
+    name = "reblocks-typeahead-ci";
+    version = "20231021-git";
+    hash = "md5-30GA+SMB5+a7F3nEonyYqQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-typeahead/2023-10-21/reblocks-typeahead-20231021-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-typeahead-docs = (bqs {
+    name = "reblocks-typeahead-docs";
+    version = "20231021-git";
+    hash = "md5-30GA+SMB5+a7F3nEonyYqQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-typeahead/2023-10-21/reblocks-typeahead-20231021-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-typeahead ];
+  });
+  reblocks-typeahead-example = (bqs {
+    name = "reblocks-typeahead-example";
+    version = "20231021-git";
+    hash = "md5-30GA+SMB5+a7F3nEonyYqQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-typeahead/2023-10-21/reblocks-typeahead-20231021-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system cl-40ants-logging cl-40ants-slynk alexandria clack-handler-hunchentoot mito reblocks reblocks-auth reblocks-lass reblocks-navigation-widget reblocks-prometheus reblocks-typeahead reblocks-ui serapeum spinneret str ];
+  });
+  reblocks-typeahead-tests = (bqs {
+    name = "reblocks-typeahead-tests";
+    version = "20231021-git";
+    hash = "md5-30GA+SMB5+a7F3nEonyYqQ==";
+    url = "http://beta.quicklisp.org/archive/reblocks-typeahead/2023-10-21/reblocks-typeahead-20231021-git.tgz";
+    cl-deps = [ rove ];
+  });
+  reblocks-ui = (bqs {
+    name = "reblocks-ui";
+    version = "20230618-git";
+    hash = "md5-/u1/5lnOfGh0QUEone9Jow==";
+    url = "http://beta.quicklisp.org/archive/reblocks-ui/2023-06-18/reblocks-ui-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc log4cl log4cl-extras parenscript quri reblocks reblocks-parenscript ];
+  });
+  reblocks-ui-docs = (bqs {
+    name = "reblocks-ui-docs";
+    version = "20230618-git";
+    hash = "md5-/u1/5lnOfGh0QUEone9Jow==";
+    url = "http://beta.quicklisp.org/archive/reblocks-ui/2023-06-18/reblocks-ui-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config reblocks ];
+  });
+  reblocks-ui-examples = (bqs {
+    name = "reblocks-ui-examples";
+    version = "20230618-git";
+    hash = "md5-/u1/5lnOfGh0QUEone9Jow==";
+    url = "http://beta.quicklisp.org/archive/reblocks-ui/2023-06-18/reblocks-ui-20230618-git.tgz";
+    cl-deps = [ reblocks reblocks-lass reblocks-ui ];
+  });
+  reblocks-websocket = (bqs {
+    name = "reblocks-websocket";
+    version = "20230618-git";
+    hash = "md5-I7pTqy5s0usHPuGfXbZOsw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-websocket/2023-06-18/reblocks-websocket-20230618-git.tgz";
+    cl-deps = [ cl-40ants-asdf-system alexandria bordeaux-threads jonathan log4cl-extras parenscript reblocks reblocks-parenscript serapeum websocket-driver ];
+  });
+  reblocks-websocket-ci = (bqs {
+    name = "reblocks-websocket-ci";
+    version = "20230618-git";
+    hash = "md5-I7pTqy5s0usHPuGfXbZOsw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-websocket/2023-06-18/reblocks-websocket-20230618-git.tgz";
+    cl-deps = [ cl-40ants-ci ];
+  });
+  reblocks-websocket-docs = (bqs {
+    name = "reblocks-websocket-docs";
+    version = "20230618-git";
+    hash = "md5-I7pTqy5s0usHPuGfXbZOsw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-websocket/2023-06-18/reblocks-websocket-20230618-git.tgz";
+    cl-deps = [ cl-40ants-doc docs-config named-readtables pythonic-string-reader reblocks-websocket ];
+  });
+  reblocks-websocket-tests = (bqs {
+    name = "reblocks-websocket-tests";
+    version = "20230618-git";
+    hash = "md5-I7pTqy5s0usHPuGfXbZOsw==";
+    url = "http://beta.quicklisp.org/archive/reblocks-websocket/2023-06-18/reblocks-websocket-20230618-git.tgz";
+    cl-deps = [ rove ];
+  });
   rectangle-packing = (bqs {
     name = "rectangle-packing";
     version = "20130615-git";
@@ -31745,9 +32368,9 @@ in with cl; {
   });
   recur = (bqs {
     name = "recur";
-    version = "20190307-hg";
-    hash = "md5-wp+pkDIzCcF+mMx+rdKzHQ==";
-    url = "http://beta.quicklisp.org/archive/recur/2019-03-07/recur-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-uTZ40mpsxgcNRBWmBb/23w==";
+    url = "http://beta.quicklisp.org/archive/recur/2023-06-18/recur-20230618-git.tgz";
     cl-deps = [  ];
   });
   recursive-regex = (bqs {
@@ -31780,9 +32403,9 @@ in with cl; {
   });
   redirect-stream = (bqs {
     name = "redirect-stream";
-    version = "20190710-git";
-    hash = "md5-PbzarQlvm6HjCKNR/OEnRA==";
-    url = "http://beta.quicklisp.org/archive/redirect-stream/2019-07-10/redirect-stream-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-grUYjRguDk1dAAb9/1KLxA==";
+    url = "http://beta.quicklisp.org/archive/redirect-stream/2023-10-21/redirect-stream-20231021-git.tgz";
     cl-deps = [ trivial-gray-streams ];
   });
   regex = (bqs {
@@ -32151,16 +32774,16 @@ in with cl; {
   });
   rove = (bqs {
     name = "rove";
-    version = "20230214-git";
-    hash = "md5-3/Aauut7umKstB5woCmnUw==";
-    url = "http://beta.quicklisp.org/archive/rove/2023-02-14/rove-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UJy0vV1fBWDbJlMqALfbxQ==";
+    url = "http://beta.quicklisp.org/archive/rove/2023-10-21/rove-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-ppcre dissect trivial-gray-streams ];
   });
   rove-slash-tests = (bqs {
     name = "rove/tests";
-    version = "20230214-git";
-    hash = "md5-3/Aauut7umKstB5woCmnUw==";
-    url = "http://beta.quicklisp.org/archive/rove/2023-02-14/rove-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-UJy0vV1fBWDbJlMqALfbxQ==";
+    url = "http://beta.quicklisp.org/archive/rove/2023-10-21/rove-20231021-git.tgz";
     cl-deps = [ rove ];
   });
   rpcq = (bqs {
@@ -32246,6 +32869,41 @@ in with cl; {
     hash = "md5-ZEDX5Dkfil54wIMt2/kD3g==";
     url = "http://beta.quicklisp.org/archive/rs-colors/2022-03-31/rs-colors-20220331-git.tgz";
     cl-deps = [ rs-colors ];
+  });
+  json-test-suite = (bqs {
+    name = "json-test-suite";
+    version = "20230618-git";
+    hash = "md5-1vQVHtES49Y0P50yVCgeMQ==";
+    url = "http://beta.quicklisp.org/archive/rs-json/2023-06-18/rs-json-20230618-git.tgz";
+    cl-deps = [  ];
+  });
+  json-test-suite-slash-parser = (bqs {
+    name = "json-test-suite/parser";
+    version = "20230618-git";
+    hash = "md5-1vQVHtES49Y0P50yVCgeMQ==";
+    url = "http://beta.quicklisp.org/archive/rs-json/2023-06-18/rs-json-20230618-git.tgz";
+    cl-deps = [ cl-json com-dot-inuoe-dot-jzon iterate jonathan json-streams jsown rs-json shasht st-json trivial-garbage yason ];
+  });
+  rs-json = (bqs {
+    name = "rs-json";
+    version = "20230618-git";
+    hash = "md5-1vQVHtES49Y0P50yVCgeMQ==";
+    url = "http://beta.quicklisp.org/archive/rs-json/2023-06-18/rs-json-20230618-git.tgz";
+    cl-deps = [ alexandria cl-unicode iterate ];
+  });
+  rs-json-slash-bench = (bqs {
+    name = "rs-json/bench";
+    version = "20230618-git";
+    hash = "md5-1vQVHtES49Y0P50yVCgeMQ==";
+    url = "http://beta.quicklisp.org/archive/rs-json/2023-06-18/rs-json-20230618-git.tgz";
+    cl-deps = [ cl-json com-dot-inuoe-dot-jzon iterate jonathan json-streams jsown rs-json shasht st-json trivial-garbage yason ];
+  });
+  rs-json-slash-tests = (bqs {
+    name = "rs-json/tests";
+    version = "20230618-git";
+    hash = "md5-1vQVHtES49Y0P50yVCgeMQ==";
+    url = "http://beta.quicklisp.org/archive/rs-json/2023-06-18/rs-json-20230618-git.tgz";
+    cl-deps = [ iterate lisp-unit rs-json ];
   });
   rt = (bqs {
     name = "rt";
@@ -32340,9 +32998,9 @@ in with cl; {
   });
   s-dot2 = (bqs {
     name = "s-dot2";
-    version = "20181018-git";
-    hash = "md5-Lw0JSMerZsD7dadh8RO56Q==";
-    url = "http://beta.quicklisp.org/archive/s-dot2/2018-10-18/s-dot2-20181018-git.tgz";
+    version = "20231021-git";
+    hash = "md5-srpw4YKQK53YFBMt1k4jgA==";
+    url = "http://beta.quicklisp.org/archive/s-dot2/2023-10-21/s-dot2-20231021-git.tgz";
     cl-deps = [ uiop ];
   });
   s-graphviz = (bqs {
@@ -32508,9 +33166,9 @@ in with cl; {
   });
   sc-extensions = (bqs {
     name = "sc-extensions";
-    version = "20230214-git";
-    hash = "md5-wbbEcw+enF5zoi2Y3LX+7Q==";
-    url = "http://beta.quicklisp.org/archive/sc-extensions/2023-02-14/sc-extensions-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-23lRXUTGEaiha+0k3SHMyg==";
+    url = "http://beta.quicklisp.org/archive/sc-extensions/2023-10-21/sc-extensions-20231021-git.tgz";
     cl-deps = [ alexandria cl-collider named-readtables ];
   });
   schannel = (bqs {
@@ -32522,16 +33180,16 @@ in with cl; {
   });
   scheduler = (bqs {
     name = "scheduler";
-    version = "20220707-git";
-    hash = "md5-YDtD0XZpn1pEM8awQz62Zg==";
-    url = "http://beta.quicklisp.org/archive/scheduler/2022-07-07/scheduler-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1uWVJVpCVcEwrTmB+gW9Ww==";
+    url = "http://beta.quicklisp.org/archive/scheduler/2023-06-18/scheduler-20230618-git.tgz";
     cl-deps = [ alexandria local-time optima optima-dot-ppcre split-sequence ];
   });
   scheduler-slash-tests = (bqs {
     name = "scheduler/tests";
-    version = "20220707-git";
-    hash = "md5-YDtD0XZpn1pEM8awQz62Zg==";
-    url = "http://beta.quicklisp.org/archive/scheduler/2022-07-07/scheduler-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-1uWVJVpCVcEwrTmB+gW9Ww==";
+    url = "http://beta.quicklisp.org/archive/scheduler/2023-06-18/scheduler-20230618-git.tgz";
     cl-deps = [ fiveam local-time scheduler ];
   });
   screamer = (bqs {
@@ -32564,16 +33222,16 @@ in with cl; {
   });
   scribble = (bqs {
     name = "scribble";
-    version = "20160628-git";
-    hash = "md5-l2qQj2u+eshRakkW3WzuIA==";
-    url = "http://beta.quicklisp.org/archive/scribble/2016-06-28/scribble-20160628-git.tgz";
-    cl-deps = [ fare-memoization fare-quasiquote-readtable fare-utils meta ];
+    version = "20231021-git";
+    hash = "md5-uFbi1m3FNTjEyLCUoJhGcA==";
+    url = "http://beta.quicklisp.org/archive/scribble/2023-10-21/scribble-20231021-git.tgz";
+    cl-deps = [ fare-memoization fare-quasiquote-readtable fare-utils meta ptc ];
   });
   scribble-slash-test = (bqs {
     name = "scribble/test";
-    version = "20160628-git";
-    hash = "md5-l2qQj2u+eshRakkW3WzuIA==";
-    url = "http://beta.quicklisp.org/archive/scribble/2016-06-28/scribble-20160628-git.tgz";
+    version = "20231021-git";
+    hash = "md5-uFbi1m3FNTjEyLCUoJhGcA==";
+    url = "http://beta.quicklisp.org/archive/scribble/2023-10-21/scribble-20231021-git.tgz";
     cl-deps = [ babel hu-dot-dwim-dot-stefil scribble ];
   });
   scriptl = (bqs {
@@ -32648,65 +33306,65 @@ in with cl; {
   });
   software-evolution-library = (bqs {
     name = "software-evolution-library";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [ asdf-package-system atomics cffi-grovel deploy gt ];
   });
   software-evolution-library-slash-deploy-tree-sitter-interface = (bqs {
     name = "software-evolution-library/deploy-tree-sitter-interface";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [ deploy ];
   });
   software-evolution-library-slash-run-dump-store = (bqs {
     name = "software-evolution-library/run-dump-store";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [  ];
   });
   software-evolution-library-slash-run-rest-server = (bqs {
     name = "software-evolution-library/run-rest-server";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [  ];
   });
   software-evolution-library-slash-run-test-parse = (bqs {
     name = "software-evolution-library/run-test-parse";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [  ];
   });
   software-evolution-library-slash-run-tree-sitter-interface = (bqs {
     name = "software-evolution-library/run-tree-sitter-interface";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [  ];
   });
   software-evolution-library-slash-run-tree-sitter-py-generator = (bqs {
     name = "software-evolution-library/run-tree-sitter-py-generator";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [  ];
   });
   software-evolution-library-slash-terminal = (bqs {
     name = "software-evolution-library/terminal";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [ cffi cffi-grovel cl-interpol gt ];
   });
   software-evolution-library-slash-utility-slash-fare-qq = (bqs {
     name = "software-evolution-library/utility/fare-qq";
-    version = "20230214-git";
-    hash = "md5-i40KNsJ/I7FbB3D7KeLO0A==";
-    url = "http://beta.quicklisp.org/archive/sel/2023-02-14/sel-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-9PDw5sN5GR9LC0wPb00Gwg==";
+    url = "http://beta.quicklisp.org/archive/sel/2023-10-21/sel-20231021-git.tgz";
     cl-deps = [ fare-quasiquote-extras ];
   });
   select = (bqs {
@@ -32760,16 +33418,16 @@ in with cl; {
   });
   serapeum = (bqs {
     name = "serapeum";
-    version = "20230214-git";
-    hash = "md5-VEm846D0QvV2ckBfaw9YLw==";
-    url = "http://beta.quicklisp.org/archive/serapeum/2023-02-14/serapeum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kq4Lv7MDp1GxTbTzpNEyzw==";
+    url = "http://beta.quicklisp.org/archive/serapeum/2023-10-21/serapeum-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads global-vars introspect-environment parse-declarations-1-dot-0 parse-number split-sequence string-case trivia trivial-cltl2 trivial-file-size trivial-garbage trivial-macroexpand-all ];
   });
   serapeum-slash-docs = (bqs {
     name = "serapeum/docs";
-    version = "20230214-git";
-    hash = "md5-VEm846D0QvV2ckBfaw9YLw==";
-    url = "http://beta.quicklisp.org/archive/serapeum/2023-02-14/serapeum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kq4Lv7MDp1GxTbTzpNEyzw==";
+    url = "http://beta.quicklisp.org/archive/serapeum/2023-10-21/serapeum-20231021-git.tgz";
     cl-deps = [ cl-ppcre serapeum swank ];
   });
   serializable-object = (bqs {
@@ -32830,9 +33488,9 @@ in with cl; {
   });
   sha3 = (bqs {
     name = "sha3";
-    version = "20180228-git";
-    hash = "md5-JgeOncuQzG1uMXSIDEUUyw==";
-    url = "http://beta.quicklisp.org/archive/sha3/2018-02-28/sha3-20180228-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8dw4GcYDRJ/Mu5D6Qgfa9w==";
+    url = "http://beta.quicklisp.org/archive/sha3/2023-10-21/sha3-20231021-git.tgz";
     cl-deps = [  ];
   });
   shadchen = (bqs {
@@ -32865,16 +33523,16 @@ in with cl; {
   });
   shasht = (bqs {
     name = "shasht";
-    version = "20221106-git";
-    hash = "md5-6CDAxhCWP2M+3kss2qyZxA==";
-    url = "http://beta.quicklisp.org/archive/shasht/2022-11-06/shasht-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0zo3XmEOK5+BagqnPJlCUA==";
+    url = "http://beta.quicklisp.org/archive/shasht/2023-10-21/shasht-20231021-git.tgz";
     cl-deps = [ closer-mop trivial-do ];
   });
   shasht-slash-test = (bqs {
     name = "shasht/test";
-    version = "20221106-git";
-    hash = "md5-6CDAxhCWP2M+3kss2qyZxA==";
-    url = "http://beta.quicklisp.org/archive/shasht/2022-11-06/shasht-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-0zo3XmEOK5+BagqnPJlCUA==";
+    url = "http://beta.quicklisp.org/archive/shasht/2023-10-21/shasht-20231021-git.tgz";
     cl-deps = [ alexandria parachute shasht ];
   });
   sheeple = (bqs {
@@ -32914,73 +33572,73 @@ in with cl; {
   });
   rovers-problem-translator = (bqs {
     name = "rovers-problem-translator";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ alexandria iterate shop3 ];
   });
   shop3 = (bqs {
     name = "shop3";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ alexandria fiveam-asdf iterate trivial-garbage ];
   });
   shop3-thmpr-api = (bqs {
     name = "shop3-thmpr-api";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ shop3 ];
   });
   shop3-slash-common = (bqs {
     name = "shop3/common";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ alexandria iterate ];
   });
   shop3-slash-openstacks = (bqs {
     name = "shop3/openstacks";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ shop3 ];
   });
   shop3-slash-plan-grapher = (bqs {
     name = "shop3/plan-grapher";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ cl-dot shop3 ];
   });
   shop3-slash-rovers = (bqs {
     name = "shop3/rovers";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ shop3 ];
   });
   shop3-slash-test-unifier = (bqs {
     name = "shop3/test-unifier";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ alexandria fiveam-asdf ];
   });
   shop3-slash-theorem-prover = (bqs {
     name = "shop3/theorem-prover";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
     cl-deps = [ alexandria iterate ];
   });
   shop3-slash-unifier = (bqs {
     name = "shop3/unifier";
-    version = "20230214-git";
-    hash = "md5-nEUz8faXsRBdSi6tYDXyxg==";
-    url = "http://beta.quicklisp.org/archive/shop3/2023-02-14/shop3-20230214-git.tgz";
-    cl-deps = [  ];
+    version = "20231021-git";
+    hash = "md5-y7cVKfAfo+DxXcirKhQZAw==";
+    url = "http://beta.quicklisp.org/archive/shop3/2023-10-21/shop3-20231021-git.tgz";
+    cl-deps = [ alexandria ];
   });
   should-test = (bqs {
     name = "should-test";
@@ -32996,6 +33654,13 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/shuffletron/2018-10-18/shuffletron-20181018-git.tgz";
     cl-deps = [ mixalot mixalot-flac mixalot-mp3 mixalot-vorbis osicat ];
   });
+  si-kanren = (bqs {
+    name = "si-kanren";
+    version = "20231021-git";
+    hash = "md5-IG8QeCKxCy3MPWGT4QySRg==";
+    url = "http://beta.quicklisp.org/archive/si-kanren/2023-10-21/si-kanren-20231021-git.tgz";
+    cl-deps = [  ];
+  });
   simple-actors = (bqs {
     name = "simple-actors";
     version = "20200925-git";
@@ -33005,16 +33670,16 @@ in with cl; {
   });
   simple-config = (bqs {
     name = "simple-config";
-    version = "20220707-git";
-    hash = "md5-wvJ3nvszM9UJRMX0K28YRQ==";
-    url = "http://beta.quicklisp.org/archive/simple-config/2022-07-07/simple-config-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-tcxENHu/16/iovrIvNnWnA==";
+    url = "http://beta.quicklisp.org/archive/simple-config/2023-06-18/simple-config-20230618-git.tgz";
     cl-deps = [ str uiop ];
   });
   simple-config-test = (bqs {
     name = "simple-config-test";
-    version = "20220707-git";
-    hash = "md5-wvJ3nvszM9UJRMX0K28YRQ==";
-    url = "http://beta.quicklisp.org/archive/simple-config/2022-07-07/simple-config-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-tcxENHu/16/iovrIvNnWnA==";
+    url = "http://beta.quicklisp.org/archive/simple-config/2023-06-18/simple-config-20230618-git.tgz";
     cl-deps = [ prove simple-config ];
   });
   simple-currency = (bqs {
@@ -33061,9 +33726,9 @@ in with cl; {
   });
   simple-inferiors = (bqs {
     name = "simple-inferiors";
-    version = "20200325-git";
-    hash = "md5-+QroB8ENWzxLnu8RNKU3yA==";
-    url = "http://beta.quicklisp.org/archive/simple-inferiors/2020-03-25/simple-inferiors-20200325-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Y/z++LDaamjvqWgk29rIAQ==";
+    url = "http://beta.quicklisp.org/archive/simple-inferiors/2023-10-21/simple-inferiors-20231021-git.tgz";
     cl-deps = [ bordeaux-threads documentation-utils uiop ];
   });
   simple-neural-network = (bqs {
@@ -33124,9 +33789,9 @@ in with cl; {
   });
   simple-tasks = (bqs {
     name = "simple-tasks";
-    version = "20190710-git";
-    hash = "md5-joipp2K8hpH5IhfSVrqlXg==";
-    url = "http://beta.quicklisp.org/archive/simple-tasks/2019-07-10/simple-tasks-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-s1BgEHtGog5aBgiHOedsJg==";
+    url = "http://beta.quicklisp.org/archive/simple-tasks/2023-10-21/simple-tasks-20231021-git.tgz";
     cl-deps = [ array-utils bordeaux-threads dissect ];
   });
   simplet = (bqs {
@@ -33208,16 +33873,16 @@ in with cl; {
   });
   sketch = (bqs {
     name = "sketch";
-    version = "20230214-git";
-    hash = "md5-ASjjM/RU5/rVaGmCuWzSSQ==";
-    url = "http://beta.quicklisp.org/archive/sketch/2023-02-14/sketch-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8de++w2jTGeJCJpCTbCu0w==";
+    url = "http://beta.quicklisp.org/archive/sketch/2023-10-21/sketch-20231021-git.tgz";
     cl-deps = [ alexandria cl-geometry glkit mathkit md5 sdl2-image sdl2-ttf sdl2kit split-sequence static-vectors zpng ];
   });
   sketch-examples = (bqs {
     name = "sketch-examples";
-    version = "20230214-git";
-    hash = "md5-ASjjM/RU5/rVaGmCuWzSSQ==";
-    url = "http://beta.quicklisp.org/archive/sketch/2023-02-14/sketch-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8de++w2jTGeJCJpCTbCu0w==";
+    url = "http://beta.quicklisp.org/archive/sketch/2023-10-21/sketch-20231021-git.tgz";
     cl-deps = [ alexandria sketch ];
   });
   skippy = (bqs {
@@ -33278,30 +33943,30 @@ in with cl; {
   });
   slite = (bqs {
     name = "slite";
-    version = "20221106-git";
-    hash = "md5-+KCp2AR91dCVWdRslvQGEg==";
-    url = "http://beta.quicklisp.org/archive/slite/2022-11-06/slite-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1RyNEkWHSNIrB91RkjRcMA==";
+    url = "http://beta.quicklisp.org/archive/slite/2023-10-21/slite-20231021-git.tgz";
     cl-deps = [ fiveam str ];
   });
   slite-slash-lisp-unit2 = (bqs {
     name = "slite/lisp-unit2";
-    version = "20221106-git";
-    hash = "md5-+KCp2AR91dCVWdRslvQGEg==";
-    url = "http://beta.quicklisp.org/archive/slite/2022-11-06/slite-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1RyNEkWHSNIrB91RkjRcMA==";
+    url = "http://beta.quicklisp.org/archive/slite/2023-10-21/slite-20231021-git.tgz";
     cl-deps = [ lisp-unit2 slite ];
   });
   slite-slash-parachute = (bqs {
     name = "slite/parachute";
-    version = "20221106-git";
-    hash = "md5-+KCp2AR91dCVWdRslvQGEg==";
-    url = "http://beta.quicklisp.org/archive/slite/2022-11-06/slite-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1RyNEkWHSNIrB91RkjRcMA==";
+    url = "http://beta.quicklisp.org/archive/slite/2023-10-21/slite-20231021-git.tgz";
     cl-deps = [ parachute slite ];
   });
   slite-slash-tests = (bqs {
     name = "slite/tests";
-    version = "20221106-git";
-    hash = "md5-+KCp2AR91dCVWdRslvQGEg==";
-    url = "http://beta.quicklisp.org/archive/slite/2022-11-06/slite-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-1RyNEkWHSNIrB91RkjRcMA==";
+    url = "http://beta.quicklisp.org/archive/slite/2023-10-21/slite-20231021-git.tgz";
     cl-deps = [ lisp-unit2 parachute slite ];
   });
   eclecticse-dot-slk-581 = (bqs {
@@ -33334,72 +33999,86 @@ in with cl; {
   });
   slynk = (bqs {
     name = "slynk";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [  ];
   });
   slynk-slash-arglists = (bqs {
     name = "slynk/arglists";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-fancy-inspector = (bqs {
     name = "slynk/fancy-inspector";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-indentation = (bqs {
     name = "slynk/indentation";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-mrepl = (bqs {
     name = "slynk/mrepl";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-package-fu = (bqs {
     name = "slynk/package-fu";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-profiler = (bqs {
     name = "slynk/profiler";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-retro = (bqs {
     name = "slynk/retro";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-stickers = (bqs {
     name = "slynk/stickers";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
     cl-deps = [ slynk ];
   });
   slynk-slash-trace-dialog = (bqs {
     name = "slynk/trace-dialog";
-    version = "20230214-git";
-    hash = "md5-4QwqWwAcMyiADLXvHrKHyw==";
-    url = "http://beta.quicklisp.org/archive/sly/2023-02-14/sly-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-HImBmMtuig1uemLHyvaqbA==";
+    url = "http://beta.quicklisp.org/archive/sly/2023-10-21/sly-20231021-git.tgz";
+    cl-deps = [ slynk ];
+  });
+  slynk-macrostep = (bqs {
+    name = "slynk-macrostep";
+    version = "20230618-git";
+    hash = "md5-yRxgmOKwaEc/OsktIlbBvg==";
+    url = "http://beta.quicklisp.org/archive/sly-macrostep/2023-06-18/sly-macrostep-20230618-git.tgz";
+    cl-deps = [ slynk ];
+  });
+  slynk-named-readtables = (bqs {
+    name = "slynk-named-readtables";
+    version = "20230618-git";
+    hash = "md5-MtrpMUddvlc2z97icYyinw==";
+    url = "http://beta.quicklisp.org/archive/sly-named-readtables/2023-06-18/sly-named-readtables-20230618-git.tgz";
     cl-deps = [ slynk ];
   });
   smackjack = (bqs {
@@ -33614,9 +34293,9 @@ in with cl; {
   });
   softdrink = (bqs {
     name = "softdrink";
-    version = "20200427-git";
-    hash = "md5-/lRrb6dFIpWd+VYG2+kMWg==";
-    url = "http://beta.quicklisp.org/archive/softdrink/2020-04-27/softdrink-20200427-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8oCrKah+ZkPyjmCLxGpwuw==";
+    url = "http://beta.quicklisp.org/archive/softdrink/2023-10-21/softdrink-20231021-git.tgz";
     cl-deps = [ lass lquery ];
   });
   solid-engine = (bqs {
@@ -33635,9 +34314,9 @@ in with cl; {
   });
   south = (bqs {
     name = "south";
-    version = "20190710-git";
-    hash = "md5-VjUgHB/jQbnnXxwOqX5OMw==";
-    url = "http://beta.quicklisp.org/archive/south/2019-07-10/south-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-d/QujCZT1y8F1EcaAf2oVQ==";
+    url = "http://beta.quicklisp.org/archive/south/2023-10-21/south-20231021-git.tgz";
     cl-deps = [ cl-ppcre drakma ironclad uuid ];
   });
   sparse-set = (bqs {
@@ -33726,9 +34405,9 @@ in with cl; {
   });
   speechless = (bqs {
     name = "speechless";
-    version = "20230214-git";
-    hash = "md5-zxuQZE5YVD1Rx6ihUwDSHA==";
-    url = "http://beta.quicklisp.org/archive/speechless/2023-02-14/speechless-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-m7R56NxxX/YmL2pUoEelGw==";
+    url = "http://beta.quicklisp.org/archive/speechless/2023-10-21/speechless-20231021-git.tgz";
     cl-deps = [ cl-markless documentation-utils ];
   });
   spell = (bqs {
@@ -33754,30 +34433,30 @@ in with cl; {
   });
   spinneret = (bqs {
     name = "spinneret";
-    version = "20230214-git";
-    hash = "md5-dOE0zj+zLCif3cHDkatQeg==";
-    url = "http://beta.quicklisp.org/archive/spinneret/2023-02-14/spinneret-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7/yxaltb21rNqbDvjxJ9AA==";
+    url = "http://beta.quicklisp.org/archive/spinneret/2023-10-21/spinneret-20231021-git.tgz";
     cl-deps = [ alexandria cl-ppcre global-vars parenscript serapeum trivia trivial-gray-streams ];
   });
   spinneret-slash-cl-markdown = (bqs {
     name = "spinneret/cl-markdown";
-    version = "20230214-git";
-    hash = "md5-dOE0zj+zLCif3cHDkatQeg==";
-    url = "http://beta.quicklisp.org/archive/spinneret/2023-02-14/spinneret-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7/yxaltb21rNqbDvjxJ9AA==";
+    url = "http://beta.quicklisp.org/archive/spinneret/2023-10-21/spinneret-20231021-git.tgz";
     cl-deps = [ cl-markdown spinneret ];
   });
   spinneret-slash-ps = (bqs {
     name = "spinneret/ps";
-    version = "20230214-git";
-    hash = "md5-dOE0zj+zLCif3cHDkatQeg==";
-    url = "http://beta.quicklisp.org/archive/spinneret/2023-02-14/spinneret-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7/yxaltb21rNqbDvjxJ9AA==";
+    url = "http://beta.quicklisp.org/archive/spinneret/2023-10-21/spinneret-20231021-git.tgz";
     cl-deps = [ parenscript spinneret ];
   });
   spinneret-slash-tests = (bqs {
     name = "spinneret/tests";
-    version = "20230214-git";
-    hash = "md5-dOE0zj+zLCif3cHDkatQeg==";
-    url = "http://beta.quicklisp.org/archive/spinneret/2023-02-14/spinneret-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-7/yxaltb21rNqbDvjxJ9AA==";
+    url = "http://beta.quicklisp.org/archive/spinneret/2023-10-21/spinneret-20231021-git.tgz";
     cl-deps = [ cl-markdown fiveam parenscript serapeum spinneret ];
   });
   split-sequence = (bqs {
@@ -33852,51 +34531,51 @@ in with cl; {
   });
   staple = (bqs {
     name = "staple";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [ babel cl-ppcre clip definitions documentation-utils language-codes pathname-utils staple-code-parser staple-package-recording ];
   });
   staple-code-parser = (bqs {
     name = "staple-code-parser";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [ alexandria concrete-syntax-tree concrete-syntax-tree-destructuring concrete-syntax-tree-lambda-list definitions documentation-utils eclector eclector-concrete-syntax-tree ];
   });
   staple-markdown = (bqs {
     name = "staple-markdown";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [ cl-3bmd cl-3bmd-ext-code-blocks staple ];
   });
   staple-markless = (bqs {
     name = "staple-markless";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [ cl-markless-plump staple ];
   });
   staple-package-recording = (bqs {
     name = "staple-package-recording";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [  ];
   });
   staple-restructured-text = (bqs {
     name = "staple-restructured-text";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [ docutils staple ];
   });
   staple-server = (bqs {
     name = "staple-server";
-    version = "20221106-git";
-    hash = "md5-swRuZuQgQxDivO6HB8KrJw==";
-    url = "http://beta.quicklisp.org/archive/staple/2022-11-06/staple-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-JQzViAjN37F1qotHnhM6AA==";
+    url = "http://beta.quicklisp.org/archive/staple/2023-10-21/staple-20231021-git.tgz";
     cl-deps = [ dissect documentation-utils hunchentoot staple-markdown staple-markless ];
   });
   static-dispatch = (bqs {
@@ -33929,24 +34608,31 @@ in with cl; {
   });
   statistics = (bqs {
     name = "statistics";
-    version = "20230214-git";
-    hash = "md5-Xs4wET+RRSq209nvDswZKg==";
-    url = "http://beta.quicklisp.org/archive/statistics/2023-02-14/statistics-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cfuxUPCt+Vhj88QPyaAZGg==";
+    url = "http://beta.quicklisp.org/archive/statistics/2023-10-21/statistics-20231021-git.tgz";
     cl-deps = [ alexandria anaphora distributions let-plus num-utils org-dot-tfeb-dot-conduit-packages ];
   });
   statistics-slash-lh = (bqs {
     name = "statistics/lh";
-    version = "20230214-git";
-    hash = "md5-Xs4wET+RRSq209nvDswZKg==";
-    url = "http://beta.quicklisp.org/archive/statistics/2023-02-14/statistics-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cfuxUPCt+Vhj88QPyaAZGg==";
+    url = "http://beta.quicklisp.org/archive/statistics/2023-10-21/statistics-20231021-git.tgz";
     cl-deps = [  ];
   });
   statistics-slash-tests = (bqs {
     name = "statistics/tests";
-    version = "20230214-git";
-    hash = "md5-Xs4wET+RRSq209nvDswZKg==";
-    url = "http://beta.quicklisp.org/archive/statistics/2023-02-14/statistics-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-cfuxUPCt+Vhj88QPyaAZGg==";
+    url = "http://beta.quicklisp.org/archive/statistics/2023-10-21/statistics-20231021-git.tgz";
     cl-deps = [ clunit2 num-utils statistics ];
+  });
+  statusor = (bqs {
+    name = "statusor";
+    version = "20230618-git";
+    hash = "md5-QriRgMh+TMTYlsw9lWEFEQ==";
+    url = "http://beta.quicklisp.org/archive/statusor/2023-06-18/statusor-20230618-git.tgz";
+    cl-deps = [  ];
   });
   stealth-mixin = (bqs {
     name = "stealth-mixin";
@@ -33985,9 +34671,9 @@ in with cl; {
   });
   stepster = (bqs {
     name = "stepster";
-    version = "20230214-git";
-    hash = "md5-kuQ9ArJNhchhx8biVRfpyg==";
-    url = "http://beta.quicklisp.org/archive/stepster/2023-02-14/stepster-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-Ityd7yW5Wrou8N7ppzszsA==";
+    url = "http://beta.quicklisp.org/archive/stepster/2023-06-18/stepster-20230618-git.tgz";
     cl-deps = [ babel cl-ppcre cl-reexport clss dexador jonathan plump ];
   });
   stl = (bqs {
@@ -33999,17 +34685,31 @@ in with cl; {
   });
   stmx = (bqs {
     name = "stmx";
-    version = "stable-49eef1d5-git";
-    hash = "md5-QR7LJ33KCmLF33EyNMTtFA==";
-    url = "http://beta.quicklisp.org/archive/stmx/2020-12-20/stmx-stable-49eef1d5-git.tgz";
+    version = "stable-992c9615-git";
+    hash = "md5-LBcSpZ4U3fZavo6KgtAoxQ==";
+    url = "http://beta.quicklisp.org/archive/stmx/2023-06-18/stmx-stable-992c9615-git.tgz";
     cl-deps = [ alexandria bordeaux-threads closer-mop log4cl trivial-garbage ];
   });
   stmx-dot-test = (bqs {
     name = "stmx.test";
-    version = "stable-49eef1d5-git";
-    hash = "md5-QR7LJ33KCmLF33EyNMTtFA==";
-    url = "http://beta.quicklisp.org/archive/stmx/2020-12-20/stmx-stable-49eef1d5-git.tgz";
+    version = "stable-992c9615-git";
+    hash = "md5-LBcSpZ4U3fZavo6KgtAoxQ==";
+    url = "http://beta.quicklisp.org/archive/stmx/2023-06-18/stmx-stable-992c9615-git.tgz";
     cl-deps = [ bordeaux-threads fiveam log4cl stmx ];
+  });
+  stopclock = (bqs {
+    name = "stopclock";
+    version = "v1.0.2";
+    hash = "md5-uTZ9bvrHptJ54IrBnXXs/A==";
+    url = "http://beta.quicklisp.org/archive/stopclock/2023-10-21/stopclock-v1.0.2.tgz";
+    cl-deps = [  ];
+  });
+  stopclock-slash-tests = (bqs {
+    name = "stopclock/tests";
+    version = "v1.0.2";
+    hash = "md5-uTZ9bvrHptJ54IrBnXXs/A==";
+    url = "http://beta.quicklisp.org/archive/stopclock/2023-10-21/stopclock-v1.0.2.tgz";
+    cl-deps = [ fiveam stopclock ];
   });
   strict-function = (bqs {
     name = "strict-function";
@@ -34111,30 +34811,37 @@ in with cl; {
   });
   studio-client = (bqs {
     name = "studio-client";
-    version = "20210228-git";
-    hash = "md5-XaqthhNj0SHh89j6LGZ17g==";
-    url = "http://beta.quicklisp.org/archive/studio-client/2021-02-28/studio-client-20210228-git.tgz";
-    cl-deps = [ babel documentation-utils north-core yason ];
+    version = "20231021-git";
+    hash = "md5-Q0VNIn21GE+EWGcXC2F5Xg==";
+    url = "http://beta.quicklisp.org/archive/studio-client/2023-10-21/studio-client-20231021-git.tgz";
+    cl-deps = [ babel com-dot-inuoe-dot-jzon documentation-utils north-core ];
+  });
+  dynamic-mixins-swm = (bqs {
+    name = "dynamic-mixins-swm";
+    version = "20231021-git";
+    hash = "md5-87qVkWQ3F7ARi9JYdhZCbA==";
+    url = "http://beta.quicklisp.org/archive/stumpwm/2023-10-21/stumpwm-20231021-git.tgz";
+    cl-deps = [ alexandria ];
   });
   stumpwm = (bqs {
     name = "stumpwm";
-    version = "20230214-git";
-    hash = "md5-QJJeFS6hbkjy5F9kFkXDXw==";
-    url = "http://beta.quicklisp.org/archive/stumpwm/2023-02-14/stumpwm-20230214-git.tgz";
-    cl-deps = [ alexandria cl-ppcre clx dynamic-mixins ];
+    version = "20231021-git";
+    hash = "md5-87qVkWQ3F7ARi9JYdhZCbA==";
+    url = "http://beta.quicklisp.org/archive/stumpwm/2023-10-21/stumpwm-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre clx dynamic-mixins-swm ];
   });
   stumpwm-tests = (bqs {
     name = "stumpwm-tests";
-    version = "20230214-git";
-    hash = "md5-QJJeFS6hbkjy5F9kFkXDXw==";
-    url = "http://beta.quicklisp.org/archive/stumpwm/2023-02-14/stumpwm-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-87qVkWQ3F7ARi9JYdhZCbA==";
+    url = "http://beta.quicklisp.org/archive/stumpwm/2023-10-21/stumpwm-20231021-git.tgz";
     cl-deps = [ fiasco stumpwm ];
   });
   stumpwm-slash-build = (bqs {
     name = "stumpwm/build";
-    version = "20230214-git";
-    hash = "md5-QJJeFS6hbkjy5F9kFkXDXw==";
-    url = "http://beta.quicklisp.org/archive/stumpwm/2023-02-14/stumpwm-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-87qVkWQ3F7ARi9JYdhZCbA==";
+    url = "http://beta.quicklisp.org/archive/stumpwm/2023-10-21/stumpwm-20231021-git.tgz";
     cl-deps = [ stumpwm ];
   });
   stumpwm-dynamic-float = (bqs {
@@ -34319,18 +35026,32 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/sucle/2020-04-27/sucle-20200427-git.tgz";
     cl-deps = [ alexandria bodge-glfw cffi trivial-features utility ];
   });
+  my-cool-system = (bqs {
+    name = "my-cool-system";
+    version = "20231021-git";
+    hash = "md5-lMJwiL3d/G6Xw5CMagGdqQ==";
+    url = "http://beta.quicklisp.org/archive/super-loader/2023-10-21/super-loader-20231021-git.tgz";
+    cl-deps = [  ];
+  });
+  my-secret-system = (bqs {
+    name = "my-secret-system";
+    version = "20231021-git";
+    hash = "md5-lMJwiL3d/G6Xw5CMagGdqQ==";
+    url = "http://beta.quicklisp.org/archive/super-loader/2023-10-21/super-loader-20231021-git.tgz";
+    cl-deps = [  ];
+  });
   swank-client = (bqs {
     name = "swank-client";
-    version = "20230214-git";
-    hash = "md5-wSNtqHM+JptS5XcQbcvU4Q==";
-    url = "http://beta.quicklisp.org/archive/swank-client/2023-02-14/swank-client-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-tuLwmerdEapQl8qDiZqJRQ==";
+    url = "http://beta.quicklisp.org/archive/swank-client/2023-06-18/swank-client-20230618-git.tgz";
     cl-deps = [ bordeaux-threads com-dot-google-dot-base swank usocket ];
   });
   swank-client-slash-test = (bqs {
     name = "swank-client/test";
-    version = "20230214-git";
-    hash = "md5-wSNtqHM+JptS5XcQbcvU4Q==";
-    url = "http://beta.quicklisp.org/archive/swank-client/2023-02-14/swank-client-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-tuLwmerdEapQl8qDiZqJRQ==";
+    url = "http://beta.quicklisp.org/archive/swank-client/2023-06-18/swank-client-20230618-git.tgz";
     cl-deps = [ hu-dot-dwim-dot-stefil swank-client ];
   });
   swank-crew = (bqs {
@@ -34377,16 +35098,16 @@ in with cl; {
   });
   sxql = (bqs {
     name = "sxql";
-    version = "20210630-git";
-    hash = "md5-zyMQZxURUnpJAYTwXqa37Q==";
-    url = "http://beta.quicklisp.org/archive/sxql/2021-06-30/sxql-20210630-git.tgz";
-    cl-deps = [ alexandria cl-package-locks cl-syntax-annot iterate split-sequence trivia trivial-types ];
+    version = "20231021-git";
+    hash = "md5-zGSORaWPJwpnOj/FZJ3ImQ==";
+    url = "http://beta.quicklisp.org/archive/sxql/2023-10-21/sxql-20231021-git.tgz";
+    cl-deps = [ alexandria cl-annot cl-package-locks iterate named-readtables split-sequence trivia trivial-types ];
   });
   sxql-test = (bqs {
     name = "sxql-test";
-    version = "20210630-git";
-    hash = "md5-zyMQZxURUnpJAYTwXqa37Q==";
-    url = "http://beta.quicklisp.org/archive/sxql/2021-06-30/sxql-20210630-git.tgz";
+    version = "20231021-git";
+    hash = "md5-zGSORaWPJwpnOj/FZJ3ImQ==";
+    url = "http://beta.quicklisp.org/archive/sxql/2023-10-21/sxql-20231021-git.tgz";
     cl-deps = [ prove prove-asdf sxql ];
   });
   sxql-composer = (bqs {
@@ -34433,16 +35154,16 @@ in with cl; {
   });
   synonyms = (bqs {
     name = "synonyms";
-    version = "20190307-hg";
-    hash = "md5-b5VlNKpfaM0DmIMD/cQPMA==";
-    url = "http://beta.quicklisp.org/archive/synonyms/2019-03-07/synonyms-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-IL0hCpM/2hIRQ8Ss08pYJA==";
+    url = "http://beta.quicklisp.org/archive/synonyms/2023-06-18/synonyms-20230618-git.tgz";
     cl-deps = [  ];
   });
   system-locale = (bqs {
     name = "system-locale";
-    version = "20200610-git";
-    hash = "md5-AcsFXf+2lO3nXAvfjceS0A==";
-    url = "http://beta.quicklisp.org/archive/system-locale/2020-06-10/system-locale-20200610-git.tgz";
+    version = "20231021-git";
+    hash = "md5-GjPy8NKWR5SMc+yxjrYN2w==";
+    url = "http://beta.quicklisp.org/archive/system-locale/2023-10-21/system-locale-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   tagger = (bqs {
@@ -34552,9 +35273,9 @@ in with cl; {
   });
   template = (bqs {
     name = "template";
-    version = "20190307-hg";
-    hash = "md5-8flj+SiHn7LvaQPl4EZtbQ==";
-    url = "http://beta.quicklisp.org/archive/template/2019-03-07/template-20190307-hg.tgz";
+    version = "20230618-git";
+    hash = "md5-MitpfEfJdAVug6R0wJhvDQ==";
+    url = "http://beta.quicklisp.org/archive/template/2023-06-18/template-20230618-git.tgz";
     cl-deps = [ alexandria parameterized-function ];
   });
   template-function = (bqs {
@@ -34587,37 +35308,37 @@ in with cl; {
   });
   ten = (bqs {
     name = "ten";
-    version = "20230214-git";
-    hash = "md5-yPam3Xs38Hlfqx9Dt8/0TA==";
-    url = "http://beta.quicklisp.org/archive/ten/2023-02-14/ten-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-WAG9iTumVm1uu1NKezBEQg==";
+    url = "http://beta.quicklisp.org/archive/ten/2023-06-18/ten-20230618-git.tgz";
     cl-deps = [ access cl-who esrap split-sequence ];
   });
   ten-dot-examples = (bqs {
     name = "ten.examples";
-    version = "20230214-git";
-    hash = "md5-yPam3Xs38Hlfqx9Dt8/0TA==";
-    url = "http://beta.quicklisp.org/archive/ten/2023-02-14/ten-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-WAG9iTumVm1uu1NKezBEQg==";
+    url = "http://beta.quicklisp.org/archive/ten/2023-06-18/ten-20230618-git.tgz";
     cl-deps = [ ten ];
   });
   ten-dot-i18n-dot-cl-locale = (bqs {
     name = "ten.i18n.cl-locale";
-    version = "20230214-git";
-    hash = "md5-yPam3Xs38Hlfqx9Dt8/0TA==";
-    url = "http://beta.quicklisp.org/archive/ten/2023-02-14/ten-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-WAG9iTumVm1uu1NKezBEQg==";
+    url = "http://beta.quicklisp.org/archive/ten/2023-06-18/ten-20230618-git.tgz";
     cl-deps = [ cl-locale ten ];
   });
   ten-dot-i18n-dot-gettext = (bqs {
     name = "ten.i18n.gettext";
-    version = "20230214-git";
-    hash = "md5-yPam3Xs38Hlfqx9Dt8/0TA==";
-    url = "http://beta.quicklisp.org/archive/ten/2023-02-14/ten-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-WAG9iTumVm1uu1NKezBEQg==";
+    url = "http://beta.quicklisp.org/archive/ten/2023-06-18/ten-20230618-git.tgz";
     cl-deps = [ gettext ten ];
   });
   ten-dot-tests = (bqs {
     name = "ten.tests";
-    version = "20230214-git";
-    hash = "md5-yPam3Xs38Hlfqx9Dt8/0TA==";
-    url = "http://beta.quicklisp.org/archive/ten/2023-02-14/ten-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-WAG9iTumVm1uu1NKezBEQg==";
+    url = "http://beta.quicklisp.org/archive/ten/2023-06-18/ten-20230618-git.tgz";
     cl-deps = [ fiveam ten ten-dot-examples ];
   });
   terminfo = (bqs {
@@ -34629,9 +35350,9 @@ in with cl; {
   });
   terrable = (bqs {
     name = "terrable";
-    version = "20190710-git";
-    hash = "md5-mdkq53RkgnosPxfLzvCTiA==";
-    url = "http://beta.quicklisp.org/archive/terrable/2019-07-10/terrable-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-eJUBkCL419xKzIvjFOa5wA==";
+    url = "http://beta.quicklisp.org/archive/terrable/2023-10-21/terrable-20231021-git.tgz";
     cl-deps = [ documentation-utils fast-io ieee-floats static-vectors trivial-garbage ];
   });
   tesseract-capi = (bqs {
@@ -34664,9 +35385,9 @@ in with cl; {
   });
   testiere = (bqs {
     name = "testiere";
-    version = "20230214-git";
-    hash = "md5-PAGm2tFu5ngHlV3ZSeGZ0A==";
-    url = "http://beta.quicklisp.org/archive/testiere/2023-02-14/testiere-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-naYcMVqLZWBp8KBn/zqu9g==";
+    url = "http://beta.quicklisp.org/archive/testiere/2023-10-21/testiere-20231021-git.tgz";
     cl-deps = [ trivia ];
   });
   texp = (bqs {
@@ -34692,205 +35413,205 @@ in with cl; {
   });
   org-dot-tfeb-dot-hax = (bqs {
     name = "org.tfeb.hax";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ closer-mop ];
   });
   org-dot-tfeb-dot-hax-dot-abstract-classes = (bqs {
     name = "org.tfeb.hax.abstract-classes";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ closer-mop ];
   });
   org-dot-tfeb-dot-hax-dot-binding = (bqs {
     name = "org.tfeb.hax.binding";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax-dot-collecting org-dot-tfeb-dot-hax-dot-iterate ];
   });
   org-dot-tfeb-dot-hax-dot-collecting = (bqs {
     name = "org.tfeb.hax.collecting";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-comment-form = (bqs {
     name = "org.tfeb.hax.comment-form";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-cs-forms = (bqs {
     name = "org.tfeb.hax.cs-forms";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-define-functions = (bqs {
     name = "org.tfeb.hax.define-functions";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-dynamic-state = (bqs {
     name = "org.tfeb.hax.dynamic-state";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-iterate = (bqs {
     name = "org.tfeb.hax.iterate";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-memoize = (bqs {
     name = "org.tfeb.hax.memoize";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-metatronic = (bqs {
     name = "org.tfeb.hax.metatronic";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax-dot-utilities ];
   });
   org-dot-tfeb-dot-hax-dot-object-accessors = (bqs {
     name = "org.tfeb.hax.object-accessors";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-read-package = (bqs {
     name = "org.tfeb.hax.read-package";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-simple-loops = (bqs {
     name = "org.tfeb.hax.simple-loops";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax-dot-collecting org-dot-tfeb-dot-hax-dot-iterate org-dot-tfeb-dot-hax-dot-utilities ];
   });
   org-dot-tfeb-dot-hax-dot-singleton-classes = (bqs {
     name = "org.tfeb.hax.singleton-classes";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ closer-mop ];
   });
   org-dot-tfeb-dot-hax-dot-slog = (bqs {
     name = "org.tfeb.hax.slog";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax-dot-collecting org-dot-tfeb-dot-hax-dot-metatronic org-dot-tfeb-dot-hax-dot-simple-loops org-dot-tfeb-dot-hax-dot-spam ];
   });
   org-dot-tfeb-dot-hax-dot-spam = (bqs {
     name = "org.tfeb.hax.spam";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax-dot-simple-loops ];
   });
   org-dot-tfeb-dot-hax-dot-stringtable = (bqs {
     name = "org.tfeb.hax.stringtable";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax-dot-collecting org-dot-tfeb-dot-hax-dot-iterate ];
   });
   org-dot-tfeb-dot-hax-dot-trace-macroexpand = (bqs {
     name = "org.tfeb.hax.trace-macroexpand";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-utilities = (bqs {
     name = "org.tfeb.hax.utilities";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
-    cl-deps = [ org-dot-tfeb-dot-hax-dot-collecting org-dot-tfeb-dot-hax-dot-iterate ];
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
+    cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-dot-wrapping-standard = (bqs {
     name = "org.tfeb.hax.wrapping-standard";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-hax-slash-test = (bqs {
     name = "org.tfeb.hax/test";
-    version = "20230214-git";
-    hash = "md5-DgGsEJxxzitesu7l/h/IKw==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-02-14/tfeb-lisp-hax-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kWsrxV8ytqER+9/Ws9M2bw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-hax/2023-10-21/tfeb-lisp-hax-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-hax parachute ];
   });
   org-dot-tfeb-dot-tools = (bqs {
     name = "org.tfeb.tools";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-tools-dot-asdf-module-sysdcls = (bqs {
     name = "org.tfeb.tools.asdf-module-sysdcls";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-tools-dot-build-modules = (bqs {
     name = "org.tfeb.tools.build-modules";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-tools-dot-require-module ];
   });
   org-dot-tfeb-dot-tools-dot-deprecations = (bqs {
     name = "org.tfeb.tools.deprecations";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-tools-dot-feature-expressions = (bqs {
     name = "org.tfeb.tools.feature-expressions";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [  ];
   });
   org-dot-tfeb-dot-tools-dot-install-providers = (bqs {
     name = "org.tfeb.tools.install-providers";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [ org-dot-tfeb-dot-tools-dot-require-module ];
   });
   org-dot-tfeb-dot-tools-dot-require-module = (bqs {
     name = "org.tfeb.tools.require-module";
-    version = "20221106-git";
-    hash = "md5-N9zD3Gukxy1+BVTZ9jBukg==";
-    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2022-11-06/tfeb-lisp-tools-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-EijH+hCual+e2w4MvF+Mrw==";
+    url = "http://beta.quicklisp.org/archive/tfeb-lisp-tools/2023-10-21/tfeb-lisp-tools-20231021-git.tgz";
     cl-deps = [  ];
   });
   net-dot-didierverna-dot-tfm = (bqs {
@@ -35021,16 +35742,30 @@ in with cl; {
   });
   tiny-routes = (bqs {
     name = "tiny-routes";
-    version = "20220331-git";
-    hash = "md5-4J3Ms0YVBZyz4743hY3pIA==";
-    url = "http://beta.quicklisp.org/archive/tiny-routes/2022-03-31/tiny-routes-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-udPBj5mFVEnAswDeqTDWKw==";
+    url = "http://beta.quicklisp.org/archive/tiny-routes/2023-10-21/tiny-routes-20231021-git.tgz";
     cl-deps = [ cl-ppcre uiop ];
+  });
+  tiny-routes-middleware-cookie = (bqs {
+    name = "tiny-routes-middleware-cookie";
+    version = "20231021-git";
+    hash = "md5-udPBj5mFVEnAswDeqTDWKw==";
+    url = "http://beta.quicklisp.org/archive/tiny-routes/2023-10-21/tiny-routes-20231021-git.tgz";
+    cl-deps = [ cl-cookie tiny-routes ];
+  });
+  tiny-routes-middleware-cookie-slash-test = (bqs {
+    name = "tiny-routes-middleware-cookie/test";
+    version = "20231021-git";
+    hash = "md5-udPBj5mFVEnAswDeqTDWKw==";
+    url = "http://beta.quicklisp.org/archive/tiny-routes/2023-10-21/tiny-routes-20231021-git.tgz";
+    cl-deps = [ fiveam tiny-routes-middleware-cookie ];
   });
   tiny-routes-slash-test = (bqs {
     name = "tiny-routes/test";
-    version = "20220331-git";
-    hash = "md5-4J3Ms0YVBZyz4743hY3pIA==";
-    url = "http://beta.quicklisp.org/archive/tiny-routes/2022-03-31/tiny-routes-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-udPBj5mFVEnAswDeqTDWKw==";
+    url = "http://beta.quicklisp.org/archive/tiny-routes/2023-10-21/tiny-routes-20231021-git.tgz";
     cl-deps = [ fiveam tiny-routes ];
   });
   tm = (bqs {
@@ -35077,10 +35812,10 @@ in with cl; {
   });
   tooter = (bqs {
     name = "tooter";
-    version = "20230214-git";
-    hash = "md5-anNOOLI+1Y+5//xQm/8tpA==";
-    url = "http://beta.quicklisp.org/archive/tooter/2023-02-14/tooter-20230214-git.tgz";
-    cl-deps = [ cl-ppcre documentation-utils drakma yason ];
+    version = "20231021-git";
+    hash = "md5-qmauPOHZBzYTp5vr/dsGLw==";
+    url = "http://beta.quicklisp.org/archive/tooter/2023-10-21/tooter-20231021-git.tgz";
+    cl-deps = [ cl-ppcre com-dot-inuoe-dot-jzon documentation-utils drakma ];
   });
   towers = (bqs {
     name = "towers";
@@ -35091,9 +35826,9 @@ in with cl; {
   });
   trace-db = (bqs {
     name = "trace-db";
-    version = "20230214-git";
-    hash = "md5-TvhR+k/vuL7/9JuRMrm2fQ==";
-    url = "http://beta.quicklisp.org/archive/trace-db/2023-02-14/trace-db-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-bVDFBbeOpu+VCIzi6uuBIQ==";
+    url = "http://beta.quicklisp.org/archive/trace-db/2023-06-18/trace-db-20230618-git.tgz";
     cl-deps = [ asdf-package-system ];
   });
   track-best = (bqs {
@@ -35217,100 +35952,100 @@ in with cl; {
   });
   trivia = (bqs {
     name = "trivia";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ trivia-dot-balland2006 ];
   });
   trivia-dot-balland2006 = (bqs {
     name = "trivia.balland2006";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ alexandria iterate trivia-dot-trivial type-i ];
   });
   trivia-dot-benchmark = (bqs {
     name = "trivia.benchmark";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ iterate optima trivia trivia-dot-balland2006 ];
   });
   trivia-dot-benchmark-slash-run = (bqs {
     name = "trivia.benchmark/run";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ trivia-dot-benchmark ];
   });
   trivia-dot-cffi = (bqs {
     name = "trivia.cffi";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ cffi trivia-dot-trivial ];
   });
   trivia-dot-fset = (bqs {
     name = "trivia.fset";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ fset trivia-dot-trivial ];
   });
   trivia-dot-level0 = (bqs {
     name = "trivia.level0";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ alexandria ];
   });
   trivia-dot-level1 = (bqs {
     name = "trivia.level1";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ trivia-dot-level0 ];
   });
   trivia-dot-level2 = (bqs {
     name = "trivia.level2";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ closer-mop lisp-namespace trivia-dot-level1 trivial-cltl2 ];
   });
   trivia-dot-ppcre = (bqs {
     name = "trivia.ppcre";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ cl-ppcre trivia-dot-trivial ];
   });
   trivia-dot-quasiquote = (bqs {
     name = "trivia.quasiquote";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ fare-quasiquote-readtable trivia-dot-trivial ];
   });
   trivia-dot-test = (bqs {
     name = "trivia.test";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ fiveam optima trivia trivia-dot-cffi trivia-dot-fset trivia-dot-ppcre trivia-dot-quasiquote ];
   });
   trivia-dot-trivial = (bqs {
     name = "trivia.trivial";
-    version = "20220707-git";
-    hash = "md5-mqu7kKRbJMbi6YygxK7UqA==";
-    url = "http://beta.quicklisp.org/archive/trivia/2022-07-07/trivia-20220707-git.tgz";
+    version = "20230618-git";
+    hash = "md5-ANS/zR0z8b8ATotvMXDerg==";
+    url = "http://beta.quicklisp.org/archive/trivia/2023-06-18/trivia-20230618-git.tgz";
     cl-deps = [ trivia-dot-level2 ];
   });
   trivial-arguments = (bqs {
     name = "trivial-arguments";
-    version = "20200925-git";
-    hash = "md5-PXt2pymycgGciCfkC/ttuA==";
-    url = "http://beta.quicklisp.org/archive/trivial-arguments/2020-09-25/trivial-arguments-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-V2mGU+5MvDPcOZh5QGoQIQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-arguments/2023-10-21/trivial-arguments-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-backtrace = (bqs {
@@ -35336,9 +36071,9 @@ in with cl; {
   });
   trivial-benchmark = (bqs {
     name = "trivial-benchmark";
-    version = "20220707-git";
-    hash = "md5-/+Up8QBsMaSdzGWsG9+Mww==";
-    url = "http://beta.quicklisp.org/archive/trivial-benchmark/2022-07-07/trivial-benchmark-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-j71+qHJC6qtwCYNxm0VjrA==";
+    url = "http://beta.quicklisp.org/archive/trivial-benchmark/2023-10-21/trivial-benchmark-20231021-git.tgz";
     cl-deps = [ alexandria ];
   });
   trivial-bit-streams = (bqs {
@@ -35378,16 +36113,16 @@ in with cl; {
   });
   trivial-clipboard = (bqs {
     name = "trivial-clipboard";
-    version = "20221106-git";
-    hash = "md5-WgrksFvSAzCxsjkBuKOpCw==";
-    url = "http://beta.quicklisp.org/archive/trivial-clipboard/2022-11-06/trivial-clipboard-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-NPmpd/YCC1Uq2j7/uZ2FDQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-clipboard/2023-10-21/trivial-clipboard-20231021-git.tgz";
     cl-deps = [ uiop ];
   });
   trivial-clipboard-test = (bqs {
     name = "trivial-clipboard-test";
-    version = "20221106-git";
-    hash = "md5-WgrksFvSAzCxsjkBuKOpCw==";
-    url = "http://beta.quicklisp.org/archive/trivial-clipboard/2022-11-06/trivial-clipboard-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-NPmpd/YCC1Uq2j7/uZ2FDQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-clipboard/2023-10-21/trivial-clipboard-20231021-git.tgz";
     cl-deps = [ fiveam trivial-clipboard ];
   });
   trivial-cltl2 = (bqs {
@@ -35396,20 +36131,6 @@ in with cl; {
     hash = "md5-FyRia1xggdnYhgZAFmxppw==";
     url = "http://beta.quicklisp.org/archive/trivial-cltl2/2021-12-30/trivial-cltl2-20211230-git.tgz";
     cl-deps = [  ];
-  });
-  trivial-coerce = (bqs {
-    name = "trivial-coerce";
-    version = "20230214-git";
-    hash = "md5-XoQGMrHc4G77jVCt/eKz4A==";
-    url = "http://beta.quicklisp.org/archive/trivial-coerce/2023-02-14/trivial-coerce-20230214-git.tgz";
-    cl-deps = [ closer-mop extensible-compound-types optima trivial-types ];
-  });
-  trivial-coerce-slash-tests = (bqs {
-    name = "trivial-coerce/tests";
-    version = "20230214-git";
-    hash = "md5-XoQGMrHc4G77jVCt/eKz4A==";
-    url = "http://beta.quicklisp.org/archive/trivial-coerce/2023-02-14/trivial-coerce-20230214-git.tgz";
-    cl-deps = [ fiveam trivial-coerce ];
   });
   trivial-compress = (bqs {
     name = "trivial-compress";
@@ -35448,16 +36169,16 @@ in with cl; {
   });
   trivial-custom-debugger = (bqs {
     name = "trivial-custom-debugger";
-    version = "20200925-git";
-    hash = "md5-6Cel1clYbC3G241rPQ3UDw==";
-    url = "http://beta.quicklisp.org/archive/trivial-custom-debugger/2020-09-25/trivial-custom-debugger-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YHcbwGWPdI7xoHRFb+MCSQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-custom-debugger/2023-10-21/trivial-custom-debugger-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-custom-debugger-slash-test = (bqs {
     name = "trivial-custom-debugger/test";
-    version = "20200925-git";
-    hash = "md5-6Cel1clYbC3G241rPQ3UDw==";
-    url = "http://beta.quicklisp.org/archive/trivial-custom-debugger/2020-09-25/trivial-custom-debugger-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YHcbwGWPdI7xoHRFb+MCSQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-custom-debugger/2023-10-21/trivial-custom-debugger-20231021-git.tgz";
     cl-deps = [ parachute trivial-custom-debugger ];
   });
   trivial-debug-console = (bqs {
@@ -35546,9 +36267,9 @@ in with cl; {
   });
   trivial-extensible-sequences = (bqs {
     name = "trivial-extensible-sequences";
-    version = "20221106-git";
-    hash = "md5-FG1zZfvED8mWmA/HxkhtFw==";
-    url = "http://beta.quicklisp.org/archive/trivial-extensible-sequences/2022-11-06/trivial-extensible-sequences-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Bd1yTzlI5SU8Oi2pZPwW4g==";
+    url = "http://beta.quicklisp.org/archive/trivial-extensible-sequences/2023-10-21/trivial-extensible-sequences-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-extract = (bqs {
@@ -35567,16 +36288,16 @@ in with cl; {
   });
   trivial-features = (bqs {
     name = "trivial-features";
-    version = "20211209-git";
-    hash = "md5-7KPjU8fX8QCgelrrTeAgmA==";
-    url = "http://beta.quicklisp.org/archive/trivial-features/2021-12-09/trivial-features-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-xBKtzQAc2XfOvekyp3dD+Q==";
+    url = "http://beta.quicklisp.org/archive/trivial-features/2023-06-18/trivial-features-20230618-git.tgz";
     cl-deps = [  ];
   });
   trivial-features-tests = (bqs {
     name = "trivial-features-tests";
-    version = "20211209-git";
-    hash = "md5-7KPjU8fX8QCgelrrTeAgmA==";
-    url = "http://beta.quicklisp.org/archive/trivial-features/2021-12-09/trivial-features-20211209-git.tgz";
+    version = "20230618-git";
+    hash = "md5-xBKtzQAc2XfOvekyp3dD+Q==";
+    url = "http://beta.quicklisp.org/archive/trivial-features/2023-06-18/trivial-features-20230618-git.tgz";
     cl-deps = [ alexandria cffi cffi-grovel rt trivial-features ];
   });
   trivial-file-size = (bqs {
@@ -35595,30 +36316,30 @@ in with cl; {
   });
   trivial-garbage = (bqs {
     name = "trivial-garbage";
-    version = "20211230-git";
-    hash = "md5-bis8A2BzPzDH7TY1frjVSg==";
-    url = "http://beta.quicklisp.org/archive/trivial-garbage/2021-12-30/trivial-garbage-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-AtpHT/MQDBevOPYKj2UTOQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-garbage/2023-10-21/trivial-garbage-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-garbage-slash-tests = (bqs {
     name = "trivial-garbage/tests";
-    version = "20211230-git";
-    hash = "md5-bis8A2BzPzDH7TY1frjVSg==";
-    url = "http://beta.quicklisp.org/archive/trivial-garbage/2021-12-30/trivial-garbage-20211230-git.tgz";
+    version = "20231021-git";
+    hash = "md5-AtpHT/MQDBevOPYKj2UTOQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-garbage/2023-10-21/trivial-garbage-20231021-git.tgz";
     cl-deps = [ rt trivial-garbage ];
   });
   trivial-gray-streams = (bqs {
     name = "trivial-gray-streams";
-    version = "20210124-git";
-    hash = "md5-G5OvHK6fhGXYE5ZNtNEFiA==";
-    url = "http://beta.quicklisp.org/archive/trivial-gray-streams/2021-01-24/trivial-gray-streams-20210124-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Xa2L8KgAASEWmc66VoUZtg==";
+    url = "http://beta.quicklisp.org/archive/trivial-gray-streams/2023-10-21/trivial-gray-streams-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-gray-streams-test = (bqs {
     name = "trivial-gray-streams-test";
-    version = "20210124-git";
-    hash = "md5-G5OvHK6fhGXYE5ZNtNEFiA==";
-    url = "http://beta.quicklisp.org/archive/trivial-gray-streams/2021-01-24/trivial-gray-streams-20210124-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Xa2L8KgAASEWmc66VoUZtg==";
+    url = "http://beta.quicklisp.org/archive/trivial-gray-streams/2023-10-21/trivial-gray-streams-20231021-git.tgz";
     cl-deps = [ trivial-gray-streams ];
   });
   trivial-hashtable-serialize = (bqs {
@@ -35644,9 +36365,9 @@ in with cl; {
   });
   trivial-indent = (bqs {
     name = "trivial-indent";
-    version = "20210531-git";
-    hash = "md5-O7fSCNnQYUEhwfV/z/5lxw==";
-    url = "http://beta.quicklisp.org/archive/trivial-indent/2021-05-31/trivial-indent-20210531-git.tgz";
+    version = "20231021-git";
+    hash = "md5-AsIkw/qqjHdS5OrVJq0ulg==";
+    url = "http://beta.quicklisp.org/archive/trivial-indent/2023-10-21/trivial-indent-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-inspector-hook = (bqs {
@@ -35728,9 +36449,9 @@ in with cl; {
   });
   trivial-main-thread = (bqs {
     name = "trivial-main-thread";
-    version = "20190710-git";
-    hash = "md5-q5WQbxgxqltA8nHuvf4Row==";
-    url = "http://beta.quicklisp.org/archive/trivial-main-thread/2019-07-10/trivial-main-thread-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PmqLP0CWr+pJ9mhE0IBk+g==";
+    url = "http://beta.quicklisp.org/archive/trivial-main-thread/2023-10-21/trivial-main-thread-20231021-git.tgz";
     cl-deps = [ bordeaux-threads simple-tasks trivial-features ];
   });
   trivial-method-combinations = (bqs {
@@ -35742,9 +36463,9 @@ in with cl; {
   });
   trivial-mimes = (bqs {
     name = "trivial-mimes";
-    version = "20230214-git";
-    hash = "md5-iSYxcoqAzW6h+ufMBfBBYg==";
-    url = "http://beta.quicklisp.org/archive/trivial-mimes/2023-02-14/trivial-mimes-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-zMrZQkcvavU+VdrmT3Dv6A==";
+    url = "http://beta.quicklisp.org/archive/trivial-mimes/2023-10-21/trivial-mimes-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-mmap = (bqs {
@@ -35840,16 +36561,16 @@ in with cl; {
   });
   trivial-package-locks = (bqs {
     name = "trivial-package-locks";
-    version = "20230214-git";
-    hash = "md5-GOQh4V81Ybyso1dS+wmcTQ==";
-    url = "http://beta.quicklisp.org/archive/trivial-package-locks/2023-02-14/trivial-package-locks-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-we3BAieuMpr9S2k41/WykQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-package-locks/2023-06-18/trivial-package-locks-20230618-git.tgz";
     cl-deps = [  ];
   });
   trivial-package-locks-slash-test = (bqs {
     name = "trivial-package-locks/test";
-    version = "20230214-git";
-    hash = "md5-GOQh4V81Ybyso1dS+wmcTQ==";
-    url = "http://beta.quicklisp.org/archive/trivial-package-locks/2023-02-14/trivial-package-locks-20230214-git.tgz";
+    version = "20230618-git";
+    hash = "md5-we3BAieuMpr9S2k41/WykQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-package-locks/2023-06-18/trivial-package-locks-20230618-git.tgz";
     cl-deps = [ parachute trivial-package-locks ];
   });
   trivial-package-manager = (bqs {
@@ -35903,16 +36624,16 @@ in with cl; {
   });
   trivial-sanitize = (bqs {
     name = "trivial-sanitize";
-    version = "20221106-git";
-    hash = "md5-sIiQPb87EqAq38uP245u0w==";
-    url = "http://beta.quicklisp.org/archive/trivial-sanitize/2022-11-06/trivial-sanitize-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Yc6eaoMyAPIwgZOAJuwLlQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-sanitize/2023-10-21/trivial-sanitize-20231021-git.tgz";
     cl-deps = [ alexandria cl-html5-parser cl-ppcre-unicode uiop ];
   });
   trivial-sanitize-tests = (bqs {
     name = "trivial-sanitize-tests";
-    version = "20221106-git";
-    hash = "md5-sIiQPb87EqAq38uP245u0w==";
-    url = "http://beta.quicklisp.org/archive/trivial-sanitize/2022-11-06/trivial-sanitize-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Yc6eaoMyAPIwgZOAJuwLlQ==";
+    url = "http://beta.quicklisp.org/archive/trivial-sanitize/2023-10-21/trivial-sanitize-20231021-git.tgz";
     cl-deps = [ alexandria clunit2 trivial-sanitize uiop ];
   });
   trivial-shell = (bqs {
@@ -35964,20 +36685,6 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/trivial-ssh/2019-11-30/trivial-ssh-20191130-git.tgz";
     cl-deps = [ fiveam trivial-ssh ];
   });
-  trivial-string-template = (bqs {
-    name = "trivial-string-template";
-    version = "20201220-git";
-    hash = "md5-Puqlkjc5SwvcX2RSGeNVqg==";
-    url = "http://beta.quicklisp.org/archive/trivial-string-template/2020-12-20/trivial-string-template-20201220-git.tgz";
-    cl-deps = [ alexandria cl-ppcre closer-mop proc-parse ];
-  });
-  trivial-string-template-test = (bqs {
-    name = "trivial-string-template-test";
-    version = "20201220-git";
-    hash = "md5-Puqlkjc5SwvcX2RSGeNVqg==";
-    url = "http://beta.quicklisp.org/archive/trivial-string-template/2020-12-20/trivial-string-template-20201220-git.tgz";
-    cl-deps = [ alexandria prove prove-asdf trivial-string-template ];
-  });
   trivial-tco = (bqs {
     name = "trivial-tco";
     version = "20131003-git";
@@ -35994,16 +36701,16 @@ in with cl; {
   });
   trivial-thumbnail = (bqs {
     name = "trivial-thumbnail";
-    version = "20190710-git";
-    hash = "md5-yL/l9ieDDoSRBNfgulS8pg==";
-    url = "http://beta.quicklisp.org/archive/trivial-thumbnail/2019-07-10/trivial-thumbnail-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-a2L2ElRnXTp6stkFc6RtKA==";
+    url = "http://beta.quicklisp.org/archive/trivial-thumbnail/2023-10-21/trivial-thumbnail-20231021-git.tgz";
     cl-deps = [ uiop ];
   });
   trivial-timeout = (bqs {
     name = "trivial-timeout";
-    version = "20230214-git";
-    hash = "md5-f5+gMbfSfNpLSDafWJ9l0w==";
-    url = "http://beta.quicklisp.org/archive/trivial-timeout/2023-02-14/trivial-timeout-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-freb0Znv1Xefpij/5C9Q5A==";
+    url = "http://beta.quicklisp.org/archive/trivial-timeout/2023-10-21/trivial-timeout-20231021-git.tgz";
     cl-deps = [  ];
   });
   trivial-timer = (bqs {
@@ -36036,24 +36743,10 @@ in with cl; {
   });
   trivial-utf-8 = (bqs {
     name = "trivial-utf-8";
-    version = "20220220-git";
-    hash = "md5-fJ5AveHH9VebvHHh48IusA==";
-    url = "http://beta.quicklisp.org/archive/trivial-utf-8/2022-02-20/trivial-utf-8-20220220-git.tgz";
-    cl-deps = [  ];
-  });
-  trivial-utf-8-slash-doc = (bqs {
-    name = "trivial-utf-8/doc";
-    version = "20220220-git";
-    hash = "md5-fJ5AveHH9VebvHHh48IusA==";
-    url = "http://beta.quicklisp.org/archive/trivial-utf-8/2022-02-20/trivial-utf-8-20220220-git.tgz";
-    cl-deps = [ mgl-pax trivial-utf-8 ];
-  });
-  trivial-utf-8-slash-tests = (bqs {
-    name = "trivial-utf-8/tests";
-    version = "20220220-git";
-    hash = "md5-fJ5AveHH9VebvHHh48IusA==";
-    url = "http://beta.quicklisp.org/archive/trivial-utf-8/2022-02-20/trivial-utf-8-20220220-git.tgz";
-    cl-deps = [ trivial-utf-8 ];
+    version = "20231021-git";
+    hash = "md5-MGU9Z33cF8jLjFyrHopFpA==";
+    url = "http://beta.quicklisp.org/archive/trivial-utf-8/2023-10-21/trivial-utf-8-20231021-git.tgz";
+    cl-deps = [ mgl-pax-bootstrap ];
   });
   trivial-utilities = (bqs {
     name = "trivial-utilities";
@@ -36092,9 +36785,9 @@ in with cl; {
   });
   trivial-with-current-source-form = (bqs {
     name = "trivial-with-current-source-form";
-    version = "20211020-git";
-    hash = "md5-tKNyHL72EB3hxDxUC0Ru/A==";
-    url = "http://beta.quicklisp.org/archive/trivial-with-current-source-form/2021-10-20/trivial-with-current-source-form-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-8Hr+hw8+Igra6xLh8rF+Bg==";
+    url = "http://beta.quicklisp.org/archive/trivial-with-current-source-form/2023-06-18/trivial-with-current-source-form-20230618-git.tgz";
     cl-deps = [ alexandria ];
   });
   trivial-ws = (bqs {
@@ -36155,37 +36848,37 @@ in with cl; {
   });
   trucler = (bqs {
     name = "trucler";
-    version = "20220707-git";
-    hash = "md5-KrdIOTD3PXfvd9yBdymotw==";
-    url = "http://beta.quicklisp.org/archive/trucler/2022-07-07/trucler-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YYaWoX2i9gFPsidpGSjefw==";
+    url = "http://beta.quicklisp.org/archive/trucler/2023-10-21/trucler-20231021-git.tgz";
     cl-deps = [ trucler-base trucler-native ];
   });
   trucler-base = (bqs {
     name = "trucler-base";
-    version = "20220707-git";
-    hash = "md5-KrdIOTD3PXfvd9yBdymotw==";
-    url = "http://beta.quicklisp.org/archive/trucler/2022-07-07/trucler-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YYaWoX2i9gFPsidpGSjefw==";
+    url = "http://beta.quicklisp.org/archive/trucler/2023-10-21/trucler-20231021-git.tgz";
     cl-deps = [ acclimation ];
   });
   trucler-native = (bqs {
     name = "trucler-native";
-    version = "20220707-git";
-    hash = "md5-KrdIOTD3PXfvd9yBdymotw==";
-    url = "http://beta.quicklisp.org/archive/trucler/2022-07-07/trucler-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YYaWoX2i9gFPsidpGSjefw==";
+    url = "http://beta.quicklisp.org/archive/trucler/2023-10-21/trucler-20231021-git.tgz";
     cl-deps = [ trucler-base ];
   });
   trucler-native-test = (bqs {
     name = "trucler-native-test";
-    version = "20220707-git";
-    hash = "md5-KrdIOTD3PXfvd9yBdymotw==";
-    url = "http://beta.quicklisp.org/archive/trucler/2022-07-07/trucler-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YYaWoX2i9gFPsidpGSjefw==";
+    url = "http://beta.quicklisp.org/archive/trucler/2023-10-21/trucler-20231021-git.tgz";
     cl-deps = [ trucler-base trucler-native ];
   });
   trucler-reference = (bqs {
     name = "trucler-reference";
-    version = "20220707-git";
-    hash = "md5-KrdIOTD3PXfvd9yBdymotw==";
-    url = "http://beta.quicklisp.org/archive/trucler/2022-07-07/trucler-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-YYaWoX2i9gFPsidpGSjefw==";
+    url = "http://beta.quicklisp.org/archive/trucler/2023-10-21/trucler-20231021-git.tgz";
     cl-deps = [ trucler-base ];
   });
   truetype-clx = (bqs {
@@ -36197,30 +36890,23 @@ in with cl; {
   });
   try = (bqs {
     name = "try";
-    version = "20220331-git";
-    hash = "md5-M79KOAIcbXx7jyWYct+zVQ==";
-    url = "http://beta.quicklisp.org/archive/try/2022-03-31/try-20220331-git.tgz";
-    cl-deps = [ alexandria closer-mop ieee-floats mgl-pax trivial-gray-streams try-dot-asdf uiop ];
+    version = "20231021-git";
+    hash = "md5-8N0143Q+PgeOm8KklAqYWw==";
+    url = "http://beta.quicklisp.org/archive/try/2023-10-21/try-20231021-git.tgz";
+    cl-deps = [ alexandria cl-ppcre closer-mop ieee-floats mgl-pax trivial-gray-streams try-dot-asdf uiop ];
   });
   try-dot-asdf = (bqs {
     name = "try.asdf";
-    version = "20220331-git";
-    hash = "md5-M79KOAIcbXx7jyWYct+zVQ==";
-    url = "http://beta.quicklisp.org/archive/try/2022-03-31/try-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8N0143Q+PgeOm8KklAqYWw==";
+    url = "http://beta.quicklisp.org/archive/try/2023-10-21/try-20231021-git.tgz";
     cl-deps = [  ];
-  });
-  try-slash-doc = (bqs {
-    name = "try/doc";
-    version = "20220331-git";
-    hash = "md5-M79KOAIcbXx7jyWYct+zVQ==";
-    url = "http://beta.quicklisp.org/archive/try/2022-03-31/try-20220331-git.tgz";
-    cl-deps = [ cl-ppcre try ];
   });
   try-slash-test = (bqs {
     name = "try/test";
-    version = "20220331-git";
-    hash = "md5-M79KOAIcbXx7jyWYct+zVQ==";
-    url = "http://beta.quicklisp.org/archive/try/2022-03-31/try-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8N0143Q+PgeOm8KklAqYWw==";
+    url = "http://beta.quicklisp.org/archive/try/2023-10-21/try-20231021-git.tgz";
     cl-deps = [ try ];
   });
   tsqueue = (bqs {
@@ -36279,32 +36965,39 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/type-r/2019-12-27/type-r-20191227-git.tgz";
     cl-deps = [ fiveam type-r ];
   });
+  type-templates = (bqs {
+    name = "type-templates";
+    version = "20231021-git";
+    hash = "md5-/zJQCDQMimuRDt+flqL6pw==";
+    url = "http://beta.quicklisp.org/archive/type-templates/2023-10-21/type-templates-20231021-git.tgz";
+    cl-deps = [ alexandria documentation-utils form-fiddle ];
+  });
   typo = (bqs {
     name = "typo";
-    version = "20230214-git";
-    hash = "md5-zmjPu3n0jAwfIOilA+rJBQ==";
-    url = "http://beta.quicklisp.org/archive/typo/2023-02-14/typo-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8rGHzKXdMbfwi3aeJAiUMg==";
+    url = "http://beta.quicklisp.org/archive/typo/2023-10-21/typo-20231021-git.tgz";
     cl-deps = [ alexandria closer-mop introspect-environment trivia trivial-arguments trivial-garbage ];
   });
   typo-dot-test-suite = (bqs {
     name = "typo.test-suite";
-    version = "20230214-git";
-    hash = "md5-zmjPu3n0jAwfIOilA+rJBQ==";
-    url = "http://beta.quicklisp.org/archive/typo/2023-02-14/typo-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-8rGHzKXdMbfwi3aeJAiUMg==";
+    url = "http://beta.quicklisp.org/archive/typo/2023-10-21/typo-20231021-git.tgz";
     cl-deps = [ closer-mop typo ];
   });
   uax-14 = (bqs {
     name = "uax-14";
-    version = "20200925-git";
-    hash = "md5-0u1pFCeguw+E1L8iIn16CA==";
-    url = "http://beta.quicklisp.org/archive/uax-14/2020-09-25/uax-14-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-h9n5tTuVWJ7Ux/KMpe1UJg==";
+    url = "http://beta.quicklisp.org/archive/uax-14/2023-10-21/uax-14-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   uax-14-test = (bqs {
     name = "uax-14-test";
-    version = "20200925-git";
-    hash = "md5-0u1pFCeguw+E1L8iIn16CA==";
-    url = "http://beta.quicklisp.org/archive/uax-14/2020-09-25/uax-14-20200925-git.tgz";
+    version = "20231021-git";
+    hash = "md5-h9n5tTuVWJ7Ux/KMpe1UJg==";
+    url = "http://beta.quicklisp.org/archive/uax-14/2023-10-21/uax-14-20231021-git.tgz";
     cl-deps = [ cl-ppcre parachute uax-14 ];
   });
   uax-15 = (bqs {
@@ -36323,37 +37016,37 @@ in with cl; {
   });
   uax-9 = (bqs {
     name = "uax-9";
-    version = "20230214-git";
-    hash = "md5-4VsLb+pAByhZThN1bMsZNQ==";
-    url = "http://beta.quicklisp.org/archive/uax-9/2023-02-14/uax-9-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-M/b5yovw0NgFxmiKB9li1A==";
+    url = "http://beta.quicklisp.org/archive/uax-9/2023-10-21/uax-9-20231021-git.tgz";
     cl-deps = [ documentation-utils ];
   });
   uax-9-test = (bqs {
     name = "uax-9-test";
-    version = "20230214-git";
-    hash = "md5-4VsLb+pAByhZThN1bMsZNQ==";
-    url = "http://beta.quicklisp.org/archive/uax-9/2023-02-14/uax-9-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-M/b5yovw0NgFxmiKB9li1A==";
+    url = "http://beta.quicklisp.org/archive/uax-9/2023-10-21/uax-9-20231021-git.tgz";
     cl-deps = [ cl-ppcre parachute uax-9 ];
   });
   ubiquitous = (bqs {
     name = "ubiquitous";
-    version = "20190710-git";
-    hash = "md5-8TANPtR77aaryS7w2FqO7g==";
-    url = "http://beta.quicklisp.org/archive/ubiquitous/2019-07-10/ubiquitous-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Txae6e7Q3LWsYZXeLGeRVg==";
+    url = "http://beta.quicklisp.org/archive/ubiquitous/2023-10-21/ubiquitous-20231021-git.tgz";
     cl-deps = [  ];
   });
   ubiquitous-concurrent = (bqs {
     name = "ubiquitous-concurrent";
-    version = "20190710-git";
-    hash = "md5-8TANPtR77aaryS7w2FqO7g==";
-    url = "http://beta.quicklisp.org/archive/ubiquitous/2019-07-10/ubiquitous-20190710-git.tgz";
+    version = "20231021-git";
+    hash = "md5-Txae6e7Q3LWsYZXeLGeRVg==";
+    url = "http://beta.quicklisp.org/archive/ubiquitous/2023-10-21/ubiquitous-20231021-git.tgz";
     cl-deps = [ bordeaux-threads ubiquitous ];
   });
   ucons = (bqs {
     name = "ucons";
-    version = "20210228-git";
-    hash = "md5-1fLPpJnuOEs10Kg1pfQ4ag==";
-    url = "http://beta.quicklisp.org/archive/ucons/2021-02-28/ucons-20210228-git.tgz";
+    version = "20230618-git";
+    hash = "md5-E9c3qI84y8TDYEGgLhazeg==";
+    url = "http://beta.quicklisp.org/archive/ucons/2023-06-18/ucons-20230618-git.tgz";
     cl-deps = [ alexandria atomics bordeaux-threads named-readtables trivia ];
   });
   ucw = (bqs {
@@ -36433,25 +37126,18 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/ugly-tiny-infix-macro/2016-08-25/ugly-tiny-infix-macro-20160825-git.tgz";
     cl-deps = [  ];
   });
-  asdf = (bqs {
-    name = "asdf";
-    version = "3.3.6";
-    hash = "md5-gS4PWsL74n/0hcmwCmo60g==";
-    url = "http://beta.quicklisp.org/archive/uiop/2022-11-06/uiop-3.3.6.tgz";
-    cl-deps = [  ];
-  });
   asdf-driver = (bqs {
     name = "asdf-driver";
     version = "3.3.6";
     hash = "md5-gS4PWsL74n/0hcmwCmo60g==";
-    url = "http://beta.quicklisp.org/archive/uiop/2022-11-06/uiop-3.3.6.tgz";
+    url = "http://beta.quicklisp.org/archive/uiop/2023-06-18/uiop-3.3.6.tgz";
     cl-deps = [ uiop ];
   });
   uiop = (bqs {
     name = "uiop";
     version = "3.3.6";
     hash = "md5-gS4PWsL74n/0hcmwCmo60g==";
-    url = "http://beta.quicklisp.org/archive/uiop/2022-11-06/uiop-3.3.6.tgz";
+    url = "http://beta.quicklisp.org/archive/uiop/2023-06-18/uiop-3.3.6.tgz";
     cl-deps = [  ];
   });
   umbra = (bqs {
@@ -36481,6 +37167,13 @@ in with cl; {
     hash = "md5-QB0dEz+HTsyvx2QmSVvfxg==";
     url = "http://beta.quicklisp.org/archive/umlisp-orf/2015-09-23/umlisp-orf-20150923-git.tgz";
     cl-deps = [ clsql clsql-postgresql-socket hyperobject kmrcl ];
+  });
+  unboxables = (bqs {
+    name = "unboxables";
+    version = "20231021-git";
+    hash = "md5-R2jrcl27CDzAAe52LvlMlw==";
+    url = "http://beta.quicklisp.org/archive/unboxables/2023-10-21/unboxables-20231021-git.tgz";
+    cl-deps = [ alexandria cffi trivial-garbage ];
   });
   uncursed = (bqs {
     name = "uncursed";
@@ -36582,23 +37275,23 @@ in with cl; {
   });
   usocket = (bqs {
     name = "usocket";
-    version = "0.8.5";
-    hash = "md5-gvM8Jyq9DeMlhBDhg1qwQg==";
-    url = "http://beta.quicklisp.org/archive/usocket/2022-11-06/usocket-0.8.5.tgz";
+    version = "0.8.6";
+    hash = "md5-vbeuTz08iOCMUbDoG+tD9A==";
+    url = "http://beta.quicklisp.org/archive/usocket/2023-06-18/usocket-0.8.6.tgz";
     cl-deps = [ split-sequence ];
   });
   usocket-server = (bqs {
     name = "usocket-server";
-    version = "0.8.5";
-    hash = "md5-gvM8Jyq9DeMlhBDhg1qwQg==";
-    url = "http://beta.quicklisp.org/archive/usocket/2022-11-06/usocket-0.8.5.tgz";
+    version = "0.8.6";
+    hash = "md5-vbeuTz08iOCMUbDoG+tD9A==";
+    url = "http://beta.quicklisp.org/archive/usocket/2023-06-18/usocket-0.8.6.tgz";
     cl-deps = [ bordeaux-threads usocket ];
   });
   usocket-test = (bqs {
     name = "usocket-test";
-    version = "0.8.5";
-    hash = "md5-gvM8Jyq9DeMlhBDhg1qwQg==";
-    url = "http://beta.quicklisp.org/archive/usocket/2022-11-06/usocket-0.8.5.tgz";
+    version = "0.8.6";
+    hash = "md5-vbeuTz08iOCMUbDoG+tD9A==";
+    url = "http://beta.quicklisp.org/archive/usocket/2023-06-18/usocket-0.8.6.tgz";
     cl-deps = [ rt usocket-server ];
   });
   utilities-dot-binary-dump = (bqs {
@@ -36680,16 +37373,16 @@ in with cl; {
   });
   utm-ups = (bqs {
     name = "utm-ups";
-    version = "20210228-git";
-    hash = "md5-GAbdcpICcjvqbXRtBWmglQ==";
-    url = "http://beta.quicklisp.org/archive/utm-ups/2021-02-28/utm-ups-20210228-git.tgz";
+    version = "20230618-git";
+    hash = "md5-6FNtC5KHAPzO/JSSZGfQbQ==";
+    url = "http://beta.quicklisp.org/archive/utm-ups/2023-06-18/utm-ups-20230618-git.tgz";
     cl-deps = [  ];
   });
   utm-ups-slash-tests = (bqs {
     name = "utm-ups/tests";
-    version = "20210228-git";
-    hash = "md5-GAbdcpICcjvqbXRtBWmglQ==";
-    url = "http://beta.quicklisp.org/archive/utm-ups/2021-02-28/utm-ups-20210228-git.tgz";
+    version = "20230618-git";
+    hash = "md5-6FNtC5KHAPzO/JSSZGfQbQ==";
+    url = "http://beta.quicklisp.org/archive/utm-ups/2023-06-18/utm-ups-20230618-git.tgz";
     cl-deps = [ fiveam utm-ups ];
   });
   uuid = (bqs {
@@ -36778,17 +37471,24 @@ in with cl; {
   });
   vellum = (bqs {
     name = "vellum";
-    version = "20230214-git";
-    hash = "md5-sE3t7ddNECYhTnlFS8aoeA==";
-    url = "http://beta.quicklisp.org/archive/vellum/2023-02-14/vellum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kP2VR1qaaWZZ/7VTOp09Cg==";
+    url = "http://beta.quicklisp.org/archive/vellum/2023-10-21/vellum-20231021-git.tgz";
     cl-deps = [ agnostic-lizard alexandria cl-data-structures closer-mop documentation-utils-extensions iterate lparallel metabang-bind serapeum ];
   });
   vellum-tests = (bqs {
     name = "vellum-tests";
-    version = "20230214-git";
-    hash = "md5-sE3t7ddNECYhTnlFS8aoeA==";
-    url = "http://beta.quicklisp.org/archive/vellum/2023-02-14/vellum-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-kP2VR1qaaWZZ/7VTOp09Cg==";
+    url = "http://beta.quicklisp.org/archive/vellum/2023-10-21/vellum-20231021-git.tgz";
     cl-deps = [ prove prove-asdf vellum ];
+  });
+  vellum-binary = (bqs {
+    name = "vellum-binary";
+    version = "20230618-git";
+    hash = "md5-tyDH/v5BejYH1+8WLL/mgQ==";
+    url = "http://beta.quicklisp.org/archive/vellum-binary/2023-06-18/vellum-binary-20230618-git.tgz";
+    cl-deps = [ chipz cl-conspack ieee-floats nibbles salza2 vellum ];
   });
   vellum-clim = (bqs {
     name = "vellum-clim";
@@ -36799,30 +37499,30 @@ in with cl; {
   });
   vellum-csv = (bqs {
     name = "vellum-csv";
-    version = "20220707-git";
-    hash = "md5-rtW3UBHO7prb0WZ5XR4kJw==";
-    url = "http://beta.quicklisp.org/archive/vellum-csv/2022-07-07/vellum-csv-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-KY8xSIoUKXZ2rKLQPvCb7w==";
+    url = "http://beta.quicklisp.org/archive/vellum-csv/2023-10-21/vellum-csv-20231021-git.tgz";
     cl-deps = [ alexandria documentation-utils-extensions iterate parse-float serapeum uiop vellum ];
   });
   vellum-csv-tests = (bqs {
     name = "vellum-csv-tests";
-    version = "20220707-git";
-    hash = "md5-rtW3UBHO7prb0WZ5XR4kJw==";
-    url = "http://beta.quicklisp.org/archive/vellum-csv/2022-07-07/vellum-csv-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-KY8xSIoUKXZ2rKLQPvCb7w==";
+    url = "http://beta.quicklisp.org/archive/vellum-csv/2023-10-21/vellum-csv-20231021-git.tgz";
     cl-deps = [ prove prove-asdf vellum-csv ];
   });
   vellum-postmodern = (bqs {
     name = "vellum-postmodern";
-    version = "20230214-git";
-    hash = "md5-mqR10ar6K1d+3AmgEOmYgA==";
-    url = "http://beta.quicklisp.org/archive/vellum-postmodern/2023-02-14/vellum-postmodern-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-3k07YpEshO3rKCsmk6nnAg==";
+    url = "http://beta.quicklisp.org/archive/vellum-postmodern/2023-10-21/vellum-postmodern-20231021-git.tgz";
     cl-deps = [ alexandria cl-postgres documentation-utils-extensions iterate postmodern s-sql serapeum vellum ];
   });
   verbose = (bqs {
     name = "verbose";
-    version = "20201220-git";
-    hash = "md5-Wja2MWCS1yKs7pVw3FkJBg==";
-    url = "http://beta.quicklisp.org/archive/verbose/2020-12-20/verbose-20201220-git.tgz";
+    version = "20231021-git";
+    hash = "md5-wUWBIce0Tn1b5HE+KG/acQ==";
+    url = "http://beta.quicklisp.org/archive/verbose/2023-10-21/verbose-20231021-git.tgz";
     cl-deps = [ bordeaux-threads dissect documentation-utils local-time piping ];
   });
   verlet = (bqs {
@@ -37093,9 +37793,9 @@ in with cl; {
   });
   webapi = (bqs {
     name = "webapi";
-    version = "20211020-git";
-    hash = "md5-jtbmBxlHTa+jt0rLk7nWEg==";
-    url = "http://beta.quicklisp.org/archive/webapi/2021-10-20/webapi-20211020-git.tgz";
+    version = "20230618-git";
+    hash = "md5-5EuQg7hH4mYnCGNoVPvWgA==";
+    url = "http://beta.quicklisp.org/archive/webapi/2023-06-18/webapi-20230618-git.tgz";
     cl-deps = [ alexandria closer-mop dexador kebab quri st-json ];
   });
   weblocks-scripts = (bqs {
@@ -37156,30 +37856,30 @@ in with cl; {
   });
   websocket-driver = (bqs {
     name = "websocket-driver";
-    version = "20220331-git";
-    hash = "md5-2X3k3Mu6whhYVoqOR8ue7w==";
-    url = "http://beta.quicklisp.org/archive/websocket-driver/2022-03-31/websocket-driver-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e3KBjSczqPKSyVfrkn/ybA==";
+    url = "http://beta.quicklisp.org/archive/websocket-driver/2023-10-21/websocket-driver-20231021-git.tgz";
     cl-deps = [ websocket-driver-client websocket-driver-server ];
   });
   websocket-driver-base = (bqs {
     name = "websocket-driver-base";
-    version = "20220331-git";
-    hash = "md5-2X3k3Mu6whhYVoqOR8ue7w==";
-    url = "http://beta.quicklisp.org/archive/websocket-driver/2022-03-31/websocket-driver-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e3KBjSczqPKSyVfrkn/ybA==";
+    url = "http://beta.quicklisp.org/archive/websocket-driver/2023-10-21/websocket-driver-20231021-git.tgz";
     cl-deps = [ bordeaux-threads cl-base64 event-emitter fast-io fast-websocket sha1 split-sequence ];
   });
   websocket-driver-client = (bqs {
     name = "websocket-driver-client";
-    version = "20220331-git";
-    hash = "md5-2X3k3Mu6whhYVoqOR8ue7w==";
-    url = "http://beta.quicklisp.org/archive/websocket-driver/2022-03-31/websocket-driver-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e3KBjSczqPKSyVfrkn/ybA==";
+    url = "http://beta.quicklisp.org/archive/websocket-driver/2023-10-21/websocket-driver-20231021-git.tgz";
     cl-deps = [ babel cl-plus-ssl cl-base64 fast-http fast-io fast-websocket quri usocket websocket-driver-base ];
   });
   websocket-driver-server = (bqs {
     name = "websocket-driver-server";
-    version = "20220331-git";
-    hash = "md5-2X3k3Mu6whhYVoqOR8ue7w==";
-    url = "http://beta.quicklisp.org/archive/websocket-driver/2022-03-31/websocket-driver-20220331-git.tgz";
+    version = "20231021-git";
+    hash = "md5-e3KBjSczqPKSyVfrkn/ybA==";
+    url = "http://beta.quicklisp.org/archive/websocket-driver/2023-10-21/websocket-driver-20231021-git.tgz";
     cl-deps = [ babel clack-socket fast-io fast-websocket websocket-driver-base ];
   });
   weft = (bqs {
@@ -37380,23 +38080,23 @@ in with cl; {
   });
   clack-handler-woo = (bqs {
     name = "clack-handler-woo";
-    version = "20220707-git";
-    hash = "md5-ZKnNSsyfxSBgXdPPhpElcA==";
-    url = "http://beta.quicklisp.org/archive/woo/2022-07-07/woo-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-r/XVb7Ry18QRnDrmSMaO3w==";
+    url = "http://beta.quicklisp.org/archive/woo/2023-10-21/woo-20231021-git.tgz";
     cl-deps = [ woo ];
   });
   woo = (bqs {
     name = "woo";
-    version = "20220707-git";
-    hash = "md5-ZKnNSsyfxSBgXdPPhpElcA==";
-    url = "http://beta.quicklisp.org/archive/woo/2022-07-07/woo-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-r/XVb7Ry18QRnDrmSMaO3w==";
+    url = "http://beta.quicklisp.org/archive/woo/2023-10-21/woo-20231021-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cffi cffi-grovel clack-socket fast-http fast-io lev quri smart-buffer static-vectors swap-bytes trivial-mimes trivial-utf-8 vom ];
   });
   woo-test = (bqs {
     name = "woo-test";
-    version = "20220707-git";
-    hash = "md5-ZKnNSsyfxSBgXdPPhpElcA==";
-    url = "http://beta.quicklisp.org/archive/woo/2022-07-07/woo-20220707-git.tgz";
+    version = "20231021-git";
+    hash = "md5-r/XVb7Ry18QRnDrmSMaO3w==";
+    url = "http://beta.quicklisp.org/archive/woo/2023-10-21/woo-20231021-git.tgz";
     cl-deps = [ clack-test rove woo ];
   });
   wookie = (bqs {
@@ -37576,30 +38276,30 @@ in with cl; {
   });
   xmls = (bqs {
     name = "xmls";
-    version = "release-c6ca1b39-git";
-    hash = "md5-7yzylyMNGh+KCav2x/QLrQ==";
-    url = "http://beta.quicklisp.org/archive/xmls/2022-07-07/xmls-release-c6ca1b39-git.tgz";
+    version = "release-310ba849-git";
+    hash = "md5-B70mxYxzIy2Botr+GVtSqg==";
+    url = "http://beta.quicklisp.org/archive/xmls/2023-10-21/xmls-release-310ba849-git.tgz";
     cl-deps = [  ];
   });
   xmls-slash-octets = (bqs {
     name = "xmls/octets";
-    version = "release-c6ca1b39-git";
-    hash = "md5-7yzylyMNGh+KCav2x/QLrQ==";
-    url = "http://beta.quicklisp.org/archive/xmls/2022-07-07/xmls-release-c6ca1b39-git.tgz";
+    version = "release-310ba849-git";
+    hash = "md5-B70mxYxzIy2Botr+GVtSqg==";
+    url = "http://beta.quicklisp.org/archive/xmls/2023-10-21/xmls-release-310ba849-git.tgz";
     cl-deps = [ cl-ppcre flexi-streams xmls ];
   });
   xmls-slash-test = (bqs {
     name = "xmls/test";
-    version = "release-c6ca1b39-git";
-    hash = "md5-7yzylyMNGh+KCav2x/QLrQ==";
-    url = "http://beta.quicklisp.org/archive/xmls/2022-07-07/xmls-release-c6ca1b39-git.tgz";
+    version = "release-310ba849-git";
+    hash = "md5-B70mxYxzIy2Botr+GVtSqg==";
+    url = "http://beta.quicklisp.org/archive/xmls/2023-10-21/xmls-release-310ba849-git.tgz";
     cl-deps = [ xmls ];
   });
   xmls-slash-unit-test = (bqs {
     name = "xmls/unit-test";
-    version = "release-c6ca1b39-git";
-    hash = "md5-7yzylyMNGh+KCav2x/QLrQ==";
-    url = "http://beta.quicklisp.org/archive/xmls/2022-07-07/xmls-release-c6ca1b39-git.tgz";
+    version = "release-310ba849-git";
+    hash = "md5-B70mxYxzIy2Botr+GVtSqg==";
+    url = "http://beta.quicklisp.org/archive/xmls/2023-10-21/xmls-release-310ba849-git.tgz";
     cl-deps = [ fiveam xmls ];
   });
   xptest = (bqs {
@@ -37646,9 +38346,9 @@ in with cl; {
   });
   yah = (bqs {
     name = "yah";
-    version = "20221106-git";
-    hash = "md5-wpxKh84+HnzLeKTXRNL6HQ==";
-    url = "http://beta.quicklisp.org/archive/yah/2022-11-06/yah-20221106-git.tgz";
+    version = "20231021-git";
+    hash = "md5-rggDOhQ3FwwgEJPtdpbHlw==";
+    url = "http://beta.quicklisp.org/archive/yah/2023-10-21/yah-20231021-git.tgz";
     cl-deps = [ mgl-pax ];
   });
   yason = (bqs {
@@ -37665,12 +38365,19 @@ in with cl; {
     url = "http://beta.quicklisp.org/archive/youtube/2019-12-27/youtube-20191227-git.tgz";
     cl-deps = [ alexandria bordeaux-threads cl-ppcre yason ];
   });
+  setup-cl-plus-ssl = (bqs {
+    name = "setup-cl+ssl";
+    version = "20230618-git";
+    hash = "md5-POSZLGEQVLA2zgLIOh5LZw==";
+    url = "http://beta.quicklisp.org/archive/zacl/2023-06-18/zacl-20230618-git.tgz";
+    cl-deps = [ cffi ];
+  });
   zacl = (bqs {
     name = "zacl";
-    version = "20210807-git";
-    hash = "md5-watyUDs6nwu2e8kCNpqyPg==";
-    url = "http://beta.quicklisp.org/archive/zacl/2021-08-07/zacl-20210807-git.tgz";
-    cl-deps = [ alexandria bordeaux-threads cl-plus-ssl cl-base64 cl-ppcre cl-store flexi-streams local-time md5 queues-dot-simple-queue quri split-sequence trivial-backtrace trivial-garbage uiop usocket ];
+    version = "20230618-git";
+    hash = "md5-POSZLGEQVLA2zgLIOh5LZw==";
+    url = "http://beta.quicklisp.org/archive/zacl/2023-06-18/zacl-20230618-git.tgz";
+    cl-deps = [ alexandria atomics babel-streams bordeaux-threads cl-plus-ssl cl-base64 cl-ppcre cl-store local-time md5 queues-dot-simple-queue quri setup-cl-plus-ssl split-sequence trivial-backtrace trivial-garbage uiop usocket ];
   });
   zaws = (bqs {
     name = "zaws";
@@ -37723,16 +38430,16 @@ in with cl; {
   });
   zippy = (bqs {
     name = "zippy";
-    version = "20230214-git";
-    hash = "md5-hYmknEdTiFe8iddTxn+mtQ==";
-    url = "http://beta.quicklisp.org/archive/zippy/2023-02-14/zippy-20230214-git.tgz";
-    cl-deps = [ cl-3bz alexandria babel documentation-utils file-attributes nibbles pathname-utils salza2 ];
+    version = "20231021-git";
+    hash = "md5-PB6DHfpcOXzdX0swNFGLTQ==";
+    url = "http://beta.quicklisp.org/archive/zippy/2023-10-21/zippy-20231021-git.tgz";
+    cl-deps = [ cl-3bz alexandria babel documentation-utils file-attributes filesystem-utils nibbles pathname-utils salza2 ];
   });
   zippy-dwim = (bqs {
     name = "zippy-dwim";
-    version = "20230214-git";
-    hash = "md5-hYmknEdTiFe8iddTxn+mtQ==";
-    url = "http://beta.quicklisp.org/archive/zippy/2023-02-14/zippy-20230214-git.tgz";
+    version = "20231021-git";
+    hash = "md5-PB6DHfpcOXzdX0swNFGLTQ==";
+    url = "http://beta.quicklisp.org/archive/zippy/2023-10-21/zippy-20231021-git.tgz";
     cl-deps = [ deploy zippy ];
   });
   ziz = (bqs {
@@ -37758,9 +38465,9 @@ in with cl; {
   });
   zpb-ttf = (bqs {
     name = "zpb-ttf";
-    version = "release-1.0.4";
-    hash = "md5-tm9nsKH8NHZX1Ncd2zBJIA==";
-    url = "http://beta.quicklisp.org/archive/zpb-ttf/2021-01-24/zpb-ttf-release-1.0.4.tgz";
+    version = "release-1.0.6";
+    hash = "md5-3nm4OAP85jZMQBJpkzMOSg==";
+    url = "http://beta.quicklisp.org/archive/zpb-ttf/2023-06-18/zpb-ttf-release-1.0.6.tgz";
     cl-deps = [  ];
   });
   zpng = (bqs {
