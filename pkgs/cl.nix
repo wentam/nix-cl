@@ -29,6 +29,20 @@ in rec {
     };
   });
 
+  cl-environments = (build-asdf-system rec {
+    name = "cl-environments";
+    version = "e6cd3b5e1cabd27e1162d1c33d2d8c841e5158d4";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "alex-gutev"; repo = name;
+      rev = version;
+      sha256 = "sha256-NVLRnS8nnbwl6ADzUCrPbDGP87shuiEouPg3DBiZTl0=";
+    };
+
+
+    cl-deps = with cl; [ alexandria anaphora collectors optima parse-declarations-1-dot-0 ];
+  });
+
   cxml = (build-asdf-system rec {
     name = "cxml";
     version = "8701da08ba4aac30891b8d2005edb018c1d3d796";
