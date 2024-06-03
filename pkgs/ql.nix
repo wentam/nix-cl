@@ -33936,9 +33936,9 @@ in with cl; {
   });
   swank = (bqs {
     name = "swank";
-    version = "v2.28";
-    hash = "md5-2kZSfzmMB+wQrsCgd1kDGQ==";
-    url = "http://beta.quicklisp.org/archive/slime/2023-02-14/slime-v2.28.tgz";
+    version = "v2.30";
+    hash = "md5-2kZSfzmMB+wQrsCgd1kDaQ==";
+    url = "http://beta.quicklisp.org/archive/slime/2023-02-14/slime-v2.30.tgz";
     cl-deps = [  ];
   });
   slite = (bqs {

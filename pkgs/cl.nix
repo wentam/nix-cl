@@ -67,12 +67,12 @@ in rec {
   # Github HEAD is sane though, though - so we'll just manually package this.
   swank = (build-asdf-system rec {
     name = "swank";
-    version = "dd179f4a0c6874fe0e49fb6c460e9e52a5f58833";
+    version = "e261cc83b2a4675824c196965d060b135f6777ad";
 
     src = pkgs.fetchFromGitHub {
       owner = "slime"; repo = "slime";
       rev = version;
-      sha256 = "sha256-LNfkeU+C4dIPs61bBM3FBa/GB81zk0AH/2evzJhi97k=";
+      sha256 = "sha256-8e/OPYsPNWtAm3B2Bu7anmk2OeRrLOzFbeq3e05mve0=";
     };
 
     # Swank makes some environmental assumptions regarding paths and how the system
@@ -93,12 +93,12 @@ in rec {
 
   swank-slash-exts = (build-asdf-system rec {
     name = "swank/exts";
-    version = "dd179f4a0c6874fe0e49fb6c460e9e52a5f58833";
+    version = "e261cc83b2a4675824c196965d060b135f6777ad";
 
     src = pkgs.fetchFromGitHub {
       owner = "slime"; repo = "slime";
       rev = version;
-      sha256 = "sha256-LNfkeU+C4dIPs61bBM3FBa/GB81zk0AH/2evzJhi97k=";
+      sha256 = "sha256-8e/OPYsPNWtAm3B2Bu7anmk2OeRrLOzFbeq3e05mve0=";
     };
 
     no-bundle-clean = true;
@@ -145,12 +145,12 @@ in rec {
 
   nvlime = (build-asdf-system rec {
     name = "nvlime";
-    version = "2cdbcc1d8be09c16674d4b1983fba1a2f15b431a";
+    version = "f071cbcd25322759c4ca8a303988e8ddb1a8de2c";
 
     src = pkgs.fetchFromGitHub {
       owner = "monkoose"; repo = "nvlime";
       rev = version;
-      sha256 = "sha256-OEcKlhxTxXoORtQFHrOYDNfKuj0A9VbacgZHAMYvmyE=";
+      sha256 = "sha256-DklmE8KQ6Q86Jr3CyS1WZeLylv+v7zj092/XqXTUrgU=";
     };
 
     # The in-repo asd has a depends-on of just 'swank', but this is
