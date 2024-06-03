@@ -210,12 +210,12 @@ in rec {
 
   nvlime-usocket = (build-asdf-system rec {
     name = "nvlime-usocket";
-    version = "2cdbcc1d8be09c16674d4b1983fba1a2f15b431a";
+    version = "f071cbcd25322759c4ca8a303988e8ddb1a8de2c";
 
     src = pkgs.fetchFromGitHub {
       owner = "monkoose"; repo = "nvlime";
       rev = version;
-      sha256 = "sha256-OEcKlhxTxXoORtQFHrOYDNfKuj0A9VbacgZHAMYvmyE=";
+      sha256 = "sha256-DklmE8KQ6Q86Jr3CyS1WZeLylv+v7zj092/XqXTUrgU=";
     };
 
     cl-deps = with cl; [ nvlime usocket vom ];
