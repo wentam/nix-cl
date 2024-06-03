@@ -43,6 +43,19 @@ in rec {
     cl-deps = with cl; [ alexandria anaphora collectors optima parse-declarations-1-dot-0 ];
   });
 
+  cl-form-types = (build-asdf-system rec {
+    name = "cl-form-types";
+    version = "daba0821df80fce51b5f6fb5f9c3f2d5932de428";
+
+    src = pkgs.fetchFromGitHub {
+      owner = "alex-gutev"; repo = name;
+      rev = version;
+      sha256 = "sha256-oQ2N/3zW3pJwBsat5HnmrQ093WrxhChm+ZaEKJNvieE=";
+    };
+
+    cl-deps = with cl; [ agutil alexandria anaphora arrows cl-environments introspect-environment optima ];
+  });
+
   cxml = (build-asdf-system rec {
     name = "cxml";
     version = "8701da08ba4aac30891b8d2005edb018c1d3d796";
