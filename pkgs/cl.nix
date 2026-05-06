@@ -326,12 +326,12 @@ in rec {
 
   asdf = (build-asdf-system rec {
     name = "asdf";
-    version = "3.3.6";
+    version = "3d75071894f40f0a11e15aa83c431d2667e9ebfb";
 
     src = pkgs.fetchgit {
       url = "https://gitlab.common-lisp.net/asdf/asdf.git";
       rev = version;
-      sha256 = "sha256-e3r0y2VZA/g4Vyp+gTFpbAitHxeLca9pZjoG3LzPYCk=";
+      sha256 = "sha256-AW6QUYoZ5OJFWWIxq4kPmwKIos6elkXb4NZFn8DtW3I=";
     };
 
     # Must be patch phase due to the way we're patching the source
